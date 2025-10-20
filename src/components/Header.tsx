@@ -1,4 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { Bell } from "lucide-react";
 
 const Header = () => {
   const location = useLocation();
@@ -25,9 +27,9 @@ const Header = () => {
                 Home
               </Link>
               <Link
-                to="/discovery"
+                to="/assessments"
                 className={`${
-                  isActive("/discovery") || isActive("/gate-prep") || isActive("/skills") || isActive("/assessments")
+                  isActive("/assessments")
                     ? "border-primary text-foreground"
                     : "border-transparent text-muted-foreground hover:border-border hover:text-foreground"
                 } inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors`}
@@ -62,6 +64,12 @@ const Header = () => {
             </div>
           </div>
 
+          <div className="hidden sm:ml-4 sm:flex sm:items-center gap-3">
+            <Button variant="ghost" size="icon" className="rounded-full">
+              <Bell className="h-5 w-5" />
+            </Button>
+            <Button>Login</Button>
+          </div>
         </div>
       </nav>
     </header>

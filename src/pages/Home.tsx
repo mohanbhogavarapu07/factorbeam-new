@@ -1,32 +1,34 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
 
 const Home = () => {
-  const exploreCards = [
+  const categories = [
     {
-      title: "The Discovery Engine",
-      description: "Start here. Take our psychometric tests to find your innate strengths.",
-      cta: "Begin Discovery",
-      link: "/discovery",
+      title: "UPSC Civil Services",
+      description: "Full-length mock tests for Prelims and Mains.",
     },
     {
-      title: "GATE Exam Prep",
-      description: "Validate your skills with our complete GATE preparation hub.",
-      cta: "Start Prep",
-      link: "/gate-prep",
+      title: "Banking Exams (IBPS, SBI)",
+      description: "Practice tests for PO, Clerk, and SO exams.",
     },
     {
-      title: "Skill-Builders",
-      description: "Take 10-minute micro-assessments in Python, SQL, and more.",
-      cta: "View Skills",
-      link: "/skills",
+      title: "GATE",
+      description: "Subject-wise tests for all major engineering branches.",
     },
     {
-      title: "Practice Arcade",
-      description: "Train your brain with our 'Skill-Trainer' games.",
-      cta: "Play Games",
-      link: "/games",
+      title: "Management (CAT / GMAT)",
+      description: "Sharpen your Quant, Verbal, and DILR skills.",
+    },
+  ];
+
+  const games = [
+    {
+      title: "Vocab Vortex",
+      description: "Expand your vocabulary in 60 seconds.",
+    },
+    {
+      title: "Logic Leap",
+      description: "Solve quick logical puzzles and syllogisms.",
     },
   ];
 
@@ -34,40 +36,62 @@ const Home = () => {
     <div className="space-y-12">
       <section className="text-center bg-card p-12 rounded-lg shadow-sm border border-border">
         <h1 className="text-4xl font-bold text-foreground">
-          Find Your Path. Master Your Skills.
+          Your Gateway to Success
         </h1>
-        <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-          We don't just prepare you for an exam. We help you discover your true potential and master the skills you need to succeed.
+        <p className="mt-4 text-lg text-muted-foreground">
+          Explore assessments, sharpen your skills, and land your dream career.
         </p>
-        <div className="mt-8">
-          <Link to="/discovery">
-            <Button size="lg" className="text-lg px-8">
-              Start Your 5-Minute Discovery Test (Free)
-            </Button>
-          </Link>
+        <div className="mt-8 max-w-xl mx-auto">
+          <input
+            type="search"
+            placeholder="Search for an exam, topic, or game..."
+            className="w-full px-5 py-3 border border-input rounded-full focus:outline-none focus:ring-2 focus:ring-primary bg-card text-foreground"
+          />
         </div>
       </section>
 
       <section>
         <h2 className="text-2xl font-semibold text-foreground mb-4">
-          Explore Our Platform
+          Popular Assessment Categories
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {exploreCards.map((card, index) => (
+          {categories.map((category, index) => (
             <div
               key={index}
               className="bg-card p-6 rounded-lg shadow-sm border border-border hover:shadow-md transition-shadow"
             >
-              <h3 className="font-semibold text-foreground">{card.title}</h3>
+              <h3 className="font-semibold text-foreground">{category.title}</h3>
               <p className="text-sm text-muted-foreground mt-2">
-                {card.description}
+                {category.description}
               </p>
-              <Link
-                to={card.link}
+              <a
+                href="#"
                 className="text-sm text-primary hover:text-accent font-medium mt-4 inline-flex items-center gap-1"
               >
-                {card.cta} <ArrowRight className="h-3 w-3" />
-              </Link>
+                View All <ArrowRight className="h-3 w-3" />
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold text-foreground mb-4">
+          Train Your Brain
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {games.map((game, index) => (
+            <div
+              key={index}
+              className="bg-card rounded-lg shadow-sm border border-border overflow-hidden hover:shadow-md transition-shadow"
+            >
+              <div className="p-6">
+                <h3 className="font-semibold text-foreground">{game.title}</h3>
+                <p className="text-sm text-muted-foreground mt-2">
+                  {game.description}
+                </p>
+                <Button className="mt-4 w-full">Play Now</Button>
+              </div>
             </div>
           ))}
         </div>
