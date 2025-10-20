@@ -36,6 +36,24 @@ const Games = () => {
       description: "Solve as many arithmetic problems as you can in 90 seconds to boost your mental math speed.",
       skills: "Quantitative Speed, Calculation",
     },
+    {
+      id: "gridMaster",
+      title: "Grid Master",
+      description: "Solve classic seating arrangement and logic grid puzzles by placing items according to a set of rules.",
+      skills: "Spatial Reasoning, Constraint Satisfaction",
+    },
+    {
+      id: "sentenceWeaver",
+      title: "Sentence Weaver",
+      description: "Unscramble a set of jumbled sentences to form a coherent paragraph. A true test of verbal logic.",
+      skills: "Reading Comprehension, Logical Sequencing",
+    },
+    {
+      id: "ratioRacer",
+      title: "Ratio Racer",
+      description: "Solve problems involving percentages, ratios, and proportions as quickly as possible.",
+      skills: "Quantitative Aptitude, Proportional Reasoning",
+    },
   ];
 
   return (

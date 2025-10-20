@@ -1,4 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
+import GridMasterGame from "./GridMasterGame";
+import SentenceWeaverGame from "./SentenceWeaverGame";
 
 interface Question {
   q: string;
@@ -7,10 +9,21 @@ interface Question {
   img?: string;
 }
 
+interface GridMasterQuestion {
+  rules: string[];
+  items: string[];
+  solution: string[];
+}
+
+interface SentenceWeaverQuestion {
+  jumbled: Array<{id: string; text: string}>;
+  correctOrder: string[];
+}
+
 interface GameData {
   title: string;
   duration: number;
-  questions: Question[];
+  questions: (Question | GridMasterQuestion | SentenceWeaverQuestion)[];
 }
 
 interface GameModalProps {
@@ -62,13 +75,66 @@ const gameDataConfig: Record<string, GameData> = {
     duration: 90,
     questions: [],
   },
+  gridMaster: {
+    title: "Grid Master",
+    duration: 180,
+    questions: [
+      {
+        rules: ["A sits to the left of B.", "C is at one of the ends.", "B and C are not neighbors."],
+        items: ["A", "B", "C"],
+        solution: ["C", "A", "B"]
+      },
+      {
+        rules: ["D is in the middle.", "E is to the right of D.", "F is to the left of D.", "E and F are not at the ends."],
+        items: ["D", "E", "F", "G", "H"],
+        solution: ["G", "F", "D", "E", "H"]
+      },
+    ]
+  },
+  sentenceWeaver: {
+    title: "Sentence Weaver",
+    duration: 120,
+    questions: [
+      {
+        jumbled: [
+          {id: 's1', text: "1. This interconnectedness is the core of the ecosystem concept."},
+          {id: 's2', text: "2. All living organisms are dependent on their environment for survival."},
+          {id: 's3', text: "3. It includes both biotic (living) and abiotic (non-living) components."},
+          {id: 's4', text: "4. An environment provides food, water, and shelter."}
+        ],
+        correctOrder: ['s2', 's4', 's3', 's1']
+      },
+      {
+        jumbled: [
+          {id: 's1', text: "1. However, the digital divide remains a significant challenge."},
+          {id: 's2', text: "2. Technology has revolutionized how we communicate and work."},
+          {id: 's3', text: "3. Access to the internet is no longer a luxury but a necessity."},
+          {id: 's4', text: "4. Many rural areas still lack reliable connectivity."}
+        ],
+        correctOrder: ['s2', 's3', 's4', 's1']
+      },
+    ]
+  },
+  ratioRacer: {
+    title: "Ratio Racer",
+    duration: 90,
+    questions: [
+      { q: "A mixture contains milk and water in the ratio 4:1. If 5 liters of water are added, the ratio becomes 4:3. What was the initial quantity of milk?", options: ["10L", "15L", "20L", "8L"], a: "10L" },
+      { q: "A number is increased by 20% and then decreased by 20%. The final number is:", options: ["Same as original", "4% less", "4% more", "2% less"], a: "4% less" },
+      { q: "If 40% of a number is 80, what is 60% of that number?", options: ["120", "100", "140", "160"], a: "120" },
+      { q: "The ratio of boys to girls in a class is 3:2. If there are 15 boys, how many students are there in total?", options: ["25", "20", "30", "10"], a: "25" },
+      { q: "A shopkeeper marks his goods 25% above cost price but gives 10% discount. His profit percentage is:", options: ["12.5%", "15%", "13.5%", "10%"], a: "12.5%" },
+      { q: "If A:B = 2:3 and B:C = 4:5, what is A:C?", options: ["8:15", "2:5", "3:5", "6:15"], a: "8:15" },
+      { q: "A sum of money doubles itself in 8 years at simple interest. In how many years will it triple itself?", options: ["16 years", "12 years", "24 years", "20 years"], a: "16 years" },
+    ]
+  },
 };
 
 const GameModal = ({ gameId, onClose }: GameModalProps) => {
   const [score, setScore] = useState(0);
   const [timer, setTimer] = useState(0);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
+  const [currentQuestion, setCurrentQuestion] = useState<Question | GridMasterQuestion | SentenceWeaverQuestion | null>(null);
   const [gameEnded, setGameEnded] = useState(false);
 
   const gameData = gameDataConfig[gameId];
@@ -99,6 +165,12 @@ const GameModal = ({ gameId, onClose }: GameModalProps) => {
   const loadQuestion = useCallback(() => {
     if (gameId === 'quickCalc') {
       setCurrentQuestion(generateCalcQuestion());
+    } else if (gameId === 'gridMaster' || gameId === 'sentenceWeaver') {
+      if (currentQuestionIndex >= gameData.questions.length) {
+        setGameEnded(true);
+        return;
+      }
+      setCurrentQuestion(gameData.questions[currentQuestionIndex]);
     } else {
       if (currentQuestionIndex >= gameData.questions.length) {
         setGameEnded(true);
@@ -109,9 +181,27 @@ const GameModal = ({ gameId, onClose }: GameModalProps) => {
   }, [gameId, currentQuestionIndex, gameData.questions, generateCalcQuestion]);
 
   const checkAnswer = (selectedAnswer: string) => {
-    if (currentQuestion && selectedAnswer === currentQuestion.a) {
+    if (currentQuestion && 'a' in currentQuestion && selectedAnswer === currentQuestion.a) {
       setScore(prev => prev + 10);
     }
+    setCurrentQuestionIndex(prev => prev + 1);
+  };
+
+  const checkComplexAnswer = (userAnswer: string[]) => {
+    if (!currentQuestion) return;
+    
+    let isCorrect = false;
+    
+    if (gameId === 'gridMaster') {
+      isCorrect = JSON.stringify(userAnswer) === JSON.stringify((currentQuestion as any).solution);
+    } else if (gameId === 'sentenceWeaver') {
+      isCorrect = JSON.stringify(userAnswer) === JSON.stringify((currentQuestion as any).correctOrder);
+    }
+    
+    if (isCorrect) {
+      setScore(prev => prev + 25);
+    }
+    
     setCurrentQuestionIndex(prev => prev + 1);
   };
 
@@ -173,9 +263,21 @@ const GameModal = ({ gameId, onClose }: GameModalProps) => {
         {/* Game Area */}
         {!gameEnded ? (
           <main className="p-8 flex-grow overflow-y-auto">
-            {currentQuestion && (
+            {currentQuestion && gameId === 'gridMaster' && (
+              <GridMasterGame 
+                question={currentQuestion as any} 
+                onSubmit={checkComplexAnswer}
+              />
+            )}
+            {currentQuestion && gameId === 'sentenceWeaver' && (
+              <SentenceWeaverGame 
+                question={currentQuestion as any} 
+                onSubmit={checkComplexAnswer}
+              />
+            )}
+            {currentQuestion && gameId !== 'gridMaster' && gameId !== 'sentenceWeaver' && 'q' in currentQuestion && (
               <div>
-                {currentQuestion.img && (
+                {'img' in currentQuestion && currentQuestion.img && (
                   <div className="text-center mb-4">
                     <img
                       src={currentQuestion.img}
@@ -184,11 +286,11 @@ const GameModal = ({ gameId, onClose }: GameModalProps) => {
                     />
                   </div>
                 )}
-                <h3 className={`text-2xl mb-6 text-foreground ${currentQuestion.img ? 'text-center' : ''}`}>
+                <h3 className={`text-2xl mb-6 text-foreground ${'img' in currentQuestion && currentQuestion.img ? 'text-center' : ''}`}>
                   {currentQuestion.q}
                 </h3>
-                <div className={`${currentQuestion.img ? 'grid grid-cols-2' : 'flex flex-col'} gap-4`}>
-                  {currentQuestion.options.map((option, idx) => (
+                <div className={`${'img' in currentQuestion && currentQuestion.img ? 'grid grid-cols-2' : 'flex flex-col'} gap-4`}>
+                  {'options' in currentQuestion && currentQuestion.options.map((option, idx) => (
                     <button
                       key={idx}
                       onClick={() => checkAnswer(option)}
