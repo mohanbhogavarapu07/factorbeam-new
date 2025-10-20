@@ -11,17 +11,17 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2">
               <li>
-                <Link to="#" className="text-base hover:text-white transition-colors">
+                <Link to="/about" id="footer-about" className="text-base hover:text-white transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="#" className="text-base hover:text-white transition-colors">
+                <Link to="/careers" id="footer-careers" className="text-base hover:text-white transition-colors">
                   Careers
                 </Link>
               </li>
               <li>
-                <Link to="#" className="text-base hover:text-white transition-colors">
+                <Link to="/contact" id="footer-contact" className="text-base hover:text-white transition-colors">
                   Contact Us
                 </Link>
               </li>
@@ -82,12 +82,12 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2">
               <li>
-                <Link to="#" className="text-base hover:text-white transition-colors">
+                <Link to="/privacy" id="footer-privacy" className="text-base hover:text-white transition-colors">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link to="#" className="text-base hover:text-white transition-colors">
+                <Link to="/terms" id="footer-terms" className="text-base hover:text-white transition-colors">
                   Terms of Service
                 </Link>
               </li>
