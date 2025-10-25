@@ -1,4 +1,19 @@
-# Welcome to your Lovable project
+# FactorBeam - Your Gateway to Success
+
+🔒 **Enterprise-Grade Security Built-In**
+
+A comprehensive test preparation platform with industry-leading security measures to protect against XSS, DDoS, injection attacks, and more.
+
+## 🛡️ Security Features
+
+- Input validation with Zod schemas
+- XSS prevention and sanitization
+- Client & server-side rate limiting
+- Security headers (CSP, HSTS, X-Frame-Options)
+- DDoS protection guidelines
+- Comprehensive security documentation
+
+📖 See [SECURITY.md](./SECURITY.md) and [DEPLOYMENT.md](./DEPLOYMENT.md) for details.
 
 ## Project info
 

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+// Security: All external links use rel="noopener noreferrer" to prevent tabnabbing
+
 const Footer = () => {
   return (
     <footer className="bg-slate-800 text-slate-300 mt-16">

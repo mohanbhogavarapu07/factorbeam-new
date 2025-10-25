@@ -1,0 +1,28 @@
+# Security Headers for FactorBeam Platform
+# These headers protect against common web vulnerabilities
+
+/*
+  # Prevent clickjacking attacks
+  X-Frame-Options: DENY
+  
+  # Prevent MIME type sniffing
+  X-Content-Type-Options: nosniff
+  
+  # Enable XSS protection in older browsers
+  X-XSS-Protection: 1; mode=block
+  
+  # Control referrer information
+  Referrer-Policy: strict-origin-when-cross-origin
+  
+  # Feature/Permissions policy - disable unnecessary features
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), magnetometer=(), gyroscope=()
+  
+  # Strict Transport Security - force HTTPS (enable after HTTPS is configured)
+  # Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  
+  # Content Security Policy - prevent XSS and injection attacks
+  # Note: Adjust as needed based on your CDN and third-party integrations
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  
+  # Cache control for security
+  Cache-Control: public, max-age=3600, must-revalidate
