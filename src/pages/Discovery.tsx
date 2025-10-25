@@ -1,0 +1,95 @@
+import { Button } from "@/components/ui/button";
+
+const Discovery = () => {
+  return (
+    <div className="space-y-8">
+      <div className="bg-card p-8 rounded-lg shadow-sm border border-border">
+        <h1 className="text-3xl font-bold text-foreground">The Discovery Engine</h1>
+        <p className="mt-2 text-muted-foreground">
+          Start your journey here. These assessments help you understand your innate strengths, 
+          interests, and work style to find the perfect career path.
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="bg-card p-6 rounded-lg shadow-sm border border-border hover:shadow-md transition-shadow">
+          <h3 className="text-lg font-semibold text-foreground">Career Interest Compass</h3>
+          <p className="text-sm text-muted-foreground mt-2">
+            Discover what you love to do. Are you a Thinker, Creator, or Persuader?
+          </p>
+          <div className="mt-4 space-y-2 text-sm text-muted-foreground">
+            <p><strong>Duration:</strong> 15 minutes</p>
+            <p><strong>Questions:</strong> 60 situational scenarios</p>
+            <p><strong>Output:</strong> Your top 3 career clusters with detailed profiles</p>
+          </div>
+          <Button className="mt-4 w-full">Start Assessment</Button>
+        </div>
+
+        <div className="bg-card p-6 rounded-lg shadow-sm border border-border hover:shadow-md transition-shadow">
+          <h3 className="text-lg font-semibold text-foreground">Cognitive Skills Profile</h3>
+          <p className="text-sm text-muted-foreground mt-2">
+            Measure your core abilities in Logic, Verbal, and Quantitative reasoning.
+          </p>
+          <div className="mt-4 space-y-2 text-sm text-muted-foreground">
+            <p><strong>Duration:</strong> 20 minutes</p>
+            <p><strong>Sections:</strong> Logical Reasoning, Verbal Ability, Quantitative Aptitude</p>
+            <p><strong>Output:</strong> Detailed score breakdown with percentile rankings</p>
+          </div>
+          <Button className="mt-4 w-full">Start Assessment</Button>
+        </div>
+
+        <div className="bg-card p-6 rounded-lg shadow-sm border border-border hover:shadow-md transition-shadow">
+          <h3 className="text-lg font-semibold text-foreground">Personality & Work Style</h3>
+          <p className="text-sm text-muted-foreground mt-2">
+            Understand your work preferences, communication style, and team dynamics.
+          </p>
+          <div className="mt-4 space-y-2 text-sm text-muted-foreground">
+            <p><strong>Duration:</strong> 12 minutes</p>
+            <p><strong>Questions:</strong> 48 personality traits evaluation</p>
+            <p><strong>Output:</strong> Your personality type with career recommendations</p>
+          </div>
+          <Button className="mt-4 w-full">Start Assessment</Button>
+        </div>
+
+        <div className="bg-card p-6 rounded-lg shadow-sm border border-border hover:shadow-md transition-shadow">
+          <h3 className="text-lg font-semibold text-foreground">Learning Style Analyzer</h3>
+          <p className="text-sm text-muted-foreground mt-2">
+            Identify how you learn best to optimize your study strategies.
+          </p>
+          <div className="mt-4 space-y-2 text-sm text-muted-foreground">
+            <p><strong>Duration:</strong> 10 minutes</p>
+            <p><strong>Questions:</strong> 40 learning preference scenarios</p>
+            <p><strong>Output:</strong> Your primary and secondary learning styles</p>
+          </div>
+          <Button className="mt-4 w-full">Start Assessment</Button>
+        </div>
+      </div>
+
+      <div className="bg-card p-6 rounded-lg shadow-sm border border-border">
+        <h2 className="text-xl font-semibold text-foreground mb-4">Why Take Discovery Assessments?</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div>
+            <h4 className="font-semibold text-foreground mb-2">Self-Awareness</h4>
+            <p className="text-sm text-muted-foreground">
+              Gain deep insights into your natural strengths, interests, and preferences.
+            </p>
+          </div>
+          <div>
+            <h4 className="font-semibold text-foreground mb-2">Career Clarity</h4>
+            <p className="text-sm text-muted-foreground">
+              Get personalized career recommendations aligned with your profile.
+            </p>
+          </div>
+          <div>
+            <h4 className="font-semibold text-foreground mb-2">Strategic Planning</h4>
+            <p className="text-sm text-muted-foreground">
+              Make informed decisions about your education and career path.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Discovery;
