@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import { useToast } from "@/hooks/use-toast";
+import SEO from "@/components/SEO";
 import {
   Form,
   FormControl,
@@ -50,6 +51,20 @@ const RATE_LIMIT = {
 };
 
 const Contact = () => {
+  const contactPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "FactorBeam",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "availableLanguage": ["English"]
+      }
+    }
+  };
+
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitAttempts, setSubmitAttempts] = useState<number[]>([]);
@@ -139,6 +154,12 @@ const Contact = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <SEO
+        title="Contact FactorBeam"
+        description="Get in touch with the FactorBeam team. We're here to help with questions about our career assessments, exam preparation, and skill-building platform."
+        canonicalUrl="https://factorbeam.com/contact"
+        schema={contactPageSchema}
+      />
       <div className="bg-white p-8 rounded-lg shadow-sm border border-slate-200">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold text-slate-800">Get in Touch</h1>

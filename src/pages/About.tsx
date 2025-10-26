@@ -1,33 +1,77 @@
+import SEO from "@/components/SEO";
+
 const About = () => {
+  const aboutSchema = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "FactorBeam",
+      "description": "FactorBeam democratizes access to career guidance and skill mastery through psychometric testing, exam preparation, and interactive learning.",
+      "foundingDate": "2025",
+      "areaServed": "Global"
+    }
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <div className="bg-white p-8 rounded-lg shadow-sm border border-slate-200">
+      <SEO
+        title="About FactorBeam - Our Mission"
+        description="Learn about FactorBeam's mission to democratize career guidance and skill mastery for everyone through psychometric testing, exam preparation, and interactive learning."
+        canonicalUrl="https://factorbeam.com/about"
+        schema={aboutSchema}
+      />
+      <div className="bg-card p-8 rounded-lg shadow-sm border border-border">
         <div className="max-w-4xl mx-auto">
-          <section className="text-center">
-            <h1 className="text-4xl font-bold text-slate-800">Our Mission: To Democratize Success</h1>
-            <p className="mt-4 text-lg text-slate-600">FactorBeam was founded on a simple principle: everyone deserves the tools and guidance to achieve their full potential, regardless of their background. We are building a platform to make high-quality preparation and self-discovery accessible to all.</p>
-          </section>
+          <h1 className="text-4xl font-bold text-foreground">About FactorBeam</h1>
+          <p className="mt-4 text-lg text-muted-foreground">
+            FactorBeam is more than just a test prep platform. We're on a mission to democratize
+            access to career guidance and skill mastery for everyone, everywhere.
+          </p>
           
-          <section className="mt-16">
-            <h2 className="text-3xl font-semibold text-slate-800 border-b pb-4">Our Story</h2>
-            <p className="mt-6 text-slate-600 leading-relaxed">It started with a small group of educators and engineers who saw a gap in the learning landscape. While premium coaching was available to a few, millions of ambitious students lacked a clear path. We decided to build that path—a place where data-driven insights meet engaging practice, helping users not just to prepare for an exam, but to build a career.</p>
+          <section className="mt-8">
+            <h2 className="text-2xl font-semibold text-foreground">Our Mission</h2>
+            <p className="mt-4 text-muted-foreground">
+              Every individual has unique strengths and potential. We believe that with the right
+              guidance and tools, anyone can discover their path and achieve their career goals.
+              FactorBeam combines cutting-edge psychometric assessments, comprehensive exam
+              preparation, and engaging skill-building games to help you succeed.
+            </p>
           </section>
 
-          <section className="mt-16">
-            <h2 className="text-3xl font-semibold text-slate-800 border-b pb-4">Our Values</h2>
-            <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div>
-                <h3 className="text-xl font-semibold text-slate-800">Accessibility</h3>
-                <p className="mt-2 text-slate-600">Knowledge should be free. Our core platform will always be free to ensure no one is left behind.</p>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold text-slate-800">Integrity</h3>
-                <p className="mt-2 text-slate-600">We are committed to providing accurate, high-quality content that users can trust.</p>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold text-slate-800">Innovation</h3>
-                <p className="mt-2 text-slate-600">We believe in the power of technology to create new, more effective ways to learn and grow.</p>
-              </div>
+          <section className="mt-8">
+            <h2 className="text-2xl font-semibold text-foreground">Our Story</h2>
+            <p className="mt-4 text-muted-foreground">
+              Founded by educators and technologists who saw the need for accessible, personalized
+              career guidance, FactorBeam was built on the principle that everyone deserves the
+              opportunity to understand their strengths and build the skills they need to thrive in
+              their chosen field.
+            </p>
+          </section>
+
+          <section className="mt-8">
+            <h2 className="text-2xl font-semibold text-foreground mb-4">Our Core Values</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <article className="bg-background p-6 rounded-lg border border-border">
+                <h3 className="font-semibold text-foreground mb-2">Accessibility</h3>
+                <p className="text-sm text-muted-foreground">
+                  Quality career guidance should be available to everyone, regardless of their
+                  background or resources.
+                </p>
+              </article>
+              <article className="bg-background p-6 rounded-lg border border-border">
+                <h3 className="font-semibold text-foreground mb-2">Integrity</h3>
+                <p className="text-sm text-muted-foreground">
+                  We provide honest, science-backed assessments and recommendations you can trust.
+                </p>
+              </article>
+              <article className="bg-background p-6 rounded-lg border border-border">
+                <h3 className="font-semibold text-foreground mb-2">Innovation</h3>
+                <p className="text-sm text-muted-foreground">
+                  We continuously evolve our platform with the latest research in learning science
+                  and career development.
+                </p>
+              </article>
             </div>
           </section>
         </div>

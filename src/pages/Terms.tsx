@@ -1,6 +1,13 @@
+import SEO from "@/components/SEO";
+
 const Terms = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <SEO
+        title="Terms of Service"
+        description="FactorBeam's terms of service. Read our terms and conditions for using our career guidance and skill mastery platform."
+        canonicalUrl="https://factorbeam.com/terms"
+      />
       <div className="bg-white p-8 rounded-lg shadow-sm border border-slate-200">
         <div className="max-w-4xl mx-auto prose prose-slate max-w-none">
           <h1 className="text-4xl font-bold text-slate-800">Terms of Service</h1>

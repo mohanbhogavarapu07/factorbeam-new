@@ -1,7 +1,36 @@
 import { useState } from "react";
 import GameModal from "@/components/GameModal";
+import SEO from "@/components/SEO";
 
 const Games = () => {
+  const gamesSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Practice Arcade Games",
+    "description": "Brain training games and skill-trainer games for cognitive development",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Game",
+          "name": "Grid Master",
+          "description": "Pattern recognition and spatial reasoning game",
+          "gameLocationType": "WebApplication"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Game",
+          "name": "Sentence Weaver",
+          "description": "Grammar and sentence construction game",
+          "gameLocationType": "WebApplication"
+        }
+      }
+    ]
+  };
   const [selectedGame, setSelectedGame] = useState<string | null>(null);
 
   const categories = [
@@ -58,6 +87,14 @@ const Games = () => {
 
   return (
     <>
+      <SEO
+        title="Practice Arcade - Brain Training Games"
+        description="Train your brain with skill-trainer games like Vocab Vortex and Logic Leap. Engaging brain training games that make learning fun and build cognitive skills."
+        canonicalUrl="https://factorbeam.com/games"
+        schema={gamesSchema}
+        keywords="brain training games, cognitive games, vocabulary games, logic games, skill trainer, educational games, learning games"
+      />
+      
       <div className="grid grid-cols-12 gap-8">
         {/* Left Sidebar */}
         <aside className="col-span-12 lg:col-span-3">

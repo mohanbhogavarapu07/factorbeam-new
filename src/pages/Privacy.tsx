@@ -1,6 +1,13 @@
+import SEO from "@/components/SEO";
+
 const Privacy = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <SEO
+        title="Privacy Policy"
+        description="FactorBeam's privacy policy. Learn how we collect, use, and protect your personal data when you use our platform."
+        canonicalUrl="https://factorbeam.com/privacy"
+      />
       <div className="bg-white p-8 rounded-lg shadow-sm border border-slate-200">
         <div className="max-w-4xl mx-auto prose prose-slate max-w-none">
           <h1 className="text-4xl font-bold text-slate-800">Privacy Policy</h1>

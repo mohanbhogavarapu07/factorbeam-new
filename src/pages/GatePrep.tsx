@@ -1,7 +1,24 @@
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import SEO from "@/components/SEO";
 
 const GatePrep = () => {
+  const gateSchema = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "GATE Preparation Hub",
+    "description": "Complete resource for GATE (Graduate Aptitude Test in Engineering) mock tests and exam preparation",
+    "provider": {
+      "@type": "Organization",
+      "name": "FactorBeam"
+    },
+    "coursePrerequisites": "Engineering undergraduate or graduate students",
+    "hasCourseInstance": {
+      "@type": "CourseInstance",
+      "courseMode": "online",
+      "courseWorkload": "PT3H"
+    }
+  };
   const [activeTab, setActiveTab] = useState<"mock" | "sectional" | "pyq">("mock");
 
   const mockTests = [
@@ -29,13 +46,21 @@ const GatePrep = () => {
 
   return (
     <div className="space-y-8">
-      <div className="bg-card p-8 rounded-lg shadow-sm border border-border">
+      <SEO
+        title="GATE Preparation Hub - Mock Tests & Exam Prep"
+        description="Complete GATE exam preparation resource with full-length mock tests and sectional tests. Prepare for GATE 2026 with comprehensive practice tests for Computer Science and all branches."
+        canonicalUrl="https://factorbeam.com/gate-prep"
+        schema={gateSchema}
+        keywords="GATE preparation, GATE mock test, GATE exam, GATE 2026, engineering entrance exam, GATE computer science, GATE practice test, graduate aptitude test"
+      />
+      
+      <header className="bg-card p-8 rounded-lg shadow-sm border border-border">
         <h1 className="text-3xl font-bold text-foreground">GATE Preparation Hub</h1>
         <p className="mt-2 text-muted-foreground">
           Your complete resource for mastering the Graduate Aptitude Test in Engineering. 
           Practice with full-length mocks, sectional tests, and previous year questions.
         </p>
-      </div>
+      </header>
 
       <div className="bg-card rounded-lg shadow-sm border border-border">
         <div className="border-b border-border">

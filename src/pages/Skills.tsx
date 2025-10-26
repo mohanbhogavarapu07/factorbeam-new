@@ -1,7 +1,49 @@
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import SEO from "@/components/SEO";
 
 const Skills = () => {
+  const skillsSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Skill-Builder Quizzes",
+    "description": "10-minute micro-assessments to test your skills in Python, SQL, Excel, and more",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Quiz",
+          "name": "Basic Python Quiz",
+          "description": "Test your Python programming fundamentals",
+          "educationalLevel": "Beginner to Intermediate",
+          "timeRequired": "PT10M"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Quiz",
+          "name": "SQL Foundations Challenge",
+          "description": "Assess your SQL query and database skills",
+          "educationalLevel": "Beginner to Intermediate",
+          "timeRequired": "PT10M"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Quiz",
+          "name": "Advanced Grammar Test",
+          "description": "Test your English grammar and writing skills",
+          "educationalLevel": "Intermediate to Advanced",
+          "timeRequired": "PT10M"
+        }
+      }
+    ]
+  };
   const [activeCategory, setActiveCategory] = useState<"technical" | "language" | "cognitive">("technical");
 
   const technicalSkills = [
@@ -152,8 +194,17 @@ const Skills = () => {
   };
 
   return (
-    <div className="grid grid-cols-12 gap-8">
-      <aside className="col-span-12 lg:col-span-3">
+    <div className="space-y-8">
+      <SEO
+        title="Skill Builders - Quick Skill Assessment Quizzes"
+        description="Take 10-minute micro-assessments to test your skills in Python, SQL, Excel, Advanced Grammar, and more. Build and validate your professional skills with FactorBeam's Skill Builders."
+        canonicalUrl="https://factorbeam.com/skills"
+        schema={skillsSchema}
+        keywords="skill assessment, Python quiz, SQL test, Excel quiz, grammar test, skill builder, programming quiz, technical skills assessment"
+      />
+      
+      <div className="grid grid-cols-12 gap-8">
+        <aside className="col-span-12 lg:col-span-3">
         <div className="sticky top-24 bg-card p-4 rounded-lg shadow-sm border border-border">
           <h3 className="font-semibold text-foreground mb-4">Skill Categories</h3>
           <nav className="space-y-1">
@@ -256,6 +307,7 @@ const Skills = () => {
           </div>
         </div>
       </section>
+      </div>
     </div>
   );
 };
