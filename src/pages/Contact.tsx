@@ -164,23 +164,9 @@ const Contact = () => {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold text-slate-800">Get in Touch</h1>
           <p className="mt-4 text-lg text-slate-600">
-            We'd love to hear from you. Whether you have a question, feedback, or a partnership
-            inquiry, our team is ready to answer all your questions.
+            We are here to help. Whether you have a question about our assessments, feedback on our games, or a technical support issue, we'd love to hear from you.
           </p>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h2 className="text-2xl font-semibold text-slate-800">Contact Information</h2>
-              <p className="mt-4 text-slate-600">For general inquiries, please reach out to us at:</p>
-              <a
-                href="mailto:contact@factorbeam.com"
-                className="mt-2 font-medium text-green-600 hover:text-green-700 block"
-                rel="noopener noreferrer"
-              >
-                contact@factorbeam.com
-              </a>
-              <p className="mt-4 text-slate-600">Our mailing address:</p>
-              <p className="mt-2 text-slate-600">123 Tech Park, Nagpur, Maharashtra, 440001, India</p>
-            </div>
             <div>
               <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
@@ -251,6 +237,41 @@ const Contact = () => {
                   </Button>
                 </form>
               </Form>
+            </div>
+            
+            {/* Contact Info */}
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-lg font-medium text-slate-800">General Inquiries</h3>
+                <p className="mt-1 text-slate-600">For all general questions and feedback.</p>
+                <a
+                  href="mailto:contact@factorbeam.com"
+                  className="mt-1 font-medium text-green-600 hover:text-green-700 block"
+                  rel="noopener noreferrer"
+                >
+                  contact@factorbeam.com
+                </a>
+              </div>
+              <div>
+                <h3 className="text-lg font-medium text-slate-800">Technical Support</h3>
+                <p className="mt-1 text-slate-600">Having trouble with a test or a game?</p>
+                <a
+                  href="mailto:support@factorbeam.com"
+                  className="mt-1 font-medium text-green-600 hover:text-green-700 block"
+                  rel="noopener noreferrer"
+                >
+                  support@factorbeam.com
+                </a>
+              </div>
+              <div>
+                <h3 className="text-lg font-medium text-slate-800">Mailing Address</h3>
+                <p className="mt-1 text-slate-600">
+                  FactorBeam Technologies (P) Ltd.<br />
+                  123 Innovation Drive, Tech Park<br />
+                  Nagpur, Maharashtra, 440001<br />
+                  India
+                </p>
+              </div>
             </div>
           </div>
         </div>
