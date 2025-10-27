@@ -1,10 +1,19 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Trophy, Clock, BookOpen, Target } from "lucide-react";
+import TestInterface, { TestResults } from "@/components/TestInterface";
+import ResultsPage from "@/components/ResultsPage";
+import { upscQuestions, catQuestions, gateQuestions, sscQuestions } from "@/data/assessments";
+
+type TestState = "list" | "test" | "results";
+type TestType = "upsc" | "cat" | "gate" | "ssc" | null;
 
 const Assessments = () => {
   const [openAccordions, setOpenAccordions] = useState<Record<string, boolean>>({});
+  const [testState, setTestState] = useState<TestState>("list");
+  const [currentTest, setCurrentTest] = useState<TestType>(null);
+  const [testResults, setTestResults] = useState<TestResults | null>(null);
 
   const toggleAccordion = (id: string) => {
     setOpenAccordions((prev) => ({
@@ -26,24 +35,126 @@ const Assessments = () => {
     },
   ];
 
-  const tests = [
+  const assessmentTests = [
     {
-      title: "UPSC Prelims 2025: Full Mock Test 1",
-      details: "100 Questions | 120 Mins | 200 Marks",
-      tags: ["GS Paper 1", "Full Syllabus"],
+      id: "upsc" as TestType,
+      title: "UPSC CSE Prelims Mock Test",
+      description: "Comprehensive mock test covering General Studies Paper 1",
+      details: "10 Questions | 20 Mins | 20 Marks",
+      tags: ["Polity", "History", "Geography", "Environment"],
+      icon: BookOpen,
+      difficulty: "Hard",
+      attempts: "15,234",
     },
     {
-      title: "UPSC Prelims 2025: Full Mock Test 2",
-      details: "100 Questions | 120 Mins | 200 Marks",
-      tags: ["GS Paper 1", "Full Syllabus"],
+      id: "cat" as TestType,
+      title: "CAT Mock Test 2025",
+      description: "Full-length MBA entrance preparation test",
+      details: "10 Questions | 30 Mins | 30 Marks",
+      tags: ["Quant", "Verbal", "Logical Reasoning"],
+      icon: Target,
+      difficulty: "Hard",
+      attempts: "23,456",
+    },
+    {
+      id: "gate" as TestType,
+      title: "GATE Computer Science Mock",
+      description: "Complete GATE CS syllabus coverage",
+      details: "10 Questions | 15 Mins | 17 Marks",
+      tags: ["Data Structures", "Algorithms", "OS", "DBMS"],
+      icon: Trophy,
+      difficulty: "Hard",
+      attempts: "18,890",
+    },
+    {
+      id: "ssc" as TestType,
+      title: "SSC CGL Tier 1 Mock Test",
+      description: "Practice test for SSC Combined Graduate Level",
+      details: "10 Questions | 15 Mins | 20 Marks",
+      tags: ["Reasoning", "Quant", "English", "GK"],
+      icon: Clock,
+      difficulty: "Medium",
+      attempts: "31,567",
     },
   ];
 
-  const trendingTests = [
-    "IBPS PO Prelims Mock",
-    "SSC CGL Tier 1",
-    "CAT 2024 Quant Sectional",
-  ];
+  const getQuestions = (testId: TestType) => {
+    switch (testId) {
+      case "upsc":
+        return upscQuestions;
+      case "cat":
+        return catQuestions;
+      case "gate":
+        return gateQuestions;
+      case "ssc":
+        return sscQuestions;
+      default:
+        return [];
+    }
+  };
+
+  const getTestName = (testId: TestType) => {
+    const test = assessmentTests.find((t) => t.id === testId);
+    return test?.title || "";
+  };
+
+  const getDuration = (testId: TestType) => {
+    switch (testId) {
+      case "upsc":
+        return 20;
+      case "cat":
+        return 30;
+      case "gate":
+        return 15;
+      case "ssc":
+        return 15;
+      default:
+        return 20;
+    }
+  };
+
+  const handleStartTest = (testId: TestType) => {
+    setCurrentTest(testId);
+    setTestState("test");
+  };
+
+  const handleTestComplete = (results: TestResults) => {
+    setTestResults(results);
+    setTestState("results");
+  };
+
+  const handleRetake = () => {
+    setTestState("test");
+  };
+
+  const handleBackToList = () => {
+    setTestState("list");
+    setCurrentTest(null);
+    setTestResults(null);
+  };
+
+  if (testState === "test" && currentTest) {
+    return (
+      <TestInterface
+        testName={getTestName(currentTest)}
+        questions={getQuestions(currentTest)}
+        duration={getDuration(currentTest)}
+        onComplete={handleTestComplete}
+        onExit={handleBackToList}
+      />
+    );
+  }
+
+  if (testState === "results" && testResults && currentTest) {
+    return (
+      <ResultsPage
+        testName={getTestName(currentTest)}
+        results={testResults}
+        onRetake={handleRetake}
+        onHome={handleBackToList}
+      />
+    );
+  }
 
   return (
     <div className="grid grid-cols-12 gap-8">
@@ -104,64 +215,143 @@ const Assessments = () => {
       </aside>
 
       {/* Main Content */}
-      <section className="col-span-12 lg:col-span-6">
-        <div className="bg-card p-6 rounded-lg shadow-sm border border-border space-y-6">
-          <div>
-            <h1 className="text-3xl font-bold text-foreground">
-              UPSC CSE Mock Tests
+      <section className="col-span-12 lg:col-span-9">
+        <div className="space-y-6">
+          {/* Hero Section */}
+          <div className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white p-8 rounded-xl shadow-lg">
+            <h1 className="text-4xl font-bold mb-3">
+              World-Class Assessment Platform
             </h1>
-            <p className="text-muted-foreground mt-2">
-              Practice with our full-syllabus mock tests for the upcoming Civil
-              Services Examination.
+            <p className="text-xl text-blue-100 mb-6">
+              Benchmark your preparation with our meticulously crafted mock tests.
+              Each assessment is designed by experts to mirror actual exam patterns.
             </p>
-          </div>
-
-          {tests.map((test, index) => (
-            <div key={index} className="border-t border-border pt-6">
-              <h2 className="text-xl font-semibold text-primary hover:underline">
-                <a href="#" className="transition-colors">
-                  {test.title}
-                </a>
-              </h2>
-              <p className="text-sm text-muted-foreground mt-2">
-                {test.details}
-              </p>
-              <div className="mt-4 flex items-center justify-between">
-                <div className="flex gap-2">
-                  {test.tags.map((tag, tagIndex) => (
-                    <Badge
-                      key={tagIndex}
-                      variant={tagIndex === 0 ? "default" : "secondary"}
-                    >
-                      {tag}
-                    </Badge>
-                  ))}
-                </div>
-                <Button>Start Test</Button>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="bg-white/10 backdrop-blur p-4 rounded-lg text-center">
+                <div className="text-3xl font-bold">50K+</div>
+                <div className="text-sm text-blue-100">Test Takers</div>
+              </div>
+              <div className="bg-white/10 backdrop-blur p-4 rounded-lg text-center">
+                <div className="text-3xl font-bold">95%</div>
+                <div className="text-sm text-blue-100">Accuracy</div>
+              </div>
+              <div className="bg-white/10 backdrop-blur p-4 rounded-lg text-center">
+                <div className="text-3xl font-bold">4</div>
+                <div className="text-sm text-blue-100">Elite Tests</div>
+              </div>
+              <div className="bg-white/10 backdrop-blur p-4 rounded-lg text-center">
+                <div className="text-3xl font-bold">24/7</div>
+                <div className="text-sm text-blue-100">Available</div>
               </div>
             </div>
-          ))}
+          </div>
+
+          {/* Assessment Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {assessmentTests.map((test) => {
+              const Icon = test.icon;
+              return (
+                <div
+                  key={test.id}
+                  className="bg-card rounded-xl shadow-md border border-border overflow-hidden hover:shadow-xl transition-all duration-300 group"
+                >
+                  <div className="p-6">
+                    <div className="flex items-start justify-between mb-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-indigo-500 to-blue-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <Icon className="w-6 h-6 text-white" />
+                      </div>
+                      <Badge
+                        variant={test.difficulty === "Hard" ? "destructive" : "secondary"}
+                      >
+                        {test.difficulty}
+                      </Badge>
+                    </div>
+                    
+                    <h2 className="text-2xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
+                      {test.title}
+                    </h2>
+                    <p className="text-muted-foreground mb-4 min-h-[48px]">
+                      {test.description}
+                    </p>
+                    
+                    <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
+                      <div className="flex items-center gap-1">
+                        <Clock className="w-4 h-4" />
+                        <span>{test.details}</span>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <Trophy className="w-4 h-4" />
+                        <span>{test.attempts} attempts</span>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-wrap gap-2 mb-6">
+                      {test.tags.map((tag, index) => (
+                        <Badge key={index} variant="outline">
+                          {tag}
+                        </Badge>
+                      ))}
+                    </div>
+
+                    <Button
+                      onClick={() => handleStartTest(test.id)}
+                      className="w-full group-hover:bg-primary group-hover:scale-105 transition-all"
+                      size="lg"
+                    >
+                      Start Assessment
+                    </Button>
+                  </div>
+                  
+                  <div className="bg-muted px-6 py-3 border-t border-border">
+                    <p className="text-xs text-muted-foreground text-center">
+                      Detailed analysis • Solutions included • Percentile ranking
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Features Section */}
+          <div className="bg-card p-8 rounded-xl shadow-sm border border-border">
+            <h2 className="text-2xl font-bold text-foreground mb-6 text-center">
+              Why Our Assessments Are World-Class
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Target className="w-8 h-8 text-green-600" />
+                </div>
+                <h3 className="font-semibold text-lg mb-2">Expert Crafted</h3>
+                <p className="text-sm text-muted-foreground">
+                  Each question is designed by subject matter experts with years of
+                  experience in competitive exams.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Trophy className="w-8 h-8 text-blue-600" />
+                </div>
+                <h3 className="font-semibold text-lg mb-2">Detailed Analytics</h3>
+                <p className="text-sm text-muted-foreground">
+                  Get comprehensive performance reports with subject-wise analysis and
+                  improvement suggestions.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <BookOpen className="w-8 h-8 text-purple-600" />
+                </div>
+                <h3 className="font-semibold text-lg mb-2">Complete Solutions</h3>
+                <p className="text-sm text-muted-foreground">
+                  Every question comes with detailed explanations to help you learn from
+                  your mistakes.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-
-      {/* Right Sidebar */}
-      <aside className="col-span-12 lg:col-span-3">
-        <div className="sticky top-20 bg-card p-4 rounded-lg shadow-sm border border-border">
-          <h3 className="font-semibold text-foreground mb-4">Trending Tests</h3>
-          <ul className="space-y-3">
-            {trendingTests.map((test, index) => (
-              <li key={index}>
-                <a
-                  href="#"
-                  className="text-sm text-primary hover:underline transition-colors"
-                >
-                  {test}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </aside>
     </div>
   );
 };
