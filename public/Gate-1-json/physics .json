@@ -1,0 +1,2166 @@
+{
+    "id": "physics",
+    "title": "Physics (PH)",
+    "description": "Comprehensive GATE Physics assessment covering General Aptitude and Core Physics subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core physics questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Easy",
+    "tags": ["GATE", "Physics", "Engineering", "Aptitude", "Core Subjects"],
+    "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Physics is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in physics and related fields. This assessment follows the official GATE pattern with General Aptitude and Core Physics questions.",
+    "typicalCareers": [
+      {
+        "title": "Research Scientist",
+        "description": "Advanced physics research positions in academia and industry"
+      },
+      {
+        "title": "PhD Candidate",
+        "description": "Pursue higher studies in physics and related fields"
+      },
+      {
+        "title": "Physics Engineer",
+        "description": "Senior technical roles in physics-based technology and applications"
+      }
+    ],
+    "whoShouldConsider": [
+      "Physics graduates preparing for GATE",
+      "Students seeking admission to M.Tech/M.E programs in physics",
+      "Professionals looking for PSU jobs in physics sector",
+      "Researchers in physics and related fields"
+    ],
+    "idealTraits": [
+      "Strong analytical and problem-solving skills",
+      "Solid foundation in physics fundamentals",
+      "Mathematical aptitude and logical reasoning",
+      "Good understanding of physical principles and phenomena"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude Assessment (10 questions, 15 marks)",
+        "Core Physics Assessment (55 questions, 85 marks)"
+      ],
+      "resultsInclude": [
+        "Section-wise scores (Aptitude & Core)",
+        "Topic-wise performance analysis",
+        "Difficulty-wise accuracy",
+        "Overall percentile ranking",
+        "Detailed explanations for all questions"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment",
+        "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "If GATE is coded as 3-1-20-5, then what is the code for EXAM?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "5-24-1-13",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5-23-1-13",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "4-24-1-13",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5-24-2-13",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Verbal Ability - Coding",
+            "difficulty": "Easy",
+            "explanation": "Using alphabetical position: E=5, X=24, A=1, M=13. Therefore EXAM = 5-24-1-13."
+          },
+          {
+            "id": "GA002",
+            "text": "A train travels at 60 km/hr for 2 hours and then at 80 km/hr for 3 hours. What is the average speed?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "70 km/hr",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "72 km/hr",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "68 km/hr",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "75 km/hr",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Numerical Ability - Average Speed",
+            "difficulty": "Easy",
+            "explanation": "Total distance = (60×2) + (80×3) = 120 + 240 = 360 km. Total time = 2 + 3 = 5 hours. Average speed = 360/5 = 72 km/hr."
+          },
+          {
+            "id": "GA003",
+            "text": "Which word is the odd one out: Circle, Triangle, Square, Rectangle, Sphere?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Circle",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Triangle",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Sphere",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Rectangle",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Logical Reasoning - Classification",
+            "difficulty": "Easy",
+            "explanation": "Sphere is a 3D object while all others are 2D shapes."
+          },
+          {
+            "id": "GA004",
+            "text": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "40",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "42",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "44",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "46",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Numerical Ability - Series",
+            "difficulty": "Easy",
+            "explanation": "The differences are 4, 6, 8, 10, 12... (increasing by 2). So next term = 30 + 12 = 42."
+          },
+          {
+            "id": "GA005",
+            "text": "If 15% of a number is 45, what is 25% of that number?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "60",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "75",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "70",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "80",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Numerical Ability - Percentage",
+            "difficulty": "Easy",
+            "explanation": "If 15% = 45, then 100% = 45/0.15 = 300. Therefore 25% of 300 = 0.25 × 300 = 75."
+          },
+          {
+            "id": "GA006",
+            "text": "Choose the word most similar in meaning to 'Meticulous':",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Careless",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Precise",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Lazy",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Hasty",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Synonyms",
+            "difficulty": "Easy",
+            "explanation": "Meticulous means showing great attention to detail, which is synonymous with precise."
+          },
+          {
+            "id": "GA007",
+            "text": "A pie chart shows data for 5 categories. If one category represents 72°, what percentage does it represent?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "15%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "20%",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "25%",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "30%",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Data Interpretation - Percentage",
+            "difficulty": "Easy",
+            "explanation": "Total degrees in circle = 360°. Percentage = (72/360) × 100 = 20%."
+          },
+          {
+            "id": "GA008",
+            "text": "If all roses are flowers and some flowers are red, then:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "All roses are red",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Some roses must be red",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Some roses may be red",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "No roses are red",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Logical Reasoning - Syllogism",
+            "difficulty": "Easy",
+            "explanation": "We can only conclude that some roses may be red, not that they must be or cannot be."
+          },
+          {
+            "id": "GA009",
+            "text": "The ratio of boys to girls in a class is 3:2. If there are 15 boys, how many students are there in total?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "20",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "25",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "30",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "35",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Numerical Ability - Ratio",
+            "difficulty": "Easy",
+            "explanation": "If boys:girls = 3:2 and boys = 15, then each part = 15/3 = 5. Total students = 5 parts = 5 × (3+2) = 25."
+          },
+          {
+            "id": "GA010",
+            "text": "Choose the grammatically correct sentence:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Each of the students have submitted their assignments.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Each of the students has submitted their assignment.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Each of the students have submitted his assignments.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Each of the student has submitted their assignment.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Grammar",
+            "difficulty": "Easy",
+            "explanation": "'Each' is singular, so requires 'has' not 'have'. 'Their' is acceptable for singular indefinite pronouns in modern English."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Physics Assessment",
+        "description": "Comprehensive assessment of core physics subjects including Classical Mechanics, Quantum Mechanics, Electromagnetism, Thermodynamics, Modern Physics, and related topics. This section carries 85% weight in the total assessment.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "PH001",
+            "text": "What is the SI unit of electric field intensity?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "N/C",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "V/m",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both A and B",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "J/C",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electromagnetism - Electric Field",
+            "difficulty": "Easy",
+            "explanation": "Electric field E = F/q = N/C. Also, E = V/d = V/m. Since V = J/C, both N/C and V/m are equivalent units."
+          },
+          {
+            "id": "PH002",
+            "text": "A particle moves in a circle of radius 2m with constant speed 4 m/s. What is its centripetal acceleration?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "4 m/s²",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "6 m/s²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "8 m/s²",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2 m/s²",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Classical Mechanics - Circular Motion",
+            "difficulty": "Easy",
+            "explanation": "Centripetal acceleration a = v²/r = 4²/2 = 16/2 = 8 m/s²."
+          },
+          {
+            "id": "PH003",
+            "text": "The wave function of a particle is ψ(x) = A sin(kx). What does |ψ|² represent?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Energy density",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Probability density",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Momentum density",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Force field",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantum Mechanics - Wave Function",
+            "difficulty": "Easy",
+            "explanation": "According to Born's interpretation, |ψ|² represents the probability density of finding the particle at position x."
+          },
+          {
+            "id": "PH004",
+            "text": "For an ideal gas, which quantity remains constant in an isothermal process?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Pressure",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Volume",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Temperature",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Entropy",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Thermodynamics - Processes",
+            "difficulty": "Easy",
+            "explanation": "Isothermal means constant temperature (iso = same, thermal = temperature)."
+          },
+          {
+            "id": "PH005",
+            "text": "Calculate the de Broglie wavelength of an electron (m = 9.1×10⁻³¹ kg) moving with velocity 10⁶ m/s. (h = 6.6×10⁻³⁴ J·s)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "7.25 × 10⁻¹⁰ m",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "7.25 × 10⁻⁹ m",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6.6 × 10⁻¹⁰ m",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "6.6 × 10⁻⁹ m",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Quantum Mechanics - Matter Waves",
+            "difficulty": "Easy",
+            "explanation": "λ = h/p = h/(mv) = 6.6×10⁻³⁴/(9.1×10⁻³¹ × 10⁶) = 7.25×10⁻¹⁰ m."
+          },
+          {
+            "id": "PH006",
+            "text": "Which of the following is NOT a fundamental force in nature?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Gravitational",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Electromagnetic",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Tension",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Weak nuclear",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Modern Physics - Fundamental Forces",
+            "difficulty": "Easy",
+            "explanation": "Tension is a contact force arising from electromagnetic interactions between atoms. The four fundamental forces are gravitational, electromagnetic, weak nuclear, and strong nuclear."
+          },
+          {
+            "id": "PH007",
+            "text": "A convex lens of focal length 20 cm forms an image at 60 cm. What is the object distance?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "15 cm",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "20 cm",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "25 cm",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "30 cm",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Optics - Lens Formula",
+            "difficulty": "Easy",
+            "explanation": "Using lens formula: 1/f = 1/v - 1/u. Therefore 1/20 = 1/60 - 1/u, solving: 1/u = 1/60 - 1/20 = -1/30, so u = -30 cm (object side)."
+          },
+          {
+            "id": "PH008",
+            "text": "What is the dimension of Planck's constant?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "[ML²T⁻¹]",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "[ML²T⁻²]",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "[MLT⁻¹]",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "[ML²T⁻³]",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Mathematical Physics - Dimensions",
+            "difficulty": "Easy",
+            "explanation": "h = Energy/frequency = [ML²T⁻²]/[T⁻¹] = [ML²T⁻¹]. Also represents action (angular momentum)."
+          },
+          {
+            "id": "PH009",
+            "text": "A spring with spring constant 100 N/m is compressed by 0.1 m. What is the potential energy stored?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.25 J",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.5 J",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1.0 J",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2.0 J",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Classical Mechanics - Energy",
+            "difficulty": "Easy",
+            "explanation": "Elastic potential energy U = ½kx² = ½ × 100 × (0.1)² = ½ × 100 × 0.01 = 0.5 J."
+          },
+          {
+            "id": "PH010",
+            "text": "What is the work function if photoelectrons are emitted when light of wavelength 400 nm is incident, but not for 500 nm?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Between 2.48 eV and 3.10 eV",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Less than 2.48 eV",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "More than 3.10 eV",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Exactly 2.79 eV",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Modern Physics - Photoelectric Effect",
+            "difficulty": "Medium",
+            "explanation": "E = hc/λ. For 500 nm: E = 2.48 eV (no emission). For 400 nm: E = 3.10 eV (emission occurs). Work function must be between these values."
+          },
+          {
+            "id": "PH011",
+            "text": "Maxwell's equations in vacuum include all EXCEPT:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "∇·E = ρ/ε₀",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "∇·B = 0",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "∇×E = -∂B/∂t",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "∇×B = μ₀J",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Electromagnetism - Maxwell's Equations",
+            "difficulty": "Medium",
+            "explanation": "In vacuum, the fourth Maxwell equation is ∇×B = μ₀ε₀∂E/∂t (no current J). Option D is for a conductor, not vacuum."
+          },
+          {
+            "id": "PH012",
+            "text": "A particle in a 1D infinite potential well has energy proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "n",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "n²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "√n",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1/n²",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantum Mechanics - Particle in a Box",
+            "difficulty": "Easy",
+            "explanation": "For infinite square well, En = n²π²ℏ²/(2mL²), so energy is proportional to n²."
+          },
+          {
+            "id": "PH013",
+            "text": "The Stefan-Boltzmann law states that radiant power is proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "T",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "T²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "T³",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "T⁴",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Thermodynamics - Radiation",
+            "difficulty": "Easy",
+            "explanation": "Stefan-Boltzmann law: P = σAT⁴, where power radiated is proportional to the fourth power of absolute temperature."
+          },
+          {
+            "id": "PH014",
+            "text": "What is the magnetic field at the center of a circular loop of radius R carrying current I?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "μ₀I/(2R)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "μ₀I/(4πR)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "μ₀I/(2πR)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "μ₀I/R",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electromagnetism - Magnetic Field",
+            "difficulty": "Easy",
+            "explanation": "For a circular current loop, magnetic field at center B = μ₀I/(2R)."
+          },
+          {
+            "id": "PH015",
+            "text": "In Compton scattering, the scattered photon has:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Higher frequency than incident",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Same frequency as incident",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Lower frequency than incident",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Zero frequency",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Modern Physics - Compton Effect",
+            "difficulty": "Easy",
+            "explanation": "In Compton scattering, photon transfers energy to electron, resulting in lower energy (and thus lower frequency) for scattered photon."
+          },
+          {
+            "id": "PH016",
+            "text": "The Hamiltonian operator in quantum mechanics represents:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Momentum",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Position",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Total energy",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Angular momentum",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Quantum Mechanics - Operators",
+            "difficulty": "Easy",
+            "explanation": "The Hamiltonian operator Ĥ represents the total energy (kinetic + potential) of the system."
+          },
+          {
+            "id": "PH017",
+            "text": "Carnot engine efficiency depends on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Working substance",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Source and sink temperatures only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Engine design",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Pressure variations",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics - Heat Engines",
+            "difficulty": "Easy",
+            "explanation": "Carnot efficiency η = 1 - (T₂/T₁) depends only on the temperatures of hot source (T₁) and cold sink (T₂)."
+          },
+          {
+            "id": "PH018",
+            "text": "The Fermi energy in a metal at T = 0 K represents:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Average energy of electrons",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Maximum energy of electrons",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Minimum energy of electrons",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Thermal energy",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Solid State Physics - Free Electron Model",
+            "difficulty": "Easy",
+            "explanation": "At absolute zero, electrons fill energy levels up to the Fermi energy EF, which is the highest occupied energy level."
+          },
+          {
+            "id": "PH019",
+            "text": "A particle moves with simple harmonic motion. Its velocity is maximum when:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Displacement is maximum",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Displacement is zero",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Acceleration is maximum",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "At any point",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Classical Mechanics - Oscillations",
+            "difficulty": "Easy",
+            "explanation": "In SHM, velocity is maximum at mean position (displacement = 0) where all energy is kinetic."
+          },
+          {
+            "id": "PH020",
+            "text": "The Pauli Exclusion Principle applies to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Bosons only",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Fermions only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both fermions and bosons",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Classical particles",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantum Mechanics - Quantum Statistics",
+            "difficulty": "Easy",
+            "explanation": "Pauli Exclusion Principle states that no two fermions (half-integer spin particles) can occupy the same quantum state."
+          },
+          {
+            "id": "PH021",
+            "text": "What is the ground state energy of a quantum harmonic oscillator?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "ℏω/2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "ℏω",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "3ℏω/2",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantum Mechanics - Harmonic Oscillator",
+            "difficulty": "Easy",
+            "explanation": "The ground state (n=0) energy of quantum harmonic oscillator is E₀ = ℏω/2, the zero-point energy."
+          },
+          {
+            "id": "PH022",
+            "text": "The first law of thermodynamics is expressed as:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "dQ = dU - dW",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "dU = dQ - dW",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "dU = dQ + dW",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "dW = dQ + dU",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Thermodynamics - Laws",
+            "difficulty": "Easy",
+            "explanation": "First law: dU = dQ + dW (with sign convention: work done on system is positive)."
+          },
+          {
+            "id": "PH023",
+            "text": "Calculate the force between two point charges of 2 μC and 3 μC separated by 0.3 m in vacuum. (k = 9×10⁹ Nm²/C²)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.4 N",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.5 N",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.6 N",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.7 N",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electromagnetism - Coulomb's Law",
+            "difficulty": "Easy",
+            "explanation": "F = kq₁q₂/r² = 9×10⁹ × 2×10⁻⁶ × 3×10⁻⁶ / (0.3)² = 54×10⁻³ / 0.09 = 0.6 N."
+          },
+          {
+            "id": "PH024",
+            "text": "Which of the following violates the Heisenberg uncertainty principle?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Δx·Δp ≥ ℏ/2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Δx·Δp = 0",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "ΔE·Δt ≥ ℏ/2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Δx·Δp = ℏ",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantum Mechanics - Uncertainty Principle",
+            "difficulty": "Easy",
+            "explanation": "Δx·Δp = 0 would mean both position and momentum are known exactly, violating the uncertainty principle."
+          },
+          {
+            "id": "PH025",
+            "text": "The refractive index of a medium is 1.5. What is the speed of light in that medium?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1.5 × 10⁸ m/s",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2.0 × 10⁸ m/s",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2.5 × 10⁸ m/s",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "3.0 × 10⁸ m/s",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Optics - Refraction",
+            "difficulty": "Easy",
+            "explanation": "n = c/v, so v = c/n = 3×10⁸/1.5 = 2×10⁸ m/s."
+          },
+          {
+            "id": "PH026",
+            "text": "What is the SI unit of magnetic flux?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Tesla",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Weber",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Henry",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Ampere-turn",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electromagnetism - Magnetic Flux",
+            "difficulty": "Easy",
+            "explanation": "Magnetic flux Φ is measured in Weber (Wb), where 1 Wb = 1 T·m²."
+          },
+          {
+            "id": "PH027",
+            "text": "In photoelectric effect, stopping potential is independent of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Frequency of incident light",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Intensity of incident light",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Work function",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Energy of photons",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Modern Physics - Photoelectric Effect",
+            "difficulty": "Medium",
+            "explanation": "Stopping potential depends on frequency (photon energy) and work function, but NOT on intensity."
+          },
+          {
+            "id": "PH028",
+            "text": "A projectile is fired at 45° to the horizontal. Its range is maximum when the angle is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "30°",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "45°",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "60°",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "90°",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Classical Mechanics - Projectile Motion",
+            "difficulty": "Easy",
+            "explanation": "Maximum range occurs at 45° angle for projectile motion on level ground."
+          },
+          {
+            "id": "PH029",
+            "text": "The Rydberg formula is used to calculate:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Nuclear radius",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Spectral lines of hydrogen",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Electron mass",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Planck's constant",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Atomic Physics - Hydrogen Spectrum",
+            "difficulty": "Easy",
+            "explanation": "Rydberg formula: 1/λ = R(1/n₁² - 1/n₂²) gives wavelengths of hydrogen spectral lines."
+          },
+          {
+            "id": "PH030",
+            "text": "For an adiabatic process in an ideal gas, which relation is correct?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "PVᵞ = constant",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "PV = constant",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "P/T = constant",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "V/T = constant",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Thermodynamics - Adiabatic Process",
+            "difficulty": "Easy",
+            "explanation": "For adiabatic process (no heat exchange), PVᵞ = constant, where γ = Cp/Cv."
+          },
+          {
+            "id": "PH031",
+            "text": "The Bohr radius of hydrogen atom is approximately:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.53 Å",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5.3 Å",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.053 nm",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Both A and C",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Atomic Physics - Bohr Model",
+            "difficulty": "Easy",
+            "explanation": "Bohr radius a₀ = 0.53 Å = 0.053 nm (since 1 Å = 0.1 nm)."
+          },
+          {
+            "id": "PH032",
+            "text": "In Young's double slit experiment, fringe width is inversely proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Wavelength",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Distance between slits",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Distance to screen",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Amplitude",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Optics - Interference",
+            "difficulty": "Medium",
+            "explanation": "Fringe width β = λD/d, where d is slit separation. So β ∝ 1/d."
+          },
+          {
+            "id": "PH033",
+            "text": "The commutator [x̂, p̂x] in quantum mechanics equals:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "iℏ",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "-iℏ",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "ℏ",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Quantum Mechanics - Commutators",
+            "difficulty": "Medium",
+            "explanation": "Canonical commutation relation: [x̂, p̂x] = iℏ."
+          },
+          {
+            "id": "PH034",
+            "text": "A capacitor of 10 μF is charged to 100 V. The energy stored is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.05 J",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.5 J",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.005 J",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5 J",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electromagnetism - Capacitance",
+            "difficulty": "Easy",
+            "explanation": "Energy U = ½CV² = ½ × 10×10⁻⁶ × (100)² = 0.05 J."
+          },
+          {
+            "id": "PH035",
+            "text": "The decay constant λ and half-life T₁/₂ are related as:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "λ = ln(2)/T₁/₂",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "λ = T₁/₂/ln(2)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "λ = ln(2)·T₁/₂",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "λ = T₁/₂²",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Nuclear Physics - Radioactivity",
+            "difficulty": "Easy",
+            "explanation": "Half-life relation: T₁/₂ = ln(2)/λ, therefore λ = ln(2)/T₁/₂."
+          },
+          {
+            "id": "PH036",
+            "text": "The work done in rotating a dipole of moment p from angle θ₁ to θ₂ in uniform field E is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "pE(cos θ₁ - cos θ₂)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "pE(cos θ₂ - cos θ₁)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "pE(sin θ₁ - sin θ₂)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "pE(θ₂ - θ₁)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electromagnetism - Electric Dipole",
+            "difficulty": "Medium",
+            "explanation": "Work done W = U₂ - U₁ = -pE cos θ₂ - (-pE cos θ₁) = pE(cos θ₁ - cos θ₂)."
+          },
+          {
+            "id": "PH037",
+            "text": "Bose-Einstein condensation occurs for particles with spin:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Half-integer",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Integer",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Zero only",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Any value",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Statistical Mechanics - Quantum Statistics",
+            "difficulty": "Medium",
+            "explanation": "Bose-Einstein condensation occurs for bosons, which have integer spin (0, 1, 2, ...)."
+          },
+          {
+            "id": "PH038",
+            "text": "The Poynting vector represents:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Energy density",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Power per unit area",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Electric field intensity",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Magnetic field intensity",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electromagnetism - EM Waves",
+            "difficulty": "Medium",
+            "explanation": "Poynting vector S = (E × B)/μ₀ represents electromagnetic energy flux (power per unit area)."
+          },
+          {
+            "id": "PH039",
+            "text": "A particle in a central force field conserves:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Linear momentum",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Angular momentum",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both A and B",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Neither A nor B",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Classical Mechanics - Central Forces",
+            "difficulty": "Easy",
+            "explanation": "In a central force field (F parallel to r), torque is zero, so angular momentum is conserved."
+          },
+          {
+            "id": "PH040",
+            "text": "The binding energy per nucleon is maximum for:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Helium-4",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Carbon-12",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Iron-56",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Uranium-238",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Nuclear Physics - Binding Energy",
+            "difficulty": "Easy",
+            "explanation": "Iron-56 has the highest binding energy per nucleon (~8.8 MeV), making it the most stable nucleus."
+          },
+          {
+            "id": "PH041",
+            "text": "For a particle on a ring, the angular momentum eigenvalues are:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "mℏ where m = 0, ±1, ±2, ...",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "√(l(l+1))ℏ",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "nℏ where n = 1, 2, 3, ...",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "ℏ/2",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Quantum Mechanics - Angular Momentum",
+            "difficulty": "Medium",
+            "explanation": "For particle on ring, Lz eigenvalues are mℏ with m = 0, ±1, ±2, ... (unrestricted integer)."
+          },
+          {
+            "id": "PH042",
+            "text": "The entropy change in an irreversible process is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Zero",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Negative",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Positive",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Can be any value",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Thermodynamics - Entropy",
+            "difficulty": "Easy",
+            "explanation": "For irreversible processes, entropy of the universe always increases (ΔS > 0)."
+          },
+          {
+            "id": "PH043",
+            "text": "The cyclotron frequency depends on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Velocity of particle",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Radius of orbit",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Charge to mass ratio",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Energy of particle",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electromagnetism - Charged Particles",
+            "difficulty": "Medium",
+            "explanation": "Cyclotron frequency ω = qB/m depends on charge-to-mass ratio (q/m) and magnetic field B."
+          },
+          {
+            "id": "PH044",
+            "text": "Resolving power of a microscope is proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Wavelength",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1/Wavelength",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Wavelength²",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Independent of wavelength",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Optics - Resolving Power",
+            "difficulty": "Medium",
+            "explanation": "Resolving power ∝ 1/λ. Shorter wavelengths give better resolution."
+          },
+          {
+            "id": "PH045",
+            "text": "The partition function Z in statistical mechanics is related to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Internal energy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Helmholtz free energy",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Entropy",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "All of the above",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Statistical Mechanics - Partition Function",
+            "difficulty": "Medium",
+            "explanation": "Partition function Z connects to all thermodynamic quantities: F = -kT ln Z, U = -∂ln Z/∂β, S = k ln Z + U/T."
+          },
+          {
+            "id": "PH046",
+            "text": "The Lorentz force on a charged particle moving in EM fields is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "F = q(E + v × B)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "F = q(E - v × B)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "F = qE + qvB",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "F = q(E × B)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electromagnetism - Lorentz Force",
+            "difficulty": "Easy",
+            "explanation": "Lorentz force: F = qE + q(v × B) = q(E + v × B)."
+          },
+          {
+            "id": "PH047",
+            "text": "A rigid body has how many degrees of freedom in 3D space?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "6",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "9",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "12",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Classical Mechanics - Rigid Body",
+            "difficulty": "Easy",
+            "explanation": "Rigid body in 3D has 6 degrees of freedom: 3 translational + 3 rotational."
+          },
+          {
+            "id": "PH048",
+            "text": "The Dulong-Petit law relates to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Specific heat of gases",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Specific heat of solids",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Thermal conductivity",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Coefficient of expansion",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Solid State Physics - Specific Heat",
+            "difficulty": "Easy",
+            "explanation": "Dulong-Petit law: molar specific heat of solids ≈ 3R at high temperatures."
+          },
+          {
+            "id": "PH049",
+            "text": "In X-ray diffraction from crystals, Bragg's law is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2d sin θ = nλ",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "d sin θ = nλ",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2d cos θ = nλ",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "d cos θ = nλ",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Solid State Physics - X-ray Diffraction",
+            "difficulty": "Easy",
+            "explanation": "Bragg's law for constructive interference: 2d sin θ = nλ."
+          },
+          {
+            "id": "PH050",
+            "text": "The Klein-Gordon equation describes:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Spin-0 relativistic particles",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Spin-1/2 particles",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Photons",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Non-relativistic particles",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Quantum Mechanics - Relativistic QM",
+            "difficulty": "Medium",
+            "explanation": "Klein-Gordon equation is the relativistic wave equation for spin-0 particles (scalar bosons)."
+          },
+          {
+            "id": "PH051",
+            "text": "The Lagrangian L of a system is defined as:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "L = T + V",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "L = T - V",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "L = T/V",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "L = 2T - V",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Classical Mechanics - Lagrangian Formalism",
+            "difficulty": "Easy",
+            "explanation": "Lagrangian L = T - V, where T is kinetic energy and V is potential energy."
+          },
+          {
+            "id": "PH052",
+            "text": "Rutherford scattering is characteristic of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Strong nuclear force",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Weak nuclear force",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Coulomb force",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Gravitational force",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Nuclear Physics - Scattering",
+            "difficulty": "Easy",
+            "explanation": "Rutherford scattering describes alpha particle scattering by Coulomb (electromagnetic) force from nucleus."
+          },
+          {
+            "id": "PH053",
+            "text": "For a p-n junction diode in forward bias, the depletion region:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increases",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Decreases",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Remains same",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Disappears completely",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electronics - Semiconductor Devices",
+            "difficulty": "Easy",
+            "explanation": "In forward bias, the depletion region width decreases as majority carriers overcome the barrier."
+          },
+          {
+            "id": "PH054",
+            "text": "The Debye temperature is related to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Superconductivity",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Lattice vibrations",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Ferromagnetism",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Band structure",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Solid State Physics - Lattice Dynamics",
+            "difficulty": "Medium",
+            "explanation": "Debye temperature θD characterizes lattice vibration spectrum and specific heat behavior at low temperatures."
+          },
+          {
+            "id": "PH055",
+            "text": "The Dirac equation predicts:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Electron spin",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Positron existence",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Fine structure",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "All of the above",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Quantum Mechanics - Relativistic QM",
+            "difficulty": "Hard",
+            "explanation": "Dirac equation naturally incorporates electron spin, predicts antimatter (positron), and explains fine structure of hydrogen spectrum."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "GATE Physics Assessment Results",
+        "description": "Your comprehensive GATE Physics assessment results with detailed analysis and recommendations for improvement.",
+        "questions": []
+      }
+    }
+  }

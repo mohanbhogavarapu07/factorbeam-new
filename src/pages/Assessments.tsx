@@ -4,10 +4,10 @@ import { Badge } from "@/components/ui/badge";
 import { ChevronDown, Trophy, Clock, BookOpen, Target } from "lucide-react";
 import TestInterface, { TestResults } from "@/components/TestInterface";
 import ResultsPage from "@/components/ResultsPage";
-import { upscQuestions, catQuestions, gateQuestions, sscQuestions } from "@/data/assessments";
+import { upscQuestions, catQuestions, sscQuestions } from "@/data/assessments";
 
 type TestState = "list" | "test" | "results";
-type TestType = "upsc" | "cat" | "gate" | "ssc" | null;
+type TestType = "upsc" | "cat" | "ssc" | null;
 
 const Assessments = () => {
   const [openAccordions, setOpenAccordions] = useState<Record<string, boolean>>({});
@@ -57,16 +57,6 @@ const Assessments = () => {
       attempts: "23,456",
     },
     {
-      id: "gate" as TestType,
-      title: "GATE Computer Science Mock",
-      description: "Complete GATE CS syllabus coverage",
-      details: "10 Questions | 15 Mins | 17 Marks",
-      tags: ["Data Structures", "Algorithms", "OS", "DBMS"],
-      icon: Trophy,
-      difficulty: "Hard",
-      attempts: "18,890",
-    },
-    {
       id: "ssc" as TestType,
       title: "SSC CGL Tier 1 Mock Test",
       description: "Practice test for SSC Combined Graduate Level",
@@ -84,8 +74,6 @@ const Assessments = () => {
         return upscQuestions;
       case "cat":
         return catQuestions;
-      case "gate":
-        return gateQuestions;
       case "ssc":
         return sscQuestions;
       default:
@@ -104,8 +92,6 @@ const Assessments = () => {
         return 20;
       case "cat":
         return 30;
-      case "gate":
-        return 15;
       case "ssc":
         return 15;
       default:

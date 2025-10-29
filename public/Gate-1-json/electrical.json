@@ -1,0 +1,2238 @@
+{
+    "id": "electrical",
+    "title": "Electrical Engineering (EE)",
+    "description": "Comprehensive GATE Electrical Engineering assessment covering General Aptitude and Core Electrical Engineering subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core electrical engineering questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Easy",
+    "isActive": true,
+    "featured": true,
+    "metadata": {
+      "icon": "electrical-engineering",
+      "gradient": "from-blue-600 to-purple-600",
+      "userCount": 12500,
+      "tags": ["GATE", "Electrical Engineering", "Engineering", "Aptitude", "Core Subjects"]
+    },
+    "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Electrical Engineering is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in electrical engineering and related fields. This assessment follows the official GATE pattern with General Aptitude and Core Electrical Engineering questions.",
+    "typicalCareers": [
+      {
+        "title": "Electrical Engineer",
+        "description": "Advanced electrical engineering positions in power systems, control systems, and electronics"
+      },
+      {
+        "title": "PhD Candidate",
+        "description": "Pursue higher studies in electrical engineering and related fields"
+      },
+      {
+        "title": "Power Systems Engineer",
+        "description": "Senior technical roles in power generation, transmission, and distribution"
+      }
+    ],
+    "whoShouldConsider": [
+      "Electrical Engineering graduates preparing for GATE",
+      "Students seeking admission to M.Tech/M.E programs in electrical engineering",
+      "Professionals looking for PSU jobs in electrical sector",
+      "Researchers in electrical engineering and related fields"
+    ],
+    "idealTraits": [
+      "Strong analytical and problem-solving skills",
+      "Solid foundation in electrical engineering fundamentals",
+      "Mathematical aptitude and logical reasoning",
+      "Good understanding of power systems and control theory"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude Assessment (10 questions, 15 marks)",
+        "Core Electrical Engineering Assessment (55 questions, 85 marks)"
+      ],
+      "resultsInclude": [
+        "Section-wise scores (Aptitude & Core)",
+        "Topic-wise performance analysis",
+        "Difficulty-wise accuracy",
+        "Overall percentile ranking",
+        "Detailed explanations for all questions"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment",
+        "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "If the sum of two numbers is 15 and their product is 54, what are the numbers?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "6 and 9",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5 and 10",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "7 and 8",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4 and 11",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Numerical Ability",
+            "difficulty": "Easy",
+            "explanation": "Let the numbers be x and y. Given: x + y = 15 and xy = 54. Solving these equations: x = 6, y = 9.",
+            "marks": 1
+          },
+          {
+            "id": "GA002",
+            "text": "Complete the series: 2, 6, 12, 20, 30, ?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "40",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "42",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "44",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "46",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Logical Reasoning",
+            "difficulty": "Easy",
+            "explanation": "The differences between consecutive terms are 4, 6, 8, 10, 12. Next number = 30 + 12 = 42.",
+            "marks": 1
+          },
+          {
+            "id": "GA003",
+            "text": "A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less. Find the original speed.",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "30 km/h",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "40 km/h",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "45 km/h",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "50 km/h",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude",
+            "difficulty": "Medium",
+            "explanation": "Let speed = x km/h. Time = 360/x. With increased speed: 360/(x+5) = 360/x - 1. Solving: x = 40 km/h.",
+            "marks": 2
+          },
+          {
+            "id": "GA004",
+            "text": "Choose the word that is most nearly opposite in meaning to VERBOSE:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Concise",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Eloquent",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Talkative",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Wordy",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Verbal Ability",
+            "difficulty": "Easy",
+            "explanation": "Verbose means using more words than needed. Concise means expressing much in few words, making it the opposite.",
+            "marks": 1
+          },
+          {
+            "id": "GA005",
+            "text": "If 20% of a number is 80, what is 75% of that number?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "240",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "280",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "300",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "320",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Numerical Ability",
+            "difficulty": "Easy",
+            "explanation": "Let the number be x. 0.20x = 80, so x = 400. Therefore, 75% of 400 = 0.75 × 400 = 300.",
+            "marks": 1
+          },
+          {
+            "id": "GA006",
+            "text": "In a class of 60 students, 30 play cricket, 25 play football, and 10 play both. How many students play neither?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "5",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "10",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "15",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "20",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Logical Reasoning",
+            "difficulty": "Medium",
+            "explanation": "Using set theory: Total = 60, Cricket only = 20, Football only = 15, Both = 10. Neither = 60 - (20 + 15 + 10) = 15.",
+            "marks": 2
+          },
+          {
+            "id": "GA007",
+            "text": "Find the next term in the sequence: 1, 4, 9, 16, 25, ?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "30",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "32",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "36",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "40",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Numerical Ability",
+            "difficulty": "Easy",
+            "explanation": "The sequence represents perfect squares: 1², 2², 3², 4², 5², 6² = 36.",
+            "marks": 1
+          },
+          {
+            "id": "GA008",
+            "text": "The ratio of ages of A and B is 3:5. After 5 years, the ratio will be 2:3. What is A's current age?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "15 years",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "20 years",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "25 years",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "30 years",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Quantitative Aptitude",
+            "difficulty": "Medium",
+            "explanation": "Let ages be 3x and 5x. After 5 years: (3x+5)/(5x+5) = 2/3. Solving: x = 5. A's age = 3×5 = 15 years.",
+            "marks": 2
+          },
+          {
+            "id": "GA009",
+            "text": "Which of the following statements must be true if all cats are animals and some animals are dogs?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "All cats are dogs",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Some cats are dogs",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Some dogs are cats",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "None of the above",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Logical Reasoning",
+            "difficulty": "Medium",
+            "explanation": "From the given statements, we cannot conclude any definite relationship between cats and dogs.",
+            "marks": 1
+          },
+          {
+            "id": "GA010",
+            "text": "A person invests Rs. 10,000 at 10% per annum compound interest. What will be the amount after 2 years?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Rs. 11,000",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Rs. 12,000",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Rs. 12,100",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Rs. 12,500",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Quantitative Aptitude",
+            "difficulty": "Easy",
+            "explanation": "Amount = P(1 + r/100)^n = 10000(1 + 10/100)² = 10000 × 1.21 = Rs. 12,100.",
+            "marks": 2
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Electrical Engineering Assessment",
+        "description": "Comprehensive assessment of core electrical engineering subjects including Network Theory, Power Systems, Control Systems, Electrical Machines, Electronic Devices, Analog Electronics, Digital Electronics, Electromagnetics, Signals and Systems, Communication Systems, Power Electronics, and Measurements. This section carries 85% weight in the total assessment.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "EE001",
+            "text": "The RMS value of a sinusoidal voltage of peak value 100V is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "50V",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "70.7V",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "100V",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "141.4V",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Network Theory",
+            "difficulty": "Easy",
+            "explanation": "For a sinusoidal waveform, RMS value = Peak value / √2 = 100 / 1.414 = 70.7V.",
+            "marks": 1
+          },
+          {
+            "id": "EE002",
+            "text": "In a three-phase balanced system with line voltage 400V, the phase voltage is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "200V",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "231V",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "283V",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "400V",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Power Systems",
+            "difficulty": "Easy",
+            "explanation": "In a star-connected system, Phase voltage = Line voltage / √3 = 400 / 1.732 = 231V.",
+            "marks": 1
+          },
+          {
+            "id": "EE003",
+            "text": "The Laplace transform of unit step function u(t) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1/s",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "s",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/s²",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "e^(-s)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems",
+            "difficulty": "Easy",
+            "explanation": "The Laplace transform of unit step function u(t) is L{u(t)} = 1/s for s > 0.",
+            "marks": 1
+          },
+          {
+            "id": "EE004",
+            "text": "A DC motor develops a torque of 20 Nm at 1500 rpm. The power developed is approximately:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2 kW",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "3.14 kW",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "4 kW",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5 kW",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electrical Machines",
+            "difficulty": "Medium",
+            "explanation": "Power (W) = 2πNT/60 = 2π × 1500 × 20 / 60 = 3141.6W ≈ 3.14 kW.",
+            "marks": 2
+          },
+          {
+            "id": "EE005",
+            "text": "The intrinsic impedance of free space is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "120π Ω",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "377 Ω",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both A and B",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "None of the above",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electromagnetics",
+            "difficulty": "Easy",
+            "explanation": "Intrinsic impedance of free space η₀ = √(μ₀/ε₀) = 120π ≈ 377 Ω.",
+            "marks": 1
+          },
+          {
+            "id": "EE006",
+            "text": "In a MOSFET, the channel is formed by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Majority carriers only",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Minority carriers only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both majority and minority carriers",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Depletion of carriers",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electronic Devices",
+            "difficulty": "Medium",
+            "explanation": "In a MOSFET, the channel is formed by minority carriers through inversion when gate voltage exceeds threshold.",
+            "marks": 1
+          },
+          {
+            "id": "EE007",
+            "text": "The per-unit impedance of a transformer is 0.05 pu on its rating. On a base 10 times its rating, the pu impedance will be:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.005",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.05",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.5",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Power Systems",
+            "difficulty": "Hard",
+            "explanation": "When base is changed by factor k, new pu impedance = old pu impedance × (k)² / k = 0.05 × 10 = 0.5 pu.",
+            "marks": 2
+          },
+          {
+            "id": "EE008",
+            "text": "The Nyquist stability criterion is used to determine:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Absolute stability",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Relative stability",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both absolute and relative stability",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "None of the above",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "explanation": "Nyquist criterion determines both absolute stability (whether system is stable) and relative stability (degree of stability).",
+            "marks": 2
+          },
+          {
+            "id": "EE009",
+            "text": "The efficiency of a transformer is maximum when:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Iron losses = Copper losses",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Iron losses > Copper losses",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Iron losses < Copper losses",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Load is minimum",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electrical Machines",
+            "difficulty": "Medium",
+            "explanation": "Maximum efficiency occurs when variable losses (copper losses) equal constant losses (iron losses).",
+            "marks": 2
+          },
+          {
+            "id": "EE010",
+            "text": "The sampling theorem states that a signal can be reconstructed if sampled at a rate:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Equal to the signal frequency",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Equal to twice the highest frequency",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Equal to half the highest frequency",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Independent of signal frequency",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Signals and Systems",
+            "difficulty": "Easy",
+            "explanation": "Nyquist-Shannon sampling theorem: Sampling rate must be at least twice the highest frequency component (fs ≥ 2fm).",
+            "marks": 1
+          },
+          {
+            "id": "EE011",
+            "text": "A CMOS inverter has VDD = 5V. The logic threshold voltage VTH is approximately:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0V",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1.25V",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2.5V",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5V",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Digital Electronics",
+            "difficulty": "Easy",
+            "explanation": "For a symmetric CMOS inverter, logic threshold VTH = VDD/2 = 5/2 = 2.5V.",
+            "marks": 1
+          },
+          {
+            "id": "EE012",
+            "text": "The unit of electric field intensity is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "V/m",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "V·m",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "A/m",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "A·m",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electromagnetics",
+            "difficulty": "Easy",
+            "explanation": "Electric field intensity E = V/d, where V is voltage and d is distance. Unit is Volt per meter (V/m).",
+            "marks": 1
+          },
+          {
+            "id": "EE013",
+            "text": "In a synchronous generator, hunting is caused by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sudden change in load",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Sudden change in speed",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Variations in excitation",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "All of the above",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Electrical Machines",
+            "difficulty": "Medium",
+            "explanation": "Hunting (oscillation of rotor) can be caused by sudden load changes, speed variations, or excitation variations.",
+            "marks": 2
+          },
+          {
+            "id": "EE014",
+            "text": "The Z-transform of x[n] = aⁿu[n] is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "z/(z-a)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1/(z-a)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "z/(z+a)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "(z-a)/z",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Signals and Systems",
+            "difficulty": "Medium",
+            "explanation": "Z-transform of aⁿu[n] = Σ(aⁿz⁻ⁿ) = z/(z-a) for |z| > |a|.",
+            "marks": 2
+          },
+          {
+            "id": "EE015",
+            "text": "The breakdown mechanism in a lightly doped p-n junction is primarily:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Avalanche breakdown",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Zener breakdown",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Thermal breakdown",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Punch-through",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electronic Devices",
+            "difficulty": "Medium",
+            "explanation": "In lightly doped junctions with wide depletion region, avalanche breakdown (impact ionization) dominates.",
+            "marks": 1
+          },
+          {
+            "id": "EE016",
+            "text": "In a transmission line, characteristic impedance Z₀ depends on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Length of line only",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Load impedance only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Line parameters (L, C, R, G)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Frequency only",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electromagnetics",
+            "difficulty": "Medium",
+            "explanation": "Characteristic impedance Z₀ = √[(R + jωL)/(G + jωC)] depends on per-unit-length parameters L, C, R, G.",
+            "marks": 2
+          },
+          {
+            "id": "EE017",
+            "text": "The cut-off frequency of a first-order RC low-pass filter with R = 1kΩ and C = 1μF is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "159 Hz",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1.59 kHz",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "15.9 kHz",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "159 kHz",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Analog Electronics",
+            "difficulty": "Medium",
+            "explanation": "Cut-off frequency fc = 1/(2πRC) = 1/(2π × 1000 × 1×10⁻⁶) = 159.15 Hz.",
+            "marks": 2
+          },
+          {
+            "id": "EE018",
+            "text": "The steady-state error for a unit step input to a Type-1 system is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "∞",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Constant",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Depends on Kv",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems",
+            "difficulty": "Easy",
+            "explanation": "Type-1 system has one integrator. For step input, steady-state error ess = 1/(1+Kp) = 0 (since Kp = ∞).",
+            "marks": 1
+          },
+          {
+            "id": "EE019",
+            "text": "In a three-phase induction motor, the direction of rotation can be reversed by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Interchanging any two supply lines",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reversing all three supply lines",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Changing supply frequency",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Changing rotor resistance",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electrical Machines",
+            "difficulty": "Easy",
+            "explanation": "Reversing the phase sequence by interchanging any two supply lines reverses the direction of rotating magnetic field.",
+            "marks": 1
+          },
+          {
+            "id": "EE020",
+            "text": "The bandwidth of an FM signal with modulation index β and maximum frequency fm is approximately:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2fm",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2βfm",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2(β+1)fm",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2(β+2)fm",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Communication Systems",
+            "difficulty": "Hard",
+            "explanation": "Carson's rule: Bandwidth ≈ 2(Δf + fm) = 2(βfm + fm) = 2fm(β + 1).",
+            "marks": 2
+          },
+          {
+            "id": "EE021",
+            "text": "The voltage regulation of a transformer is defined as:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Change in secondary voltage from no-load to full-load",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Change in primary voltage from no-load to full-load",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Ratio of voltage drops to rated voltage",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Percentage change in secondary terminal voltage",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Electrical Machines",
+            "difficulty": "Easy",
+            "explanation": "Voltage regulation = [(V_no-load - V_full-load) / V_full-load] × 100%. It represents percentage change in terminal voltage.",
+            "marks": 1
+          },
+          {
+            "id": "EE022",
+            "text": "A Buck converter operates with input voltage 24V and output voltage 12V. The duty cycle is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.25",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.5",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.75",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1.0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Power Electronics",
+            "difficulty": "Easy",
+            "explanation": "For Buck converter: V_out = D × V_in. Therefore, D = V_out/V_in = 12/24 = 0.5.",
+            "marks": 1
+          },
+          {
+            "id": "EE023",
+            "text": "The advantage of HVDC transmission over HVAC is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Lower corona and radio interference",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Easier voltage transformation",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Simpler circuit breakers",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "No reactive power requirement",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Power Systems",
+            "difficulty": "Medium",
+            "explanation": "HVDC transmission eliminates reactive power issues, has no skin effect, and is economical for long distances despite higher converter costs.",
+            "marks": 2
+          },
+          {
+            "id": "EE024",
+            "text": "The h-parameter that represents output admittance in common emitter configuration is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "h_ie",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "h_re",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "h_fe",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "h_oe",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Analog Electronics",
+            "difficulty": "Easy",
+            "explanation": "h_oe is the output admittance in CE configuration, measured as ΔI_c/ΔV_ce with I_b constant.",
+            "marks": 1
+          },
+          {
+            "id": "EE025",
+            "text": "In a Wheatstone bridge, maximum sensitivity occurs when:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "All resistances are equal",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Bridge is balanced",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Supply voltage is maximum",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "One resistance is very large",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "explanation": "Maximum sensitivity in Wheatstone bridge occurs when all four arms have equal resistance, giving maximum voltage gradient.",
+            "marks": 2
+          },
+          {
+            "id": "EE026",
+            "text": "The slip of a 6-pole, 50 Hz induction motor running at 960 rpm is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.02",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.04",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.05",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.08",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electrical Machines",
+            "difficulty": "Medium",
+            "explanation": "Synchronous speed N_s = 120f/P = 120×50/6 = 1000 rpm. Slip s = (N_s - N_r)/N_s = (1000-960)/1000 = 0.04.",
+            "marks": 2
+          },
+          {
+            "id": "EE027",
+            "text": "A single-phase half-wave rectifier with resistive load has average output voltage (V_m is peak voltage):",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "V_m/π",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "V_m/2π",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2V_m/π",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "V_m/√2",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Power Electronics",
+            "difficulty": "Easy",
+            "explanation": "For half-wave rectifier: V_avg = V_m/π. The output is positive half of sine wave only.",
+            "marks": 1
+          },
+          {
+            "id": "EE028",
+            "text": "The forward path transfer function of a unity feedback system is G(s) = K/s(s+2). For the system to be stable, K must be:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "K > 0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "K < 0",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "K > 2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Any value",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "explanation": "Characteristic equation: s² + 2s + K = 0. By Routh-Hurwitz criterion, for stability: K > 0 and all coefficients positive.",
+            "marks": 2
+          },
+          {
+            "id": "EE029",
+            "text": "The number of flip-flops required to construct a MOD-16 counter is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "8",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "16",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Digital Electronics",
+            "difficulty": "Easy",
+            "explanation": "MOD-N counter requires n flip-flops where 2^n ≥ N. For MOD-16: 2^4 = 16, so 4 flip-flops needed.",
+            "marks": 1
+          },
+          {
+            "id": "EE030",
+            "text": "The active power consumed by a purely inductive circuit is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Maximum",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Zero",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Depends on frequency",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Equals reactive power",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Network Theory",
+            "difficulty": "Easy",
+            "explanation": "In purely inductive circuit, current lags voltage by 90°. Real power P = VI cos(90°) = 0.",
+            "marks": 1
+          },
+          {
+            "id": "EE031",
+            "text": "The equivalent circuit of a crystal oscillator represents it as:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Series RLC circuit",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Parallel RLC circuit",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Series and parallel RLC combination",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Pure capacitor",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Analog Electronics",
+            "difficulty": "Medium",
+            "explanation": "Crystal has series resonance (L_s, C_s, R_s) and parallel resonance (C_p), giving two resonant frequencies.",
+            "marks": 2
+          },
+          {
+            "id": "EE032",
+            "text": "String efficiency of a suspension insulator can be improved by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Using guard rings",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Using longer strings",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Grading the insulators",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Both A and C",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Power Systems",
+            "difficulty": "Medium",
+            "explanation": "String efficiency is improved by guard rings (equalizing voltage distribution) and grading (varying capacitance).",
+            "marks": 2
+          },
+          {
+            "id": "EE033",
+            "text": "The condition for maximum power transfer in AC circuits is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Z_L = Z_s",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Z_L = Z_s*",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "R_L = R_s",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "X_L = -X_s",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Network Theory",
+            "difficulty": "Easy",
+            "explanation": "For maximum power transfer in AC circuits: Load impedance Z_L must equal complex conjugate of source impedance Z_s*.",
+            "marks": 1
+          },
+          {
+            "id": "EE034",
+            "text": "A Hall effect sensor primarily measures:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Temperature",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Pressure",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Magnetic field",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Light intensity",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Measurements",
+            "difficulty": "Easy",
+            "explanation": "Hall effect sensor measures magnetic field intensity by detecting voltage perpendicular to current flow in magnetic field.",
+            "marks": 1
+          },
+          {
+            "id": "EE035",
+            "text": "The back emf in a DC motor is directly proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Armature current",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Field flux",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Speed",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Both B and C",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Electrical Machines",
+            "difficulty": "Easy",
+            "explanation": "Back emf E_b = (PφZN)/(60A) ∝ φN, where φ is flux and N is speed. It's proportional to both flux and speed.",
+            "marks": 1
+          },
+          {
+            "id": "EE036",
+            "text": "The Bode plot of a system shows a slope of -40 dB/decade. The system has:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Two poles at origin",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Two zeros at origin",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "One pole and one zero at origin",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Four poles",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "explanation": "Slope of -40 dB/decade indicates two poles at origin (each pole at origin contributes -20 dB/decade).",
+            "marks": 2
+          },
+          {
+            "id": "EE037",
+            "text": "In a 3-phase bridge inverter, the number of switching devices required is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "6",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "9",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "12",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Power Electronics",
+            "difficulty": "Easy",
+            "explanation": "A 3-phase bridge inverter requires 6 switching devices (2 per phase) to generate 3-phase AC output from DC input.",
+            "marks": 1
+          },
+          {
+            "id": "EE038",
+            "text": "The propagation constant of a transmission line is given by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "γ = α + jβ",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "γ = α - jβ",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "γ = jωL",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "γ = 1/jωC",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electromagnetics",
+            "difficulty": "Easy",
+            "explanation": "Propagation constant γ = α + jβ, where α is attenuation constant (Np/m) and β is phase constant (rad/m).",
+            "marks": 1
+          },
+          {
+            "id": "EE039",
+            "text": "A Karnaugh map for 4 variables has how many cells?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "8",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "16",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "32",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "64",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Digital Electronics",
+            "difficulty": "Easy",
+            "explanation": "K-map for n variables has 2^n cells. For 4 variables: 2^4 = 16 cells arranged in 4×4 grid.",
+            "marks": 1
+          },
+          {
+            "id": "EE040",
+            "text": "The load angle of a synchronous motor at no-load is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0°",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "45°",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "90°",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "180°",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electrical Machines",
+            "difficulty": "Easy",
+            "explanation": "At no-load, synchronous motor has zero load angle as there's no torque requirement and rotor is aligned with stator field.",
+            "marks": 1
+          },
+          {
+            "id": "EE041",
+            "text": "The main advantage of using negative feedback in amplifiers is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increased gain",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reduced bandwidth",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Improved stability",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Increased noise",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Analog Electronics",
+            "difficulty": "Easy",
+            "explanation": "Negative feedback improves stability, reduces distortion, increases bandwidth, and makes gain independent of transistor parameters.",
+            "marks": 1
+          },
+          {
+            "id": "EE042",
+            "text": "Ferranti effect in transmission lines causes:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Voltage drop at receiving end",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Voltage rise at receiving end",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Power loss",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Frequency variation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Power Systems",
+            "difficulty": "Medium",
+            "explanation": "Ferranti effect occurs in lightly loaded long lines where capacitance dominates, causing receiving end voltage > sending end voltage.",
+            "marks": 2
+          },
+          {
+            "id": "EE043",
+            "text": "The impulse response of an LTI system is h(t) = e^(-2t)u(t). The system is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Stable and causal",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Unstable and causal",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Stable and non-causal",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Unstable and non-causal",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Signals and Systems",
+            "difficulty": "Medium",
+            "explanation": "System is causal (h(t)=0 for t<0 due to u(t)) and stable (∫|h(t)|dt converges as e^(-2t) decays).",
+            "marks": 2
+          },
+          {
+            "id": "EE044",
+            "text": "The main function of a commutator in a DC machine is to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Convert AC to DC in generator",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Convert DC to AC in motor",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Provide unidirectional torque",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "All of the above",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Electrical Machines",
+            "difficulty": "Easy",
+            "explanation": "Commutator performs mechanical rectification: converts AC to DC in generator, DC to AC in armature, ensures unidirectional torque.",
+            "marks": 1
+          },
+          {
+            "id": "EE045",
+            "text": "The gain margin of a system with open-loop transfer function G(s)H(s) = K/[s(s+1)(s+2)] for K=6 is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Infinite",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6 dB",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "12 dB",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems",
+            "difficulty": "Hard",
+            "explanation": "System has 3 poles, no zeros. Phase never reaches -180°, so phase crossover frequency doesn't exist. Gain margin is infinite.",
+            "marks": 2
+          },
+          {
+            "id": "EE046",
+            "text": "In amplitude modulation, if modulation index is 0.5 and carrier power is 100W, the total power is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "100W",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "112.5W",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "125W",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "150W",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Communication Systems",
+            "difficulty": "Medium",
+            "explanation": "Total power P_t = P_c(1 + μ²/2) = 100(1 + 0.5²/2) = 100(1.125) = 112.5W.",
+            "marks": 2
+          },
+          {
+            "id": "EE047",
+            "text": "A CT is rated 500/5A, 50VA, 5P10. The accuracy class is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "5",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "10",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "5P",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "50",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Measurements",
+            "difficulty": "Easy",
+            "explanation": "5P10 indicates accuracy class 5P (5% composite error at 10 times rated current), used for protection applications.",
+            "marks": 1
+          },
+          {
+            "id": "EE048",
+            "text": "The forbidden energy gap in silicon at 300K is approximately:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.3 eV",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.7 eV",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1.1 eV",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1.5 eV",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electronic Devices",
+            "difficulty": "Easy",
+            "explanation": "Silicon has energy gap E_g ≈ 1.1 eV at room temperature (300K). Germanium has ~0.7 eV, GaAs has ~1.4 eV.",
+            "marks": 1
+          },
+          {
+            "id": "EE049",
+            "text": "The magnitude of pointing vector represents:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Electric field intensity",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Magnetic field intensity",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Power density",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Energy density",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electromagnetics",
+            "difficulty": "Easy",
+            "explanation": "Poynting vector P = E × H represents electromagnetic power flow density (W/m²) in the direction of propagation.",
+            "marks": 1
+          },
+          {
+            "id": "EE050",
+            "text": "The maximum efficiency of a class B push-pull amplifier is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "25%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "50%",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "78.5%",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "90%",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Analog Electronics",
+            "difficulty": "Easy",
+            "explanation": "Class B amplifier has theoretical maximum efficiency η_max = π/4 = 78.5%, better than Class A (50%) but with crossover distortion.",
+            "marks": 1
+          },
+          {
+            "id": "EE051",
+            "text": "A 3-phase alternator has 4 poles and runs at 1500 rpm. The frequency of generated voltage is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "25 Hz",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "50 Hz",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "75 Hz",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "100 Hz",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electrical Machines",
+            "difficulty": "Easy",
+            "explanation": "Frequency f = PN/120 = 4 × 1500/120 = 50 Hz.",
+            "marks": 1
+          },
+          {
+            "id": "EE052",
+            "text": "The critical resistance of a DC shunt generator is the resistance of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Armature circuit",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Field circuit for critical speed",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Field circuit for given speed",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "External load",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electrical Machines",
+            "difficulty": "Medium",
+            "explanation": "Critical resistance is the maximum field circuit resistance below which generator will build up voltage at a given speed.",
+            "marks": 2
+          },
+          {
+            "id": "EE053",
+            "text": "The power factor of an RLC series circuit at resonance is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.707 lagging",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.707 leading",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Network Theory",
+            "difficulty": "Easy",
+            "explanation": "At resonance, X_L = X_C, so impedance Z = R (purely resistive). Power factor = cos(0°) = 1 (unity).",
+            "marks": 1
+          },
+          {
+            "id": "EE054",
+            "text": "A differentiator circuit using op-amp has input impedance that:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increases with frequency",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Decreases with frequency",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Remains constant",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Is infinite",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog Electronics",
+            "difficulty": "Medium",
+            "explanation": "Input impedance Z_in = 1/(jωC) decreases with increasing frequency, making circuit susceptible to high-frequency noise.",
+            "marks": 2
+          },
+          {
+            "id": "EE055",
+            "text": "The advantage of pulse width modulation (PWM) in inverters is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Reduced harmonic content",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Variable output voltage and frequency",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Better control",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "All of the above",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Power Electronics",
+            "difficulty": "Easy",
+            "explanation": "PWM provides reduced harmonics, variable voltage/frequency control, and improved efficiency compared to square-wave operation.",
+            "marks": 1
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "GATE Electrical Engineering Assessment Results",
+        "description": "Your comprehensive GATE Electrical Engineering assessment results with detailed analysis and recommendations for improvement.",
+        "questions": []
+      }
+    }
+  }

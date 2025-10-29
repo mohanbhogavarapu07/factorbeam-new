@@ -1,0 +1,2312 @@
+{
+    "id": "statistics-pyq",
+    "title": "Statistics PYQ (ST)",
+    "description": "Comprehensive GATE Statistics assessment covering General Aptitude and Core Statistics subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core statistics questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Moderate",
+    "isActive": true,
+    "featured": true,
+    "metadata": {
+      "icon": "statistics",
+      "gradient": "from-purple-600 to-indigo-600",
+      "userCount": 8500,
+      "tags": ["GATE", "Statistics", "Engineering", "Aptitude", "Core Subjects"]
+    },
+    "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Statistics is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in statistics including Probability Theory, Statistical Inference, Linear Models, Design of Experiments, and Stochastic Processes. This assessment follows the official GATE pattern with General Aptitude and Core Statistics questions.",
+    "typicalCareers": [
+      {
+        "title": "Statistician",
+        "description": "Analyze data and provide statistical insights for decision making"
+      },
+      {
+        "title": "Data Scientist",
+        "description": "Apply statistical methods to extract insights from large datasets"
+      },
+      {
+        "title": "Research Analyst",
+        "description": "Design experiments and analyze research data using statistical methods"
+      }
+    ],
+    "whoShouldConsider": [
+      "Statistics graduates preparing for GATE",
+      "Students seeking admission to M.Tech/M.E programs in statistics",
+      "Professionals looking for PSU jobs in statistics",
+      "Researchers in statistics and related fields"
+    ],
+    "idealTraits": [
+      "Strong analytical and mathematical skills",
+      "Solid foundation in probability and statistics",
+      "Good understanding of statistical inference and modeling",
+      "Ability to work with large datasets and statistical software"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude Assessment (10 questions, 15 marks)",
+        "Core Statistics Assessment (55 questions, 85 marks)"
+      ],
+      "resultsInclude": [
+        "Section-wise scores (Aptitude & Core)",
+        "Topic-wise performance analysis",
+        "Difficulty-wise accuracy",
+        "Overall percentile ranking",
+        "Detailed explanations for all questions"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment",
+        "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "The price of an item is increased by 10% and then decreased by 10%. The net change in price is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1% decrease",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1% increase",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.1% decrease",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Percentage",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "Let the original price be P. Increase by 10%: P(1.1). Decrease by 10%: P(1.1)(0.9) = P(0.99). The net change is a 100-99=1% decrease."
+          },
+          {
+            "id": "GA002",
+            "text": "The ratio of the speed of a boat in still water to the speed of the current is 5:1. If the boat travels a certain distance downstream in 3 hours, what is the time taken to travel the same distance upstream?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "4 hours",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5 hours",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6 hours",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "7.5 hours",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Time & Distance",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Let speed of boat be 5x and current be x. Downstream speed = 6x. Upstream speed = 4x. Distance D = 6x × 3 = 18x. Upstream time T = D / 4x = 18x / 4x = 4.5 hours."
+          },
+          {
+            "id": "GA003",
+            "text": "Choose the most appropriate word from the options given below to complete the following sentence: The candidate's statement was a ___ of truth.",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "deprivation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "dearth",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "travesty",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "recapitulation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Verbal Ability - Vocabulary",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "A 'travesty of truth' means a grotesque misrepresentation or distortion of the truth. 'Dearth' means scarcity, which does not fit the context."
+          },
+          {
+            "id": "GA004",
+            "text": "Find the next term in the series: 3, 7, 13, 21, 31, ...",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "41",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "43",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "45",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "47",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analytical Reasoning - Number Series",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "The differences between consecutive terms are 4, 6, 8, 10. The next difference should be 12. Thus, 31 + 12 = 43."
+          },
+          {
+            "id": "GA005",
+            "text": "If f(x) = |x-2| + |x-5|, the minimum value of f(x) is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Quantitative Aptitude - Calculus/Functions",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "The function f(x) represents the sum of distances from x to 2 and x to 5. The minimum value occurs for x between 2 and 5, where f(x) = (x-2) + (5-x) = 3."
+          },
+          {
+            "id": "GA006",
+            "text": "A clock shows 4:30. What is the angle between the hour and minute hands?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "30 degrees",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "45 degrees",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "60 degrees",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "90 degrees",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Clocks/Geometry",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 90,
+            "explanation": "Angle θ = |30H - (11/2)M|. θ = |30(4) - (11/2)(30)| = |120 - 165| = 45 degrees."
+          },
+          {
+            "id": "GA007",
+            "text": "The synonym for 'Mellifluous' is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Discordant",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Harmonious",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Cacophonous",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Raucous",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Vocabulary (Synonyms)",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "'Mellifluous' means a sound that is sweet and musical; pleasant to hear. 'Harmonious' is the closest synonym."
+          },
+          {
+            "id": "GA008",
+            "text": "In a group, 70% of the students speak English and 50% speak Hindi. If 40 students speak both, what is the total number of students in the group?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "150",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "200",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "400",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4000",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Set Theory",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Percentage speaking both = (70% + 50%) - 100% = 20%. If 20% of total X is 40, then 0.20 × X = 40, so X = 200."
+          },
+          {
+            "id": "GA009",
+            "text": "The pair of words that best expresses a similar relationship as 'Surgeon : Scalpel' is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sculptor : Chisel",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Musician : Instrument",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Lawyer : Court",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Baker : Oven",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Verbal Ability - Analogy",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "The relationship is 'Person : Primary Tool'. A Surgeon uses a Scalpel; a Sculptor uses a Chisel."
+          },
+          {
+            "id": "GA010",
+            "text": "A sum of money doubles in 5 years at simple interest. In how many years will it become four times?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "10",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "15",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "20",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "25",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Simple Interest",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "To double, Interest (I) must be 1P, taking 5 years. To become four times, I must be 3P. Since simple interest is linear, it takes 3 × 5 = 15 years."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Statistics Assessment",
+        "description": "Comprehensive assessment of core statistics subjects including Probability Theory, Statistical Inference, Linear Models, Design of Experiments, and Stochastic Processes. This section carries 85% weight in the total assessment.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "ST001",
+            "text": "If X is a continuous random variable with probability density function f(x), the expected value of X is E[X] = ∫_{-∞}^{∞} x f(x) dx.",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "True",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "False",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "True only if f(x) is symmetric",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "False for unbounded domains",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "This is the fundamental definition of the expected value for a continuous random variable."
+          },
+          {
+            "id": "ST002",
+            "text": "The maximum likelihood estimator (MLE) for the parameter λ of a Poisson distribution is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sample variance (s²)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Sample median",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Sample mean (X̄)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Sample range",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Statistical Inference",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "For the Poisson distribution, the likelihood function leads to the MLE equal to the sample mean (X̄)."
+          },
+          {
+            "id": "ST003",
+            "text": "If A is an n × n matrix with rank r, the dimension of the row space of A is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "n",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "r",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "n-r",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "r²",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Linear Algebra",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "By definition, the rank of a matrix is equal to the dimension of its row space (and also the dimension of its column space)."
+          },
+          {
+            "id": "ST004",
+            "text": "The variance of the sample mean (Var(X̄)) from a simple random sample of size n from a population with variance σ² is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "σ²",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "n σ²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "σ² / n",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "σ / √n",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Sampling Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The variance of the sample mean is the population variance divided by the sample size: Var(X̄) = σ² / n."
+          },
+          {
+            "id": "ST005",
+            "text": "If X and Y are independent random variables, then the covariance Cov(X, Y) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "E[X]E[Y]",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Var(X)Var(Y)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "If X and Y are independent, then E[XY] = E[X]E[Y]. Since Cov(X, Y) = E[XY] - E[X]E[Y], the covariance must be zero."
+          },
+          {
+            "id": "ST006",
+            "text": "The sufficiency property of an estimator implies that the estimator contains:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The minimum variance",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "All the information about the parameter from the sample",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "An unbiased estimate",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "A maximum likelihood estimate",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Statistical Inference",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "A sufficient statistic (estimator) is one that captures all the information contained in the sample about the parameter being estimated."
+          },
+          {
+            "id": "ST007",
+            "text": "For a stationary Markov chain with transition probability matrix P, the existence of a stationary distribution (π) requires:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The chain is transient",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The chain is periodic",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The chain is irreducible and aperiodic (ergodic)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The chain has a finite state space only",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Stochastic Processes",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "A unique stationary distribution π exists for a finite state Markov chain if and only if the chain is irreducible (all states communicate) and aperiodic (ergodic)."
+          },
+          {
+            "id": "ST008",
+            "text": "The general solution to the ordinary differential equation y' = y is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "y = C x",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "y = C e^x",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "y = C sin(x)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "y = C / x",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Calculus",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "This is a separable ODE: dy/y = dx. Integrating gives ln|y| = x + K. Thus, y = e^{x+K} = C e^x."
+          },
+          {
+            "id": "ST009",
+            "text": "The mean of a Chi-square distribution with ν degrees of freedom is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "ν",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2ν",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "ν/2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "ν²",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Statistical Inference",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The mean of the Chi-square distribution (χ²_ν) is equal to its degrees of freedom (ν). The variance is 2ν."
+          },
+          {
+            "id": "ST010",
+            "text": "The probability generating function (P_X(s)) for a Geometric distribution with probability of success p is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "p/(1-qs)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "q/(1-ps)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "p s / (1 - q s)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "q s / (1 - p s)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "For Geometric distribution (counting trials until 1st success, P(X=x) = q^{x-1} p for x=1, 2, ...): P_X(s) = E[s^X] = Σ s^x q^{x-1} p = (ps)/(1 - qs)."
+          },
+          {
+            "id": "ST011",
+            "text": "If X ~ N(μ, σ²), the moment generating function (M_X(t)) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "e^{μt}",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "e^{μt + σ²t²/2}",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "e^{μt + σt}",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "e^{μt - σ²t²/2}",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The MGF of a Normal distribution is M_X(t) = e^{μt + σ²t²/2}."
+          },
+          {
+            "id": "ST012",
+            "text": "The property that states the maximum likelihood estimator (MLE) approaches the true parameter value as sample size increases is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Unbiasedness",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Efficiency",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Consistency",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Sufficiency",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Statistical Inference",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "An estimator is consistent if it converges in probability to the true parameter value as the sample size tends to infinity."
+          },
+          {
+            "id": "ST013",
+            "text": "In a 2 × 2 contingency table, the number of degrees of freedom for the χ² test of independence is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Statistical Inference",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "For a r × c contingency table, df = (r-1)(c-1). For a 2 × 2 table, df = (2-1)(2-1) = 1."
+          },
+          {
+            "id": "ST014",
+            "text": "The mean square error (MSE) of an estimator θ̂ is given by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Bias(θ̂) + Var(θ̂)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Bias(θ̂)² + Var(θ̂)²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Bias(θ̂)² + Var(θ̂)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Var(θ̂) - Bias(θ̂)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Statistical Inference",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The MSE decomposes into the squared bias and the variance: MSE(θ̂) = Bias(θ̂)² + Var(θ̂)."
+          },
+          {
+            "id": "ST015",
+            "text": "The sum of the eigenvalues of the matrix A = [[3, 1], [2, 4]] is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "5",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "6",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "7",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "8",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Linear Algebra",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The sum of eigenvalues is equal to the trace of the matrix. Trace(A) = 3 + 4 = 7."
+          },
+          {
+            "id": "ST016",
+            "text": "If X_n →_p a (converges in probability), then X_n is said to be a consistent estimator for a.",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "True",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "False",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "True only if a is a parameter",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "False if a is not the mean",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Statistical Inference",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "This is the definition of consistency in estimation, where the estimator converges in probability to the true value of the parameter."
+          },
+          {
+            "id": "ST017",
+            "text": "The method of moments (MOM) estimator for the mean (μ) of any distribution is always:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The sample variance",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The sample median",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The sample mean (X̄)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The population mean",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Statistical Inference",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The first population moment is E[X] = μ. Equating this to the first sample moment (1/n Σ X_i) yields the sample mean (X̄) as the MOM estimator for μ."
+          },
+          {
+            "id": "ST018",
+            "text": "The number of real roots of the polynomial P(x) = x³ - 3x + 1 is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Calculus",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "Local extrema occur where P'(x) = 3x² - 3 = 0, so x = ±1. Local max at x=-1, P(-1) = -1 + 3 + 1 = 3. Local min at x=1, P(1) = 1 - 3 + 1 = -1. Since the local maximum is positive and the local minimum is negative, and lim_{x→±∞} P(x) = ±∞, the curve crosses the x-axis 3 times."
+          },
+          {
+            "id": "ST019",
+            "text": "If X has Binomial(n, p) distribution, the moment generating function (M_X(t)) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "p e^t / (1 - q e^t)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "(p + q e^t)^n",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "e^{λ(e^t - 1)}",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "p^n e^t",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The MGF of a Binomial distribution is M_X(t) = (p e^t + q)^n = (p + q e^t)^n."
+          },
+          {
+            "id": "ST020",
+            "text": "The expected value of the sample variance (S²) for any distribution is equal to the population variance (σ²). This means S² is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sufficient",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Consistent",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Unbiased",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Efficient",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Statistical Inference",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "If E(θ̂) = θ, the estimator θ̂ is unbiased. The sample variance S² = (1/(n-1)) Σ (X_i - X̄)² is the unbiased estimator of σ²."
+          },
+          {
+            "id": "ST021",
+            "text": "The covariance Cov(2X+1, 3Y-2) is equal to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "6 Cov(X, Y)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5 Cov(X, Y)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6 Cov(X, Y) - 1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2 Var(X) + 3 Var(Y)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "Using the covariance property Cov(aX+b, cY+d) = ac Cov(X, Y), we have Cov(2X+1, 3Y-2) = 2 · 3 Cov(X, Y) = 6 Cov(X, Y)."
+          },
+          {
+            "id": "ST022",
+            "text": "The equation P(A ∪ B) = P(A) + P(B) is true if and only if A and B are:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Independent events",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Mutually exclusive events",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Exhaustive events",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Conditional events",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The general formula is P(A ∪ B) = P(A) + P(B) - P(A ∩ B). For the simplified formula to hold, P(A ∩ B) must be zero, which is the definition of mutually exclusive events."
+          },
+          {
+            "id": "ST023",
+            "text": "If X₁, X₂, ..., X_n are independent standard normal N(0, 1) random variables, then Σ_{i=1}^n X_i² follows a:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Normal distribution",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Student's t-distribution",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Chi-square distribution with n degrees of freedom",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "F-distribution",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Statistical Inference",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The sum of squares of n independent standard normal variables is defined as the Chi-square distribution (χ²_n)."
+          },
+          {
+            "id": "ST024",
+            "text": "The maximum value of the function f(x) = x e^{-x} for x > 0 is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.25",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.368",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.5",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1.0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Calculus",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "Find critical points: f'(x) = 1 · e^{-x} + x · (-e^{-x}) = e^{-x} (1-x). Setting f'(x)=0, we get x=1. f(1) = 1 · e^{-1} = 1/e ≈ 0.3678. (0.368 rounded)."
+          },
+          {
+            "id": "ST025",
+            "text": "The primary requirement for stratified random sampling is that the strata must be:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Homogeneous within and heterogeneous between",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Heterogeneous within and homogeneous between",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Equal in size",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Selected randomly",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Sampling Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Stratification aims to reduce sampling variance. This is achieved when units within each stratum are very similar (homogeneous) and the strata themselves are distinct (heterogeneous) from each other."
+          },
+          {
+            "id": "ST026",
+            "text": "The Cramér-Rao Lower Bound (CRLB) gives the minimum possible:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Bias of an estimator",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Sample size",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Variance of an unbiased estimator",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Mean square error",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Statistical Inference",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The CRLB provides a lower bound on the variance of any unbiased estimator. An estimator that achieves this bound is efficient."
+          },
+          {
+            "id": "ST027",
+            "text": "If X ~ Exp(λ) (Exponential distribution), then P(X > t+s | X > s) is equal to P(X > t). This property is called:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Lack of Memory (Memoryless Property)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Unbiasedness",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Homoscedasticity",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The Central Limit Theorem",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Memoryless Property states that the probability of survival for an additional time t is independent of the time s already survived. The Exponential and Geometric distributions are the only distributions with this property."
+          },
+          {
+            "id": "ST028",
+            "text": "The sum of the squares of the elements in the matrix A = [[1, 2], [3, 4]] is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "20",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "25",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "30",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "35",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Linear Algebra",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Sum of squares = 1² + 2² + 3² + 4² = 1 + 4 + 9 + 16 = 30."
+          },
+          {
+            "id": "ST029",
+            "text": "The eigenvalues of a projection matrix (P²=P) are always:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Complex numbers",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Only 1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0 or 1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Real and non-zero",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Linear Algebra",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "If λ is an eigenvalue of P, then P x = λ x. P² x = P(λ x) = λ P x = λ² x. Since P²=P, λ² x = λ x, so λ² = λ, which implies λ = 0 or 1."
+          },
+          {
+            "id": "ST030",
+            "text": "The standard error of the sample mean (X̄) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "σ² / n",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "σ / n",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "σ / √n",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "σ²",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Sampling Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The standard error (SE) of an estimator is the standard deviation of its sampling distribution. SE(X̄) = √Var(X̄) = √(σ²/n) = σ / √n."
+          },
+          {
+            "id": "ST031",
+            "text": "In a simple linear regression model (Y = β₀ + β₁ X + ε), the sum of the residuals (Σ e_i) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "n",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Undefined",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Linear Models",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "One of the normal equations used in the Least Squares method (LSM) ensures that the sum of the residuals is zero (Σ (y_i - ŷ_i) = 0)."
+          },
+          {
+            "id": "ST032",
+            "text": "The probability density function of a Uniform(0, 1) distribution is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "f(x) = x for 0 < x < 1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "f(x) = 1 for 0 < x < 1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "f(x) = e^{-x} for x > 0",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "f(x) = 1/2 for -1 < x < 1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "For Uniform(a, b), f(x) = 1 / (b-a). For a=0, b=1, f(x) = 1 / (1-0) = 1."
+          },
+          {
+            "id": "ST033",
+            "text": "The variance of a Bernoulli random variable with success probability p is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "p",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "p(1-p)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1 - p",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "√(p(1-p))",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "For a Bernoulli distribution, Var(X) = E[X²] - (E[X])² = (0²(1-p) + 1² p) - p² = p - p² = p(1-p)."
+          },
+          {
+            "id": "ST034",
+            "text": "The power of a statistical test is defined as the probability of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Rejecting H₀ when H₀ is true (Type I error)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Accepting H₀ when H₀ is false (Type II error)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Rejecting H₀ when H₀ is false",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Accepting H₀ when H₀ is true",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Statistical Inference",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The power of the test is 1 - β, where β is the probability of Type II error. It is the probability of correctly rejecting the null hypothesis (H₀) when the alternative hypothesis (H_a) is true."
+          },
+          {
+            "id": "ST035",
+            "text": "In a two-way ANOVA model without interaction, the degrees of freedom for the error term, with a levels of factor A, b levels of factor B, and n replicates per cell, is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "ab(n-1)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "ab - 1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "n-1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "ab(n-1) - (a-1)(b-1)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Design of Experiments",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The total number of observations is N = abn. The df_error (within cells) is N - df_total = abn - ab = ab(n-1)."
+          },
+          {
+            "id": "ST036",
+            "text": "The characteristic function of a Cauchy distribution is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "e^{i μ t}",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "e^{-|t|}",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "e^{i μ t - γ |t|}",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Does not exist",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The characteristic function of a Cauchy distribution (location μ, scale γ) is φ_X(t) = e^{i μ t - γ |t|}. The MGF does not exist because the Cauchy distribution does not have finite moments."
+          },
+          {
+            "id": "ST037",
+            "text": "The Central Limit Theorem (CLT) ensures that the distribution of the sample mean (X̄) approaches a Normal distribution when the sample size n is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Small",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Exactly 30",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Large",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "A perfect square",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The CLT is a large sample result. It states that the sampling distribution of the mean becomes approximately normal as the sample size n becomes sufficiently large."
+          },
+          {
+            "id": "ST038",
+            "text": "The minimum number of treatment combinations in a 2^k factorial design is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2k",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2^k",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Design of Experiments",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A 2^k factorial design involves k factors, each at 2 levels. The total number of treatment combinations is 2 × 2 × ... × 2 (k times), or 2^k."
+          },
+          {
+            "id": "ST039",
+            "text": "The order of the differential equation y'' + x y' = sin(x) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Calculus",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The order of a differential equation is the order of the highest derivative present. The highest derivative is y'', so the order is 2."
+          },
+          {
+            "id": "ST040",
+            "text": "The probability mass function of a Bernoulli random variable (X=x) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "p^x (1-p)^{1-x}",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "p (1-p)^{x-1}",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "C(n,x) p^x (1-p)^{n-x}",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "e^{-λ} λ^x / x!",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A Bernoulli distribution is equivalent to Binomial(1, p). For x=0, 1, P(X=x) = p^x (1-p)^{1-x}."
+          },
+          {
+            "id": "ST041",
+            "text": "The number of linearly independent solutions to the homogeneous system A x = 0 where A is an m × n matrix is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "rank(A)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "m",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "n - rank(A)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "n",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Linear Algebra",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The number of linearly independent solutions is the dimension of the null space (nullity) of A. By the Rank-Nullity Theorem: nullity(A) = n - rank(A)."
+          },
+          {
+            "id": "ST042",
+            "text": "The variance of the sample total (T = Σ X_i) in Simple Random Sampling (SRS) without replacement is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "N(N-n)/n σ²",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "N² (N-n)/(N n) S²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "N σ²",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "(N-n)/N S²/n",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Sampling Theory",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The variance of the sample total T = N X̄ is Var(T) = N² Var(X̄). Var(X̄) = (N-n)/(N n) S². So, Var(T) = N² (N-n)/(N n) S²."
+          },
+          {
+            "id": "ST043",
+            "text": "The integral ∫_0^∞ x³ e^{-x²} dx can be solved using the definition of the Gamma function, which is Γ(z) = ∫_0^∞ t^{z-1} e^{-t} dt. The value is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.25",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.5",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1.0",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2.0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Calculus",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Use substitution t = x², so dt = 2x dx. x² = t. x dx = dt/2. The integral becomes ∫_0^∞ x² (x dx) e^{-x²} = ∫_0^∞ t · dt/2 · e^{-t} = (1/2) ∫_0^∞ t¹ e^{-t} dt. This is (1/2) Γ(2). Since Γ(2) = 1! = 1, the value is 1/2 or 0.5."
+          },
+          {
+            "id": "ST044",
+            "text": "In a simple linear regression, the coefficient of determination (R²) measures:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The slope of the regression line",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The goodness of fit of the model",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The total variability in Y",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The residual mean square",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Linear Models",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "R² is defined as R² = 1 - (SSE/SST), where SSE is the unexplained variance and SST is the total variance. It represents the proportion of variance in Y explained by the model (goodness of fit)."
+          },
+          {
+            "id": "ST045",
+            "text": "For a two-sample t-test comparing the means of two independent groups, the null hypothesis (H₀) is typically:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The means are different (μ₁ ≠ μ₂)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The variances are equal (σ₁² = σ₂²)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The means are equal (μ₁ = μ₂)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The sample means are equal (X̄₁ = X̄₂)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Statistical Inference",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The null hypothesis always represents the status quo or no effect. For comparing means, H₀ is that the population means are equal (μ₁ = μ₂)."
+          },
+          {
+            "id": "ST046",
+            "text": "The number of possible samples of size n that can be drawn from a population of size N in Simple Random Sampling (SRS) without replacement is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "N^n",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "C(N,n)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "N! / n!",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "N(N-1)/2",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Sampling Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Since order does not matter and there is no replacement, the number of samples is given by the combination formula: C(N,n)."
+          },
+          {
+            "id": "ST047",
+            "text": "For a simple linear regression model, the Least Squares Estimator of the slope (β₁) minimizes the sum of the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Absolute deviations",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Squared horizontal deviations",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Squared vertical deviations (residuals)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Total least squares",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Linear Models",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Least Squares Method minimizes the Sum of Squared Errors (SSE), which are the vertical distances between the observed y_i and the predicted ŷ_i."
+          },
+          {
+            "id": "ST048",
+            "text": "If X ~ Pois(λ) (Poisson distribution), then Var(X) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "√λ",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "λ²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "λ",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1 / λ",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A defining characteristic of the Poisson distribution is that the mean (E[X]) is equal to the variance (Var(X)), both being λ."
+          },
+          {
+            "id": "ST049",
+            "text": "The maximum value of the correlation coefficient (r) between two random variables is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "∞",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Undefined",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The correlation coefficient r (or ρ) always lies in the interval [-1, 1]. The maximum value is 1 (perfect positive linear association)."
+          },
+          {
+            "id": "ST050",
+            "text": "The variance of the sample mean (Var(X̄)) in Systematic Sampling is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Always greater than SRS",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Always equal to SRS",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Can be smaller or larger than SRS",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Is always zero",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Sampling Theory",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 45,
+            "explanation": "Systematic sampling is only guaranteed to be better than SRS if the population has a monotonic trend. If the population has periodicity (cyclical variation), systematic sampling can be much worse (larger variance)."
+          },
+          {
+            "id": "ST051",
+            "text": "The t-distribution approaches the standard normal distribution as the degrees of freedom (ν) approaches:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "∞",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "n (sample size)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Statistical Inference",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "As the degrees of freedom (ν) increases, the t-distribution becomes less heavy-tailed and converges to the Standard Normal distribution (Z-distribution)."
+          },
+          {
+            "id": "ST052",
+            "text": "The characteristic roots of an idempotent matrix (A²=A) are:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1, 2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0, 1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Purely imaginary",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Only 1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Linear Algebra",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "If λ is an eigenvalue of A, then A x = λ x. A² x = A(λ x) = λ A x = λ² x. Since A²=A, λ² x = λ x, so λ² = λ, which implies λ = 0 or 1."
+          },
+          {
+            "id": "ST053",
+            "text": "For the function f(x) = |x|, the derivative f'(0) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "-1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Does not exist",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Calculus",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The derivative does not exist at x=0 because the left-hand derivative (-1) does not equal the right-hand derivative (+1). This is the characteristic 'sharp corner' of the absolute value function."
+          },
+          {
+            "id": "ST054",
+            "text": "If X ~ N(1, 4) (Normal distribution with μ=1, σ²=4), then P(X > 3) is equal to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.1587",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.3413",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.5000",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.8413",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Probability Theory",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "Standardize: Z = (X - μ)/σ = (3 - 1)/√4 = 2/2 = 1. P(X > 3) = P(Z > 1). Using the standard normal table, P(Z > 1) = 1 - P(Z ≤ 1) = 1 - 0.8413 = 0.1587."
+          },
+          {
+            "id": "ST055",
+            "text": "The assumption of homoscedasticity in a linear regression model means:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The mean of the error is zero",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The errors are normally distributed",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The variance of the error term is constant for all levels of X",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The errors are independent",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Linear Models",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Homoscedasticity (or constant variance) means the variance of the error term (and thus Y) is the same for all observations regardless of the predictor values."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "Results & Analysis",
+        "description": "Comprehensive analysis of your performance across all sections with detailed insights and recommendations.",
+        "timeLimit": 0,
+        "questions": [],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      }
+    }
+  }

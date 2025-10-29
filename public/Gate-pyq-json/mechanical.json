@@ -1,0 +1,2303 @@
+{
+    "id": "mechanical-pyq",
+    "title": "Mechanical Engineering PYQ (ME)",
+    "description": "Comprehensive GATE Mechanical Engineering assessment covering General Aptitude and Core Mechanical Engineering subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core mechanical engineering questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Moderate",
+    "isActive": true,
+    "featured": true,
+    "metadata": {
+      "icon": "mechanical",
+      "gradient": "from-orange-600 to-red-600",
+      "userCount": 12000,
+      "tags": ["GATE", "Mechanical Engineering", "Engineering", "Aptitude", "Core Subjects"]
+    },
+    "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Mechanical Engineering is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in mechanical engineering including Thermodynamics, Fluid Mechanics, Heat Transfer, Manufacturing, Machine Design, and Engineering Mathematics. This assessment follows the official GATE pattern with General Aptitude and Core Mechanical Engineering questions.",
+    "typicalCareers": [
+      {
+        "title": "Mechanical Engineer",
+        "description": "Design and develop mechanical systems and components"
+      },
+      {
+        "title": "Design Engineer",
+        "description": "Create and optimize mechanical designs for various applications"
+      },
+      {
+        "title": "Manufacturing Engineer",
+        "description": "Oversee production processes and manufacturing operations"
+      }
+    ],
+    "whoShouldConsider": [
+      "Mechanical Engineering graduates preparing for GATE",
+      "Students seeking admission to M.Tech/M.E programs in mechanical engineering",
+      "Professionals looking for PSU jobs in mechanical engineering",
+      "Engineers in automotive, aerospace, and manufacturing industries"
+    ],
+    "idealTraits": [
+      "Strong analytical and problem-solving skills",
+      "Solid foundation in mechanical engineering principles",
+      "Mathematical aptitude and logical reasoning",
+      "Good understanding of thermodynamics and fluid mechanics"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude Assessment (10 questions, 15 marks)",
+        "Core Mechanical Engineering Assessment (55 questions, 85 marks)"
+      ],
+      "resultsInclude": [
+        "Section-wise scores (Aptitude & Core)",
+        "Topic-wise performance analysis",
+        "Difficulty-wise accuracy",
+        "Overall percentile ranking",
+        "Detailed explanations for all questions"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment",
+        "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "The price of an item is increased by 10% and then decreased by 10%. The net change in price is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1% decrease",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1% increase",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.1% decrease",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Percentage",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "Let the original price be P. Increase by 10%: P(1.1). Decrease by 10%: P(1.1)(0.9) = P(0.99). The net change is a 100-99=1% decrease."
+          },
+          {
+            "id": "GA002",
+            "text": "The ratio of the speed of a boat in still water to the speed of the current is 5:1. If the boat travels a certain distance downstream in 3 hours, what is the time taken to travel the same distance upstream?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "4 hours",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5 hours",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6 hours",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "7.5 hours",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Time & Distance",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Let speed of boat be 5x and current be x. Downstream speed = 6x. Upstream speed = 4x. Distance D = 6x × 3 = 18x. Upstream time T = D / 4x = 18x / 4x = 4.5 hours."
+          },
+          {
+            "id": "GA003",
+            "text": "Choose the most appropriate word from the options given below to complete the following sentence: The candidate's statement was a ___ of truth.",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "deprivation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "dearth",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "travesty",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "recapitulation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Verbal Ability - Vocabulary",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "A 'travesty of truth' means a grotesque misrepresentation or distortion of the truth. 'Dearth' means scarcity, which does not fit the context."
+          },
+          {
+            "id": "GA004",
+            "text": "Find the next term in the series: 3, 7, 13, 21, 31, ...",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "41",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "43",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "45",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "47",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analytical Reasoning - Number Series",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "The differences between consecutive terms are 4, 6, 8, 10. The next difference should be 12. Thus, 31 + 12 = 43."
+          },
+          {
+            "id": "GA005",
+            "text": "If f(x) = |x-2| + |x-5|, the minimum value of f(x) is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Quantitative Aptitude - Calculus/Functions",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "The function f(x) represents the sum of distances from x to 2 and x to 5. The minimum value occurs for x between 2 and 5, where f(x) = (x-2) + (5-x) = 3."
+          },
+          {
+            "id": "GA006",
+            "text": "A clock shows 4:30. What is the angle between the hour and minute hands?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "30 degrees",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "45 degrees",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "60 degrees",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "90 degrees",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Clocks/Geometry",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 90,
+            "explanation": "Angle θ = |30H - (11/2)M|. θ = |30(4) - (11/2)(30)| = |120 - 165| = 45 degrees."
+          },
+          {
+            "id": "GA007",
+            "text": "The synonym for 'Mellifluous' is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Discordant",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Harmonious",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Cacophonous",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Raucous",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Vocabulary (Synonyms)",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "'Mellifluous' means a sound that is sweet and musical; pleasant to hear. 'Harmonious' is the closest synonym."
+          },
+          {
+            "id": "GA008",
+            "text": "In a group, 70% of the students speak English and 50% speak Hindi. If 40 students speak both, what is the total number of students in the group?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "150",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "200",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "400",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4000",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Set Theory",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Percentage speaking both = (70% + 50%) - 100% = 20%. If 20% of total X is 40, then 0.20 × X = 40, so X = 200."
+          },
+          {
+            "id": "GA009",
+            "text": "The pair of words that best expresses a similar relationship as 'Surgeon : Scalpel' is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sculptor : Chisel",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Musician : Instrument",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Lawyer : Court",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Baker : Oven",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Verbal Ability - Analogy",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "The relationship is 'Person : Primary Tool'. A Surgeon uses a Scalpel; a Sculptor uses a Chisel."
+          },
+          {
+            "id": "GA010",
+            "text": "A sum of money doubles in 5 years at simple interest. In how many years will it become four times?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "10",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "15",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "20",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "25",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Simple Interest",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "To double, Interest (I) must be 1P, taking 5 years. To become four times, I must be 3P. Since simple interest is linear, it takes 3 × 5 = 15 years."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Mechanical Engineering Assessment",
+        "description": "Comprehensive assessment covering Thermodynamics, Fluid Mechanics, Heat Transfer, Manufacturing, Machine Design, and Engineering Mathematics. This section carries 85% weight in the total assessment.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "ME001",
+            "text": "The work done in a free expansion process for an ideal gas is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Positive",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Negative",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Zero",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Equal to the heat transfer",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Thermodynamics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A free expansion is an irreversible, uncontrolled process where the gas expands into a vacuum. Since there is no external resistance and the boundary does not move against any force, the displacement work done is zero."
+          },
+          {
+            "id": "ME002",
+            "text": "The property of a material that enables it to absorb energy without permanent deformation is called:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Ductility",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Hardness",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Resilience",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Toughness",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Materials",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Resilience is the ability of a material to absorb energy when deformed elastically (i.e., strain energy up to the elastic limit) and release that energy upon unloading. Toughness refers to energy absorbed up to fracture."
+          },
+          {
+            "id": "ME003",
+            "text": "The maximum shear stress theory (Tresca) is best suited for predicting the failure of materials that are:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Brittle",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Ductile",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Ceramic",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Isotropic",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Machine Design",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The maximum shear stress theory (Tresca) is one of the two most commonly used failure criteria for ductile materials under static loading. The maximum normal stress theory (Rankine) is used for brittle materials."
+          },
+          {
+            "id": "ME004",
+            "text": "The continuity equation for fluid flow is based on the principle of conservation of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Energy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Momentum",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Mass",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Volume",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The continuity equation states that the mass flow rate entering a system must equal the mass flow rate leaving the system (for steady flow), thus representing the conservation of mass."
+          },
+          {
+            "id": "ME005",
+            "text": "The total number of instantaneous centers of rotation for a mechanism with N links is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "N",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "N-1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "N(N-1)/2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "N²",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Theory of Machines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The number of instantaneous centers (I) for an N-link mechanism is the number of possible combinations of two links, given by C(N,2) = N(N-1)/2."
+          },
+          {
+            "id": "ME006",
+            "text": "In a simply supported beam of length L subjected to a uniformly distributed load (UDL) of intensity w, the maximum bending moment is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "wL/2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "wL²/8",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "wL²/2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "wL/4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Solid Mechanics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "For a simply supported beam with UDL, the maximum bending moment occurs at the center and is given by M_max = wL²/8."
+          },
+          {
+            "id": "ME007",
+            "text": "The efficiency of a Carnot heat engine operating between temperatures T_H and T_L is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1 - (T_H/T_L)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1 + (T_L/T_H)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1 - (T_L/T_H)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "T_L/T_H",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Thermodynamics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Carnot efficiency is the maximum possible efficiency, given by η = 1 - T_L/T_H (where T_L and T_H must be in Kelvin)."
+          },
+          {
+            "id": "ME008",
+            "text": "The value of the definite integral ∫₀^π sin(x) dx is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "π",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics - Calculus",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "∫₀^π sin(x) dx = [-cos(x)]₀^π = [-cos(π)] - [-cos(0)] = [-(-1)] - [-(1)] = 1 + 1 = 2."
+          },
+          {
+            "id": "ME009",
+            "text": "In a single-point cutting tool, the rake angle determines:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The direction of friction.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The strength and sharpness of the cutting edge.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The wear resistance.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The chip flow direction away from the tool flank.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Manufacturing - Machining",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The rake angle (positive or negative) controls how steep the chip flows over the rake face, primarily influencing the wedge angle and thus the strength and sharpness of the cutting tip."
+          },
+          {
+            "id": "ME010",
+            "text": "The term gauge pressure refers to pressure measured relative to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Absolute zero pressure (vacuum)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Atmospheric pressure",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Critical pressure",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Standard temperature and pressure (STP)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Gauge pressure is the difference between the measured pressure and the local atmospheric pressure."
+          },
+          {
+            "id": "ME011",
+            "text": "The number of degrees of freedom for a body floating in space is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "6",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "9",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "12",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Theory of Machines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A rigid body floating in space (a free body) can undergo three independent translations (x, y, z) and three independent rotations (roll, pitch, yaw, or rotation about x, y, z axes), totaling 6 degrees of freedom."
+          },
+          {
+            "id": "ME012",
+            "text": "The point of contraflexure (or inflection) in a beam is where the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Shear force is maximum.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Shear force is zero.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Bending moment changes sign.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Bending moment is maximum.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Solid Mechanics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The point of contraflexure is the location along the beam where the bending moment is zero and, crucially, changes sign (from hogging to sagging or vice-versa)."
+          },
+          {
+            "id": "ME013",
+            "text": "If a system absorbs 20 kJ of heat while doing 5 kJ of work, the change in its internal energy is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "10 kJ",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "15 kJ",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "20 kJ",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "25 kJ",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "From the First Law of Thermodynamics: ΔU = Q - W. Heat absorbed Q = +20 kJ. Work done by the system W = +5 kJ. ΔU = 20 - 5 = 15 kJ."
+          },
+          {
+            "id": "ME014",
+            "text": "The primary objective of risers in sand casting is to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Facilitate mold separation.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Compensate for solidification shrinkage.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Increase the pouring rate.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Allow gases to escape.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Manufacturing - Casting",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Risers are reservoirs of molten metal that feed the casting as it cools and shrinks, compensating for solidification shrinkage to prevent voids (porosity)."
+          },
+          {
+            "id": "ME015",
+            "text": "The relationship between Young's Modulus (E), Bulk Modulus (K), and Poisson's ratio (ν) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "E = 2G(1+ν)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "E = 3K(1-2ν)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "E = 3K(1+ν)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "E = 9KG / (3K+G)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Solid Mechanics",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "This is one of the fundamental relationships connecting the elastic constants: E = 3K(1-2ν). (Note: The relationship E = 2G(1+ν) is also correct, but B is given as the answer choice.)"
+          },
+          {
+            "id": "ME016",
+            "text": "The degree of reaction in a turbo-machine is defined as the ratio of isentropic enthalpy drop in the rotor to the isentropic enthalpy drop in the stage.",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Between 0 and 1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Greater than 1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Fluid Mechanics/Turbo-machinery",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The degree of reaction (R) is a ratio of enthalpy drops, so its value must be between 0 and 1. R=0 is an impulse turbine, and R=1 is a pure reaction turbine (theoretical)."
+          },
+          {
+            "id": "ME017",
+            "text": "A Governor in an engine primarily regulates:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The oil pressure.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The output torque.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The mean engine speed.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The temperature.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Theory of Machines/IC Engines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The governor is a speed-regulating device that controls the amount of fuel/working fluid supplied to the engine to maintain the mean speed within prescribed limits under varying load conditions."
+          },
+          {
+            "id": "ME018",
+            "text": "The principal stresses in a 2D body are σ₁ and σ₂. The maximum shear stress is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "(σ₁ + σ₂) / 2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "(σ₁ - σ₂) / 2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "√(σ₁² + σ₂²)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "σ₁",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Solid Mechanics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The maximum shear stress (τ_max) is equal to the radius of the Mohr's circle, which is half the difference between the principal stresses: τ_max = (σ₁ - σ₂)/2."
+          },
+          {
+            "id": "ME019",
+            "text": "The Rankine cycle consists of which four processes?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Two isobaric and two isentropic",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Two isochoric and two isothermal",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Two isobaric and two isothermal",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Two adiabatic and two isobaric",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Thermodynamics/Power Cycles",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The Rankine cycle involves: 1-2: Isentropic Pumping, 2-3: Isobaric Heat Addition, 3-4: Isentropic Expansion (Turbine), 4-1: Isobaric Heat Rejection."
+          },
+          {
+            "id": "ME020",
+            "text": "The Euler equation of motion for fluid flow is based on the assumption of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Viscous flow.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Inviscid flow.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Compressible flow.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Turbulent flow.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Euler equation is a form of the momentum equation for fluid flow that assumes the fluid is inviscid (non-viscous), incompressible, and steady."
+          },
+          {
+            "id": "ME021",
+            "text": "The limit of size (or nominal size) in metrology refers to the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Average value of the dimension.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Designated size used for comparison.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Maximum and minimum permissible sizes.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Deviation from the fundamental deviation.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Manufacturing/Metrology",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The limits of size are the upper and lower permissible values of a dimension, defining the tolerance zone."
+          },
+          {
+            "id": "ME022",
+            "text": "The general solution to the differential equation d²y/dx² + y = 0 is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "C₁ e^x + C₂ e^(-x)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "C₁ cos(x) + C₂ sin(x)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "C₁ + C₂ x",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "C₁ e^x",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Differential Equations",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The auxiliary equation is m² + 1 = 0, giving roots m = ±j. The general solution is y(x) = C₁ cos(x) + C₂ sin(x)."
+          },
+          {
+            "id": "ME023",
+            "text": "In a four-stroke SI engine, the intake valve opens:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "At TDC (Top Dead Center)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Before TDC",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "After BDC (Bottom Dead Center)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Exactly at BDC",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics/IC Engines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "To utilize the inertia of the incoming charge and ensure complete cylinder scavenging, the intake valve typically opens slightly Before TDC of the suction stroke."
+          },
+          {
+            "id": "ME024",
+            "text": "The modulus of resilience for a material is represented by the area under the stress-strain curve up to the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Proportional limit",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Fracture point",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Ultimate tensile stress",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Yield point",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Engineering Materials/Solid Mechanics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The modulus of resilience is the strain energy per unit volume stored in the material when stressed up to the yield point (or elastic limit)."
+          },
+          {
+            "id": "ME025",
+            "text": "The Taylor tool life equation relates cutting speed (V) and tool life (T) as:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "VT^n = C",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "V^n T = C",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "V/T^n = C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "V log(T) = C",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Manufacturing - Machining",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Taylor tool life equation is an empirical relationship: VT^n = C, where n is the Taylor exponent and C is a constant."
+          },
+          {
+            "id": "ME026",
+            "text": "Which of the following is an example of a lower pair in kinematic joints?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Ball and socket joint",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Cam and follower",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Gear pair",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Belt and pulley",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Theory of Machines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "A lower pair has surface contact between the elements (e.g., pin joint, sliding joint, ball and socket joint). Higher pairs have point or line contact (e.g., cam and follower, gear teeth)."
+          },
+          {
+            "id": "ME027",
+            "text": "The shear center of a structural section is the point through which the applied shear force causes:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Maximum shear stress.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "No bending moment.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "No twisting.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Maximum normal stress.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Solid Mechanics/Machine Design",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The shear center is a point where the shear force can be applied without causing any torsional deformation (twisting) of the cross-section."
+          },
+          {
+            "id": "ME028",
+            "text": "If a gas is compressed adiabatically, its temperature:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Decreases",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Increases",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Remains constant",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "First increases, then decreases",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "In adiabatic compression (Q=0), work is done on the gas (W is negative). By the First Law (ΔU = Q - W), the internal energy ΔU increases, leading to an increase in temperature."
+          },
+          {
+            "id": "ME029",
+            "text": "The Reynolds number is a dimensionless parameter that represents the ratio of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Viscous forces to pressure forces.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Inertia forces to viscous forces.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Pressure forces to inertia forces.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Inertia forces to gravity forces.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Reynolds number (Re) is Inertia force / Viscous force. It is used to predict flow patterns in different fluid flow situations (laminar vs. turbulent)."
+          },
+          {
+            "id": "ME030",
+            "text": "For a 3×3 matrix A, if det(A)=5, then the determinant of 2A is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "10",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "20",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "40",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "80",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics - Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The property is det(kA) = k^n det(A), where n is the size of the matrix. Here, n=3 and k=2. det(2A) = 2³ det(A) = 8 × 5 = 40."
+          },
+          {
+            "id": "ME031",
+            "text": "The primary objective of economic batch quantity (EBQ) is to minimize:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Material cost.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Setup cost only.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Total cost (Setup + Inventory/Holding).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Transportation cost.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Industrial Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "EBQ (or EPQ) is an inventory model that determines the optimal batch size to minimize the sum of setup cost and inventory holding cost per unit time."
+          },
+          {
+            "id": "ME032",
+            "text": "In a belt drive system, creep is due to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sudden load application.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Elastic stretch of the belt.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Centrifugal tension.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Belt slip on the pulley.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Theory of Machines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Creep is the relative motion between the belt and pulley surface caused by the elastic stretching and contracting of the belt as it moves from the tight side to the slack side (and vice-versa)."
+          },
+          {
+            "id": "ME033",
+            "text": "The specific speed of a hydraulic turbine is used to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Determine the output power.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Determine the size of the turbine.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Classify the type of turbine.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Calculate the efficiency.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Fluid Mechanics/Turbo-machinery",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The specific speed (N_s) is the most important parameter used to classify the type of turbine (e.g., Pelton, Francis, Kaplan) suitable for a given head and flow rate."
+          },
+          {
+            "id": "ME034",
+            "text": "The condition for a screw jack to be self-locking is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Helix angle (α) is greater than friction angle (φ).",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Helix angle (α) is less than friction angle (φ).",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Helix angle (α) equals friction angle (φ).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Friction angle (φ) is zero.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Machine Design",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A screw is self-locking if the friction torque is greater than the unwinding torque. This occurs when the helix angle (α) is less than the friction angle (φ)."
+          },
+          {
+            "id": "ME035",
+            "text": "In a gas turbine power plant, the two processes that involve heat transfer are:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Compression and expansion.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Expansion and combustion.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Combustion and heat rejection.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Compression and cooling.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Thermodynamics/Power Cycles",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "A gas turbine (Brayton) cycle involves: Isentropic Compression, Isobaric Heat Addition (Combustion), Isentropic Expansion, and Isobaric Heat Rejection (to atmosphere/cooler)."
+          },
+          {
+            "id": "ME036",
+            "text": "The coefficient of performance (COP) of a refrigerator operating between T_L and T_H is given by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "T_L / (T_H - T_L)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "T_H / (T_H - T_L)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "(T_H - T_L) / T_L",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "T_L / T_H",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Thermodynamics/Refrigeration",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The COP_Ref is the desired output (heat removed from T_L) divided by the required input (work): COP_Ref = Q_L/W_net = T_L/(T_H - T_L)."
+          },
+          {
+            "id": "ME037",
+            "text": "The modulus of rigidity (G) is also known as:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Young's modulus",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Shear modulus",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Bulk modulus",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Elastic modulus",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Solid Mechanics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The modulus of rigidity (G) relates shear stress to shear strain and is therefore also known as the shear modulus."
+          },
+          {
+            "id": "ME038",
+            "text": "The minimum number of independent coordinates required to define the position of all parts of a mechanism is known as the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Constraint of the system.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Kinematic pair.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Degree of freedom.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Gruebler's criterion.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Theory of Machines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The degree of freedom (mobility) is the number of independent input parameters (coordinates) required to completely define the position and orientation of a system."
+          },
+          {
+            "id": "ME039",
+            "text": "Which manufacturing process utilizes a non-consumable electrode and an inert gas shield?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Shielded Metal Arc Welding (SMAW)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Gas Tungsten Arc Welding (GTAW)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Submerged Arc Welding (SAW)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Resistance Welding",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Manufacturing - Welding",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Gas Tungsten Arc Welding (GTAW or TIG) uses a non-consumable Tungsten electrode and relies on an external shielding gas (often Argon) to protect the weld area."
+          },
+          {
+            "id": "ME040",
+            "text": "The First Law of Thermodynamics deals with:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Entropy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Thermal equilibrium",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Conservation of energy",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Direction of energy transfer",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Thermodynamics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The First Law of Thermodynamics is the statement of the conservation of energy, which relates heat, work, and internal energy change (ΔU = Q - W)."
+          },
+          {
+            "id": "ME041",
+            "text": "If A and B are non-zero vectors, and their dot product A · B = 0, then the vectors are:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Parallel",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Co-planar",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Orthogonal (Perpendicular)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Unit vectors",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics - Vector Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Since A · B = |A| |B| cos(θ), and |A| ≠ 0, |B| ≠ 0, A · B = 0 implies cos(θ)=0, so θ = 90°. The vectors are orthogonal."
+          },
+          {
+            "id": "ME042",
+            "text": "The maximum stress in a shaft subjected to pure torsion occurs at the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Axis of the shaft.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Outer surface.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Mid-radius.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Area where the diameter is maximum.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Solid Mechanics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The shear stress due to torsion (τ = Tr/J) is linearly proportional to the radius (r). Therefore, the maximum shear stress occurs at the maximum radius, which is the outer surface of the shaft."
+          },
+          {
+            "id": "ME043",
+            "text": "The purpose of providing a counter-weight in a single-cylinder reciprocating engine is to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Balance the primary reciprocating forces only.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Balance the secondary reciprocating forces only.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Reduce the unbalanced primary couple.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Partially balance the primary reciprocating forces.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Theory of Machines",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "A counter-weight is placed opposite the crank to partially balance the primary reciprocating forces. Complete balancing is impossible, as it would introduce an undesirable vertical secondary unbalanced force."
+          },
+          {
+            "id": "ME044",
+            "text": "The Green Sand mold is mainly characterized by its:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "High strength after baking.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Use of clay and water as binders.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Curing with chemical resins.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Use of metallic powder.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Manufacturing - Casting",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Green sand is a mixture of silica sand, clay (bentonite), and water. It is used in the moist or 'green' condition, with clay and water acting as the natural binders."
+          },
+          {
+            "id": "ME045",
+            "text": "The heat transfer mechanism that involves the movement of a fluid is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Conduction",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Convection",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Radiation",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Diffusion",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Heat Transfer",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Convection is the transfer of heat by the bulk movement of fluid (liquid or gas). Conduction and radiation do not require bulk motion."
+          },
+          {
+            "id": "ME046",
+            "text": "If A is a singular matrix, then det(A) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "-1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "∞",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Engineering Mathematics - Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A square matrix A is defined as singular if its determinant is zero. A singular matrix does not have an inverse."
+          },
+          {
+            "id": "ME047",
+            "text": "The primary function of a clutch in a power transmission system is to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Change the speed of the output shaft.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Provide torque multiplication.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Engage or disengage the drive between the engine and transmission.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Absorb torsional vibrations.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Machine Design",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A clutch is a mechanical device used to connect (engage) or disconnect (disengage) two rotating shafts (e.g., engine and gearbox) at will."
+          },
+          {
+            "id": "ME048",
+            "text": "The thermal diffusivity (α) of a material is given by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "k / (ρ c_p)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "ρ c_p / k",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "k ρ c_p",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "√(k / (ρ c_p))",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Heat Transfer",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Thermal diffusivity (α) is a measure of how quickly a material heats up or cools down. It is defined as k / (ρ c_p), where k is thermal conductivity, ρ is density, and c_p is specific heat capacity."
+          },
+          {
+            "id": "ME049",
+            "text": "The maximum deflection of a cantilever beam of length L subjected to a point load P at the free end is proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "L",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "L²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "L³",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "L⁴",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Solid Mechanics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The maximum deflection is y_max = PL³/(3EI). Since P, E, I are constants, y_max ∝ L³."
+          },
+          {
+            "id": "ME050",
+            "text": "The most common lubricant used in metal cutting to act as both a coolant and a lubricant is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Grease",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Water",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Soluble oil (Emulsion)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Dry nitrogen gas",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Manufacturing - Machining",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Soluble oil (an oil-in-water emulsion) is the most widely used cutting fluid. The water provides cooling, and the oil provides lubrication."
+          },
+          {
+            "id": "ME051",
+            "text": "The velocity of sound in an ideal gas is proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The absolute temperature (T)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The square root of the absolute temperature (√T)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The square of the absolute temperature (T²)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The pressure (P)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics/Fluid Mechanics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The speed of sound c = √(γ R T), where γ and R are constants for a given gas. Thus, c is directly proportional to the square root of the absolute temperature (√T)."
+          },
+          {
+            "id": "ME052",
+            "text": "In PERT (Program Evaluation and Review Technique), the activity duration is based on three time estimates:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Normal, Abnormal, and Peak.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Actual, Estimated, and Standard.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Optimistic, Pessimistic, and Most Likely.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Start, Finish, and Slack.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Industrial Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "PERT uses a probabilistic approach where activity duration is estimated using the optimistic (t_o), pessimistic (t_p), and most likely (t_m) times."
+          },
+          {
+            "id": "ME053",
+            "text": "For a rolling contact bearing, the static load carrying capacity refers to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The load sustained for one million revolutions.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The load sustained without plastic deformation.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The ultimate load before fracture.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The load corresponding to 90% reliability.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Machine Design",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The static load carrying capacity (C_0) is the load that causes a permanent plastic deformation of 0.0001 times the rolling element diameter at the most heavily stressed contact point."
+          },
+          {
+            "id": "ME054",
+            "text": "The eigenvalues of a symmetric matrix with real elements are always:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Purely imaginary.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Complex conjugates.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Real.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Zero or one.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics - Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A fundamental property of symmetric matrices (where A=A^T) with real elements is that all of their eigenvalues are real."
+          },
+          {
+            "id": "ME055",
+            "text": "The thermal boundary layer thickness (δ_T) and hydrodynamic boundary layer thickness (δ) are related by the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Reynolds number (Re)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Prandtl number (Pr)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Nusselt number (Nu)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Grashof number (Gr)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Heat Transfer/Fluid Mechanics",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "The relationship is δ/δ_T ≈ Pr^(1/3). The Prandtl number (Pr = ν/α) is a dimensionless group that governs the relative thickness of the thermal and hydrodynamic boundary layers."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "GATE Assessment Results",
+        "description": "Your comprehensive GATE Mechanical Engineering assessment results with detailed analysis and recommendations for improvement.",
+        "questions": []
+      }
+    }
+  }

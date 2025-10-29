@@ -1,0 +1,2238 @@
+{
+    "id": "electronics-communication",
+    "title": "Electronics & Communication Engineering (EC)",
+    "description": "Comprehensive GATE Electronics & Communication Engineering assessment covering General Aptitude and Core EC subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core electronics & communication questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Easy",
+    "isActive": true,
+    "featured": true,
+    "metadata": {
+      "icon": "electronics-communication",
+      "gradient": "from-green-600 to-blue-600",
+      "userCount": 15000,
+      "tags": ["GATE", "Electronics & Communication", "Engineering", "Aptitude", "Core Subjects"]
+    },
+    "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Electronics & Communication Engineering is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in electronics and communication engineering and related fields. This assessment follows the official GATE pattern with General Aptitude and Core Electronics & Communication questions.",
+    "typicalCareers": [
+      {
+        "title": "Electronics Engineer",
+        "description": "Advanced electronics engineering positions in circuit design, communication systems, and signal processing"
+      },
+      {
+        "title": "PhD Candidate",
+        "description": "Pursue higher studies in electronics and communication engineering and related fields"
+      },
+      {
+        "title": "Communication Systems Engineer",
+        "description": "Senior technical roles in wireless communication, networking, and signal processing"
+      }
+    ],
+    "whoShouldConsider": [
+      "Electronics & Communication Engineering graduates preparing for GATE",
+      "Students seeking admission to M.Tech/M.E programs in electronics and communication",
+      "Professionals looking for PSU jobs in electronics sector",
+      "Researchers in electronics and communication engineering fields"
+    ],
+    "idealTraits": [
+      "Strong analytical and problem-solving skills",
+      "Solid foundation in electronics and communication fundamentals",
+      "Mathematical aptitude and logical reasoning",
+      "Good understanding of circuits, signals, and communication systems"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude Assessment (10 questions, 15 marks)",
+        "Core Electronics & Communication Assessment (55 questions, 85 marks)"
+      ],
+      "resultsInclude": [
+        "Section-wise scores (Aptitude & Core)",
+        "Topic-wise performance analysis",
+        "Difficulty-wise accuracy",
+        "Overall percentile ranking",
+        "Detailed explanations for all questions"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment",
+        "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "If 'GATE' is coded as '9632', then 'EXAM' would be coded as:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "5816",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5826",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "5716",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5726",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Reasoning",
+            "difficulty": "Easy",
+            "explanation": "Each letter is assigned a unique number. G=9, A=6, T=3, E=2. Following the same pattern, E=2, X=8, A=6, M=5, giving us 5826.",
+            "marks": 1
+          },
+          {
+            "id": "GA002",
+            "text": "A train 120 meters long running at 60 km/hr crosses a platform in 30 seconds. What is the length of the platform?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "240 meters",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "300 meters",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "360 meters",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "380 meters",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Quantitative Aptitude",
+            "difficulty": "Medium",
+            "explanation": "Speed = 60 km/hr = 60 × 5/18 = 50/3 m/s. Distance = Speed × Time = 50/3 × 30 = 500m. Platform length = 500 - 120 = 380 meters.",
+            "marks": 2
+          },
+          {
+            "id": "GA003",
+            "text": "Choose the word most similar in meaning to 'METICULOUS':",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Careless",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Precise",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Quick",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Simple",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability",
+            "difficulty": "Easy",
+            "explanation": "Meticulous means showing great attention to detail; very careful and precise.",
+            "marks": 1
+          },
+          {
+            "id": "GA004",
+            "text": "If the sum of three consecutive integers is 75, what is the middle integer?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "24",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "25",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "26",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "27",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude",
+            "difficulty": "Easy",
+            "explanation": "Let the integers be x, x+1, x+2. Then x + (x+1) + (x+2) = 75. Solving: 3x + 3 = 75, x = 24. Middle integer = 25.",
+            "marks": 1
+          },
+          {
+            "id": "GA005",
+            "text": "Complete the series: 2, 6, 12, 20, 30, ?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "40",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "42",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "44",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "46",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analytical Reasoning",
+            "difficulty": "Easy",
+            "explanation": "Pattern: 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42.",
+            "marks": 2
+          },
+          {
+            "id": "GA006",
+            "text": "In a class of 40 students, 28 students like cricket and 20 students like football. If each student likes at least one sport, how many students like both cricket and football?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "6",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "8",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "10",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "12",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude",
+            "difficulty": "Medium",
+            "explanation": "Using set theory: n(C ∪ F) = n(C) + n(F) - n(C ∩ F). So 40 = 28 + 20 - n(C ∩ F), giving n(C ∩ F) = 8.",
+            "marks": 2
+          },
+          {
+            "id": "GA007",
+            "text": "If A is taller than B, and B is taller than C, then:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "C is taller than A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "A is shorter than C",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "A is taller than C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Cannot be determined",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Logical Reasoning",
+            "difficulty": "Easy",
+            "explanation": "This is a transitive relation. If A > B and B > C, then A > C.",
+            "marks": 1
+          },
+          {
+            "id": "GA008",
+            "text": "A shopkeeper marks his goods 40% above cost price and gives a discount of 20%. What is his profit percentage?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "10%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "12%",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "15%",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "18%",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude",
+            "difficulty": "Medium",
+            "explanation": "Let CP = 100. MP = 140. SP = 140 × 0.8 = 112. Profit = 112 - 100 = 12. Profit % = 12%.",
+            "marks": 2
+          },
+          {
+            "id": "GA009",
+            "text": "Choose the correctly spelled word:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Acommodate",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Accommodate",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Accomodate",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Acomodate",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability",
+            "difficulty": "Easy",
+            "explanation": "The correct spelling is 'Accommodate' with double 'c' and double 'm'.",
+            "marks": 1
+          },
+          {
+            "id": "GA010",
+            "text": "A clock shows 3:00. What is the angle between hour and minute hands?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "75°",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "90°",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "105°",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "120°",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude",
+            "difficulty": "Easy",
+            "explanation": "At 3:00, the minute hand points at 12 and hour hand points at 3. Angle = 3 × 30° = 90°.",
+            "marks": 1
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Electronics & Communication Assessment",
+        "description": "Comprehensive assessment of core electronics and communication subjects including Electronic Devices, Analog Circuits, Digital Electronics, Signals and Systems, Control Systems, Communications, Electromagnetics, and Network Theory. This section carries 85% weight in the total assessment.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "EC001",
+            "text": "The mobility of electrons in a semiconductor is defined as:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Drift velocity per unit electric field",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Drift velocity per unit current",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Current density per unit electric field",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Current per unit voltage",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electronic Devices",
+            "difficulty": "Easy",
+            "explanation": "Mobility (μ) is defined as the drift velocity (vd) acquired by a charge carrier per unit electric field (E). μ = vd/E.",
+            "marks": 1
+          },
+          {
+            "id": "EC002",
+            "text": "For a common emitter amplifier with voltage gain -100, if the input resistance is 1kΩ and load resistance is 10kΩ, what is the current gain?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "10",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "100",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1000",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "10000",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Analog Circuits",
+            "difficulty": "Medium",
+            "explanation": "Voltage gain Av = -β × RL/Rin. Given Av = -100, RL = 10kΩ, Rin = 1kΩ. So -100 = -β × 10/1, giving β = 1000.",
+            "marks": 2
+          },
+          {
+            "id": "EC003",
+            "text": "In a BJT, the base width in the active region is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Equal to the depletion width",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Much smaller than the collector width",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Equal to the emitter width",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Much larger than both emitter and collector",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electronic Devices",
+            "difficulty": "Easy",
+            "explanation": "In a BJT, the base region is made very thin (much smaller than collector) to ensure most injected carriers reach the collector.",
+            "marks": 1
+          },
+          {
+            "id": "EC004",
+            "text": "The Nyquist sampling theorem states that the sampling frequency should be:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Equal to the maximum signal frequency",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "At least twice the maximum signal frequency",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "At least half the maximum signal frequency",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Equal to the minimum signal frequency",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Signals and Systems",
+            "difficulty": "Easy",
+            "explanation": "Nyquist theorem: To avoid aliasing, the sampling frequency fs must be at least 2fm, where fm is the maximum frequency component in the signal.",
+            "marks": 1
+          },
+          {
+            "id": "EC005",
+            "text": "A system with transfer function H(s) = 1/(s+1) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "High-pass filter",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Low-pass filter",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Band-pass filter",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Band-stop filter",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems",
+            "difficulty": "Easy",
+            "explanation": "H(s) = 1/(s+1) has a pole at s = -1. At DC (s=0), H(0)=1. As frequency increases, |H(jω)| decreases. This is a low-pass filter.",
+            "marks": 2
+          },
+          {
+            "id": "EC006",
+            "text": "The bandwidth of an FM signal depends on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Modulation index only",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Carrier frequency only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both modulation index and message frequency",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Message amplitude only",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Communications",
+            "difficulty": "Medium",
+            "explanation": "FM bandwidth is given by Carson's rule: BW ≈ 2(Δf + fm), where Δf is frequency deviation (related to modulation index) and fm is message frequency.",
+            "marks": 1
+          },
+          {
+            "id": "EC007",
+            "text": "The intrinsic impedance of free space is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "120π Ω",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "377 Ω",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "50 Ω",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "75 Ω",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electromagnetics",
+            "difficulty": "Easy",
+            "explanation": "The intrinsic impedance of free space η₀ = √(μ₀/ε₀) ≈ 377 Ω or 120π Ω. Option B is more precise.",
+            "marks": 1
+          },
+          {
+            "id": "EC008",
+            "text": "For a MOSFET operating in saturation region, the drain current is proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "(VGS - VT)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "(VGS - VT)²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "VDS",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "VDS²",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electronic Devices",
+            "difficulty": "Medium",
+            "explanation": "In saturation region, ID = (μnCox W/2L)(VGS - VT)², showing quadratic dependence on (VGS - VT).",
+            "marks": 2
+          },
+          {
+            "id": "EC009",
+            "text": "The maximum power transfer theorem states that maximum power is delivered when:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Load impedance equals source impedance",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Load impedance is twice the source impedance",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Load impedance is infinite",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Load impedance is zero",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Network Theory",
+            "difficulty": "Easy",
+            "explanation": "Maximum power transfer occurs when the load impedance ZL equals the complex conjugate of source impedance ZS*.",
+            "marks": 1
+          },
+          {
+            "id": "EC010",
+            "text": "The time complexity of Quick Sort algorithm in the average case is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "O(n)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "O(n log n)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "O(n²)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "O(log n)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Digital Logic",
+            "difficulty": "Easy",
+            "explanation": "Quick Sort has an average time complexity of O(n log n), though worst case is O(n²).",
+            "marks": 1
+          },
+          {
+            "id": "EC011",
+            "text": "In a common emitter amplifier, the phase relationship between input and output is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0° (in-phase)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "90°",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "180° (out-of-phase)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "270°",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Analog Circuits",
+            "difficulty": "Easy",
+            "explanation": "Common emitter amplifier provides 180° phase shift between input and output due to the transistor's inverting nature.",
+            "marks": 1
+          },
+          {
+            "id": "EC012",
+            "text": "The cut-off frequency of a first-order RC low-pass filter is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1/(2πRC)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2πRC",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "RC",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1/RC",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Analog Circuits",
+            "difficulty": "Easy",
+            "explanation": "Cut-off frequency fc = 1/(2πRC) for a first-order RC low-pass filter.",
+            "marks": 1
+          },
+          {
+            "id": "EC013",
+            "text": "The number of flip-flops required for a MOD-16 counter is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "8",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "16",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Digital Electronics",
+            "difficulty": "Easy",
+            "explanation": "For MOD-N counter, n flip-flops are needed where 2^n ≥ N. For MOD-16: 2^4 = 16, so 4 flip-flops required.",
+            "marks": 1
+          },
+          {
+            "id": "EC014",
+            "text": "The Laplace transform of unit step function u(t) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1/s",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "s",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/s²",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "e^(-s)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Signals and Systems",
+            "difficulty": "Easy",
+            "explanation": "L{u(t)} = 1/s for s > 0, where u(t) is the unit step function.",
+            "marks": 1
+          },
+          {
+            "id": "EC015",
+            "text": "In a feedback control system, the steady-state error for a unit step input to a Type-1 system is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "∞",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/Kv",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Constant",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems",
+            "difficulty": "Easy",
+            "explanation": "Type-1 system has one integrator. For step input, steady-state error ess = 1/(1+Kp) = 0 since Kp = ∞.",
+            "marks": 1
+          },
+          {
+            "id": "EC016",
+            "text": "The bandwidth of an AM signal is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2fm",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "fm",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "fc",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "fc + fm",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Communications",
+            "difficulty": "Easy",
+            "explanation": "AM signal bandwidth = 2fm, where fm is the maximum frequency of the modulating signal.",
+            "marks": 1
+          },
+          {
+            "id": "EC017",
+            "text": "The electric field intensity E and magnetic field intensity H are related by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "E = H",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "E = ηH",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "H = ηE",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "E = H/η",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electromagnetics",
+            "difficulty": "Easy",
+            "explanation": "In electromagnetic waves, E = ηH, where η is the intrinsic impedance of the medium.",
+            "marks": 1
+          },
+          {
+            "id": "EC018",
+            "text": "The voltage gain of an op-amp inverting amplifier is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Rf/Ri",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "-Rf/Ri",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Ri/Rf",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "-Ri/Rf",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog Circuits",
+            "difficulty": "Easy",
+            "explanation": "For inverting amplifier: Av = -Rf/Ri, where Rf is feedback resistance and Ri is input resistance.",
+            "marks": 1
+          },
+          {
+            "id": "EC019",
+            "text": "The Z-transform of x[n] = aⁿu[n] is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "z/(z-a)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1/(z-a)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "z/(z+a)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "a/(z-a)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Signals and Systems",
+            "difficulty": "Medium",
+            "explanation": "Z-transform of aⁿu[n] = Σ(aⁿz⁻ⁿ) = z/(z-a) for |z| > |a|.",
+            "marks": 2
+          },
+          {
+            "id": "EC020",
+            "text": "The characteristic impedance of a transmission line depends on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Length of line only",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Load impedance only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Line parameters (L, C, R, G)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Frequency only",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electromagnetics",
+            "difficulty": "Medium",
+            "explanation": "Characteristic impedance Z₀ = √[(R + jωL)/(G + jωC)] depends on per-unit-length parameters L, C, R, G.",
+            "marks": 2
+          },
+          {
+            "id": "EC021",
+            "text": "The efficiency of a class A amplifier is maximum when:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "25%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "50%",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "75%",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "100%",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog Circuits",
+            "difficulty": "Easy",
+            "explanation": "Class A amplifier has maximum theoretical efficiency of 50% under ideal conditions.",
+            "marks": 1
+          },
+          {
+            "id": "EC022",
+            "text": "The frequency response of a system is plotted in:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Bode plot",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Nyquist plot",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Root locus",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "All of the above",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Control Systems",
+            "difficulty": "Easy",
+            "explanation": "Frequency response can be represented using Bode plots, Nyquist plots, or root locus diagrams.",
+            "marks": 1
+          },
+          {
+            "id": "EC023",
+            "text": "The number of address lines required for a 1K × 8 memory is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "8",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "10",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "12",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "16",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Digital Electronics",
+            "difficulty": "Easy",
+            "explanation": "1K = 1024 = 2^10, so 10 address lines are needed to address 1024 locations.",
+            "marks": 1
+          },
+          {
+            "id": "EC024",
+            "text": "The Fourier transform of a rectangular pulse is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sinc function",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Cosine function",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Exponential function",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Delta function",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Signals and Systems",
+            "difficulty": "Medium",
+            "explanation": "Fourier transform of rectangular pulse is sinc function: F{rect(t)} = sinc(ω/2).",
+            "marks": 2
+          },
+          {
+            "id": "EC025",
+            "text": "The power factor of a purely resistive circuit is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.5",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "∞",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Network Theory",
+            "difficulty": "Easy",
+            "explanation": "Power factor = cos(φ) where φ is phase angle. For purely resistive circuit, φ = 0°, so PF = cos(0°) = 1.",
+            "marks": 1
+          },
+          {
+            "id": "EC026",
+            "text": "The modulation index of an AM signal is 0.5. The power efficiency is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "5%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "10%",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "11.1%",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "20%",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Communications",
+            "difficulty": "Medium",
+            "explanation": "AM power efficiency = (m²/2)/(1 + m²/2) × 100%. For m = 0.5: efficiency = (0.25/2)/(1 + 0.25/2) × 100% = 11.1%.",
+            "marks": 2
+          },
+          {
+            "id": "EC027",
+            "text": "The input impedance of a common base amplifier is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Very high",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Very low",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Equal to re",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Equal to βre",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog Circuits",
+            "difficulty": "Easy",
+            "explanation": "Common base amplifier has very low input impedance (approximately re = 26mV/IE).",
+            "marks": 1
+          },
+          {
+            "id": "EC028",
+            "text": "The phase velocity of an electromagnetic wave in free space is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3 × 10⁸ m/s",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2 × 10⁸ m/s",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1.5 × 10⁸ m/s",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Depends on frequency",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electromagnetics",
+            "difficulty": "Easy",
+            "explanation": "Phase velocity in free space = c = 3 × 10⁸ m/s (speed of light).",
+            "marks": 1
+          },
+          {
+            "id": "EC029",
+            "text": "The resolution of an 8-bit ADC with full-scale voltage 5V is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "5 mV",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "19.5 mV",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "39.1 mV",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "78.1 mV",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Digital Electronics",
+            "difficulty": "Medium",
+            "explanation": "Resolution = VFS/(2^n - 1) = 5V/(2^8 - 1) = 5V/255 = 19.6 mV ≈ 19.5 mV.",
+            "marks": 2
+          },
+          {
+            "id": "EC030",
+            "text": "The stability of a system is determined by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Open-loop poles only",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Closed-loop poles only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both open-loop and closed-loop poles",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "System zeros",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems",
+            "difficulty": "Easy",
+            "explanation": "System stability is determined by the location of closed-loop poles. All poles must be in left half of s-plane for stability.",
+            "marks": 1
+          },
+          {
+            "id": "EC031",
+            "text": "The bandwidth of a series RLC circuit at resonance is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "R/L",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "L/R",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/RC",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "R/C",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Network Theory",
+            "difficulty": "Medium",
+            "explanation": "Bandwidth BW = R/L for series RLC circuit, where R is resistance, L is inductance.",
+            "marks": 2
+          },
+          {
+            "id": "EC032",
+            "text": "The number of comparators required for a 3-bit flash ADC is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "7",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "8",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "15",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Digital Electronics",
+            "difficulty": "Easy",
+            "explanation": "For n-bit flash ADC, number of comparators = 2^n - 1. For 3-bit: 2^3 - 1 = 7 comparators.",
+            "marks": 1
+          },
+          {
+            "id": "EC033",
+            "text": "The group velocity of a wave packet is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "dω/dk",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "dk/dω",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "ω/k",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "k/ω",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electromagnetics",
+            "difficulty": "Medium",
+            "explanation": "Group velocity vg = dω/dk, where ω is angular frequency and k is wave number.",
+            "marks": 2
+          },
+          {
+            "id": "EC034",
+            "text": "The output of a differentiator circuit for a sine wave input is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Cosine wave",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Sine wave",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Square wave",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Triangular wave",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Analog Circuits",
+            "difficulty": "Easy",
+            "explanation": "Differentiator output = d/dt(sin(ωt)) = ωcos(ωt), which is a cosine wave.",
+            "marks": 1
+          },
+          {
+            "id": "EC035",
+            "text": "The noise figure of a noiseless amplifier is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0 dB",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1 dB",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3 dB",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "∞",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Communications",
+            "difficulty": "Easy",
+            "explanation": "Noise figure F = 1 for noiseless amplifier. In dB: NF = 10 log(F) = 10 log(1) = 0 dB.",
+            "marks": 1
+          },
+          {
+            "id": "EC036",
+            "text": "The Q-factor of a parallel RLC circuit is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "R√(C/L)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "R√(L/C)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/(R√(LC))",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "R/√(LC)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Network Theory",
+            "difficulty": "Medium",
+            "explanation": "Q-factor for parallel RLC circuit = R√(C/L).",
+            "marks": 2
+          },
+          {
+            "id": "EC037",
+            "text": "The propagation constant of a transmission line is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "α + jβ",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "α - jβ",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "β + jα",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "β - jα",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electromagnetics",
+            "difficulty": "Easy",
+            "explanation": "Propagation constant γ = α + jβ, where α is attenuation constant and β is phase constant.",
+            "marks": 1
+          },
+          {
+            "id": "EC038",
+            "text": "The slew rate of an op-amp is measured in:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "V/s",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "V/μs",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "A/s",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Hz",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog Circuits",
+            "difficulty": "Easy",
+            "explanation": "Slew rate is the maximum rate of change of output voltage, typically measured in V/μs.",
+            "marks": 1
+          },
+          {
+            "id": "EC039",
+            "text": "The frequency deviation in FM is proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Amplitude of modulating signal",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Frequency of modulating signal",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both amplitude and frequency",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Carrier amplitude",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Communications",
+            "difficulty": "Easy",
+            "explanation": "Frequency deviation Δf = kf × Am, where kf is frequency sensitivity and Am is amplitude of modulating signal.",
+            "marks": 1
+          },
+          {
+            "id": "EC040",
+            "text": "The input bias current of an op-amp is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Average of input currents",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Difference of input currents",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Sum of input currents",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Product of input currents",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Analog Circuits",
+            "difficulty": "Easy",
+            "explanation": "Input bias current IB = (IB+ + IB-)/2, which is the average of the two input bias currents.",
+            "marks": 1
+          },
+          {
+            "id": "EC041",
+            "text": "The skin depth in a conductor is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1/√(πfμσ)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "√(πfμσ)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/(πfμσ)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "πfμσ",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electromagnetics",
+            "difficulty": "Medium",
+            "explanation": "Skin depth δ = 1/√(πfμσ), where f is frequency, μ is permeability, σ is conductivity.",
+            "marks": 2
+          },
+          {
+            "id": "EC042",
+            "text": "The resolution of a DAC is determined by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Number of bits",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reference voltage",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both number of bits and reference voltage",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Clock frequency",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Digital Electronics",
+            "difficulty": "Easy",
+            "explanation": "DAC resolution = Vref/(2^n - 1), where n is number of bits and Vref is reference voltage.",
+            "marks": 1
+          },
+          {
+            "id": "EC043",
+            "text": "The phase margin of a system is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "180° - phase at gain crossover",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Phase at gain crossover - 180°",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Gain at phase crossover",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Phase at unity gain",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "explanation": "Phase margin = 180° - |phase at gain crossover frequency|.",
+            "marks": 2
+          },
+          {
+            "id": "EC044",
+            "text": "The power spectral density of white noise is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Constant",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Proportional to frequency",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Inversely proportional to frequency",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Exponential",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Communications",
+            "difficulty": "Easy",
+            "explanation": "White noise has constant power spectral density across all frequencies.",
+            "marks": 1
+          },
+          {
+            "id": "EC045",
+            "text": "The voltage gain of a common collector amplifier is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Less than 1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Equal to 1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Greater than 1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Negative",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Analog Circuits",
+            "difficulty": "Easy",
+            "explanation": "Common collector (emitter follower) has voltage gain slightly less than 1, typically 0.95-0.99.",
+            "marks": 1
+          },
+          {
+            "id": "EC046",
+            "text": "The impedance of a quarter-wave transformer is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "√(Z1Z2)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Z1 + Z2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Z1Z2/(Z1 + Z2)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Z1/Z2",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electromagnetics",
+            "difficulty": "Medium",
+            "explanation": "Quarter-wave transformer impedance ZT = √(Z1Z2), where Z1 and Z2 are the impedances to be matched.",
+            "marks": 2
+          },
+          {
+            "id": "EC047",
+            "text": "The settling time of a system is the time required for the response to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Reach 50% of final value",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reach 90% of final value",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Reach 95% of final value",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Stay within 2% of final value",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Control Systems",
+            "difficulty": "Easy",
+            "explanation": "Settling time is the time required for the response to reach and stay within 2% of the final value.",
+            "marks": 1
+          },
+          {
+            "id": "EC048",
+            "text": "The dynamic range of a system is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Maximum to minimum signal ratio",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Signal to noise ratio",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Bandwidth",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Frequency range",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Communications",
+            "difficulty": "Easy",
+            "explanation": "Dynamic range is the ratio of the largest to smallest signal that can be processed by the system.",
+            "marks": 1
+          },
+          {
+            "id": "EC049",
+            "text": "The current gain of a common emitter amplifier is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "β",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "α",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "β + 1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "β - 1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Analog Circuits",
+            "difficulty": "Easy",
+            "explanation": "Common emitter current gain is β (hfe), which is the ratio of collector current to base current.",
+            "marks": 1
+          },
+          {
+            "id": "EC050",
+            "text": "The radiation resistance of a half-wave dipole is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "36.5 Ω",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "50 Ω",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "73 Ω",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "100 Ω",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electromagnetics",
+            "difficulty": "Easy",
+            "explanation": "Half-wave dipole has radiation resistance of approximately 73 Ω.",
+            "marks": 1
+          },
+          {
+            "id": "EC051",
+            "text": "The overshoot in a second-order system depends on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Natural frequency only",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Damping ratio only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both natural frequency and damping ratio",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Input amplitude",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "explanation": "Overshoot depends only on damping ratio ζ. For underdamped systems: %OS = 100 × e^(-ζπ/√(1-ζ²)).",
+            "marks": 2
+          },
+          {
+            "id": "EC052",
+            "text": "The efficiency of a class B push-pull amplifier is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "25%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "50%",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "78.5%",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "100%",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Analog Circuits",
+            "difficulty": "Easy",
+            "explanation": "Class B push-pull amplifier has maximum theoretical efficiency of 78.5% (π/4).",
+            "marks": 1
+          },
+          {
+            "id": "EC053",
+            "text": "The bandwidth of a series RLC circuit is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "R/L",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "L/R",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/RC",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "R/C",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Network Theory",
+            "difficulty": "Medium",
+            "explanation": "Bandwidth BW = R/L for series RLC circuit, where R is resistance and L is inductance.",
+            "marks": 2
+          },
+          {
+            "id": "EC054",
+            "text": "The noise temperature of a noiseless amplifier is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0 K",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "290 K",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "300 K",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "∞",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Communications",
+            "difficulty": "Easy",
+            "explanation": "Noiseless amplifier has noise temperature of 0 K, meaning it adds no noise to the signal.",
+            "marks": 1
+          },
+          {
+            "id": "EC055",
+            "text": "The input offset voltage of an ideal op-amp is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0 V",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1 mV",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "5 mV",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "10 mV",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Analog Circuits",
+            "difficulty": "Easy",
+            "explanation": "Ideal op-amp has zero input offset voltage, meaning no voltage difference between inputs when output is zero.",
+            "marks": 1
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "GATE Electronics & Communication Engineering Assessment Results",
+        "description": "Your comprehensive GATE Electronics & Communication Engineering assessment results with detailed analysis and recommendations for improvement.",
+        "questions": []
+      }
+    }
+  }

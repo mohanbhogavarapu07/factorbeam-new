@@ -1,0 +1,2166 @@
+{
+  "id": "computer-science",
+  "title": "Computer Science & Information Technology (CS)",
+  "description": "Comprehensive GATE CS assessment covering General Aptitude and Core Computer Science subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core subject questions (85% weight) following the official GATE pattern.",
+  "category": "GATE",
+  "duration": "180 mins",
+  "difficulty": "Easy",
+  "tags": ["GATE", "Computer Science", "Engineering", "Aptitude", "Core Subjects"],
+  "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in engineering and science. This CS-specific assessment follows the official GATE pattern with General Aptitude and Core Computer Science questions.",
+  "typicalCareers": [
+    {
+      "title": "Research Engineer",
+      "description": "Advanced engineering research positions in academia and industry"
+    },
+    {
+      "title": "PhD Candidate",
+      "description": "Pursue higher studies in computer science and engineering"
+    },
+    {
+      "title": "Technical Specialist",
+      "description": "Senior technical roles in software development and system design"
+    }
+  ],
+  "whoShouldConsider": [
+    "Engineering graduates preparing for GATE",
+    "Students seeking admission to M.Tech/M.E programs",
+    "Professionals looking for PSU jobs",
+    "Researchers in computer science field"
+  ],
+  "idealTraits": [
+    "Strong analytical and problem-solving skills",
+    "Solid foundation in computer science fundamentals",
+    "Mathematical aptitude and logical reasoning",
+    "Good understanding of algorithms and data structures"
+  ],
+  "assessmentOverview": {
+    "modules": [
+      "General Aptitude Assessment (10 questions, 15 marks)",
+      "Core Computer Science Assessment (55 questions, 85 marks)"
+    ],
+    "resultsInclude": [
+      "Section-wise scores (Aptitude & Core)",
+      "Topic-wise performance analysis",
+      "Difficulty-wise accuracy",
+      "Overall percentile ranking",
+      "Detailed explanations for all questions"
+    ]
+  },
+  "gateSections": {
+    "aptitude": {
+      "title": "General Aptitude Assessment",
+      "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+      "timeLimit": 30,
+      "questions": [
+        {
+          "id": "GA001",
+          "text": "If COMPUTER is coded as DPNQVUFS, then what is the code for NETWORK?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "OFUXPSL",
+              "value": "A"
+            },
+            {
+              "id": "B", 
+              "text": "OFUXPSLM",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "OFUXPS",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "OFUXPSK",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Verbal Ability - Coding",
+          "difficulty": "Easy",
+          "explanation": "Each letter is shifted by +1 in alphabetical order. N→O, E→F, T→U, W→X, O→P, R→S, K→K"
+        },
+        {
+          "id": "GA002",
+          "text": "The ratio of boys to girls in a class is 3:2. If there are 45 students in total, how many girls are there?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "15",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "18", 
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "20",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "27",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantitative Aptitude - Ratio",
+          "difficulty": "Easy",
+          "explanation": "Total parts = 3+2 = 5. Girls = (2/5) × 45 = 18"
+        },
+        {
+          "id": "GA003",
+          "text": "Complete the series: 2, 6, 12, 20, 30, ?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "40",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "42",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "44",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "46",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantitative Aptitude - Series",
+          "difficulty": "Medium",
+          "explanation": "Differences: 4, 6, 8, 10, 12. Next term = 30 + 12 = 42"
+        },
+        {
+          "id": "GA004",
+          "text": "If the word \"EXAMINATION\" is rearranged alphabetically, what will be the 5th letter?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "I",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "M",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "N",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "O",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Verbal Ability - Arrangement",
+          "difficulty": "Easy",
+          "explanation": "Alphabetically: A-A-E-I-I-M-N-N-O-T-X. The 5th letter is I"
+        },
+        {
+          "id": "GA005",
+          "text": "A train travels 120 km in 2 hours. What is its average speed?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "50 km/h",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "60 km/h",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "70 km/h",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "80 km/h",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantitative Aptitude - Speed",
+          "difficulty": "Easy",
+          "explanation": "Speed = Distance / Time = 120 / 2 = 60 km/h"
+        },
+        {
+          "id": "GA006",
+          "text": "Choose the word most similar in meaning to \"ABUNDANT\":",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "Scarce",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Plentiful",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Minimal",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Rare",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Verbal Ability - Synonyms",
+          "difficulty": "Easy",
+          "explanation": "Abundant means plentiful or existing in large quantities"
+        },
+        {
+          "id": "GA007",
+          "text": "If 15% of x is 45, what is the value of x?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "200",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "250",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "300",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "350",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Quantitative Aptitude - Percentage",
+          "difficulty": "Easy",
+          "explanation": "15% of x = 45, so x = 45 / 0.15 = 300"
+        },
+        {
+          "id": "GA008",
+          "text": "In a certain code, \"BOOK\" is written as \"CPPL\". How is \"PAGE\" written in that code?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "QBHF",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "QBGF",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "QAHF",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "QCHF",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Verbal Ability - Coding",
+          "difficulty": "Medium",
+          "explanation": "Each letter is shifted by +1: P→Q, A→B, G→H, E→F"
+        },
+        {
+          "id": "GA009",
+          "text": "The average of 5 numbers is 27. If one number is excluded, the average becomes 25. What is the excluded number?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "32",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "35",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "37",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "40",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantitative Aptitude - Average",
+          "difficulty": "Medium",
+          "explanation": "Sum of 5 numbers = 5 × 27 = 135. Sum of 4 numbers = 4 × 25 = 100. Excluded number = 135 - 100 = 35"
+        },
+        {
+          "id": "GA010",
+          "text": "Choose the correctly spelled word:",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "Occassion",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Occasion",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Ocassion",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Ocasion",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Verbal Ability - Spelling",
+          "difficulty": "Easy",
+          "explanation": "The correct spelling is \"Occasion\" with two c's and one s"
+        }
+      ],
+      "scoringConfig": {
+        "algorithm": "simple",
+        "thresholds": {
+          "excellent": 80,
+          "good": 60,
+          "needsImprovement": 40
+        }
+      }
+    },
+    "core": {
+      "title": "Core Computer Science Assessment",
+      "description": "Comprehensive assessment of core computer science subjects including Data Structures, Algorithms, Computer Networks, Operating Systems, Database Management Systems, Computer Organization, and Programming. This section carries 85% weight in the total assessment.",
+      "timeLimit": 150,
+      "questions": [
+        {
+          "id": "CS001",
+          "text": "What is the time complexity of binary search algorithm?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "O(n)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "O(log n)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "O(n log n)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "O(n²)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Data Structures - Searching",
+          "difficulty": "Easy",
+          "explanation": "Binary search divides the search space in half each time, resulting in O(log n) time complexity"
+        },
+        {
+          "id": "CS002",
+          "text": "Which of the following is NOT a valid IP address class?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Class A",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Class B",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Class D",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Class F",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Computer Networks - IP Addressing",
+          "difficulty": "Easy",
+          "explanation": "Valid IP address classes are A, B, C, D, and E. Class F does not exist"
+        },
+        {
+          "id": "CS003",
+          "text": "In a relational database, what does ACID stand for?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Atomicity, Consistency, Isolation, Durability",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Association, Consistency, Integrity, Durability",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Atomicity, Correlation, Isolation, Data",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Association, Correlation, Integrity, Data",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Database Management Systems",
+          "difficulty": "Easy",
+          "explanation": "ACID properties ensure reliable database transactions: Atomicity, Consistency, Isolation, Durability"
+        },
+        {
+          "id": "CS004",
+          "text": "What is the output of the following C code?\n```c\nint x = 5;\nprintf(\"%d\", ++x);\n```",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "5",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "6",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "4",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Compilation Error",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Programming in C - Operators",
+          "difficulty": "Easy",
+          "explanation": "Pre-increment operator (++x) increments x first, then returns the value. So x becomes 6 and prints 6"
+        },
+        {
+          "id": "CS005",
+          "text": "Which sorting algorithm has the best average-case time complexity?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bubble Sort",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Selection Sort",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Merge Sort",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Insertion Sort",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Algorithms - Sorting",
+          "difficulty": "Medium",
+          "explanation": "Merge Sort has O(n log n) average-case complexity, which is better than the O(n²) of the other options"
+        },
+        {
+          "id": "CS006",
+          "text": "Which data structure uses LIFO (Last In First Out) principle?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Queue",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Stack",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Array",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Linked List",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Data Structures - Stack",
+          "difficulty": "Easy",
+          "explanation": "Stack follows LIFO principle where the last element inserted is the first to be removed"
+        },
+        {
+          "id": "CS007",
+          "text": "What is the default subnet mask for a Class C IP address?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "255.0.0.0",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "255.255.0.0",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "255.255.255.0",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "255.255.255.255",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Computer Networks - IP Addressing",
+          "difficulty": "Easy",
+          "explanation": "Class C networks use 255.255.255.0 as the default subnet mask"
+        },
+        {
+          "id": "CS008",
+          "text": "In OSI model, which layer is responsible for end-to-end communication?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Network Layer",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Transport Layer",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Session Layer",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Application Layer",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Computer Networks - OSI Model",
+          "difficulty": "Medium",
+          "explanation": "Transport Layer (Layer 4) provides end-to-end communication services for applications"
+        },
+        {
+          "id": "CS009",
+          "text": "What is the space complexity of recursive Fibonacci implementation?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "O(1)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "O(n)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "O(log n)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "O(n²)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Algorithms - Complexity",
+          "difficulty": "Medium",
+          "explanation": "Space complexity is O(n) due to the recursion stack depth"
+        },
+        {
+          "id": "CS010",
+          "text": "Which scheduling algorithm can cause starvation?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Round Robin",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "First Come First Serve",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Shortest Job First",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Priority Scheduling",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Operating Systems - Scheduling",
+          "difficulty": "Medium",
+          "explanation": "Priority Scheduling can cause starvation when high-priority processes continuously arrive"
+        },
+        {
+          "id": "CS011",
+          "text": "What is the minimum number of nodes in a binary tree of height h?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "h",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "h + 1",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "2^h",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "2^(h+1) - 1",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Data Structures - Trees",
+          "difficulty": "Medium",
+          "explanation": "Minimum nodes = h + 1 (when tree is skewed)"
+        },
+        {
+          "id": "CS012",
+          "text": "Which normal form eliminates transitive dependency?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "1NF",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "2NF",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "3NF",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "BCNF",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "DBMS - Normalization",
+          "difficulty": "Easy",
+          "explanation": "Third Normal Form (3NF) eliminates transitive dependencies"
+        },
+        {
+          "id": "CS013",
+          "text": "What is the output of: printf(\"%d\", sizeof(int))?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "2",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "4",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "8",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Depends on compiler",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Programming in C - Data Types",
+          "difficulty": "Medium",
+          "explanation": "Size of int depends on the compiler and system architecture"
+        },
+        {
+          "id": "CS014",
+          "text": "Which gate is universal?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "AND",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "OR",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "NAND",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "XOR",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Digital Logic - Gates",
+          "difficulty": "Easy",
+          "explanation": "NAND gate is universal - any logic function can be implemented using only NAND gates"
+        },
+        {
+          "id": "CS015",
+          "text": "What is thrashing in operating systems?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Low page fault rate",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "High page fault rate",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Process termination",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Memory allocation",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Operating Systems - Memory Management",
+          "difficulty": "Easy",
+          "explanation": "Thrashing occurs when a system spends more time paging than executing"
+        },
+        {
+          "id": "CS016",
+          "text": "In a B-tree of order m, maximum number of children a node can have is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "m",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "m-1",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "m+1",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "2m",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Data Structures - B-Trees",
+          "difficulty": "Easy",
+          "explanation": "In a B-tree of order m, a node can have maximum m children"
+        },
+        {
+          "id": "CS017",
+          "text": "Which protocol operates at the application layer?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "TCP",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "IP",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "HTTP",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "ARP",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Computer Networks - Protocols",
+          "difficulty": "Easy",
+          "explanation": "HTTP (Hypertext Transfer Protocol) operates at the application layer"
+        },
+        {
+          "id": "CS018",
+          "text": "What is the time complexity of accessing an element in a hash table (average case)?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "O(1)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "O(log n)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "O(n)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "O(n log n)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Data Structures - Hashing",
+          "difficulty": "Easy",
+          "explanation": "Hash tables provide O(1) average case access time"
+        },
+        {
+          "id": "CS019",
+          "text": "Which SQL command is used to remove a table from database?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "DELETE",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "DROP",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "REMOVE",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "TRUNCATE",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "DBMS - SQL Commands",
+          "difficulty": "Easy",
+          "explanation": "DROP TABLE command removes the entire table structure from the database"
+        },
+        {
+          "id": "CS020",
+          "text": "What is the principle of locality?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Programs access memory randomly",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Programs access nearby memory locations",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Programs never repeat instructions",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Programs use only cache memory",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Computer Organization - Memory",
+          "difficulty": "Easy",
+          "explanation": "Locality of reference states that programs tend to access nearby memory locations"
+        },
+        {
+          "id": "CS021",
+          "text": "In quicksort, what is the worst-case time complexity?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "O(n)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "O(n log n)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "O(n²)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "O(log n)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Algorithms - Sorting",
+          "difficulty": "Medium",
+          "explanation": "Quicksort has O(n²) worst-case complexity when the pivot is always the smallest or largest element"
+        },
+        {
+          "id": "CS022",
+          "text": "Which of the following is a connectionless protocol?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "TCP",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "UDP",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "FTP",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "SMTP",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Computer Networks - Transport Layer",
+          "difficulty": "Easy",
+          "explanation": "UDP (User Datagram Protocol) is connectionless"
+        },
+        {
+          "id": "CS023",
+          "text": "What is a deadlock?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Process termination",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Circular wait for resources",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Memory overflow",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "CPU idle state",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Operating Systems - Deadlock",
+          "difficulty": "Easy",
+          "explanation": "Deadlock occurs when processes are in circular wait for resources"
+        },
+        {
+          "id": "CS024",
+          "text": "Which tree traversal uses a queue?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Inorder",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Preorder",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Postorder",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Level-order",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Data Structures - Tree Traversal",
+          "difficulty": "Easy",
+          "explanation": "Level-order (BFS) traversal uses a queue data structure"
+        },
+        {
+          "id": "CS025",
+          "text": "What is a foreign key in DBMS?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Primary key of another table",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Unique identifier",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Index column",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Encrypted key",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "DBMS - Keys",
+          "difficulty": "Easy",
+          "explanation": "A foreign key is a primary key of another table used to establish relationships"
+        },
+        {
+          "id": "CS026",
+          "text": "Which register holds the address of the next instruction?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accumulator",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Program Counter",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Stack Pointer",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Instruction Register",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Computer Organization - Registers",
+          "difficulty": "Easy",
+          "explanation": "Program Counter (PC) holds the address of the next instruction to be executed"
+        },
+        {
+          "id": "CS027",
+          "text": "What is the height of a complete binary tree with n nodes?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "log n",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "n",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "n/2",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "sqrt(n)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Data Structures - Trees",
+          "difficulty": "Medium",
+          "explanation": "Height of complete binary tree = ⌊log₂(n)⌋"
+        },
+        {
+          "id": "CS028",
+          "text": "Which layer adds MAC addresses to frames?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Physical Layer",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Data Link Layer",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Network Layer",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Transport Layer",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Computer Networks - OSI Model",
+          "difficulty": "Easy",
+          "explanation": "Data Link Layer is responsible for MAC addressing"
+        },
+        {
+          "id": "CS029",
+          "text": "What does DMA stand for?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Direct Memory Allocation",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Direct Memory Access",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Dynamic Memory Allocation",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Data Memory Access",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Computer Organization - I/O",
+          "difficulty": "Easy",
+          "explanation": "DMA stands for Direct Memory Access"
+        },
+        {
+          "id": "CS030",
+          "text": "Which sorting algorithm is stable?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Quick Sort",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Heap Sort",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Merge Sort",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Selection Sort",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Algorithms - Sorting",
+          "difficulty": "Medium",
+          "explanation": "Merge Sort is stable - maintains relative order of equal elements"
+        },
+        {
+          "id": "CS031",
+          "text": "What is paging in OS?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Process scheduling",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Memory management technique",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Disk formatting",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "File organization",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Operating Systems - Memory Management",
+          "difficulty": "Easy",
+          "explanation": "Paging is a memory management scheme that eliminates external fragmentation"
+        },
+        {
+          "id": "CS032",
+          "text": "In a graph with V vertices and E edges, what is the time complexity of DFS?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "O(V)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "O(E)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "O(V + E)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "O(V × E)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Data Structures - Graph",
+          "difficulty": "Medium",
+          "explanation": "DFS visits all vertices (V) and edges (E), giving O(V + E) time complexity"
+        },
+        {
+          "id": "CS033",
+          "text": "Which protocol is used for email transmission?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "FTP",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "SMTP",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "HTTP",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "SNMP",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Computer Networks - Application Layer",
+          "difficulty": "Easy",
+          "explanation": "SMTP (Simple Mail Transfer Protocol) is used for email transmission"
+        },
+        {
+          "id": "CS034",
+          "text": "What is a superkey?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Minimal set of attributes",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Set that uniquely identifies tuples",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Foreign key",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Candidate key",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "DBMS - Keys",
+          "difficulty": "Medium",
+          "explanation": "A superkey is any set of attributes that can uniquely identify a tuple"
+        },
+        {
+          "id": "CS035",
+          "text": "Which instruction format has the most compact code?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Three-address",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Two-address",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "One-address",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Zero-address",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Computer Organization - Instructions",
+          "difficulty": "Medium",
+          "explanation": "Zero-address (stack-based) instructions are most compact"
+        },
+        {
+          "id": "CS036",
+          "text": "What is the maximum efficiency of Aloha protocol?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "18.4%",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "36.8%",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "50%",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "100%",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Computer Networks - MAC Protocols",
+          "difficulty": "Hard",
+          "explanation": "Pure ALOHA has maximum efficiency of 18.4%"
+        },
+        {
+          "id": "CS037",
+          "text": "Which data structure is used in BFS?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stack",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Queue",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Tree",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Heap",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Data Structures - Graph",
+          "difficulty": "Easy",
+          "explanation": "Breadth-First Search uses a Queue"
+        },
+        {
+          "id": "CS038",
+          "text": "What is the purpose of semaphore?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Memory allocation",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Process synchronization",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "CPU scheduling",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Disk management",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Operating Systems - Synchronization",
+          "difficulty": "Easy",
+          "explanation": "Semaphore is used for process synchronization"
+        },
+        {
+          "id": "CS039",
+          "text": "Which is NOT a greedy algorithm?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Kruskal's Algorithm",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Prim's Algorithm",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Dijkstra's Algorithm",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Bellman-Ford Algorithm",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Algorithms - Greedy",
+          "difficulty": "Medium",
+          "explanation": "Bellman-Ford is a dynamic programming algorithm, not greedy"
+        },
+        {
+          "id": "CS040",
+          "text": "What is the subnet mask for /24 CIDR notation?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "255.0.0.0",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "255.255.0.0",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "255.255.255.0",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "255.255.255.255",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Computer Networks - Subnetting",
+          "difficulty": "Easy",
+          "explanation": "/24 means 24 bits are 1, giving 255.255.255.0"
+        },
+        {
+          "id": "CS041",
+          "text": "In binary search tree, inorder traversal gives:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Random order",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Sorted order",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Reverse order",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Level order",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Data Structures - BST",
+          "difficulty": "Easy",
+          "explanation": "Inorder traversal of BST gives elements in sorted order"
+        },
+        {
+          "id": "CS042",
+          "text": "What is a view in SQL?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Physical table",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Virtual table",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Index",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Constraint",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "DBMS - Views",
+          "difficulty": "Easy",
+          "explanation": "A view is a virtual table based on SQL query result"
+        },
+        {
+          "id": "CS043",
+          "text": "What is cache memory?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Secondary storage",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Fast memory between CPU and RAM",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Virtual memory",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Hard disk partition",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Computer Organization - Memory Hierarchy",
+          "difficulty": "Easy",
+          "explanation": "Cache is fast memory placed between CPU and main memory"
+        },
+        {
+          "id": "CS044",
+          "text": "Which is a non-primitive data structure?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Integer",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Float",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Array",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Character",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Data Structures - Classification",
+          "difficulty": "Easy",
+          "explanation": "Array is a non-primitive (derived) data structure"
+        },
+        {
+          "id": "CS045",
+          "text": "What is the time complexity of bubble sort in best case?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "O(n)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "O(n log n)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "O(n²)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "O(log n)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Algorithms - Sorting",
+          "difficulty": "Medium",
+          "explanation": "Bubble sort best case is O(n) when array is already sorted"
+        },
+        {
+          "id": "CS046",
+          "text": "Which protocol uses port 80?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "FTP",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "HTTP",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "HTTPS",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "SMTP",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Computer Networks - Ports",
+          "difficulty": "Easy",
+          "explanation": "HTTP uses port 80 by default"
+        },
+        {
+          "id": "CS047",
+          "text": "What is interrupt?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Process termination",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Signal to processor",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Memory allocation",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Disk operation",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Operating Systems - Interrupts",
+          "difficulty": "Easy",
+          "explanation": "Interrupt is a signal to processor indicating an event needs attention"
+        },
+        {
+          "id": "CS048",
+          "text": "Which tree is always balanced?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Binary Tree",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Binary Search Tree",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "AVL Tree",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "General Tree",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Data Structures - Trees",
+          "difficulty": "Easy",
+          "explanation": "AVL Tree is a self-balancing binary search tree"
+        },
+        {
+          "id": "CS049",
+          "text": "What is the maximum number of keys in a B-tree node of order m?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "m",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "m-1",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "m+1",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "2m",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Data Structures - B-Trees",
+          "difficulty": "Medium",
+          "explanation": "A B-tree node of order m can have maximum m-1 keys"
+        },
+        {
+          "id": "CS050",
+          "text": "Which is a lossless decomposition property?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Data loss occurs",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Original relation can be reconstructed",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Redundancy increases",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Information is deleted",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "DBMS - Decomposition",
+          "difficulty": "Medium",
+          "explanation": "Lossless decomposition ensures the original relation can be reconstructed by joining decomposed relations"
+        },
+        {
+          "id": "CS051",
+          "text": "What is RISC?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reduced Instruction Set Computer",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Rich Instruction Set Computer",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Random Instruction Set Computer",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Regular Instruction Set Computer",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Computer Organization - Architecture",
+          "difficulty": "Easy",
+          "explanation": "RISC stands for Reduced Instruction Set Computer"
+        },
+        {
+          "id": "CS052",
+          "text": "Which algorithm is used for finding minimum spanning tree?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dijkstra",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Kruskal",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "BFS",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "DFS",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Algorithms - Graph",
+          "difficulty": "Easy",
+          "explanation": "Kruskal's algorithm finds minimum spanning tree"
+        },
+        {
+          "id": "CS053",
+          "text": "What is the default port for HTTPS?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "80",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "443",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "21",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "25",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Computer Networks - Ports",
+          "difficulty": "Easy",
+          "explanation": "HTTPS uses port 443 by default"
+        },
+        {
+          "id": "CS054",
+          "text": "What is a process?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Program in execution",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Compiled code",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Source code",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Algorithm",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Operating Systems - Process",
+          "difficulty": "Easy",
+          "explanation": "A process is a program in execution"
+        },
+        {
+          "id": "CS055",
+          "text": "Which traversal technique uses stack implicitly?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Level-order",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "BFS",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "DFS",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "None",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Data Structures - Graph Traversal",
+          "difficulty": "Easy",
+          "explanation": "DFS uses stack (either explicitly or through recursion)"
+        }
+      ],
+      "scoringConfig": {
+        "algorithm": "weighted",
+        "thresholds": {
+          "excellent": 80,
+          "good": 60,
+          "needsImprovement": 40
+        }
+      }
+    },
+    "results": {
+      "title": "GATE Assessment Results",
+      "description": "Your comprehensive GATE CS assessment results with detailed analysis and recommendations for improvement.",
+      "questions": []
+    }
+  }
+}

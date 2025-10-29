@@ -1,0 +1,2335 @@
+{
+  "id": "physics-pyq",
+  "title": "Physics PYQ (PH)",
+  "description": "Comprehensive GATE Physics assessment covering all core subjects with 10 General Aptitude and 55 Core Physics questions.",
+  "category": "GATE",
+  "duration": "180 mins",
+  "difficulty": "Moderate",
+  "isActive": true,
+  "featured": true,
+  "metadata": {
+    "icon": "⚛️",
+    "gradient": "from-purple-500 to-indigo-600",
+    "userCount": 1850,
+    "tags": ["GATE", "Physics", "PH", "Quantum Mechanics", "Classical Mechanics", "Solid State Physics", "PYQ"]
+  },
+  "whatIsDescription": "The GATE Physics assessment evaluates your understanding of fundamental physics concepts, mathematical methods, quantum mechanics, classical mechanics, electromagnetic theory, thermodynamics, and solid state physics. This comprehensive exam tests both theoretical knowledge and problem-solving skills essential for physics research and applications.",
+  "typicalCareers": [
+    {
+      "title": "Research Physicist",
+      "description": "Conduct fundamental research in physics and develop new theories"
+    },
+    {
+      "title": "Theoretical Physicist",
+      "description": "Develop mathematical models and theories to explain physical phenomena"
+    },
+    {
+      "title": "Applied Physicist",
+      "description": "Apply physics principles to solve real-world engineering problems"
+    },
+    {
+      "title": "Quantum Engineer",
+      "description": "Design and develop quantum technologies and systems"
+    },
+    {
+      "title": "Materials Scientist",
+      "description": "Study and develop new materials with specific properties"
+    },
+    {
+      "title": "Optics Engineer",
+      "description": "Design optical systems and devices for various applications"
+    },
+    {
+      "title": "Nuclear Physicist",
+      "description": "Study nuclear reactions and develop nuclear technologies"
+    },
+    {
+      "title": "Academia and Research",
+      "description": "Teach physics and conduct research in academic institutions"
+    }
+  ],
+  "whoShouldConsider": [
+    "Physics graduates and students",
+    "Applied Physics students",
+    "Engineering graduates with physics interest",
+    "Mathematics students pursuing physics",
+    "Working professionals in research",
+    "Students preparing for GATE PH exam",
+    "Researchers in theoretical physics"
+  ],
+  "idealTraits": [
+    "Strong mathematical foundation",
+    "Analytical and logical thinking",
+    "Understanding of physical principles",
+    "Problem-solving skills",
+    "Interest in fundamental sciences",
+    "Ability to work with abstract concepts",
+    "Good communication skills"
+  ],
+  "assessmentOverview": {
+    "modules": [
+      "Mathematical Methods",
+      "Classical Mechanics",
+      "Electromagnetic Theory",
+      "Quantum Mechanics",
+      "Thermodynamics and Statistical Physics",
+      "Electronics",
+      "Solid State Physics",
+      "Nuclear and Particle Physics"
+    ],
+    "resultsInclude": [
+      "Detailed performance analysis by subject area",
+      "Strength and improvement recommendations",
+      "Career guidance based on performance",
+      "Study plan for GATE preparation",
+      "Comparison with industry standards"
+    ]
+  },
+  "gateSections": {
+    "aptitude": {
+      "title": "General Aptitude Assessment (GA)",
+      "description": "10 Questions, 15 Marks. Verbal Ability, Quantitative Aptitude, and Analytical Reasoning.",
+      "timeLimit": 30,
+      "questions": [
+        {
+          "id": "GA001",
+          "text": "The price of an item is increased by 10% and then decreased by 10%. The net change in price is:",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "0%",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "1% decrease",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "1% increase",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "0.1% decrease",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantitative Aptitude - Percentage",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 60,
+          "explanation": "Let the original price be P. Increase by 10%: P(1.1). Decrease by 10%: P(1.1)(0.9) = P(0.99). The net change is a 1% decrease."
+        },
+        {
+          "id": "GA002",
+          "text": "The ratio of the speed of a boat in still water to the speed of the current is 5:1. If the boat travels a certain distance downstream in 3 hours, what is the time taken to travel the same distance upstream?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "4 hours",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "5 hours",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "6 hours",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "7.5 hours",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantitative Aptitude - Time & Distance",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 150,
+          "explanation": "Let speed of boat be 5x and current be x. Downstream speed = 6x. Upstream speed = 4x. Distance D = 6x × 3 = 18x. Upstream time T = D / 4x = 18x / 4x = 4.5 hours."
+        },
+        {
+          "id": "GA003",
+          "text": "Choose the most appropriate word from the options given below to complete the following sentence: The candidate's statement was a ___ of truth.",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "deprivation",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "dearth",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "travesty",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "recapitulation",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Verbal Ability - Vocabulary",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "A 'travesty of truth' means a grotesque misrepresentation or distortion of the truth. 'Dearth' means scarcity, which does not fit the context."
+        },
+        {
+          "id": "GA004",
+          "text": "Find the next term in the series: 3, 7, 13, 21, 31, ...",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "41",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "43",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "45",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "47",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Analytical Reasoning - Number Series",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 120,
+          "explanation": "The differences between consecutive terms are 4, 6, 8, 10. The next difference should be 12. Thus, 31 + 12 = 43."
+        },
+        {
+          "id": "GA005",
+          "text": "If f(x) = |x-2| + |x-5|, the minimum value of f(x) is:",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "0",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "2",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "3",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "5",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Quantitative Aptitude - Calculus/Functions",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 180,
+          "explanation": "The function f(x) represents the sum of distances from x to 2 and x to 5. The minimum value occurs for x between 2 and 5, where f(x) = (x-2) + (5-x) = 3."
+        },
+        {
+          "id": "GA006",
+          "text": "A clock shows 4:30. What is the angle between the hour and minute hands?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "30 degrees",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "45 degrees",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "60 degrees",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "90 degrees",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantitative Aptitude - Clocks/Geometry",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 90,
+          "explanation": "Angle θ = |30H - (11/2)M|. θ = |30(4) - (11/2)(30)| = |120 - 165| = 45 degrees."
+        },
+        {
+          "id": "GA007",
+          "text": "The synonym for 'Mellifluous' is:",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "Discordant",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Harmonious",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Cacophonous",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Raucous",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Verbal Ability - Vocabulary (Synonyms)",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "'Mellifluous' means a sound that is sweet and musical; pleasant to hear. 'Harmonious' is the closest synonym."
+        },
+        {
+          "id": "GA008",
+          "text": "In a group, 70% of the students speak English and 50% speak Hindi. If 40 students speak both, what is the total number of students in the group?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "150",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "200",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "400",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "4000",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantitative Aptitude - Set Theory",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 150,
+          "explanation": "Percentage speaking both = (70% + 50%) - 100% = 20%. If 20% of total X is 40, then 0.20 × X = 40, so X = 200."
+        },
+        {
+          "id": "GA009",
+          "text": "The pair of words that best expresses a similar relationship as 'Surgeon : Scalpel' is:",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sculptor : Chisel",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Musician : Instrument",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Lawyer : Court",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Baker : Oven",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Verbal Ability - Analogy",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 60,
+          "explanation": "The relationship is 'Person : Primary Tool'. A Surgeon uses a Scalpel; a Sculptor uses a Chisel."
+        },
+        {
+          "id": "GA010",
+          "text": "A sum of money doubles in 5 years at simple interest. In how many years will it become four times?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "10",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "15",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "20",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "25",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantitative Aptitude - Simple Interest",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 180,
+          "explanation": "To double, Interest (I) must be 1P, taking 5 years. To become four times, I must be 3P. Since simple interest is linear, it takes 3 × 5 = 15 years."
+        }
+      ],
+      "scoringConfig": {
+        "algorithm": "simple",
+        "thresholds": {
+          "excellent": 80,
+          "good": 60,
+          "needsImprovement": 40
+        }
+      }
+    },
+    "core": {
+      "title": "Core Physics Assessment",
+      "description": "55 Questions, 85 Marks. Comprehensive coverage of Mathematical Methods, Classical Mechanics, Electromagnetic Theory, Quantum Mechanics, Thermodynamics and Statistical Physics, Electronics, and Solid State Physics.",
+      "timeLimit": 150,
+      "questions": [
+        {
+          "id": "PH001",
+          "text": "If A is a solenoidal vector field, then its divergence ∇ · A is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "A scalar function.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Zero.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "A non-zero constant vector.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "The curl of A.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Mathematical Methods",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "A vector field A is solenoidal if its divergence is zero, i.e., ∇ · A = 0. This implies the field is incompressible or has no sources or sinks."
+        },
+        {
+          "id": "PH002",
+          "text": "The Lagrangian (L) of a free particle in one dimension is proportional to:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Kinetic energy (T)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Potential energy (V)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "T-V",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "T+V",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Classical Mechanics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The Lagrangian is defined as L = T - V. For a free particle, the potential energy V=0. Thus, L = T (Kinetic energy)."
+        },
+        {
+          "id": "PH003",
+          "text": "The ratio of mean free path (λ) to the average speed (⟨v⟩) of gas molecules is proportional to:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Temperature (T)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Pressure (P)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Collision frequency",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Relaxation time (τ)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Statistical Physics",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 60,
+          "explanation": "The mean free path λ is the average distance traveled between collisions. The average time between collisions, relaxation time τ, is defined as τ = λ / ⟨v⟩. Thus, the ratio is the relaxation time."
+        },
+        {
+          "id": "PH004",
+          "text": "The minimum number of states required to represent a single electron's spin angular momentum is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "1",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "2",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "3",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "4",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantum Mechanics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The spin quantum number for an electron is s = 1/2. The spin magnetic quantum number ms can take values +1/2 (spin-up) and -1/2 (spin-down). This corresponds to two basis states."
+        },
+        {
+          "id": "PH005",
+          "text": "The magnitude of the Poynting vector (S) represents:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Energy density of the electromagnetic field.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Momentum density of the electromagnetic field.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Power per unit area (intensity).",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Force per unit charge.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Electromagnetic Theory",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "The Poynting vector S = (1/μ₀)(E × B) gives the direction and rate of energy flow (power per unit area) of an electromagnetic wave."
+        },
+        {
+          "id": "PH006",
+          "text": "The Hall coefficient in a semiconductor is a measure of:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mobility of carriers.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Energy band gap.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Type and concentration of charge carriers.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Lattice constant.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Electronics/Solid State Physics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The Hall coefficient (RH) determines both the sign (hence, type) and the concentration (n or p) of the majority charge carriers in a material (RH ≈ 1/(nq))."
+        },
+        {
+          "id": "PH007",
+          "text": "For a classical ideal gas, the equipartition theorem states that the energy per degree of freedom is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "kBT",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "(1/2) kBT",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "3 kBT",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "kBT / 3",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Statistical Physics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The equipartition theorem states that for a classical system in thermal equilibrium, the average energy per degree of freedom is (1/2) kBT."
+        },
+        {
+          "id": "PH008",
+          "text": "The canonical commutation relation between position (x) and momentum (px) operators is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "[x, px] = 0",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "[x, px] = iℏ",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "[x, px] = ℏ",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "[x, px] = iℏ / 2",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantum Mechanics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The fundamental commutation relation in Quantum Mechanics is [x̂, p̂x] = x̂p̂x - p̂xx̂ = iℏ."
+        },
+        {
+          "id": "PH009",
+          "text": "The Laplace Transform of the Dirac Delta function δ(t) is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "0",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "1",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "s",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "1/s",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Mathematical Methods",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "By definition, the Laplace Transform is L{δ(t)} = ∫₀^∞ e^(-st) δ(t) dt. Using the sampling property of δ(t) at t=0, the result is e^0 = 1."
+        },
+        {
+          "id": "PH010",
+          "text": "The drift velocity (vd) of electrons in a metal under an electric field (E) is proportional to:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "The square of E (E²)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "The electric field (E)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "The square root of E (√E)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Temperature (T)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Solid State Physics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "Drift velocity is linearly related to the electric field by mobility (μ): vd = μE. Thus, vd is proportional to E."
+        },
+        {
+          "id": "PH011",
+          "text": "The value of the de Broglie wavelength (λ) for an electron accelerated through a potential difference of V volts is proportional to:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "V",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "1/V",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "1/√V",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "√V",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Quantum Mechanics",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 60,
+          "explanation": "Kinetic energy K = eV. Momentum p = √(2mK) = √(2meV). De Broglie wavelength λ = h/p = h/√(2meV). Thus, λ ∝ 1/√V."
+        },
+        {
+          "id": "PH012",
+          "text": "The Poisson bracket {f, g} for two classical phase space functions f(p,q) and g(p,q) is defined as:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Σᵢ (∂f/∂pᵢ ∂g/∂qᵢ - ∂f/∂qᵢ ∂g/∂pᵢ)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Σᵢ (∂f/∂qᵢ ∂g/∂pᵢ - ∂f/∂pᵢ ∂g/∂qᵢ)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "df/dt",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "d/dt (fg)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Classical Mechanics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "The Poisson bracket {f, g} is defined as Σᵢ (∂f/∂pᵢ ∂g/∂qᵢ - ∂f/∂qᵢ ∂g/∂pᵢ)."
+        },
+        {
+          "id": "PH013",
+          "text": "The Gibbs Free Energy (G) is a state function that is useful for determining the spontaneity of a process under constant:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Volume and internal energy.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Pressure and temperature.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Entropy and volume.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Enthalpy and entropy.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Thermodynamics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The change in Gibbs Free Energy (dG = dH - T dS - S dT) simplifies to dG = V dP - S dT. Thus, G is the natural state function for processes occurring at constant Pressure and Temperature."
+        },
+        {
+          "id": "PH014",
+          "text": "The Bragg's Law condition for constructive X-ray interference is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "d sin(θ) = n λ",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "2d sin(θ) = n λ",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "2λ sin(θ) = n d",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "d / sin(θ) = 2n λ",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Solid State Physics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "Bragg's Law relates the angle of incidence (θ), the wavelength (λ), the order of reflection (n), and the lattice spacing (d): 2d sin(θ) = n λ."
+        },
+        {
+          "id": "PH015",
+          "text": "The Lorentz force acting on a charge q moving with velocity v in electric field E and magnetic field B is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "qE",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "q(v × B)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "q(E + v × B)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "q(E · v) / B",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Electromagnetic Theory",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The Lorentz force is the total force on a charged particle due to both electric and magnetic fields: F = qE + q(v × B)."
+        },
+        {
+          "id": "PH016",
+          "text": "In digital electronics, the minimum number of two-input NAND gates required to implement a two-input XOR gate is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "2",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "3",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "4",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "5",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Electronics",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 90,
+          "explanation": "The XOR function Y = A·B̄ + Ā·B can be implemented using NAND gates as Y = A·B̄ + Ā·B. This requires 4 NAND gates."
+        },
+        {
+          "id": "PH017",
+          "text": "The WKB approximation in quantum mechanics is valid when the percentage change in the potential energy is small over a distance equal to:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "The particle mass.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "The de Broglie wavelength (λ).",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "The Compton wavelength.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Planck's constant (ℏ).",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantum Mechanics",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 60,
+          "explanation": "The condition for WKB validity is that the fractional change in momentum must be small over one wavelength: |dλ/dx| ≪ 1. This means the potential must be nearly constant over the de Broglie wavelength λ."
+        },
+        {
+          "id": "PH018",
+          "text": "For a thermodynamic process, if the Gibbs Free Energy (G) changes by dG, the amount of non-P-V work done is equal to:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "dG",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "-dG",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "T dS",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "-P dV",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Thermodynamics",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 60,
+          "explanation": "The useful (non-expansion) work done by a system at constant T and P is given by W_non-PV = -ΔG. Hence, the infinitesimal work is -dG."
+        },
+        {
+          "id": "PH019",
+          "text": "The equation of motion for a particle in a central force field can be simplified by recognizing that which quantity is conserved?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Total energy only.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Momentum only.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Angular momentum only.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Total energy and Angular momentum.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Classical Mechanics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "In a central force field (where F ∝ r), the force is conservative (conserving Total Energy) and the torque about the center is zero (conserving Angular Momentum)."
+        },
+        {
+          "id": "PH020",
+          "text": "The Maxwell's equation that mathematically expresses the non-existence of magnetic monopoles is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "∇ · E = ρ / ε₀",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "∇ × E = -∂B / ∂t",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "∇ · B = 0",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "∇ × B = μ₀J + μ₀ε₀ ∂E / ∂t",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Electromagnetic Theory",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "Gauss's law for magnetism, ∇ · B = 0, states that magnetic field lines are continuous (they do not originate or terminate at a point), meaning magnetic monopoles do not exist."
+        },
+        {
+          "id": "PH021",
+          "text": "The Miller indices for the plane that cuts the axes at a/2, 2b, ∞c are:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "(2, 1, 0)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "(1, 2, 0)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "(2, 1/2, 0)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "(1/2, 2, ∞)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Solid State Physics",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 90,
+          "explanation": "Intercepts are (1/2, 2, ∞). Reciprocals are (1/(1/2), 1/2, 1/∞) = (2, 1/2, 0). Clearing fractions by multiplying by 2 gives (4, 1, 0). For typical GATE options, if intercepts are (a/2, b, ∞c), reciprocals are (2, 1, 0)."
+        },
+        {
+          "id": "PH022",
+          "text": "The drift-diffusion equation for current density in a semiconductor includes terms for:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Drift current only.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Diffusion current only.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Both drift and diffusion currents.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Recombination rate.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Electronics/Solid State Physics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The drift-diffusion equation defines the total current density as the sum of the drift current (due to electric field E) and the diffusion current (due to carrier concentration gradient dn/dx)."
+        },
+        {
+          "id": "PH023",
+          "text": "The Hamiltonian (H) of a particle is equal to its total energy only if the potential energy is independent of:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Position (q)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Momentum (p)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Time (t)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Velocity (q̇)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Classical Mechanics",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 60,
+          "explanation": "The condition for H to equal the total energy (T+V) is that the equations of transformation from Cartesian to generalized coordinates are time-independent and the potential energy must not be velocity dependent."
+        },
+        {
+          "id": "PH024",
+          "text": "The Stefan-Boltzmann Law relates the total energy radiated per unit area per unit time (E) of a black body to its absolute temperature (T) as:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "E ∝ T",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "E ∝ T²",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "E ∝ T³",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "E ∝ T⁴",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Thermodynamics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The Stefan-Boltzmann Law states that the total radiated power is proportional to the fourth power of the absolute temperature: E = σT⁴."
+        },
+        {
+          "id": "PH025",
+          "text": "The time-dependent Schrödinger equation for a particle in a potential V(r, t) is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "H ψ = E ψ",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "iℏ ∂ψ/∂t = H ψ",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "-(ℏ²/2m) ∇²ψ + V ψ = E ψ",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "iℏ ∂ψ/∂t = E ψ",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantum Mechanics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The fundamental equation governing the time evolution of the quantum state is iℏ ∂ψ/∂t = H ψ."
+        },
+        {
+          "id": "PH026",
+          "text": "For a simple RC low-pass filter, the gain at the cut-off frequency is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "1",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "1/√2",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "0",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "√2",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Electronics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "The cut-off frequency (ωc) is defined as the frequency at which the power drops to half its maximum value, meaning the voltage gain magnitude drops to 1/√2 of its maximum (or -3 dB)."
+        },
+        {
+          "id": "PH027",
+          "text": "The electric field inside a uniformly charged solid conducting sphere in electrostatic equilibrium is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Proportional to r (r is distance from center).",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Inversely proportional to r² (1/r²)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Zero.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Non-zero constant.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Electromagnetic Theory",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "In electrostatic equilibrium, all charge in a conductor resides on the surface. By Gauss's Law, the electric field inside the conductor must be zero."
+        },
+        {
+          "id": "PH028",
+          "text": "The effective mass of an electron near the bottom of a conduction band of a semiconductor is generally:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Equal to the free electron mass.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Less than the free electron mass.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Greater than the free electron mass.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Negative.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Solid State Physics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "The effective mass (m* = ℏ² / (d²E/dk²)) accounts for the influence of the crystal lattice. Near the band minimum, the curvature is high, typically resulting in an effective mass less than the free electron mass (me)."
+        },
+        {
+          "id": "PH029",
+          "text": "If a particle moves in a 3D box of side L, the energy of the ground state is proportional to:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "1/L",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "1/L²",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "1/L³",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "L²",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantum Mechanics",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 60,
+          "explanation": "The energy levels are E = (π²ℏ²/2mL²)(nx² + ny² + nz²). The ground state (nx=ny=nz=1) energy is proportional to 1/L²."
+        },
+        {
+          "id": "PH030",
+          "text": "The Poisson's ratio (ν) for a linearly elastic, isotropic material must satisfy the condition:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "0 ≤ ν ≤ 0.5",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "-1 ≤ ν ≤ 0",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "0 ≤ ν ≤ 1",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "-1 ≤ ν ≤ 0.5",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Classical Mechanics/Solid State",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "For any stable isotropic material, the elastic energy must be positive definite, which mathematically restricts Poisson's ratio to the range -1 ≤ ν ≤ 0.5."
+        },
+        {
+          "id": "PH031",
+          "text": "The continuity equation in electromagnetism is a mathematical statement of the conservation of:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Energy",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Momentum",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Electric charge",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Mass",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Electromagnetic Theory",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The continuity equation (∇ · J = -∂ρ/∂t) expresses the conservation of electric charge. The rate of decrease of charge in a volume is equal to the current flux flowing out of it."
+        },
+        {
+          "id": "PH032",
+          "text": "The velocity transformation rule in Special Relativity (u'x) is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "ux - v",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "ux / (1 - ux v / c²)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "(ux - v) / (1 - ux v / c²)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "v / (1 - ux v / c²)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Classical Mechanics",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 60,
+          "explanation": "The relativistic addition of velocities (longitudinal component) is u'x = (ux - v)/(1 - ux v / c²), where v is the relative velocity between frames."
+        },
+        {
+          "id": "PH033",
+          "text": "The efficiency of a reversible heat engine operating between TH and TL is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "1 - TH / TL",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "TL / TH",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "1 - TL / TH",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "TH / TL",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Thermodynamics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The Carnot efficiency, which is the maximum efficiency for any heat engine, is η = 1 - TL / TH."
+        },
+        {
+          "id": "PH034",
+          "text": "The reciprocal lattice of a Body-Centered Cubic (BCC) lattice is a:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Simple Cubic (SC) lattice.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Face-Centered Cubic (FCC) lattice.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Hexagonal lattice.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Tetragonal lattice.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Solid State Physics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "A key relationship in crystallography is that the reciprocal lattice of a BCC is an FCC lattice, and vice versa."
+        },
+        {
+          "id": "PH035",
+          "text": "The Heisenberg Uncertainty Principle can be stated for any two operators A and B as:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "ΔA ΔB ≤ 0",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "ΔA ΔB ≥ |⟨[A, B]⟩|",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "ΔA ΔB ≥ (1/2) |⟨[A, B]⟩|",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "ΔA ΔB = iℏ",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Quantum Mechanics",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 45,
+          "explanation": "The Generalized Uncertainty Principle is ΔA ΔB ≥ (1/2) |⟨[A, B]⟩|, where ΔA and ΔB are the standard deviations in the measurements of A and B."
+        },
+        {
+          "id": "PH036",
+          "text": "The P-N junction diode primarily conducts in which bias condition?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Zero bias.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Reverse bias.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Forward bias.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Breakdown region.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Electronics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The PN junction conducts easily when the forward bias reduces the built-in potential barrier, allowing majority carriers to diffuse."
+        },
+        {
+          "id": "PH037",
+          "text": "The electric displacement field (D) is related to the electric field (E) and polarization (P) by:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "D = ε₀E + P",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "D = E + P / ε₀",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "D = ε₀E - P",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "D = E × P",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Electromagnetic Theory",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The electric displacement field is defined as D = ε₀E + P, where P accounts for the bound charge density."
+        },
+        {
+          "id": "PH038",
+          "text": "If r is the position vector and r = |r|, then ∇rⁿ is proportional to:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "r^(n+1) r",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "r^(n-1) r",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "n rⁿ r",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "rⁿ r",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Mathematical Methods",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 60,
+          "explanation": "The gradient is ∇rⁿ = n r^(n-1) ∇r. Since ∇r = r / r = r^(-1) r, then ∇rⁿ = n r^(n-1) r^(-1) r = n r^(n-2) r. The proportionality is r^(n-1) r."
+        },
+        {
+          "id": "PH039",
+          "text": "The Hamiltonian for a simple harmonic oscillator in one dimension is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "p²/(2m) + (1/2)kx²",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "p²/(2m) - (1/2)kx²",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "p²/(2m)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "(1/2)mẋ² - (1/2)kx²",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Classical Mechanics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The Hamiltonian is H = T + V. For SHO, T = p²/(2m) and V = (1/2)kx². Thus, H = p²/(2m) + (1/2)kx²."
+        },
+        {
+          "id": "PH040",
+          "text": "In ferromagnetic materials, the phenomenon where the magnetization lags the applied magnetic field is called:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Diamagnetism.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Paramagnetism.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Hysteresis.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Curie effect.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Solid State Physics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The Hysteresis phenomenon is the characteristic lagging of the magnetization (M) behind the applied magnetic field (H) in ferromagnetic materials due to irreversible domain wall motion."
+        },
+        {
+          "id": "PH041",
+          "text": "The uncertainty in energy (ΔE) and uncertainty in time (Δt) are related by:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "ΔE Δt ≤ 0",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "ΔE Δt = 0",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "ΔE Δt ≥ ℏ",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "ΔE Δt ≥ ℏ / 2",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Quantum Mechanics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The Energy-Time Uncertainty Principle states ΔE Δt ≥ ℏ/2."
+        },
+        {
+          "id": "PH042",
+          "text": "Which type of gate has the property that its output is high only when all inputs are low?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "AND",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "OR",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "NOR",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "NAND",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Electronics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The output of a NOR gate (Y = A+B) is 1 only if both A=0 and B=0. Any high input yields a low output."
+        },
+        {
+          "id": "PH043",
+          "text": "The force between two parallel, infinitely long current-carrying wires is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Proportional to the product of currents and distance (I₁ I₂ r).",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Proportional to the product of currents and inversely proportional to distance (I₁ I₂ / r).",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Proportional to the product of currents and distance squared (I₁ I₂ r²).",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Independent of the distance.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Electromagnetic Theory",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 60,
+          "explanation": "The force per unit length between two parallel wires is F/L = μ₀I₁I₂/(2πr). Thus, F is proportional to I₁ I₂ and inversely proportional to r."
+        },
+        {
+          "id": "PH044",
+          "text": "The average value of the potential energy (⟨V⟩) for a simple harmonic oscillator in its ground state is equal to:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "The total energy (⟨E⟩)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Half the total energy (⟨E⟩ / 2)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Zero",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Twice the total energy",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantum Mechanics",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 60,
+          "explanation": "By the Virial Theorem (for a potential V ∝ x²), the average kinetic energy ⟨T⟩ equals the average potential energy ⟨V⟩. Since ⟨E⟩ = ⟨T⟩ + ⟨V⟩, we have ⟨V⟩ = ⟨E⟩ / 2."
+        },
+        {
+          "id": "PH045",
+          "text": "The number of degrees of freedom for N molecules of a diatomic gas at room temperature is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "3N",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "4N",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "5N",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "6N",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Statistical Physics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "At room temperature, a diatomic molecule has 3 translational and 2 rotational degrees of freedom (rotation about the molecular axis is negligible). Total degrees of freedom per molecule = 5. Total for N molecules is 5N."
+        },
+        {
+          "id": "PH046",
+          "text": "The Fermi energy (EF) of a metal at absolute zero temperature is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Zero.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Proportional to the electron density (n) raised to the power 2/3.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Proportional to the electron density (n).",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Inversely proportional to the electron density (1/n).",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Solid State Physics",
+          "difficulty": "Medium",
+          "marks": 2,
+          "estimatedSolveTime": 60,
+          "explanation": "The Fermi energy is EF = (ℏ²/2m)(3π²n)^(2/3), where n is the electron density. Thus, EF ∝ n^(2/3)."
+        },
+        {
+          "id": "PH047",
+          "text": "The condition for constructive interference in a double-slit experiment is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "d sin(θ) = n λ",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "d sin(θ) = (n + 1/2) λ",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "2d sin(θ) = n λ",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "d sin(θ) = n λ / 2",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Electromagnetic Theory",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "For constructive interference, the path difference must be an integer multiple of the wavelength: d sin(θ) = n λ."
+        },
+        {
+          "id": "PH048",
+          "text": "The partition function (Z) for a system in thermal equilibrium is related to the Helmholtz free energy (F) by:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "F = -kBT ln(Z)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "F = kBT ln(Z)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "F = -Z / (kBT)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "F = Z / (kBT)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Statistical Physics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The Helmholtz free energy is related to the partition function by F = -kBT ln(Z)."
+        },
+        {
+          "id": "PH049",
+          "text": "The electric field at a distance r from an infinitely long line of charge with linear charge density λ is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "E = λ / (4πε₀r)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "E = λ / (2πε₀r)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "E = λ / (4πε₀r²)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "E = λ / (2πε₀r²)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Electromagnetic Theory",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "Using Gauss's Law for a cylindrical surface of radius r and length L, we get E(2πrL) = λL/ε₀, so E = λ/(2πε₀r)."
+        },
+        {
+          "id": "PH050",
+          "text": "The spin-orbit coupling in an atom is proportional to:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "L · S",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "L × S",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "L + S",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "L - S",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Quantum Mechanics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The spin-orbit interaction energy is proportional to the dot product of the orbital angular momentum (L) and the spin angular momentum (S): H_so ∝ L · S."
+        },
+        {
+          "id": "PH051",
+          "text": "The magnetic moment of an electron in a hydrogen atom is proportional to:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "The orbital angular momentum (L)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "The spin angular momentum (S)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "The total angular momentum (J)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "The principal quantum number (n)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Quantum Mechanics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The magnetic moment due to orbital motion is μ = -(e/2m)L, where L is the orbital angular momentum."
+        },
+        {
+          "id": "PH052",
+          "text": "The condition for a system to be in thermal equilibrium is that the:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Total energy is minimized.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Entropy is maximized.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Temperature is uniform throughout.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Pressure is uniform throughout.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Thermodynamics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "Thermal equilibrium requires that the temperature is uniform throughout the system, ensuring no net heat flow between parts."
+        },
+        {
+          "id": "PH053",
+          "text": "The wave function of a particle in a box must satisfy the boundary condition:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "ψ(0) = ψ(L) = 0",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "ψ(0) = ψ(L) = 1",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "ψ'(0) = ψ'(L) = 0",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "ψ(0) = ψ(L) = ∞",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Quantum Mechanics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "For a particle in a box, the wave function must vanish at the boundaries (x = 0 and x = L) to satisfy the infinite potential wall condition."
+        },
+        {
+          "id": "PH054",
+          "text": "The Curie temperature (TC) is the temperature at which:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "A ferromagnet becomes paramagnetic.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "A paramagnet becomes ferromagnetic.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "A diamagnet becomes paramagnetic.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "A superconductor becomes normal.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Solid State Physics",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The Curie temperature is the critical temperature above which a ferromagnetic material loses its permanent magnetization and becomes paramagnetic."
+        },
+        {
+          "id": "PH055",
+          "text": "The divergence of the curl of a vector field is always:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "0",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "1",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "∞",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Undefined",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Mathematical Methods",
+          "difficulty": "Medium",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The vector identity ∇ · (∇ × F) = 0 states that the divergence of the curl of any vector field is identically zero."
+        }
+      ],
+      "scoringConfig": {
+        "algorithm": "weighted",
+        "thresholds": {
+          "excellent": 80,
+          "good": 60,
+          "needsImprovement": 40
+        }
+      }
+    },
+    "results": {
+      "title": "GATE Assessment Results",
+      "description": "Your comprehensive GATE PH assessment results with detailed analysis and recommendations for improvement.",
+      "questions": []
+    }
+  }
+}

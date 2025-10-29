@@ -1,0 +1,2313 @@
+{
+    "id": "engineering-pyq",
+    "title": "Engineering Sciences PYQ (XE)",
+    "description": "Comprehensive GATE Engineering Sciences assessment covering General Aptitude and Core Engineering Sciences subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core engineering sciences questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Moderate",
+    "isActive": true,
+    "featured": true,
+    "metadata": {
+      "icon": "engineering-sciences",
+      "gradient": "from-blue-600 to-purple-600",
+      "userCount": 8500,
+      "tags": ["GATE", "Engineering Sciences", "XE", "Engineering", "Aptitude", "Core Subjects"]
+    },
+    "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Engineering Sciences (XE) is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in engineering sciences including Engineering Mathematics (compulsory), Fluid Mechanics, Solid Mechanics, Thermodynamics, Materials Science, and other core engineering subjects. This assessment follows the official GATE pattern with General Aptitude and Core Engineering Sciences questions.",
+    "typicalCareers": [
+      {
+        "title": "Research Engineer",
+        "description": "Conduct research in various engineering disciplines and develop innovative solutions"
+      },
+      {
+        "title": "Design Engineer",
+        "description": "Design and analyze mechanical, thermal, and fluid systems"
+      },
+      {
+        "title": "Materials Engineer",
+        "description": "Specialize in materials science and engineering applications"
+      }
+    ],
+    "whoShouldConsider": [
+      "Engineering graduates preparing for GATE XE",
+      "Students seeking admission to M.Tech/M.E programs in engineering sciences",
+      "Professionals looking for PSU jobs in engineering sciences",
+      "Researchers in engineering and related fields"
+    ],
+    "idealTraits": [
+      "Strong analytical and problem-solving skills",
+      "Solid foundation in engineering mathematics and sciences",
+      "Mathematical aptitude and logical reasoning",
+      "Good understanding of fluid mechanics, thermodynamics, and materials science"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude Assessment (10 questions, 15 marks)",
+        "Core Engineering Sciences Assessment (55 questions, 85 marks)"
+      ],
+      "resultsInclude": [
+        "Section-wise scores (Aptitude & Core)",
+        "Topic-wise performance analysis",
+        "Difficulty-wise accuracy",
+        "Overall percentile ranking",
+        "Detailed explanations for all questions"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment",
+        "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "The price of an item is increased by 10% and then decreased by 10%. The net change in price is: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1% decrease",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1% increase",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.1% decrease",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Percentage",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "Let the original price be P. Increase by 10%: P(1.1). Decrease by 10%: P(1.1)(0.9) = P(0.99). The net change is a 100-99=1% decrease."
+          },
+          {
+            "id": "GA002",
+            "text": "The ratio of the speed of a boat in still water to the speed of the current is 5:1. If the boat travels a certain distance downstream in 3 hours, what is the time taken to travel the same distance upstream? (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "4 hours",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5 hours",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6 hours",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "7.5 hours",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Time & Distance",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Let speed of boat be 5x and current be x. Downstream speed = 6x. Upstream speed = 4x. Distance D = 6x × 3 = 18x. Upstream time T = D / 4x = 18x / 4x = 4.5 hours."
+          },
+          {
+            "id": "GA003",
+            "text": "Choose the most appropriate word from the options given below to complete the following sentence: The candidate's statement was a ___ of truth. (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "deprivation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "dearth",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "travesty",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "recapitulation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Verbal Ability - Vocabulary",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "A 'travesty of truth' means a grotesque misrepresentation or distortion of the truth. 'Dearth' means scarcity, which does not fit the context."
+          },
+          {
+            "id": "GA004",
+            "text": "Find the next term in the series: 3, 7, 13, 21, 31, ... (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "41",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "43",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "45",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "47",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analytical Reasoning - Number Series",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "The differences between consecutive terms are 4, 6, 8, 10. The next difference should be 12. Thus, 31 + 12 = 43."
+          },
+          {
+            "id": "GA005",
+            "text": "If f(x) = |x-2| + |x-5|, the minimum value of f(x) is: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Quantitative Aptitude - Calculus/Functions",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "The function f(x) represents the sum of distances from x to 2 and x to 5. The minimum value occurs for x between 2 and 5, where f(x) = (x-2) + (5-x) = 3."
+          },
+          {
+            "id": "GA006",
+            "text": "A clock shows 4:30. What is the angle between the hour and minute hands? (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "30 degrees",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "45 degrees",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "60 degrees",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "90 degrees",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Clocks/Geometry",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 90,
+            "explanation": "Angle θ = |30H - (11/2)M|. θ = |30(4) - (11/2)(30)| = |120 - 165| = 45 degrees."
+          },
+          {
+            "id": "GA007",
+            "text": "The synonym for 'Mellifluous' is: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Discordant",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Harmonious",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Cacophonous",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Raucous",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Vocabulary (Synonyms)",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "'Mellifluous' means a sound that is sweet and musical; pleasant to hear. 'Harmonious' is the closest synonym."
+          },
+          {
+            "id": "GA008",
+            "text": "In a group, 70% of the students speak English and 50% speak Hindi. If 40 students speak both, what is the total number of students in the group? (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "150",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "200",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "400",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4000",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Set Theory",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Percentage speaking both = (70% + 50%) - 100% = 20%. If 20% of total X is 40, then 0.20 × X = 40, so X = 200."
+          },
+          {
+            "id": "GA009",
+            "text": "The pair of words that best expresses a similar relationship as 'Surgeon : Scalpel' is: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sculptor : Chisel",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Musician : Instrument",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Lawyer : Court",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Baker : Oven",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Verbal Ability - Analogy",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "The relationship is 'Person : Primary Tool'. A Surgeon uses a Scalpel; a Sculptor uses a Chisel."
+          },
+          {
+            "id": "GA010",
+            "text": "A sum of money doubles in 5 years at simple interest. In how many years will it become four times? (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "10",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "15",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "20",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "25",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Simple Interest",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "To double, Interest (I) must be 1P, taking 5 years. To become four times, I must be 3P. Since simple interest is linear, it takes 3 × 5 = 15 years."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Engineering Sciences Assessment",
+        "description": "Comprehensive assessment of core engineering sciences subjects including Engineering Mathematics, Fluid Mechanics, Solid Mechanics, Thermodynamics, Materials Science, and other core engineering subjects. This section carries 85% weight in the total assessment.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "XE001",
+            "text": "The rank of the identity matrix I_n is: (Module A, GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "n",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "n-1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "n+1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Engineering Mathematics - Linear Algebra",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The identity matrix I_n has n linearly independent rows and columns, therefore its rank is n."
+          },
+          {
+            "id": "XE002",
+            "text": "The Poynting vector (S) for an electromagnetic wave is defined as: (Module E, GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "E · H",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "E × H",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "B / E",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "E × B",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electrical Sciences - Electromagnetics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Poynting vector is defined as S = E × H, representing the directional energy flux (power per unit area)."
+          },
+          {
+            "id": "XE003",
+            "text": "The slope of the saturation curve for a pure substance on a T-s diagram gives the: (Module C, GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Specific volume.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Specific enthalpy.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Specific heat (c_p).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Temperature (T) / Enthalpy of vaporization (Δh).",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Thermodynamics",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "The Clausius-Clapeyron equation relates the slope on the P-T diagram. On a T-s diagram, T = (∂h/∂s)_P. The slope of the saturation curve (dT/ds) is T / Δh_fg or T / Δs_fg."
+          },
+          {
+            "id": "XE004",
+            "text": "The Continuity Equation for an incompressible fluid flow is ∇ · V = 0, which expresses: (Module B, GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Conservation of momentum.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Conservation of mass.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Conservation of energy.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Conservation of angular momentum.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The continuity equation is a fundamental principle based on the conservation of mass. For an incompressible flow (density ρ is constant), it simplifies to ∇ · V = 0."
+          },
+          {
+            "id": "XE005",
+            "text": "The value of the definite integral ∫₀¹ x e^(x²) dx is: (Module A, GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.5",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.859",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1.0",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1.359",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Calculus",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "Let u = x², so du = 2x dx, or x dx = (1/2) du. Limits: x=0 ⟹ u=0, x=1 ⟹ u=1. ∫₀¹ (1/2) e^u du = (1/2) [e^u]₀¹ = (1/2) (e¹ - e⁰) = (e - 1)/2. (2.718 - 1)/2 = 0.859."
+          },
+          {
+            "id": "XE006",
+            "text": "In a simply supported beam subjected to pure bending, the longitudinal stress variation across the cross-section is: (Module D, GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Parabolic.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Uniform.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Linear.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Non-existent.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Solid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Based on the bending stress formula (σ = M y / I), the stress (σ) is linearly proportional to the distance (y) from the neutral axis."
+          },
+          {
+            "id": "XE007",
+            "text": "The entropy of a closed system during a reversible adiabatic process: (Module C, GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increases.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Decreases.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Remains constant.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Increases for work output, decreases for work input.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Thermodynamics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A reversible adiabatic process is an isentropic process. By the definition of entropy (dS = dQ_rev/T), since dQ=0 (adiabatic) and it is reversible, dS=0 and entropy remains constant."
+          },
+          {
+            "id": "XE008",
+            "text": "The critical point on a phase diagram is where: (Module F, GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Three phases coexist.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The liquid and vapor phases become indistinguishable.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Fusion occurs.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Vapor pressure is zero.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Materials Science",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "At the critical point (T_c, P_c), the density of the saturated liquid becomes equal to that of the saturated vapor. Above this point, only a single supercritical fluid phase exists."
+          },
+          {
+            "id": "XE009",
+            "text": "The Cauchy Integral Formula for a function f(z) holomorphic inside and on a contour C is: (Module A, GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "f(z₀) = ∮_C f(z)/(z-z₀) dz",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "f(z₀) = (1/2πi) ∮_C f(z)/(z-z₀) dz",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "f(z₀) = 2πi ∮_C f(z) dz",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "f(z₀) = (1/2π) ∮_C f(z)/(z-z₀) dz",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Complex Analysis",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "This is the standard form of the Cauchy Integral Formula."
+          },
+          {
+            "id": "XE010",
+            "text": "A Pelton wheel turbine is best suited for: (Module B, GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Low head, high flow.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "High head, low flow.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Medium head, medium flow.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Very low head, high flow.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Pelton turbines are impulse turbines that utilize the kinetic energy of a high-velocity jet. They are ideal for applications requiring high head and low flow (low specific speed)."
+          },
+          {
+            "id": "XE011",
+            "text": "The relationship between Young's Modulus (E) and Shear Modulus (G) for an isotropic material with Poisson's ratio ν is: (Module D, GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "E = G(1+ν)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "G = 2E(1+ν)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "E = 2G(1+ν)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "E = 3G(1-2ν)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Solid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The relationship between the elastic constants is E = 2G(1+ν)."
+          },
+          {
+            "id": "XE012",
+            "text": "The reciprocal of the thermal conductivity (k) is defined as: (Module C, GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Thermal diffusivity.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Thermal capacity.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Thermal resistivity.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Thermal effusivity.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Thermodynamics/Heat Transfer",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The reciprocal of thermal conductivity (k) is thermal resistivity (r_k = 1/k), which measures the resistance of a material to heat flow."
+          },
+          {
+            "id": "XE013",
+            "text": "The Creep deformation in metals is generally dominant at: (Module F, GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Very low stress levels.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Homologous temperatures (T/T_m) less than 0.3.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "High temperatures (T/T_m) above 0.4.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Room temperature, independent of stress.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Materials Science",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Creep is the time-dependent plastic deformation under constant load. It becomes significant at high homologous temperatures (typically T/T_m > 0.4 to 0.5)."
+          },
+          {
+            "id": "XE014",
+            "text": "The General Solution to the ODE y'' - 4y = 0 is: (Module A, GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "C₁ sin(2x) + C₂ cos(2x)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "C₁ e^(2x) + C₂ e^(-2x)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "C₁ e^(4x) + C₂ e^(-4x)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "C₁ x + C₂ x²",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Differential Equations",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The auxiliary equation is m² - 4 = 0, giving real roots m = ± 2. The general solution is y(x) = C₁ e^(2x) + C₂ e^(-2x)."
+          },
+          {
+            "id": "XE015",
+            "text": "The flow is laminar when the Reynolds number (Re) for flow in a pipe is typically: (Module B, GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1000",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2000",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3000",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4000",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "For internal flow in pipes, the flow is considered laminar if Re < 2000 (or 2300, depending on the source). Transition occurs between 2000-4000."
+          },
+          {
+            "id": "XE016",
+            "text": "The fundamental relationship of shear stress (τ) and shear strain (γ) for an elastic material is: (Module D, GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "τ = E γ",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "τ = G γ",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "τ = K γ",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "τ = μ γ",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Solid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "In shear loading, shear stress is related to shear strain by the Shear Modulus (G): τ = G γ."
+          },
+          {
+            "id": "XE017",
+            "text": "The Second Law of Thermodynamics is mathematically stated as: (Module C, GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "ΔE = Q - W",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "T · dS ≥ dQ",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "dS ≥ dQ/T",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "PV = RT",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Thermodynamics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Clausius inequality, which is a mathematical statement of the Second Law, is dS ≥ dQ/T, where dS = dQ/T holds for a reversible process, and dS > dQ/T for an irreversible process."
+          },
+          {
+            "id": "XE018",
+            "text": "The steady-state current in an RL series circuit with a DC voltage source is: (Module E, GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Zero.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "V / R",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "V / L",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "V / √(R² + (ωL)²)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electrical Sciences - Circuits",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "In the steady state for a DC circuit, the inductor acts as a short circuit (X_L = 0). The total impedance is Z=R. The current is I = V / R."
+          },
+          {
+            "id": "XE019",
+            "text": "For a second-order system with a damping ratio of ζ = 1, the step response is characterized as: (Module A, GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Undamped (oscillatory).",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Overdamped.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Critically damped.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Underdamped.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics - Control Systems",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The condition ζ = 1 corresponds to critical damping, which provides the fastest response without any overshoot or oscillation."
+          },
+          {
+            "id": "XE020",
+            "text": "The flow separation phenomenon occurs when the pressure gradient dp/dx along the flow direction is: (Module B, GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Negative (favorable).",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Zero.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Positive (adverse).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Constant.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Flow separation occurs when a strong adverse pressure gradient (dp/dx > 0) causes the fluid near the wall to lose kinetic energy, eventually reversing the flow and causing the boundary layer to detach."
+          },
+          {
+            "id": "XE021",
+            "text": "The Gibbs Phase Rule for a system at equilibrium is: (Module F, GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "P + F = C",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "P - C = F + 2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "F = C - P + 2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "F = P - C + 2",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Materials Science/Thermodynamics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Gibbs Phase Rule relates the degrees of freedom (F), number of components (C), and number of phases (P): F = C - P + 2."
+          },
+          {
+            "id": "XE022",
+            "text": "The Maximum Shear Stress Theory (Tresca criterion) predicts failure when the maximum shear stress equals half of the: (Module D, GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Ultimate tensile strength.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Compressive strength.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Yield strength in simple tension.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Endurance limit.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Solid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Tresca criterion states τ_max = (σ₁ - σ₃)/2 = σ_y/2. Failure occurs when the maximum shear stress equals the shear yield strength, 0.5 times the yield strength in simple tension (σ_y)."
+          },
+          {
+            "id": "XE023",
+            "text": "The coefficient of performance (COP) of a heat pump is related to the efficiency (η) of a Carnot engine working between the same limits by: (Module C, GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "COP_HP = 1 + η",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "COP_HP = 1 / η",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "COP_HP = 1 - η",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "COP_HP = η / (1 - η)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "COP_HP = T_H/(T_H - T_L) = 1/(1 - T_L/T_H). Since η = 1 - T_L/T_H, then COP_HP = 1 / η."
+          },
+          {
+            "id": "XE024",
+            "text": "The maximum number of linearly independent vectors in ℝ⁴ is: (Module A, GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "3",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "4",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics - Linear Algebra",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The maximum number of linearly independent vectors in an n-dimensional vector space is n. For ℝ⁴, the maximum is 4."
+          },
+          {
+            "id": "XE025",
+            "text": "The equation for the stream function (ψ) in an irrotational flow must satisfy: (Module B, GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "∂²ψ/∂x² = 0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "∇²ψ = 0 (Laplace's equation)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "∂ψ/∂t = 0",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "∂u/∂x + ∂v/∂y = 0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "For 2D incompressible flow, ψ satisfies the continuity equation. For irrotational flow, the vorticity is zero (ω_z = 0), which simplifies to ∇²ψ = 0 (Laplace's equation)."
+          },
+          {
+            "id": "XE026",
+            "text": "The number of planes of symmetry in a cubic crystal system is: (Module F, GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "6",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "9",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "12",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "15",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Materials Science",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A cubic crystal system (like SC, BCC, FCC) has 9 planes of symmetry: 3 axial planes (e.g., xy, yz, xz) and 6 diagonal planes (e.g., (110) and similar)."
+          },
+          {
+            "id": "XE027",
+            "text": "The principal stresses in a 2D stress state are σ_x and σ_y. The radius of the Mohr's circle is: (Module D, GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "σ_x + σ_y",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "(σ_x + σ_y) / 2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "(1/2) √((σ_x - σ_y)² + 4τ_xy²)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "√((σ_x - σ_y)² + τ_xy²)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Solid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The radius of the Mohr's circle represents the maximum shear stress (τ_max). R = (1/2) √((σ_x - σ_y)² + 4τ_xy²)."
+          },
+          {
+            "id": "XE028",
+            "text": "The heat transfer mechanism that does not require a medium is: (Module C, GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Conduction.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Convection.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Radiation.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Ablation.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Thermodynamics/Heat Transfer",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Heat Radiation is the transfer of energy via electromagnetic waves and can occur perfectly in a vacuum."
+          },
+          {
+            "id": "XE029",
+            "text": "The Laplace Transform of e^(at) f(t) is: (Module A, GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "F(s) e^(as)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "F(s-a)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "F(s+a)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "F(s) / s",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Laplace Transform",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "This is the first shifting theorem (or frequency shifting) of the Laplace Transform: e^(at) f(t) ↔ F(s-a)."
+          },
+          {
+            "id": "XE030",
+            "text": "The stiffness matrix (K) in the Finite Element Method (FEM) for a 1D bar element is related to its inverse by: (Module D, GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The mass matrix.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The inverse of the displacement vector.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The flexibility matrix.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The identity matrix.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Solid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The inverse of the stiffness matrix (K⁻¹) is, by definition, the flexibility matrix (F)."
+          },
+          {
+            "id": "XE031",
+            "text": "The Darcy friction factor (f) for fully developed laminar flow in a circular pipe is: (Module B, GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "16 / Re",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "64 / Re",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "A constant value.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.316 / Re^(1/4)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "For fully developed laminar flow (Re < 2000), the Darcy friction factor is f = 64 / Re (Poiseuille's law)."
+          },
+          {
+            "id": "XE032",
+            "text": "The Hall effect can be used to determine the type and concentration of charge carriers in a semiconductor. (Module E, GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "True",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "False",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "True only for p-type materials.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "False for n-type materials.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electrical Sciences - Electronic Devices",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Hall voltage polarity determines the sign (type) of the majority carrier, and its magnitude allows calculation of the carrier concentration."
+          },
+          {
+            "id": "XE033",
+            "text": "The Gibbs Free Energy (G) is related to Enthalpy (H) and Entropy (S) by: (Module C, GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "G = H + T S",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "G = H - T S",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "G = E - T S",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "G = F - P V",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Gibbs free energy is defined as G = H - T S, which gives the energy available to do useful, non-P-V work."
+          },
+          {
+            "id": "XE034",
+            "text": "The steady-state error for a step input to a Type 1 control system is: (Module A, GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "∞",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Engineering Mathematics - Control Systems",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "For a Type 1 system (one pole at the origin), the static position error constant K_p is ∞. The steady-state error e_ss = 1/(1+K_p) = 1/(1+∞) = 0."
+          },
+          {
+            "id": "XE035",
+            "text": "The number of atoms per unit cell for an FCC (Face-Centered Cubic) crystal structure is: (Module F, GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "8",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Materials Science",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "FCC has 8 corner atoms (1/8 × 8 = 1) and 6 face-centered atoms (1/2 × 6 = 3). Total atoms per unit cell = 1 + 3 = 4."
+          },
+          {
+            "id": "XE036",
+            "text": "The Von Mises yield criterion is best suited for predicting the failure of: (Module D, GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Brittle materials.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Ductile materials.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Concrete.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Wood.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Solid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Von Mises criterion (Maximum Distortion Energy Theory) is the most widely accepted theory for predicting the yielding of ductile materials."
+          },
+          {
+            "id": "XE037",
+            "text": "The differential equation y'' + y = 0 has characteristic roots that are: (Module A, GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Real and distinct.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Real and equal.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Complex conjugates (±i)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Zero.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics - Differential Equations",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The auxiliary equation is m² + 1 = 0, leading to roots m = ±i (complex conjugates)."
+          },
+          {
+            "id": "XE038",
+            "text": "The isentropic efficiency of a compressor is the ratio of: (Module C, GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Actual work input to isentropic work input.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Isentropic work input to actual work input.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Actual work output to isentropic work output.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Isentropic work output to actual work output.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "For work-absorbing devices like compressors, efficiency is defined as η_comp = (Isentropic Work Input)/(Actual Work Input)."
+          },
+          {
+            "id": "XE039",
+            "text": "Which condition is required for the circulation (Γ = ∮ V · dl) around a closed contour in a fluid to be zero? (Module B, GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The flow is turbulent.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The flow is rotational.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The flow is irrotational.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The flow is compressible.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "By Stokes' Theorem, circulation Γ is related to vorticity (curl of velocity). If the flow is irrotational (∇ × V = 0), then the circulation is zero."
+          },
+          {
+            "id": "XE040",
+            "text": "The steady-state value of the function f(t) whose Laplace transform is F(s) = 1/(s(s² + 1)) is: (Module A, GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "∞",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Laplace Transform",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "Using the Final Value Theorem: lim(t→∞) f(t) = lim(s→0) s F(s) = lim(s→0) s / (s(s² + 1)) = lim(s→0) 1/(s² + 1) = 1. (The theorem is applicable as the poles of sF(s) are at s=±i, which are simple poles on the jω axis)."
+          },
+          {
+            "id": "XE041",
+            "text": "The critical resolved shear stress (CRSS) is a material property that determines the stress required to initiate: (Module F, GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Fracture.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Twinning.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Elastic deformation.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Slip (plastic deformation).",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Materials Science",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "CRSS is the minimum shear stress needed, resolved onto the slip plane and in the slip direction, to initiate plastic deformation (slip) in a single crystal."
+          },
+          {
+            "id": "XE042",
+            "text": "The polar moment of inertia (J) for a solid circular shaft of radius R is: (Module D, GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "π R²",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "π R⁴ / 2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "π R³ / 3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2 π R⁴",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Solid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The polar moment of inertia is J = π D⁴/32 or J = π R⁴/2 (for a shaft of radius R)."
+          },
+          {
+            "id": "XE043",
+            "text": "The Maxwell's velocity distribution for gas molecules is: (Module C, GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Symmetric about zero velocity.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Independent of temperature.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Symmetric about the most probable speed.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Skewed towards higher speeds.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Thermodynamics/Statistical Physics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The Maxwell-Boltzmann speed distribution is skewed towards higher speeds (asymmetric), with the mean speed being greater than the most probable speed."
+          },
+          {
+            "id": "XE044",
+            "text": "The general solution to the linear first-order ODE y' + 2y = 0 is: (Module A, GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "y = C x",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "y = C e^(2x)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "y = C e^(-2x)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "y = C / x²",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics - Differential Equations",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "This is a separable ODE. dy/y = -2 dx. Integrating yields ln|y| = -2x + K, or y = C e^(-2x)."
+          },
+          {
+            "id": "XE045",
+            "text": "The Bernoulli's equation is derived from the principle of: (Module B, GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Conservation of mass.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Conservation of momentum.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Conservation of energy.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Conservation of angular momentum.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Bernoulli's equation is essentially a statement of the conservation of energy applied to an inviscid, incompressible, steady flow along a streamline."
+          },
+          {
+            "id": "XE046",
+            "text": "The Young's Modulus (E) is related to normal stress (σ) and normal strain (ε) by: (Module D, GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "E = σ / ε",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "E = ε / σ",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "E = σ ε",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "E = σ² / ε",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Solid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Young's Modulus is the constant of proportionality between normal stress and normal strain in the elastic range (Hooke's law): σ = E ε, so E = σ / ε."
+          },
+          {
+            "id": "XE047",
+            "text": "The diffusion coefficient (D) is proportional to the mobility (μ) in a semiconductor, according to: (Module E, GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Drift-diffusion equation.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Boltzmann equation.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Einstein relation.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Hall effect.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electrical Sciences - Electronic Devices",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Einstein relation states D / μ = k_B T / q, linking the diffusion coefficient (D) and mobility (μ) of the carriers."
+          },
+          {
+            "id": "XE048",
+            "text": "The maximum possible efficiency of any heat engine is that of the Carnot cycle. (Module C, GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "True",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "False",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "True only if the working fluid is an ideal gas.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "False because the Stirling cycle is more efficient.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Thermodynamics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "This is a statement of the Carnot Principle: no heat engine operating between two thermal reservoirs can be more efficient than a reversible (Carnot) engine operating between the same two reservoirs."
+          },
+          {
+            "id": "XE049",
+            "text": "The principal value of i^i is: (Module A, GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "e^(π / 2)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "π / 2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "e^(-π / 2)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "√2 + i √2",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics - Complex Analysis",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "i^i = e^(i ln i). Since ln i = ln |i| + i Arg(i) = 0 + i (π/2), we have i^i = e^(i (i π/2)) = e^(i² π/2) = e^(-π/2)."
+          },
+          {
+            "id": "XE050",
+            "text": "The Miller indices for the plane parallel to the xy-plane are: (Module F, GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "(100)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "(111)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "(010)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "(001)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Materials Science",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A plane parallel to the xy-plane intersects the z-axis at 1 and the x and y axes at ∞. Intercepts: (∞, ∞, 1). Reciprocals: (0, 0, 1). Miller indices: (001)."
+          },
+          {
+            "id": "XE051",
+            "text": "For a Newtonian fluid, the shear stress is linearly proportional to the: (Module B, GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Velocity.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Pressure.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Rate of shear strain (velocity gradient).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Square of velocity gradient.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Newton's law of viscosity states τ = μ du/dy. The shear stress (τ) is linearly proportional to the velocity gradient (du/dy), which is the rate of shear strain."
+          },
+          {
+            "id": "XE052",
+            "text": "The maximum bending stress in a beam section occurs at: (Module D, GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The neutral axis.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The centroid.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The point farthest from the neutral axis.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The point of zero shear force.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Solid Mechanics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Bending stress σ = M y / I is maximum when the distance from the neutral axis (y) is maximum, which occurs at the extreme fibers."
+          },
+          {
+            "id": "XE053",
+            "text": "The maximum power that can be transferred from a source to a load occurs when R_load is: (Module E, GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Zero.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Equal to the source resistance (R_source).",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Twice the source resistance.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Infinite.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electrical Sciences - Circuits",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "According to the Maximum Power Transfer Theorem (for resistive circuits), maximum power is transferred when R_load = R_source (or Z_load = Z_source* in AC circuits)."
+          },
+          {
+            "id": "XE054",
+            "text": "The first term in the Taylor series for f(x) = sin(x) around x=0 is: (Module A, GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "x",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "x²/2",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics - Calculus",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The first term is f(0). Since f(x) = sin(x), f(0) = sin(0) = 0."
+          },
+          {
+            "id": "XE055",
+            "text": "The Arrhenius equation in chemical kinetics is an empirical relationship between temperature (T) and the: (Module C, GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Equilibrium constant.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reaction rate constant (k).",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Standard free energy change (ΔG°).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Heat of reaction (ΔH).",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Arrhenius equation (k = A e^(-E_a / R T)) models the dependence of the reaction rate constant (k) on temperature (T)."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "Results & Analysis",
+        "description": "Comprehensive analysis of your performance across all sections with detailed insights and recommendations.",
+        "timeLimit": 0,
+        "questions": [],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      }
+    }
+  }
+  

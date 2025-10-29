@@ -1,0 +1,2303 @@
+{
+    "id": "mathematics-pyq",
+    "title": "Mathematics PYQ (MA)",
+    "description": "Comprehensive GATE Mathematics assessment covering General Aptitude and Core Mathematics subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core mathematics questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Moderate",
+    "isActive": true,
+    "featured": true,
+    "metadata": {
+      "icon": "mathematics",
+      "gradient": "from-blue-600 to-purple-600",
+      "userCount": 9500,
+      "tags": ["GATE", "Mathematics", "Engineering", "Aptitude", "Core Subjects"]
+    },
+    "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Mathematics is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in mathematics including Linear Algebra, Calculus, Real Analysis, Complex Analysis, Ordinary Differential Equations, Abstract Algebra, and Functional Analysis. This assessment follows the official GATE pattern with General Aptitude and Core Mathematics questions.",
+    "typicalCareers": [
+      {
+        "title": "Mathematician",
+        "description": "Research and develop mathematical theories and applications"
+      },
+      {
+        "title": "Data Scientist",
+        "description": "Apply mathematical and statistical methods to analyze data"
+      },
+      {
+        "title": "Actuary",
+        "description": "Assess financial risks using mathematical and statistical methods"
+      }
+    ],
+    "whoShouldConsider": [
+      "Mathematics graduates preparing for GATE",
+      "Students seeking admission to M.Tech/M.E programs in mathematics",
+      "Professionals looking for PSU jobs in mathematics",
+      "Researchers in mathematics and related fields"
+    ],
+    "idealTraits": [
+      "Strong analytical and problem-solving skills",
+      "Solid foundation in mathematical principles",
+      "Mathematical aptitude and logical reasoning",
+      "Good understanding of abstract mathematical concepts"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude Assessment (10 questions, 15 marks)",
+        "Core Mathematics Assessment (55 questions, 85 marks)"
+      ],
+      "resultsInclude": [
+        "Section-wise scores (Aptitude & Core)",
+        "Topic-wise performance analysis",
+        "Difficulty-wise accuracy",
+        "Overall percentile ranking",
+        "Detailed explanations for all questions"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment",
+        "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "The price of an item is increased by 10% and then decreased by 10%. The net change in price is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1% decrease",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1% increase",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.1% decrease",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Percentage",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "Let the original price be P. Increase by 10%: P(1.1). Decrease by 10%: P(1.1)(0.9) = P(0.99). The net change is a 100-99=1% decrease."
+          },
+          {
+            "id": "GA002",
+            "text": "The ratio of the speed of a boat in still water to the speed of the current is 5:1. If the boat travels a certain distance downstream in 3 hours, what is the time taken to travel the same distance upstream?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "4 hours",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5 hours",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6 hours",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "7.5 hours",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Time & Distance",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Let speed of boat be 5x and current be x. Downstream speed = 6x. Upstream speed = 4x. Distance D = 6x × 3 = 18x. Upstream time T = D / 4x = 18x / 4x = 4.5 hours."
+          },
+          {
+            "id": "GA003",
+            "text": "Choose the most appropriate word from the options given below to complete the following sentence: The candidate's statement was a ___ of truth.",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "deprivation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "dearth",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "travesty",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "recapitulation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Verbal Ability - Vocabulary",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "A 'travesty of truth' means a grotesque misrepresentation or distortion of the truth. 'Dearth' means scarcity, which does not fit the context."
+          },
+          {
+            "id": "GA004",
+            "text": "Find the next term in the series: 3, 7, 13, 21, 31, ...",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "41",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "43",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "45",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "47",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analytical Reasoning - Number Series",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "The differences between consecutive terms are 4, 6, 8, 10. The next difference should be 12. Thus, 31 + 12 = 43."
+          },
+          {
+            "id": "GA005",
+            "text": "If f(x) = |x-2| + |x-5|, the minimum value of f(x) is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Quantitative Aptitude - Calculus/Functions",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "The function f(x) represents the sum of distances from x to 2 and x to 5. The minimum value occurs for x between 2 and 5, where f(x) = (x-2) + (5-x) = 3."
+          },
+          {
+            "id": "GA006",
+            "text": "A clock shows 4:30. What is the angle between the hour and minute hands?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "30 degrees",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "45 degrees",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "60 degrees",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "90 degrees",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Clocks/Geometry",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 90,
+            "explanation": "Angle θ = |30H - (11/2)M|. θ = |30(4) - (11/2)(30)| = |120 - 165| = 45 degrees."
+          },
+          {
+            "id": "GA007",
+            "text": "The synonym for 'Mellifluous' is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Discordant",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Harmonious",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Cacophonous",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Raucous",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Vocabulary (Synonyms)",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "'Mellifluous' means a sound that is sweet and musical; pleasant to hear. 'Harmonious' is the closest synonym."
+          },
+          {
+            "id": "GA008",
+            "text": "In a group, 70% of the students speak English and 50% speak Hindi. If 40 students speak both, what is the total number of students in the group?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "150",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "200",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "400",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4000",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Set Theory",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Percentage speaking both = (70% + 50%) - 100% = 20%. If 20% of total X is 40, then 0.20 × X = 40, so X = 200."
+          },
+          {
+            "id": "GA009",
+            "text": "The pair of words that best expresses a similar relationship as 'Surgeon : Scalpel' is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sculptor : Chisel",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Musician : Instrument",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Lawyer : Court",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Baker : Oven",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Verbal Ability - Analogy",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "The relationship is 'Person : Primary Tool'. A Surgeon uses a Scalpel; a Sculptor uses a Chisel."
+          },
+          {
+            "id": "GA010",
+            "text": "A sum of money doubles in 5 years at simple interest. In how many years will it become four times?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "10",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "15",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "20",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "25",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Simple Interest",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "To double, Interest (I) must be 1P, taking 5 years. To become four times, I must be 3P. Since simple interest is linear, it takes 3 × 5 = 15 years."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Mathematics Assessment",
+        "description": "Comprehensive assessment covering Linear Algebra, Calculus, Real Analysis, Complex Analysis, Ordinary Differential Equations, Abstract Algebra, and Functional Analysis. This section carries 85% weight in the total assessment.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "MA001",
+            "text": "The rank of the matrix A = [[1, 2, 3], [2, 4, 6], [3, 6, 9]] is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "3",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "Since all rows are scalar multiples of the first row (Row 2 = 2 * Row 1, Row 3 = 3 * Row 1), the number of linearly independent rows is 1. Thus, the rank is 1."
+          },
+          {
+            "id": "MA002",
+            "text": "A function f: ℝ → ℝ defined by f(x) = x² is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "One-to-one (Injective) and onto (Surjective).",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Injective but not Surjective.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Surjective but not Injective.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Neither Injective nor Surjective.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Real Analysis",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Injective: Since f(2) = 4 and f(-2) = 4, it is not injective. Surjective: Since the codomain is ℝ but the range is [0, ∞), negative numbers are not covered, so it is not surjective."
+          },
+          {
+            "id": "MA003",
+            "text": "The order of the element (2, 3) in the group ℤ₄ × ℤ₆ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "12",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Abstract Algebra",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The order of (a, b) in ℤₘ × ℤₙ is lcm(ord(a), ord(b)). In ℤ₄, ord(2) = 4 / gcd(2, 4) = 2. In ℤ₆, ord(3) = 6 / gcd(3, 6) = 2. The order is lcm(2, 2) = 2."
+          },
+          {
+            "id": "MA004",
+            "text": "The radius of convergence (R) of the power series Σ(n=0 to ∞) xⁿ/n! is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "∞",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "e",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Complex Analysis/Real Analysis",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "Using the Ratio Test, 1/R = lim(n→∞) |a_{n+1}/a_n| = lim(n→∞) |1/(n+1)! / 1/n!| = lim(n→∞) 1/(n+1) = 0. Thus, R = 1/0 = ∞. This is the Maclaurin series for e^x."
+          },
+          {
+            "id": "MA005",
+            "text": "The characteristic roots (eigenvalues) of a skew-symmetric matrix are always:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Real",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Purely imaginary or zero",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Positive real",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Complex and non-zero",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A skew-symmetric matrix A (A^T = -A) must have eigenvalues that are either zero or purely imaginary (complex conjugate pairs)."
+          },
+          {
+            "id": "MA006",
+            "text": "The value of the double integral ∬_R xy dA over the rectangle R = [0, 1] × [1, 2] is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.5",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.75",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1.0",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1.5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Calculus",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The integral can be separated: ∫₁² y dy · ∫₀¹ x dx. ∫₁² y dy = [y²/2]₁² = (4/2) - (1/2) = 1.5. ∫₀¹ x dx = [x²/2]₀¹ = 1/2 = 0.5. Result: 1.5 × 0.5 = 0.75."
+          },
+          {
+            "id": "MA007",
+            "text": "The number of subgroups of the cyclic group ℤ₈ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "8",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Abstract Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The number of subgroups of ℤₙ is equal to the number of positive divisors of n. The divisors of n=8 are 1, 2, 4, 8. Number of subgroups = 4."
+          },
+          {
+            "id": "MA008",
+            "text": "Which of the following functions f(z) is entire (holomorphic everywhere)?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "f(z) = z̄ (Conjugate)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "f(z) = 1 / z",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "f(z) = z² + 5 i z",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "f(z) = Re(z)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Complex Analysis",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A function is entire if it is differentiable at every point in the complex plane. Polynomials in z (like z² + 5 i z) are always entire. z̄ and Re(z) do not satisfy the Cauchy-Riemann equations, and 1/z fails at z=0."
+          },
+          {
+            "id": "MA009",
+            "text": "The solution to the ordinary differential equation dy/dx = y with the initial condition y(0)=2 is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "y = e^x",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "y = 2 e^(-x)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "y = 2 e^x",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "y = x + 2",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Differential Equations",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "The general solution is y(x) = C e^x. Applying the initial condition: y(0) = C e^0 = C = 2. The specific solution is y = 2 e^x."
+          },
+          {
+            "id": "MA010",
+            "text": "If a subset S of a metric space is compact, then S must be:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Open but not necessarily closed.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Bounded but not necessarily closed.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Closed and bounded.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Neither closed nor bounded.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Real Analysis/Topology",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 45,
+            "explanation": "The Heine-Borel Theorem states that in ℝⁿ (which is a metric space), a subset is compact if and only if it is closed and bounded."
+          },
+          {
+            "id": "MA011",
+            "text": "The dimension of the vector space ℝ³ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "3",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "4",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "6",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The dimension of a vector space is the number of vectors in any basis. The standard basis for ℝ³ is {(1, 0, 0), (0, 1, 0), (0, 0, 1)}, which has 3 vectors."
+          },
+          {
+            "id": "MA012",
+            "text": "The value of the line integral ∮_C dz/z where C is the unit circle |z|=1 (traversed once counter-clockwise) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2πi",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "iπ",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1 / (2πi)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Complex Analysis",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "By the Cauchy's Integral Formula or Residue Theorem, the integral ∮_C dz/(z-a) equals 2πi · Res(a). Here a=0, Res(0)=1. Thus, the integral is 2πi."
+          },
+          {
+            "id": "MA013",
+            "text": "The set of rational numbers (ℚ) under the usual metric (d(x, y) = |x-y|) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Complete.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Compact.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Nowhere dense.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Closed.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Real Analysis/Topology",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "In ℝ, ℚ is not complete (Cauchy sequences of rationals can converge to an irrational number). It is dense but its closure is ℝ. Since its interior is empty and it is dense, it is nowhere dense in ℝ."
+          },
+          {
+            "id": "MA014",
+            "text": "The solution to the partial differential equation ∂²u/∂x² - 4 ∂²u/∂y² = 0 is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Elliptic",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Parabolic",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Hyperbolic",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Not classified",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Differential Equations",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The classification is based on B² - 4AC. Here A=1, B=0, C=-4. B² - 4AC = 0 - 4(1)(-4) = 16. Since B² - 4AC > 0, the PDE is hyperbolic (Wave equation type)."
+          },
+          {
+            "id": "MA015",
+            "text": "The order of the alternating group A₄ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "6",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "12",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "24",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "48",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Abstract Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The alternating group Aₙ consists of all even permutations on n elements. Its order is |Aₙ| = n! / 2. For n=4, |A₄| = 4! / 2 = 24 / 2 = 12."
+          },
+          {
+            "id": "MA016",
+            "text": "The integral ∫_{-∞}^{∞} δ(x-a) f(x) dx evaluates to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "f(a)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "f'(a)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "δ(a)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Calculus",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "This is the sampling property of the Dirac Delta function, which extracts the value of the function f(x) at the singularity point x=a: f(a)."
+          },
+          {
+            "id": "MA017",
+            "text": "If a matrix A is Hermitian, then its eigenvalues are always:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Purely imaginary.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Real.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Complex and non-zero.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Zero.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A Hermitian matrix (A = A^†) is a self-adjoint operator, and a key property is that all of its eigenvalues are real."
+          },
+          {
+            "id": "MA018",
+            "text": "The series Σ(n=1 to ∞) 1/n^p converges if and only if:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "p = 1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "p > 1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "p ≤ 1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "p < 1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Real Analysis",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "This is the p-series. It converges if p > 1 (e.g., Σ 1/n²) and diverges if p ≤ 1 (e.g., the harmonic series Σ 1/n)."
+          },
+          {
+            "id": "MA019",
+            "text": "The group (ℤ, +) (integers under addition) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Finite and non-Abelian.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Infinite and non-cyclic.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Finite and cyclic.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Infinite and cyclic.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Abstract Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The group (ℤ, +) is infinite and is cyclic because it is generated by the element 1 (or -1). It is also Abelian since a+b = b+a."
+          },
+          {
+            "id": "MA020",
+            "text": "The value of the residue of f(z) = e^z/z² at z=0 is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "e",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Complex Analysis",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The function has a pole of order m=2 at z=0. The residue is Res(0) = 1/(m-1)! lim(z→0) d^{m-1}/dz^{m-1} [(z-0)^m f(z)]. Res(0) = 1/1! lim(z→0) d/dz (z² e^z/z²) = lim(z→0) d/dz (e^z) = lim(z→0) e^z = 1."
+          },
+          {
+            "id": "MA021",
+            "text": "The general solution to the homogeneous ODE y'' + 4y = 0 is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "C₁ e^{2x} + C₂ e^{-2x}",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "C₁ cos(2x) + C₂ sin(2x)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "C₁ e^{2x} + C₂ x e^{2x}",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "C₁ cos(x) + C₂ sin(x)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Differential Equations",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "The characteristic equation is m² + 4 = 0, giving roots m = ±2i (complex conjugate roots). The general solution is y(x) = C₁ cos(2x) + C₂ sin(2x)."
+          },
+          {
+            "id": "MA022",
+            "text": "If T: ℝ² → ℝ² is a linear transformation defined by T(x, y) = (2x, 3y), the matrix representation of T (with respect to the standard basis) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "[[2, 0], [0, 3]]",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "[[2, 3], [0, 0]]",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "[[0, 2], [3, 0]]",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "[[3, 0], [0, 2]]",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The columns of the matrix are the images of the basis vectors: T(1, 0) = (2, 0) and T(0, 1) = (0, 3). The matrix is [[2, 0], [0, 3]]."
+          },
+          {
+            "id": "MA023",
+            "text": "The maximum value of the directional derivative of f(x, y) = x²y at the point (1, 2) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2.828",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4.123",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "5.0",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "6.0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Calculus",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "The maximum directional derivative is |∇f|. ∇f = (∂f/∂x, ∂f/∂y) = (2xy, x²). At (1, 2): ∇f(1, 2) = (2(1)(2), 1²) = (4, 1). |∇f| = √(4² + 1²) = √17 ≈ 4.123."
+          },
+          {
+            "id": "MA024",
+            "text": "The set of all continuous functions on [0, 1], denoted by C[0, 1], is a vector space with respect to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Finite dimension.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Countable dimension.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Infinite dimension.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Dimension zero.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Functional Analysis/Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The vector space of continuous functions on an interval, C[0, 1], is infinite-dimensional. No finite set of continuous functions can span all of C[0, 1]."
+          },
+          {
+            "id": "MA025",
+            "text": "The index of the subgroup 3ℤ (multiples of 3) in the group (ℤ, +) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "3",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "9",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Abstract Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The index of a subgroup H in a group G is |G:H| = |G| / |H|. For H = nℤ in G = ℤ, the index is n. Here, n=3. The index is 3 (corresponding to the cosets 0+3ℤ, 1+3ℤ, 2+3ℤ)."
+          },
+          {
+            "id": "MA026",
+            "text": "The Laurent series expansion of f(z) = 1/(z(z-1)) about z=0 for |z| > 1 is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Σ(n=0 to ∞) z^{n-1}",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "-Σ(n=0 to ∞) z^{-n-2}",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Σ(n=0 to ∞) z^{-n-2}",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "-Σ(n=0 to ∞) z^n",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Complex Analysis",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "For |z| > 1: f(z) = 1/z · 1/(z-1) = 1/z² · 1/(1 - 1/z). Since |1/z| < 1, we use the geometric series: 1/(1 - 1/z) = Σ(n=0 to ∞) (1/z)^n. f(z) = 1/z² Σ(n=0 to ∞) z^{-n} = Σ(n=0 to ∞) z^{-n-2}."
+          },
+          {
+            "id": "MA027",
+            "text": "The limit of the sequence x_n = (2n² + 3n)/(n² + 1) as n → ∞ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "∞",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Real Analysis",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Divide the numerator and denominator by n²: lim(n→∞) (2 + 3/n)/(1 + 1/n²). As n → ∞, 3/n → 0 and 1/n² → 0. The limit is 2/1 = 2."
+          },
+          {
+            "id": "MA028",
+            "text": "The dimension of the null space (kernel) of the matrix A = [[1, 1], [2, 2]] is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "3",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The Rank-Nullity Theorem states rank(A) + nullity(A) = n (where n=2). The matrix has rank 1 (Row 2 = 2 * Row 1). Thus, nullity(A) = n - rank(A) = 2 - 1 = 1."
+          },
+          {
+            "id": "MA029",
+            "text": "Which of the following is NOT a group?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "ℤ under addition (+).",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "ℚ^× (non-zero rationals) under multiplication (·).",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "ℝ under multiplication (·).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "ℤ₅ under addition modulo 5 (+₅).",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Abstract Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The set of real numbers (ℝ) under multiplication is not a group because 0 has no multiplicative inverse (1/0 is undefined)."
+          },
+          {
+            "id": "MA030",
+            "text": "The maximum modulus of the function f(z) = z² on the closed unit disk |z| ≤ 1 is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Complex Analysis",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "By the Maximum Modulus Principle, the maximum value of |f(z)| for a holomorphic function occurs on the boundary |z|=1. |f(z)| = |z²| = |z|². On the boundary, |z|=1, so |f(z)| = 1² = 1."
+          },
+          {
+            "id": "MA031",
+            "text": "The Integrating Factor (IF) for the linear first-order ODE dy/dx + (1/x) y = x² is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "x",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "e^x",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/x",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "ln(x)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Differential Equations",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "The linear ODE is in the form dy/dx + P(x) y = Q(x), with P(x) = 1/x. The IF is e^{∫ P(x) dx} = e^{∫ 1/x dx} = e^{ln|x|} = |x| (or simply x for x>0)."
+          },
+          {
+            "id": "MA032",
+            "text": "The sum of the eigenvalues of a matrix is equal to its:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Determinant.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Rank.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Trace.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Nullity.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A key property of eigenvalues is that their sum is equal to the trace (the sum of the diagonal elements) of the matrix."
+          },
+          {
+            "id": "MA033",
+            "text": "Which of the following functions is uniformly continuous on (0, 1)?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "f(x) = 1 / x",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "f(x) = x²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "f(x) = sin(1/x)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "f(x) = x ln(x)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Real Analysis",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "A continuous function on an open interval is uniformly continuous if and only if it can be continuously extended to the closed interval (i.e., the limits at the endpoints exist). f(x) = x² has limits 0 and 1 at the endpoints, so it is uniformly continuous."
+          },
+          {
+            "id": "MA034",
+            "text": "The value of the contour integral ∮_C e^z/(z-2)² dz, where C is the circle |z|=1, is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2πi",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "e²",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Complex Analysis",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "The singularity is at z₀ = 2. The contour C is the unit circle |z|=1. Since the singularity z₀ = 2 lies outside the contour (|2| > 1), by the Cauchy-Goursat Theorem, the integral is zero."
+          },
+          {
+            "id": "MA035",
+            "text": "The order of the element i in the multiplicative group of non-zero complex numbers ℂ^× is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "8",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "∞",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Abstract Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The order is the smallest positive integer n such that i^n = 1 (the identity element). i¹=i, i²=-1, i³=-i, i⁴=1. The order is 4."
+          },
+          {
+            "id": "MA036",
+            "text": "The general solution to the exact differential equation (2xy + y²) dx + (x² + 2xy) dy = 0 is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "x² y + x y² = C",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "x y² + x² y² = C",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "x² + 2 x y = C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "x² y + y² = C",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Differential Equations",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The equation is exact since ∂M/∂y = 2x+2y = ∂N/∂x. The solution F(x, y) = C is found by integrating M w.r.t x and N w.r.t y: F(x, y) = ∫ M dx + g(y) = x² y + x y² + g(y). ∂F/∂y = x² + 2xy + g'(y) = N. g'(y) = 0, so g(y) = 0. The solution is x² y + x y² = C."
+          },
+          {
+            "id": "MA037",
+            "text": "The set of all eigenvalues of a matrix A is called the spectrum of A.",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "True",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "False",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "True only if A is diagonalizable.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "True only if A is Hermitian.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "By definition, the set of all eigenvalues of a square matrix A (denoted σ(A)) is the spectrum of A."
+          },
+          {
+            "id": "MA038",
+            "text": "The function f(z) = |z|² is differentiable only at:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Everywhere in ℂ.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Nowhere in ℂ.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "z=0.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The set |z|=1.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Complex Analysis",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "For f(z) = x² + y², ∂u/∂x = 2x, ∂v/∂y = 0. ∂u/∂y = 2y, -∂v/∂x = 0. Cauchy-Riemann equations (u_x=v_y, u_y=-v_x) are 2x=0 and 2y=0. This is satisfied only at z=0."
+          },
+          {
+            "id": "MA039",
+            "text": "If f(x) = x², the Taylor series expansion about x=1 terminates after:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1 term",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2 terms",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3 terms",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Never terminates",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Calculus",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "Since f(x)=x² is a polynomial of degree 2, its Taylor series must terminate exactly at the second derivative term (f''(1)/2! (x-1)²). This corresponds to 3 non-zero terms (f(1), f'(1)(x-1), f''(1)/2! (x-1)²)."
+          },
+          {
+            "id": "MA040",
+            "text": "Which of the following is an ideal in the ring (ℤ, +, ·)?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The set of odd integers.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The set of even integers (2ℤ).",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The set of prime numbers.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The set of natural numbers (ℕ).",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Abstract Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "An ideal I must satisfy the closure under multiplication by any element in the ring (r · i ∈ I for all r ∈ ℤ, i ∈ I). The set of even integers (2ℤ) is an ideal, as r · (2k) = 2(rk) ∈ 2ℤ."
+          },
+          {
+            "id": "MA041",
+            "text": "If A is an m × n matrix, the space spanned by the columns of A is called the column space or image of A.",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "True",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "False",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "True only if m=n.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "True only if the columns are linearly independent.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "This is the definition of the column space (or range, or image) of a matrix A."
+          },
+          {
+            "id": "MA042",
+            "text": "The general solution to the Cauchy-Euler equation x² y'' + 3x y' + y = 0 is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "C₁ x + C₂ x²",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "C₁ x⁻¹ + C₂ x⁻¹ ln x",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "C₁ cos(ln x) + C₂ sin(ln x)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "C₁ ln x + C₂ x ln x",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Differential Equations",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "Auxiliary equation: m(m-1) + 3m + 1 = 0, or m² + 2m + 1 = 0. (m+1)² = 0, giving repeated root m₁ = m₂ = -1. The solution is y(x) = C₁ x⁻¹ + C₂ x⁻¹ ln x."
+          },
+          {
+            "id": "MA043",
+            "text": "The set of non-zero elements of ℤ₅ under multiplication modulo 5, (ℤ₅^×, ·₅), is a group. Its order is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "5",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "6",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Abstract Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The set is {1, 2, 3, 4}. Since 5 is a prime number, ℤ₅^× is the multiplicative group of units. Its order is 5 - 1 = 4."
+          },
+          {
+            "id": "MA044",
+            "text": "The least upper bound (supremum) of the set S = {1/n : n ∈ ℕ} is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "∞",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Real Analysis",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The set is S = {1, 1/2, 1/3, 1/4, ...}. The largest element in this set is 1, which is the supremum."
+          },
+          {
+            "id": "MA045",
+            "text": "The Jacobian matrix for f(x, y) = (x² + y², 2xy) at the point (1, 2) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "[[2, 4], [4, 2]]",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "[[4, 2], [4, 4]]",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "[[2, 2], [4, 4]]",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "[[2, 2], [2, 4]]",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Calculus",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "Let u = x² + y², v = 2xy. Jacobian J = [[∂u/∂x, ∂u/∂y], [∂v/∂x, ∂v/∂y]] = [[2x, 2y], [2y, 2x]]. At (1, 2), J(1, 2) = [[2(1), 2(2)], [2(2), 2(1)]] = [[2, 4], [4, 2]]."
+          },
+          {
+            "id": "MA046",
+            "text": "The fixed points of the fractional linear transformation w = (z-1)/(z+1) are:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "±1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "±i",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0, 1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "-1, i",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Complex Analysis",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "Fixed points satisfy z = w. z = (z-1)/(z+1) ⟹ z(z+1) = z-1 ⟹ z² + z = z - 1 ⟹ z² = -1. z = ±i."
+          },
+          {
+            "id": "MA047",
+            "text": "If V is the vector space of 2 × 2 real matrices, the dimension of V is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "8",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The basis for 2 × 2 matrices consists of 4 matrices: [[1, 0], [0, 0]], [[0, 1], [0, 0]], [[0, 0], [1, 0]], [[0, 0], [0, 1]]. The dimension is 2 × 2 = 4."
+          },
+          {
+            "id": "MA048",
+            "text": "The Picard Iteration method is used to find the approximate solution of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Linear algebraic equations.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Initial value problems for ODEs.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Boundary value problems for ODEs.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Partial differential equations.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Differential Equations",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Picard iteration method provides a sequence of functions that converge to the exact solution of an Initial Value Problem for a first-order Ordinary Differential Equation (ODE)."
+          },
+          {
+            "id": "MA049",
+            "text": "The principal value of i^i is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "e^(-π/2)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "e^(π/2)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "π / 2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Complex Analysis",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "i^i = e^(i ln i). The principal value of ln i is ln i = ln |i| + i Arg(i) = 0 + i (π/2). i^i = e^(i (i π/2)) = e^(i² π/2) = e^(-π/2)."
+          },
+          {
+            "id": "MA050",
+            "text": "The number of generators of the cyclic group ℤ₁₀ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "10",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Abstract Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The number of generators of ℤₙ is given by the Euler totient function φ(n). For n=10: φ(10) = 10 (1 - 1/2) (1 - 1/5) = 10 · (1/2) · (4/5) = 4. The generators are {1, 3, 7, 9}."
+          },
+          {
+            "id": "MA051",
+            "text": "The Cauchy Integral Formula for f(z₀) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1/(2πi) ∮_C f(z)/(z-z₀) dz",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "∮_C f(z)/(z-z₀) dz",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/(2πi) ∮_C f(z) dz",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1/(2π) ∮_C f(z)/(z-z₀) dz",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Complex Analysis",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Cauchy Integral Formula states f(z₀) = 1/(2πi) ∮_C f(z)/(z-z₀) dz, where z₀ is inside the simple closed contour C."
+          },
+          {
+            "id": "MA052",
+            "text": "The set of all sequences of real numbers, denoted by ℝ^∞, is a vector space with countable dimension.",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "True",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "False",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Only if the sequences converge.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Only if the sequences are bounded.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Functional Analysis/Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The set ℝ^∞ is uncountable-dimensional. Its dimension is not countable, as demonstrated by constructing a basis using characteristic functions, which leads to a non-countable basis set."
+          },
+          {
+            "id": "MA053",
+            "text": "The general solution of the homogeneous linear system x' = A x where A = [[0, 1], [-1, 0]] is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "C₁ [cos t, sin t] + C₂ [sin t, cos t]",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "C₁ [e^t, e^(-t)] + C₂ [t e^t, t e^(-t)]",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "C₁ [cos t, -sin t] + C₂ [sin t, cos t]",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "C₁ [sin t, cos t] + C₂ [1, t]",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Differential Equations",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Characteristic equation: det(A - λI) = λ² + 1 = 0 ⟹ λ = ±i. For λ = i, the eigenvector v₁ yields the real solutions x₁ = Re(e^(it) v₁) and x₂ = Im(e^(it) v₁). The correct form is x(t) = C₁ [cos t, -sin t] + C₂ [sin t, cos t]."
+          },
+          {
+            "id": "MA054",
+            "text": "The number of maximal ideals in the ring ℤ₁₀ (under modulo arithmetic) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Abstract Algebra",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "The maximal ideals of ℤₙ are of the form ⟨p⟩ where p is a prime divisor of n. The prime divisors of n=10 are 2 and 5. Thus, there are 2 maximal ideals (⟨2⟩ and ⟨5⟩)."
+          },
+          {
+            "id": "MA055",
+            "text": "The principal argument (Arg(z)) of the complex number z = 1 - i is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "-π/4 (-0.785)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "π/4 (0.785)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "-π/2 (-1.571)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "π/2 (1.571)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Complex Analysis",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The complex number z = 1 - i lies in the fourth quadrant. The angle is tan⁻¹(-1/1) = -45°. In radians, -π/4 ≈ -0.785."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "GATE Assessment Results",
+        "description": "Your comprehensive GATE Mathematics assessment results with detailed analysis and recommendations for improvement.",
+        "questions": []
+      }
+    }
+  }

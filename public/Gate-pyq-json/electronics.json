@@ -1,0 +1,2327 @@
+{
+    "id": "electronics-pyq",
+    "title": "Electronics Engineering PYQ (EC)",
+    "description": "Comprehensive GATE Electronics & Communication Engineering assessment covering General Aptitude and Core Electronics & Communication Engineering subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core electronics & communication engineering questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Moderate",
+    "isActive": true,
+    "featured": true,
+    "metadata": {
+      "icon": "electronics-communication",
+      "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "userCount": 2150,
+      "tags": ["GATE", "Electronics", "Communication", "Engineering", "PYQ", "Moderate Difficulty"]
+    },
+    "whatIsDescription": "The GATE Electronics and Communication Engineering (EC) exam is a comprehensive assessment designed to evaluate candidates' proficiency in electronics fundamentals, communication systems, signal processing, and related mathematical foundations. This exam tests your understanding of electronic devices, analog and digital circuits, control systems, and communication theory.",
+    "typicalCareers": [
+      {
+        "title": "Electronics Engineer",
+        "description": "Design and develop electronic circuits, systems, and components"
+      },
+      {
+        "title": "Communication Engineer",
+        "description": "Design and implement communication systems and networks"
+      },
+      {
+        "title": "Signal Processing Engineer",
+        "description": "Develop algorithms and systems for signal analysis and processing"
+      },
+      {
+        "title": "VLSI Design Engineer",
+        "description": "Design and develop very large scale integrated circuits"
+      },
+      {
+        "title": "Telecommunications Engineer",
+        "description": "Design and maintain telecommunication networks and systems"
+      },
+      {
+        "title": "Embedded Systems Engineer",
+        "description": "Develop embedded software and hardware systems"
+      }
+    ],
+    "whoShouldConsider": "Students and professionals with backgrounds in Electronics Engineering, Communication Engineering, or related fields who want to pursue careers in electronics, telecommunications, or signal processing.",
+    "idealTraits": [
+      "Strong mathematical foundation",
+      "Understanding of electronic devices and circuits",
+      "Knowledge of communication systems",
+      "Problem-solving abilities",
+      "Understanding of signal processing and control systems"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude (Verbal & Quantitative)",
+        "Engineering Mathematics",
+        "Electronic Devices",
+        "Analog Circuits",
+        "Digital Circuits",
+        "Control Systems",
+        "Communication Systems",
+        "Electromagnetics"
+      ],
+      "resultsInclude": [
+        "Detailed performance analysis",
+        "Subject-wise breakdown",
+        "Difficulty level assessment",
+        "Improvement recommendations",
+        "Career guidance based on performance"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment (GA)",
+        "description": "10 Questions, 15 Marks. Verbal Ability, Quantitative Aptitude, and Analytical Reasoning.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "The price of an item is increased by 10% and then decreased by 10%. The net change in price is: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1% decrease",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1% increase",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.1% decrease",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Percentage",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "Let the original price be P. Increase by 10%: P(1.1). Decrease by 10%: P(1.1)(0.9) = P(0.99). The net change is a 100-99=1% decrease."
+          },
+          {
+            "id": "GA002",
+            "text": "The ratio of the speed of a boat in still water to the speed of the current is 5:1. If the boat travels a certain distance downstream in 3 hours, what is the time taken to travel the same distance upstream? (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "4 hours",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5 hours",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6 hours",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "7.5 hours",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Time & Distance",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Let speed of boat be 5x and current be x. Downstream speed = 6x. Upstream speed = 4x. Distance D = 6x × 3 = 18x. Upstream time T = D / 4x = 18x / 4x = 4.5 hours."
+          },
+          {
+            "id": "GA003",
+            "text": "Choose the most appropriate word from the options given below to complete the following sentence: The candidate's statement was a ___ of truth. (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "deprivation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "dearth",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "travesty",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "recapitulation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Verbal Ability - Vocabulary",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "A 'travesty of truth' means a grotesque misrepresentation or distortion of the truth. 'Dearth' means scarcity, which does not fit the context."
+          },
+          {
+            "id": "GA004",
+            "text": "Find the next term in the series: 3, 7, 13, 21, 31, ... (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "41",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "43",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "45",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "47",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analytical Reasoning - Number Series",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "The differences between consecutive terms are 4, 6, 8, 10. The next difference should be 12. Thus, 31 + 12 = 43."
+          },
+          {
+            "id": "GA005",
+            "text": "If f(x) = |x-2| + |x-5|, the minimum value of f(x) is: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Quantitative Aptitude - Calculus/Functions",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "The function f(x) represents the sum of distances from x to 2 and x to 5. The minimum value occurs for x between 2 and 5, where f(x) = (x-2) + (5-x) = 3."
+          },
+          {
+            "id": "GA006",
+            "text": "A clock shows 4:30. What is the angle between the hour and minute hands? (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "30 degrees",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "45 degrees",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "60 degrees",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "90 degrees",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Clocks/Geometry",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 90,
+            "explanation": "Angle θ = |30H - (11/2)M|. θ = |30(4) - (11/2)(30)| = |120 - 165| = 45 degrees."
+          },
+          {
+            "id": "GA007",
+            "text": "The synonym for 'Mellifluous' is: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Discordant",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Harmonious",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Cacophonous",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Raucous",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Vocabulary (Synonyms)",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "'Mellifluous' means a sound that is sweet and musical; pleasant to hear. 'Harmonious' is the closest synonym."
+          },
+          {
+            "id": "GA008",
+            "text": "In a group, 70% of the students speak English and 50% speak Hindi. If 40 students speak both, what is the total number of students in the group? (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "150",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "200",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "400",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4000",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Set Theory",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Percentage speaking both = (70% + 50%) - 100% = 20%. If 20% of total X is 40, then 0.20 × X = 40, so X = 200."
+          },
+          {
+            "id": "GA009",
+            "text": "The pair of words that best expresses a similar relationship as 'Surgeon : Scalpel' is: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sculptor : Chisel",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Musician : Instrument",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Lawyer : Court",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Baker : Oven",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Verbal Ability - Analogy",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "The relationship is 'Person : Primary Tool'. A Surgeon uses a Scalpel; a Sculptor uses a Chisel."
+          },
+          {
+            "id": "GA010",
+            "text": "A sum of money doubles in 5 years at simple interest. In how many years will it become four times? (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "10",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "15",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "20",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "25",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Simple Interest",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "To double, Interest (I) must be 1P, taking 5 years. To become four times, I must be 3P. Since simple interest is linear, it takes 3 × 5 = 15 years."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Electronics and Communication Engineering Assessment",
+        "description": "55 Questions, 85 Marks. Comprehensive coverage of Engineering Mathematics, Networks, Electronic Devices, Analog Circuits, Digital Circuits, Control Systems, Communications, and Electromagnetics.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "EC001",
+            "text": "The stability of a linear time-invariant system is determined by the location of the: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Zeros of the transfer function",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Poles of the transfer function",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Input signal frequency",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Initial conditions",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The stability of an LTI system is exclusively determined by the locations of the poles of its transfer function in the complex s-plane. For a causal, stable system, all poles must lie in the left half of the s-plane."
+          },
+          {
+            "id": "EC002",
+            "text": "For a standard PN junction diode, the barrier potential increases with: (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increase in temperature",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Decrease in doping concentration",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Increase in doping concentration",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Decrease in voltage bias",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electronic Devices",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The barrier potential (V0) is proportional to ln(NA ND), where NA and ND are the acceptor and donor concentrations. Increasing doping increases the barrier potential."
+          },
+          {
+            "id": "EC003",
+            "text": "What is the characteristic impedance of a lossless transmission line? (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "R + jωL",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "√(L/C)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "√(LC)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "G + jωC",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electromagnetics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "For a lossless line (R=0, G=0), the characteristic impedance Z0 = √((R+jωL) / (G+jωC)) simplifies to Z0 = √(jωL / jωC) = √(L/C)."
+          },
+          {
+            "id": "EC004",
+            "text": "If a continuous time signal x(t) has a Fourier Transform X(jω), the Fourier Transform of x(t-t0) is: (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "X(jω) e^(jωt0)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "X(jω) e^(-jωt0)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "X(jω) t0",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "X(j(ω - ω0))",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Signals and Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "This is the time-shifting property of the Fourier Transform: x(t-t0) ↔ X(jω) e^(-jωt0)."
+          },
+          {
+            "id": "EC005",
+            "text": "The resolution of an N-bit Digital-to-Analog Converter (DAC) is: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1/2^N",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1/(2^N - 1)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2^N",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2^N - 1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog and Digital Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The resolution is the ratio of the smallest output voltage change to the full-scale output range, given by VFS / (2^N - 1) ∝ 1/(2^N - 1)."
+          },
+          {
+            "id": "EC006",
+            "text": "The maximum number of distinct roots for the characteristic equation of an LTI system with degree n is: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "n²",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "n+1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "n",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2^n",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics/Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "By the Fundamental Theorem of Algebra, a polynomial equation of degree n (the characteristic equation of an nth order system) has exactly n roots (poles), counting multiplicity."
+          },
+          {
+            "id": "EC007",
+            "text": "An ideal voltage source has: (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Zero internal resistance",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Infinite internal resistance",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Zero internal conductance",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "A finite, non-zero internal resistance",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Network Theory",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "An ideal voltage source is one that can maintain a constant voltage across its terminals regardless of the current drawn, implying zero internal resistance (Rin = 0). An ideal current source has infinite internal resistance."
+          },
+          {
+            "id": "EC008",
+            "text": "In a BJT, the relation between the three currents (IE, IC, IB) is given by: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "IC = IE + IB",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "IE = IC + IB",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "IB = IC + IE",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "IE = IC - IB",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electronic Devices",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Based on Kirchhoff's Current Law (KCL) at the base region, the emitter current (IE) splits into the collector current (IC) and the base current (IB), so IE = IC + IB."
+          },
+          {
+            "id": "EC009",
+            "text": "The minimum number of two-input NAND gates required to implement the Boolean function A + B is: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Digital Circuits",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "Using De Morgan's Law: A + B = A · B. The function A · B is exactly the definition of a two-input NAND gate. Thus, only 1 NAND gate is required."
+          },
+          {
+            "id": "EC010",
+            "text": "A unity feedback control system has an open-loop transfer function G(s) = 1/(s(s+1)). The steady-state error for a unit step input is: (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "∞",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "The system is Type 1 since there is one pole at the origin (s). The static error constant Kp for a unit step input is infinite for a Type 1 system. The steady-state error ess = 1/(1+Kp) = 1/(1+∞) = 0."
+          },
+          {
+            "id": "EC011",
+            "text": "The integral ∫(-∞ to ∞) δ(t-t0) f(t) dt evaluates to: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "f(t0)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "f(t)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "δ(t0)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Signals and Systems/Engineering Mathematics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "This is the sampling property of the Dirac Delta function δ(t-t0), which extracts the value of the function f(t) at the time instant t0."
+          },
+          {
+            "id": "EC012",
+            "text": "The ripple factor of a full-wave rectifier is: (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.482",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.812",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1.21",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Analog Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The ripple factor (γ) measures the AC content relative to the DC content. For a full-wave rectifier, the theoretical minimum value is 0.482 (or 48.2%)."
+          },
+          {
+            "id": "EC013",
+            "text": "Which condition must be met for a two-port network to be reciprocal? (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "h12 = h21",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "y11 = y22",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "z12 = z21",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "A = D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Network Theory",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A two-port network is reciprocal if its transfer functions are identical when the input and output are interchanged. For Z-parameters, this means z12 = z21."
+          },
+          {
+            "id": "EC014",
+            "text": "The maximum power that can be transferred from a source with internal resistance Rs to a load RL occurs when: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "RL = 0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "RL = Rs",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "RL = 2Rs",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "RL = ∞",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Network Theory",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "According to the Maximum Power Transfer Theorem for DC/resistive circuits, maximum power is delivered to the load when the load resistance equals the source resistance (RL = Rs)."
+          },
+          {
+            "id": "EC015",
+            "text": "Which of the following is true for an ideal operational amplifier (Op-Amp)? (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Input resistance is zero.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Output resistance is infinite.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Open-loop gain is infinite.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Bandwidth is finite.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Analog Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "An ideal Op-Amp is characterized by infinite open-loop voltage gain, infinite input resistance, and zero output resistance."
+          },
+          {
+            "id": "EC016",
+            "text": "A system is defined by the difference equation y[n] = x[n] + x[n-1]. The impulse response h[n] is: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "δ[n] + δ[n-1]",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "δ[n] - δ[n-1]",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "u[n] + u[n-1]",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "u[n] - u[n-1]",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Signals and Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "The impulse response h[n] is found by setting the input x[n] to the unit impulse δ[n]. h[n] = δ[n] + δ[n-1]."
+          },
+          {
+            "id": "EC017",
+            "text": "The phenomenon of Early Effect in a BJT refers to the: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increase in collector current due to temperature.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Base-width modulation by collector-base voltage.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Dependence of base current on emitter-base voltage.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Change in β due to high base current.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electronic Devices",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The Early effect is the effective narrowing of the base width due to an increase in the reverse collector-base voltage (VCB). This is also known as base-width modulation."
+          },
+          {
+            "id": "EC018",
+            "text": "The Boolean expression Y = A · B + A · B simplifies to: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "A+B",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Digital Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Using the distributive law: Y = A · (B + B). Since B + B = 1, Y = A · 1 = A."
+          },
+          {
+            "id": "EC019",
+            "text": "The condition for a stable system in the context of the Nyquist stability criterion is that the Nyquist plot must: (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Encircle the origin.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Pass through the point (-1, j0).",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Not encircle the point (-1, j0).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Lie entirely in the right-half plane.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "For stability, the number of clockwise encirclements of the critical point (-1, j0) must be equal to the number of open-loop poles in the right-half s-plane (N=P), which usually means zero net encirclements for typical stable open-loop systems."
+          },
+          {
+            "id": "EC020",
+            "text": "If f(x) = x³ - 6x² + 5, the derivative f'(x) is zero at x=: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0 and 2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0 and 4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2 and 4",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1 and 3",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Calculus",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "f'(x) = 3x² - 12x. Setting f'(x)=0: 3x(x - 4) = 0. Solutions are x=0 and x=4."
+          },
+          {
+            "id": "EC021",
+            "text": "For a MOSFET, the drain current in the saturation region is proportional to: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "VGS",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "VDS",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "(VGS - VT)²",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "VT",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electronic Devices",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "In the saturation region, the drain current (ID) is approximated by the square law: ID = (1/2) μn Cox (W/L) (VGS - VT)², making it proportional to (VGS - VT)²."
+          },
+          {
+            "id": "EC022",
+            "text": "A standard R-C low-pass filter has a break frequency ωc = 1/RC. What is the phase shift at ω = ωc? (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "-30°",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "-45°",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "-60°",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "-90°",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog Circuits/Network Theory",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The transfer function H(jω) = 1/(1 + jωRC). The phase φ = - arctan(ωRC). At ω = ωc = 1/RC, ωRC = 1. φ = - arctan(1) = -45°."
+          },
+          {
+            "id": "EC023",
+            "text": "The bandwidth of an Amplitude Modulated (AM) signal with a modulating frequency fm is: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "fm",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2fm",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "4fm",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "∞",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Communication Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A standard AM signal contains a carrier and two sidebands (fc - fm and fc + fm). The total bandwidth is the difference between the maximum and minimum frequencies, which is 2fm."
+          },
+          {
+            "id": "EC024",
+            "text": "For a causal LTI system, the region of convergence (ROC) of the Laplace Transform of its impulse response is: (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The entire s-plane.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The left half of the s-plane.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "A strip in the s-plane.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "A right-half plane.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Signals and Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "For a causal continuous-time signal, the ROC of the Laplace Transform is always a right-half plane defined by Re(s) > σmax, where σmax is the real part of the rightmost pole."
+          },
+          {
+            "id": "EC025",
+            "text": "A sequence of flip-flops can be used to construct a: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Multiplexer",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Demultiplexer",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Encoder",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Register",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Digital Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A register is a collection of flip-flops used to store a single binary word (data). Each flip-flop stores one bit."
+          },
+          {
+            "id": "EC026",
+            "text": "The curl of the gradient of a scalar function φ is always: (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "A non-zero constant vector.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Zero vector.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The Laplacian of φ (∇²φ).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The divergence of φ (∇·φ).",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Vector Calculus",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "The identity ∇ × (∇φ) = 0 is a fundamental property of vector calculus. The curl of a gradient of any scalar field is always the zero vector."
+          },
+          {
+            "id": "EC027",
+            "text": "What is the primary function of the intermediate frequency (IF) stage in a superheterodyne receiver? (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Amplifying the antenna signal.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Demodulating the signal.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Providing the main selectivity and stable high-gain amplification.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Separating the audio and video signals.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Communication Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The IF stage converts all incoming carrier frequencies to a single, fixed frequency, allowing for highly selective and fixed-tuned amplification and filtering, which improves performance."
+          },
+          {
+            "id": "EC028",
+            "text": "The phase velocity of an electromagnetic wave in a transmission line is given by: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "ωβ",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "β/ω",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "ω/β",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1/√(με)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electromagnetics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Phase velocity vp is the speed at which the phase of the wave propagates and is defined as vp = ω/β, where ω is the angular frequency and β is the phase constant."
+          },
+          {
+            "id": "EC029",
+            "text": "A full adder can be constructed using two half adders and one: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "AND gate",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "OR gate",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "XOR gate",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "NOT gate",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Digital Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "A full adder's Sum is generated by XORing the outputs of the two half adders. The Carry-Out is generated by ORing the two Carry-Outs from the half adders."
+          },
+          {
+            "id": "EC030",
+            "text": "For a non-zero vector A, the dot product A · A is equal to: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "|A|",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "|A|²",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The identity matrix",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics - Vector Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The dot product of a vector with itself is equal to the square of its magnitude: A · A = |A| |A| cos(0) = |A|²."
+          },
+          {
+            "id": "EC031",
+            "text": "A standard op-amp in an inverting amplifier configuration has an input resistor Rin and a feedback resistor Rf. The closed-loop gain is: (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1 + Rf / Rin",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "-Rf / Rin",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Rf / Rin",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "-Rin / Rf",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The closed-loop gain of an inverting amplifier is given by the negative ratio of the feedback resistance to the input resistance, Av = -Rf / Rin."
+          },
+          {
+            "id": "EC032",
+            "text": "The minimum sampling rate required for a band-limited signal with maximum frequency fmax is: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "fmax",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "fmax/2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2fmax",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "∞",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Signals and Systems/Communication Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Nyquist sampling theorem states that the sampling frequency (fs) must be at least twice the maximum frequency component of the signal (fs ≥ 2fmax). This minimum rate is the Nyquist rate."
+          },
+          {
+            "id": "EC033",
+            "text": "The type of modulation where the carrier amplitude is varied proportional to the instantaneous amplitude of the message signal is: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Frequency Modulation (FM)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Phase Modulation (PM)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Amplitude Modulation (AM)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Pulse Code Modulation (PCM)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Communication Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Amplitude Modulation (AM) varies the amplitude of the carrier wave in proportion to the message signal."
+          },
+          {
+            "id": "EC034",
+            "text": "The main consequence of quantization in digital communication is: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Aliasing",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Quantization noise",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Frequency shift",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Phase distortion",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Communication Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Quantization involves approximating a continuous range of values with a finite set of discrete values. This process introduces an error, known as quantization noise (or quantization error)."
+          },
+          {
+            "id": "EC035",
+            "text": "For a stable, causal LTI system, all the poles must be: (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "On the jω-axis.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "In the left half of the s-plane.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "In the right half of the s-plane.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "At the origin.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Signals and Systems/Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The necessary and sufficient condition for a causal LTI system to be stable is that all its poles must lie strictly in the left half of the s-plane (or z-plane for discrete-time systems)."
+          },
+          {
+            "id": "EC036",
+            "text": "If L⁻¹{F(s)} = f(t), then the inverse Laplace Transform of sF(s) is: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "f'(t)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "f'(t) + f(0⁻)δ(t)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "∫ f(t) dt",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "t f(t)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Laplace Transform",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "This is the differentiation property of the Laplace Transform: L{f'(t)} = sF(s) - f(0⁻). Therefore, sF(s) = L{f'(t) + f(0⁻)δ(t)}."
+          },
+          {
+            "id": "EC037",
+            "text": "In a PNP transistor, the majority carriers in the base region are: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Electrons",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Holes",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both electrons and holes",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Neither electrons nor holes",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electronic Devices",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A PNP transistor has P-type Emitter and Collector and an N-type Base. Since the base is N-type (lightly doped), the majority carriers in the base are electrons."
+          },
+          {
+            "id": "EC038",
+            "text": "The phase margin (PM) of a system is related to its: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Steady-state error.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Bandwidth.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Relative stability.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Natural frequency.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Phase Margin (PM) and Gain Margin (GM) are measures used in the frequency domain analysis (Bode/Nyquist plots) to quantify the relative stability of a system—how far it is from instability."
+          },
+          {
+            "id": "EC039",
+            "text": "What is the unit of magnetic flux density (B)? (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Henry (H)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Weber (Wb)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Tesla (T)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Farad (F)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electromagnetics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The unit of magnetic flux density (B) is the Tesla (T), or Webers per square meter (Wb/m²)."
+          },
+          {
+            "id": "EC040",
+            "text": "The resolution of an 8-bit Analog-to-Digital Converter (ADC) with a 10V full-scale range is: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.025V",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.039V",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.050V",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.100V",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog and Digital Circuits",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "Resolution (Step size) S = VFS / (2^N - 1). N=8, 2^N - 1 = 255. S = 10V / 255 ≈ 0.03921V."
+          },
+          {
+            "id": "EC041",
+            "text": "The voltage gain of a Common Emitter (CE) amplifier is typically: (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Very low",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Zero",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "High and inverting",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "High and non-inverting",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Analog Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The CE configuration is known for providing the highest power and voltage gain among BJT configurations, and its output voltage is 180° out of phase with the input (inverting)."
+          },
+          {
+            "id": "EC042",
+            "text": "The value of the definite integral ∫(0 to 2π) cos(nt) dt, where n is a non-zero integer, is: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2π",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "π",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Engineering Mathematics - Calculus",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "The integral of a sinusoidal function over a period that is a multiple of its fundamental period is zero. ∫(0 to 2π) cos(nt) dt = [sin(nt)/n](0 to 2π) = (sin(2πn) - sin(0))/n = 0 - 0 = 0."
+          },
+          {
+            "id": "EC043",
+            "text": "Which pulse modulation technique varies the position of the pulse according to the message signal? (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Pulse Amplitude Modulation (PAM)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Pulse Width Modulation (PWM)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Pulse Position Modulation (PPM)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Pulse Code Modulation (PCM)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Communication Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "PPM (Pulse Position Modulation) encodes the message signal by shifting the position of the pulse relative to a reference time."
+          },
+          {
+            "id": "EC044",
+            "text": "The cutoff frequency of a rectangular waveguide is proportional to: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The operating frequency.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The dimensions of the guide (1/a, 1/b).",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The length of the guide.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The conductivity of the walls.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electromagnetics",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The cutoff frequency fc depends inversely on the largest dimension of the waveguide (usually a) and the mode numbers. fc = (c/2) √((m/a)² + (n/b)²)."
+          },
+          {
+            "id": "EC045",
+            "text": "If X(z) is the Z-transform of x[n], the Z-transform of x[n-k] (where k > 0) is: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "z^k X(z)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "z^(-k) X(z)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "X(z-k)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "z^(-k) X(z) + Σ(m=0 to k-1) x[m] z^(-k+m)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Signals and Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "This is the time-delay property of the Z-transform for a one-sided Z-transform, where the initial conditions are assumed to be zero (i.e., delayed unit impulse): x[n-k] u[n-k] ↔ z^(-k) X(z)."
+          },
+          {
+            "id": "EC046",
+            "text": "The doping of the base region in a BJT compared to the emitter and collector is: (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Heaviest",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Lightest",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Equal to emitter",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Equal to collector",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electronic Devices",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The BJT doping order is Emitter (Heaviest) > Collector (Moderate) > Base (Lightest). The base is lightly doped to promote a high recombination lifetime and prevent base width modulation effects."
+          },
+          {
+            "id": "EC047",
+            "text": "For a two-stage cascaded amplifier, the overall gain in dB is: (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Av1 · Av2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "20 log₁₀(Av1 + Av2)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "20 log₁₀(Av1) + 20 log₁₀(Av2)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "log₁₀(Av1 · Av2)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Analog Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The total linear gain is Av = Av1 · Av2. In dB, Av,dB = 20 log(Av1 Av2) = 20 log(Av1) + 20 log(Av2). Gains in dB are additive."
+          },
+          {
+            "id": "EC048",
+            "text": "The Bode Plot uses a logarithmic scale for which axis? (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Magnitude (dB)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Phase (degrees)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Frequency (rad/s or Hz)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Both magnitude and phase",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Bode plot consists of two graphs: magnitude (log-magnitude on the y-axis) and phase (linear on the y-axis), both plotted against frequency on a logarithmic scale (x-axis)."
+          },
+          {
+            "id": "EC049",
+            "text": "The general solution to the differential equation dy/dx = y is: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "y = C x",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "y = C e^x",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "y = C sin(x)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "y = C cos(x)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Differential Equations",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "This is a first-order separable equation: dy/y = dx. Integrating both sides: ln|y| = x + K. Thus, y = e^(x+K) = e^K e^x. Let C = e^K, so y = C e^x."
+          },
+          {
+            "id": "EC050",
+            "text": "The process of regenerating a corrupted digital signal in communication systems is primarily performed by a: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Repeater",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Attenuator",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Equalizer",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Low-pass filter",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Communication Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A repeater (or regenerator) in digital communication extracts the digital signal from the noisy input and reconstructs a clean, undistorted version, unlike analog repeaters which simply amplify noise along with the signal."
+          },
+          {
+            "id": "EC051",
+            "text": "The unit step response s(t) of a system is related to its impulse response h(t) by: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "s(t) = d/dt h(t)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "s(t) = h(t) · u(t)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "s(t) = ∫(-∞ to t) h(τ) dτ",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "s(t) = h(t) + u(t)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Signals and Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The unit step function u(t) is the integral of the unit impulse function δ(t). Since the output is the convolution of the input and the impulse response, the step response s(t) is the integral of the impulse response h(t)."
+          },
+          {
+            "id": "EC052",
+            "text": "For an ideal PN junction, the diffusion capacitance is prominent under: (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Reverse bias",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Zero bias",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Forward bias",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Breakdown region",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electronic Devices",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Diffusion capacitance arises due to the storage of minority carriers injected across the junction. This charge storage is significant only when the diode is operated in forward bias."
+          },
+          {
+            "id": "EC053",
+            "text": "The Noise Figure of a cascaded system of two noisy blocks is primarily dominated by: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The second stage.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The final stage.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The first stage.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The average of all stages.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Communication Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "According to the Friss Formula, the overall noise figure is dominated by the noise figure of the first stage, as the gain of the first stage reduces the impact of noise contributed by subsequent stages."
+          },
+          {
+            "id": "EC054",
+            "text": "The skin depth (δ) in a good conductor is defined as the distance at which the electric field magnitude drops to: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1/e of its initial value.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Half of its initial value.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Zero.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "e times its initial value.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electromagnetics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Skin depth (δ) is the depth at which the electric field (or current density) inside a conductor decays to 1/e (about 36.8%) of its value at the surface."
+          },
+          {
+            "id": "EC055",
+            "text": "A J-K flip-flop is in the toggle mode when the inputs are: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "J=0, K=0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "J=0, K=1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "J=1, K=0",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "J=1, K=1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Digital Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The characteristic equation of a J-K flip-flop is Q(n+1) = J·Q̄n + K̄·Qn. When J=1 and K=1, the equation simplifies to Q(n+1) = Q̄n, which is the toggle mode (the output complements its previous state)."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "GATE Assessment Results",
+        "description": "Your comprehensive GATE EC assessment results with detailed analysis and recommendations for improvement.",
+        "timeLimit": 0,
+        "questions": [],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      }
+    }
+  }
+           

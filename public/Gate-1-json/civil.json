@@ -1,0 +1,2247 @@
+{
+    "id": "civil",
+    "title": "Civil Engineering (CE)",
+    "description": "Comprehensive GATE Civil Engineering assessment covering General Aptitude and Core Civil Engineering subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core civil engineering questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Easy",
+    "isActive": true,
+    "featured": true,
+    "metadata": {
+      "icon": "civil-engineering",
+      "gradient": "from-blue-600 to-green-600",
+      "userCount": 25000,
+      "tags": ["GATE", "Civil Engineering", "Engineering", "Aptitude", "Core Subjects"]
+    },
+    "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Civil Engineering is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in civil engineering including structural analysis, geotechnical engineering, transportation, environmental engineering, and construction management. This assessment follows the official GATE pattern with General Aptitude and Core Civil Engineering questions.",
+    "typicalCareers": [
+      {
+        "title": "Structural Engineer",
+        "description": "Advanced structural engineering positions in design and construction"
+      },
+      {
+        "title": "PhD Candidate",
+        "description": "Pursue higher studies in civil engineering and related fields"
+      },
+      {
+        "title": "Project Manager",
+        "description": "Senior technical roles in infrastructure development and construction"
+      }
+    ],
+    "whoShouldConsider": [
+      "Civil Engineering graduates preparing for GATE",
+      "Students seeking admission to M.Tech/M.E programs in civil engineering",
+      "Professionals looking for PSU jobs in civil engineering sector",
+      "Researchers in civil engineering and infrastructure fields"
+    ],
+    "idealTraits": [
+      "Strong analytical and problem-solving skills",
+      "Solid foundation in civil engineering fundamentals",
+      "Mathematical aptitude and logical reasoning",
+      "Good understanding of structural analysis and design principles"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude Assessment (10 questions, 15 marks)",
+        "Core Civil Engineering Assessment (55 questions, 85 marks)"
+      ],
+      "resultsInclude": [
+        "Section-wise scores (Aptitude & Core)",
+        "Topic-wise performance analysis",
+        "Difficulty-wise accuracy",
+        "Overall percentile ranking",
+        "Detailed explanations for all questions"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment",
+        "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "Choose the word most similar in meaning to 'METICULOUS':",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Careless",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Careful",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Hasty",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Negligent",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability",
+            "difficulty": "Easy",
+            "explanation": "Meticulous means showing great attention to detail; very careful and precise. The word most similar in meaning is 'Careful'.",
+            "marks": 1
+          },
+          {
+            "id": "GA002",
+            "text": "If 20% of a number is 40, what is 50% of that number?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "80",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "100",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "120",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "150",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Numerical Ability",
+            "difficulty": "Easy",
+            "explanation": "If 20% of x = 40, then x = 40/(0.20) = 200. Therefore, 50% of 200 = 100.",
+            "marks": 2
+          },
+          {
+            "id": "GA003",
+            "text": "In a certain code, PENCIL is written as QDODJM. How is ERASER written in that code?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "FSBTFS",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "DRZSDR",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "FSBTDS",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "FSBSFS",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Logical Reasoning",
+            "difficulty": "Easy",
+            "explanation": "Each letter is shifted by +1 in the alphabet. P→Q, E→F, N→O, C→D, I→J, L→M. Applying same logic: E→F, R→S, A→B, S→T, E→F, R→S.",
+            "marks": 1
+          },
+          {
+            "id": "GA004",
+            "text": "A company's profit increased from ₹50 lakhs to ₹80 lakhs. What is the percentage increase?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "30%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "40%",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "50%",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "60%",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Data Interpretation",
+            "difficulty": "Medium",
+            "explanation": "Percentage increase = [(80-50)/50] × 100 = (30/50) × 100 = 60%",
+            "marks": 2
+          },
+          {
+            "id": "GA005",
+            "text": "Fill in the blank: The committee decided to _____ the meeting until next week.",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "postpone",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "prepone",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "cancel",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "abandon",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Verbal Ability",
+            "difficulty": "Easy",
+            "explanation": "'Postpone' means to delay or reschedule to a later time, which fits the context of moving the meeting to next week.",
+            "marks": 1
+          },
+          {
+            "id": "GA006",
+            "text": "A train travels 120 km in 2 hours. At the same speed, how far will it travel in 5 hours?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "240 km",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "300 km",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "360 km",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "400 km",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Numerical Ability",
+            "difficulty": "Medium",
+            "explanation": "Speed = 120/2 = 60 km/h. Distance in 5 hours = 60 × 5 = 300 km",
+            "marks": 2
+          },
+          {
+            "id": "GA007",
+            "text": "If all cats are animals and some animals are pets, which statement is definitely true?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "All cats are pets",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Some cats are pets",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Some animals are cats",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "No cats are pets",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Logical Reasoning",
+            "difficulty": "Easy",
+            "explanation": "Since all cats are animals, it follows that some animals must be cats. The other options cannot be definitively concluded.",
+            "marks": 1
+          },
+          {
+            "id": "GA008",
+            "text": "The average of 5 numbers is 30. If one number is excluded, the average becomes 25. What is the excluded number?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "40",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "45",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "50",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "55",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Numerical Ability",
+            "difficulty": "Medium",
+            "explanation": "Sum of 5 numbers = 5 × 30 = 150. Sum of 4 numbers = 4 × 25 = 100. Excluded number = 150 - 100 = 50",
+            "marks": 2
+          },
+          {
+            "id": "GA009",
+            "text": "Choose the correctly spelled word:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Accomodation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Accommodation",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Acommodation",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Acomodation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability",
+            "difficulty": "Easy",
+            "explanation": "The correct spelling is 'Accommodation' with double 'c' and double 'm'.",
+            "marks": 1
+          },
+          {
+            "id": "GA010",
+            "text": "If today is Wednesday, what day will it be 100 days from now?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Monday",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Tuesday",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Wednesday",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Thursday",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Logical Reasoning",
+            "difficulty": "Easy",
+            "explanation": "100 days = 14 weeks + 2 days. After 14 complete weeks, we're back to Wednesday. Adding 2 more days: Thursday.",
+            "marks": 2
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Civil Engineering Assessment",
+        "description": "Comprehensive assessment of core civil engineering subjects including Structural Analysis, Geotechnical Engineering, Transportation Engineering, Environmental Engineering, Water Resources, Construction Materials, and Surveying. This section carries 85% weight in the total assessment.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "CE001",
+            "text": "Young's modulus is the ratio of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Shear stress to shear strain",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Normal stress to normal strain",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Lateral strain to longitudinal strain",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Volumetric stress to volumetric strain",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Strength of Materials",
+            "difficulty": "Easy",
+            "explanation": "Young's modulus (E) is defined as the ratio of normal (longitudinal) stress to normal (longitudinal) strain within the elastic limit.",
+            "marks": 1
+          },
+          {
+            "id": "CE002",
+            "text": "For a simply supported beam with a point load at the center, the maximum bending moment occurs at:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The supports",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "One-third span from the support",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The center of the beam",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "One-quarter span from the support",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Structural Analysis",
+            "difficulty": "Easy",
+            "explanation": "For a simply supported beam with a central point load, the maximum bending moment occurs at the point of load application (center), and equals PL/4.",
+            "marks": 2
+          },
+          {
+            "id": "CE003",
+            "text": "The pressure intensity at a point in a fluid at rest is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Same in all directions",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Different in different directions",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Maximum in vertical direction",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Zero",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "explanation": "According to Pascal's law, the pressure intensity at a point in a fluid at rest is the same in all directions.",
+            "marks": 1
+          },
+          {
+            "id": "CE004",
+            "text": "Water-cement ratio is defined as the ratio of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Weight of water to weight of cement",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Volume of water to volume of cement",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Weight of water to volume of cement",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Volume of water to weight of cement",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Concrete Technology",
+            "difficulty": "Medium",
+            "explanation": "Water-cement ratio is the ratio of the weight of water to the weight of cement in a concrete mix. It is a key factor determining concrete strength and durability.",
+            "marks": 2
+          },
+          {
+            "id": "CE005",
+            "text": "The ratio of voids to total volume of soil mass is called:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Void ratio",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Porosity",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Water content",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Degree of saturation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Soil Mechanics",
+            "difficulty": "Easy",
+            "explanation": "Porosity (n) is the ratio of volume of voids to the total volume of soil mass. Void ratio (e) is the ratio of volume of voids to volume of solids.",
+            "marks": 1
+          },
+          {
+            "id": "CE006",
+            "text": "The horizontal angle measured clockwise from north direction to the line is called:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Bearing",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Azimuth",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Deflection angle",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Included angle",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Surveying",
+            "difficulty": "Easy",
+            "explanation": "Azimuth is the horizontal angle measured clockwise from the north direction to the survey line. It ranges from 0° to 360°.",
+            "marks": 2
+          },
+          {
+            "id": "CE007",
+            "text": "The camber provided on road surface is expressed in:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Percentage",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Ratio",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Degree",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "All of the above",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Transportation Engineering",
+            "difficulty": "Easy",
+            "explanation": "Camber (the slope provided to the road surface in the transverse direction) can be expressed in percentage (1 in 50 = 2%), ratio (1:50), or degrees.",
+            "marks": 1
+          },
+          {
+            "id": "CE008",
+            "text": "BOD (Biochemical Oxygen Demand) test is conducted for:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3 days at 30°C",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5 days at 20°C",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "7 days at 25°C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "10 days at 20°C",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Environmental Engineering",
+            "difficulty": "Medium",
+            "explanation": "The standard BOD test is conducted for 5 days at 20°C (BOD₅). It measures the amount of oxygen required by microorganisms to decompose organic matter.",
+            "marks": 2
+          },
+          {
+            "id": "CE009",
+            "text": "Poisson's ratio is the ratio of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Axial strain to lateral strain",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Lateral strain to axial strain",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Shear stress to shear strain",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Bulk modulus to Young's modulus",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Strength of Materials",
+            "difficulty": "Easy",
+            "explanation": "Poisson's ratio (μ) is defined as the ratio of lateral strain to axial (longitudinal) strain within the elastic limit.",
+            "marks": 1
+          },
+          {
+            "id": "CE010",
+            "text": "A structure is said to be statically determinate if:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "All forces can be determined from equilibrium equations",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "It has more unknown forces than equilibrium equations",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "It requires strain compatibility equations",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "It has hinges",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Structural Analysis",
+            "difficulty": "Medium",
+            "explanation": "A structure is statically determinate when all support reactions and internal forces can be determined using static equilibrium equations alone.",
+            "marks": 2
+          },
+          {
+            "id": "CE011",
+            "text": "The Froude number is the ratio of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Inertial force to viscous force",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Inertial force to gravity force",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Pressure force to inertial force",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Viscous force to gravity force",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Hydraulics",
+            "difficulty": "Easy",
+            "explanation": "Froude number (Fr) is the ratio of inertial force to gravity force. It is used in open channel flow to determine flow regime (subcritical, critical, or supercritical).",
+            "marks": 1
+          },
+          {
+            "id": "CE012",
+            "text": "Segregation in concrete can be reduced by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increasing water content",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Proper grading of aggregates",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Excessive vibration",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Increasing free fall height",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Concrete Technology",
+            "difficulty": "Easy",
+            "explanation": "Proper grading of aggregates ensures better particle distribution and reduces segregation. Other options would actually increase segregation.",
+            "marks": 2
+          },
+          {
+            "id": "CE013",
+            "text": "According to Terzaghi's bearing capacity theory, the shape factors depend on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Soil properties only",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Foundation shape only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both soil properties and foundation shape",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Depth of foundation only",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Soil Mechanics",
+            "difficulty": "Easy",
+            "explanation": "Shape factors in bearing capacity equations are empirical factors that depend on the shape of the foundation (square, rectangular, circular, or strip).",
+            "marks": 1
+          },
+          {
+            "id": "CE014",
+            "text": "The critical hydraulic gradient for quick sand condition is approximately:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.5",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.8",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1.0",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1.5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Geotechnical Engineering",
+            "difficulty": "Medium",
+            "explanation": "The critical hydraulic gradient (i_c) at which quick sand condition occurs is approximately 1.0, calculated as (G-1)/(1+e), where G ≈ 2.65 and e ≈ 0.65 for typical sands.",
+            "marks": 2
+          },
+          {
+            "id": "CE015",
+            "text": "The stopping sight distance depends on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Design speed only",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reaction time only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Coefficient of friction only",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "All of the above",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Transportation Engineering",
+            "difficulty": "Easy",
+            "explanation": "Stopping sight distance is the sum of lag distance (depending on reaction time and speed) and braking distance (depending on speed and coefficient of friction).",
+            "marks": 1
+          },
+          {
+            "id": "CE016",
+            "text": "The ratio of water beneficially used to the water applied is called:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Water application efficiency",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Water conveyance efficiency",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Water use efficiency",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Field application efficiency",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Water Resources Engineering",
+            "difficulty": "Easy",
+            "explanation": "Water application efficiency is the ratio of water stored in the root zone to the water applied. It indicates how effectively applied water is used by crops.",
+            "marks": 2
+          },
+          {
+            "id": "CE017",
+            "text": "The shear stress distribution in a rectangular beam is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Uniform across the depth",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Parabolic across the depth",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Linear across the depth",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Triangular across the depth",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Strength of Materials",
+            "difficulty": "Easy",
+            "explanation": "In a rectangular beam, shear stress varies parabolically across the depth, being maximum at the neutral axis and zero at the top and bottom fibers.",
+            "marks": 1
+          },
+          {
+            "id": "CE018",
+            "text": "The minimum grade of concrete for prestressed concrete is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "M20",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "M25",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "M30",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "M40",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "RCC Design",
+            "difficulty": "Medium",
+            "explanation": "As per IS 1343, the minimum grade of concrete for prestressed concrete members is M40 to ensure adequate strength and durability under high compressive stresses.",
+            "marks": 2
+          },
+          {
+            "id": "CE019",
+            "text": "The temporary adjustments of a theodolite include:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Leveling and centering",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Adjustment of line of sight",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Adjustment of horizontal axis",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Adjustment of altitude bubble",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Surveying",
+            "difficulty": "Easy",
+            "explanation": "Temporary adjustments include leveling (using foot screws) and centering (using plumb bob) which are done at each survey station before taking readings.",
+            "marks": 1
+          },
+          {
+            "id": "CE020",
+            "text": "Chlorine is added to water primarily for:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Improving taste",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Disinfection",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Removing hardness",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Coagulation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Environmental Engineering",
+            "difficulty": "Easy",
+            "explanation": "Chlorine is primarily added to water for disinfection - killing disease-causing microorganisms. It's one of the most effective and economical disinfectants.",
+            "marks": 2
+          },
+          {
+            "id": "CE021",
+            "text": "The bulking of sand is caused by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Surface moisture",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Air voids",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Capillary action",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Clay content",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Construction Materials",
+            "difficulty": "Easy",
+            "explanation": "Bulking of sand is the increase in volume due to surface moisture. Water forms a film around sand particles causing them to get pushed apart.",
+            "marks": 1
+          },
+          {
+            "id": "CE022",
+            "text": "The effective length of a column with one end fixed and other end free is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "L",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "L/2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2L",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "L/√2",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Structural Steel Design",
+            "difficulty": "Medium",
+            "explanation": "For a column with one end fixed and other end free, the effective length = 2L, where L is the actual length. This represents the most critical loading condition.",
+            "marks": 2
+          },
+          {
+            "id": "CE023",
+            "text": "Bernoulli's equation is based on the principle of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Conservation of mass",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Conservation of momentum",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Conservation of energy",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Conservation of force",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "explanation": "Bernoulli's equation is derived from the principle of conservation of energy for flowing fluids. It relates pressure, velocity, and elevation.",
+            "marks": 1
+          },
+          {
+            "id": "CE024",
+            "text": "Super elevation is provided to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Counteract centrifugal force",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Improve visibility",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Increase vehicle speed",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Reduce construction cost",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Highway Engineering",
+            "difficulty": "Easy",
+            "explanation": "Super elevation (banking) is provided on horizontal curves to counteract the centrifugal force acting on vehicles, improving safety and comfort.",
+            "marks": 2
+          },
+          {
+            "id": "CE025",
+            "text": "Sensitivity of clay is defined as the ratio of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Undisturbed strength to remolded strength",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Remolded strength to undisturbed strength",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Liquid limit to plastic limit",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Void ratio to water content",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Geotechnical Engineering",
+            "difficulty": "Easy",
+            "explanation": "Sensitivity is the ratio of undisturbed shear strength to remolded shear strength at the same water content. It indicates the loss of strength due to disturbance.",
+            "marks": 1
+          },
+          {
+            "id": "CE026",
+            "text": "The runoff coefficient depends on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Type of soil",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Land use",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Rainfall intensity",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "All of the above",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Hydrology",
+            "difficulty": "Medium",
+            "explanation": "The runoff coefficient (C in rational method) depends on soil type, land use/cover, slope, and rainfall characteristics. It represents the fraction of rainfall that becomes runoff.",
+            "marks": 2
+          },
+          {
+            "id": "CE027",
+            "text": "The solution of differential equation dy/dx = ky, where k is constant, is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "y = e^(kx) + C",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "y = Ce^(kx)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "y = kx + C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "y = C/e^(kx)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics",
+            "difficulty": "Easy",
+            "explanation": "This is a first-order linear ODE with separable variables. The solution is y = Ce^(kx), where C is the constant of integration.",
+            "marks": 1
+          },
+          {
+            "id": "CE028",
+            "text": "The CPM (Critical Path Method) is used for:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Cost estimation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Quality control",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Project scheduling",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Safety management",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Construction Management",
+            "difficulty": "Easy",
+            "explanation": "CPM is a project management technique used for scheduling activities, identifying critical path, and determining project duration.",
+            "marks": 2
+          },
+          {
+            "id": "CE029",
+            "text": "The duty of water is expressed as:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Area per unit discharge",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Discharge per unit area",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Volume per unit area",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Depth per unit time",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Irrigation Engineering",
+            "difficulty": "Easy",
+            "explanation": "Duty of water is the area of land that can be irrigated by a unit discharge of water flowing continuously during the entire base period (hectares/cumec).",
+            "marks": 1
+          },
+          {
+            "id": "CE030",
+            "text": "In a three-hinged arch, the number of unknown reactions is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "3",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "4",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "6",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Structural Analysis",
+            "difficulty": "Medium",
+            "explanation": "A three-hinged arch has 4 unknown reactions (two horizontal and two vertical reactions at the supports), which can be determined using 3 equilibrium equations plus one moment equation at the crown hinge.",
+            "marks": 2
+          },
+          {
+            "id": "CE031",
+            "text": "DPC (Damp Proof Course) is provided to prevent:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Heat transfer",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Moisture migration",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Sound transmission",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Fire spread",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Building Construction",
+            "difficulty": "Easy",
+            "explanation": "DPC is a horizontal barrier in walls to prevent the upward movement of moisture from the ground through capillary action.",
+            "marks": 1
+          },
+          {
+            "id": "CE032",
+            "text": "The slump test measures:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Strength of concrete",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Workability of concrete",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Durability of concrete",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Setting time of concrete",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Concrete Technology",
+            "difficulty": "Easy",
+            "explanation": "The slump test is used to determine the workability (consistency) of fresh concrete. Higher slump indicates more workable concrete.",
+            "marks": 2
+          },
+          {
+            "id": "CE033",
+            "text": "Penetration test is used to determine the grade of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Cement",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Bitumen",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Sand",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Aggregate",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Transportation Engineering",
+            "difficulty": "Easy",
+            "explanation": "Penetration test measures the hardness or consistency of bitumen. It determines how far a standard needle penetrates the bitumen sample under specific conditions.",
+            "marks": 1
+          },
+          {
+            "id": "CE034",
+            "text": "Hardness in water is primarily caused by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Calcium and magnesium salts",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Sodium and potassium salts",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Iron and manganese",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Chlorides and sulfates",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Water Supply Engineering",
+            "difficulty": "Medium",
+            "explanation": "Hardness in water is mainly due to the presence of calcium and magnesium salts (carbonates, bicarbonates, chlorides, and sulfates).",
+            "marks": 2
+          },
+          {
+            "id": "CE035",
+            "text": "The principle of chain surveying is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Working from whole to part",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Triangulation",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Trilateration",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Traversing",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Surveying",
+            "difficulty": "Easy",
+            "explanation": "Chain surveying is based on triangulation - dividing the area into a network of triangles and measuring their sides to determine positions.",
+            "marks": 1
+          },
+          {
+            "id": "CE036",
+            "text": "A member subjected to pure bending experiences:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Only tensile stress",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Only compressive stress",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both tensile and compressive stress",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Only shear stress",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Strength of Materials",
+            "difficulty": "Easy",
+            "explanation": "In pure bending, fibers on one side of the neutral axis experience tensile stress while fibers on the other side experience compressive stress.",
+            "marks": 2
+          },
+          {
+            "id": "CE037",
+            "text": "The unit of kinematic viscosity is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "N-s/m²",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "m²/s",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "kg/m-s",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "N/m²",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "explanation": "Kinematic viscosity (ν) = Dynamic viscosity (μ) / Density (ρ). Its unit is m²/s or Stoke in CGS system.",
+            "marks": 1
+          },
+          {
+            "id": "CE038",
+            "text": "Consolidation of clay is primarily due to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Compression of soil grains",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Expulsion of water from voids",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Rearrangement of soil particles",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Increase in density",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Soil Mechanics",
+            "difficulty": "Medium",
+            "explanation": "Consolidation in saturated clay occurs due to gradual expulsion of water from voids under sustained loading, leading to volume reduction and settlement.",
+            "marks": 2
+          },
+          {
+            "id": "CE039",
+            "text": "The nominal cover for beams in normal exposure is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "20 mm",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "25 mm",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "30 mm",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "40 mm",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "RCC Design",
+            "difficulty": "Easy",
+            "explanation": "As per IS 456, the nominal cover for beams in normal exposure conditions is 25 mm (or the diameter of the bar, whichever is greater).",
+            "marks": 1
+          },
+          {
+            "id": "CE040",
+            "text": "The desirable gradient for highways in plain terrain is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1 in 10",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1 in 20",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1 in 30",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1 in 50",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Transportation Engineering",
+            "difficulty": "Easy",
+            "explanation": "For plain or rolling terrain, the desirable gradient is 1 in 30 (3.33%). This provides optimal balance between construction cost and vehicle operation.",
+            "marks": 2
+          },
+          {
+            "id": "CE041",
+            "text": "The detention period in a sedimentation tank is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Time taken by water to travel from inlet to outlet",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Time for which water is stored",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Time for complete settling",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Theoretical time required for a particle to settle",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Environmental Engineering",
+            "difficulty": "Easy",
+            "explanation": "Detention period (or retention time) is the theoretical time taken by water to travel from inlet to outlet, calculated as Volume/Discharge.",
+            "marks": 1
+          },
+          {
+            "id": "CE042",
+            "text": "For a cantilever beam with UDL over entire length, the maximum deflection occurs at:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The fixed end",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The free end",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Mid-span",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "One-third span from fixed end",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Structural Analysis",
+            "difficulty": "Medium",
+            "explanation": "For a cantilever beam under any loading, maximum deflection always occurs at the free end where there's no restraint.",
+            "marks": 2
+          },
+          {
+            "id": "CE043",
+            "text": "Hydraulic jump occurs when flow changes from:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Subcritical to supercritical",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Supercritical to subcritical",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Laminar to turbulent",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Turbulent to laminar",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Hydraulics",
+            "difficulty": "Easy",
+            "explanation": "Hydraulic jump is a sudden transition from supercritical flow (Fr > 1) to subcritical flow (Fr < 1), accompanied by energy dissipation.",
+            "marks": 1
+          },
+          {
+            "id": "CE044",
+            "text": "Active earth pressure is developed when the wall moves:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Away from the backfill",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Towards the backfill",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Vertically downward",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Remains stationary",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Geotechnical Engineering",
+            "difficulty": "Easy",
+            "explanation": "Active earth pressure is the minimum lateral pressure exerted by soil when the retaining wall moves away from the backfill, allowing the soil to expand.",
+            "marks": 2
+          },
+          {
+            "id": "CE045",
+            "text": "The modulus of elasticity of concrete increases with:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increase in water-cement ratio",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Increase in concrete strength",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Increase in porosity",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Increase in age beyond 28 days",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Concrete Technology",
+            "difficulty": "Easy",
+            "explanation": "Modulus of elasticity of concrete is directly related to its compressive strength. Higher strength concrete has higher modulus of elasticity.",
+            "marks": 1
+          },
+          {
+            "id": "CE046",
+            "text": "Base period of a crop is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Time from sowing to harvesting",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Time during which irrigation is needed",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Time between two consecutive irrigations",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Time for crop maturity",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Water Resources Engineering",
+            "difficulty": "Medium",
+            "explanation": "Base period (B) is the time period between the first watering (kor watering) at the time of sowing to the last watering before harvesting.",
+            "marks": 2
+          },
+          {
+            "id": "CE047",
+            "text": "The horizontal angle between the survey line and magnetic north is called:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Azimuth",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Bearing",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Declination",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Dip",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Surveying",
+            "difficulty": "Easy",
+            "explanation": "Bearing is the horizontal angle between a survey line and the reference meridian (magnetic north). It can be measured clockwise (whole circle bearing) or as quadrantal bearing.",
+            "marks": 1
+          },
+          {
+            "id": "CE048",
+            "text": "Factor of safety is the ratio of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Ultimate stress to working stress",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Working stress to ultimate stress",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Yield stress to ultimate stress",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Ultimate load to working load",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Strength of Materials",
+            "difficulty": "Easy",
+            "explanation": "Factor of Safety (FOS) = Ultimate stress (or load) / Allowable (working) stress (or load). It provides a margin of safety in design.",
+            "marks": 2
+          },
+          {
+            "id": "CE049",
+            "text": "The Los Angeles abrasion test is conducted to find:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Toughness of aggregate",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Hardness of aggregate",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Crushing strength of aggregate",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Abrasion resistance of aggregate",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Transportation Engineering",
+            "difficulty": "Easy",
+            "explanation": "LA abrasion test determines the resistance of aggregate to abrasion and mechanical degradation using steel balls in a rotating drum.",
+            "marks": 1
+          },
+          {
+            "id": "CE050",
+            "text": "Development length is provided to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Prevent bond failure",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Prevent shear failure",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Increase flexural strength",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Reduce deflection",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "RCC Design",
+            "difficulty": "Medium",
+            "explanation": "Development length (Ld) is the minimum length of reinforcement bar required to be embedded in concrete to develop full tensile strength without bond failure.",
+            "marks": 2
+          },
+          {
+            "id": "CE051",
+            "text": "Rapid sand filter operates on the principle of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Straining only",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Sedimentation only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Straining and sedimentation",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Biological action",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Environmental Engineering",
+            "difficulty": "Easy",
+            "explanation": "Rapid sand filters work through mechanical straining in the top layers and sedimentation/adsorption in deeper layers of the filter bed.",
+            "marks": 1
+          },
+          {
+            "id": "CE052",
+            "text": "The total energy line (TEL) is always:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Above the hydraulic grade line",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Below the hydraulic grade line",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Coincident with hydraulic grade line",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Parallel to the channel bed",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "explanation": "TEL represents total energy (pressure + velocity + elevation). It's always above HGL by the velocity head (V²/2g). HGL represents pressure head + elevation head.",
+            "marks": 2
+          },
+          {
+            "id": "CE053",
+            "text": "Standard penetration test (SPT) is conducted in:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Clay soils only",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Sandy soils only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "All types of soils",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Rock formations",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Soil Mechanics",
+            "difficulty": "Easy",
+            "explanation": "SPT can be conducted in all types of soils. The N-value obtained is used to determine soil properties like bearing capacity, relative density, and shear strength.",
+            "marks": 1
+          },
+          {
+            "id": "CE054",
+            "text": "The rational method for peak runoff estimation is suitable for catchments with area:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Less than 50 hectares",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "50 to 100 hectares",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "100 to 500 hectares",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Greater than 500 hectares",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Hydrology",
+            "difficulty": "Medium",
+            "explanation": "The rational method (Q = CiA) is most suitable for small urban catchments less than 50 hectares where assumptions of uniform rainfall and runoff are valid.",
+            "marks": 2
+          },
+          {
+            "id": "CE055",
+            "text": "In a bar chart, activities are represented by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Nodes",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Arrows",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Horizontal bars",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Vertical bars",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Construction Planning",
+            "difficulty": "Easy",
+            "explanation": "In a bar chart (Gantt chart), activities are represented by horizontal bars whose length is proportional to the activity duration. It's a simple scheduling tool.",
+            "marks": 1
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "Results & Analysis",
+        "description": "Comprehensive analysis of your performance across all sections with detailed insights and recommendations.",
+        "timeLimit": 0,
+        "questions": [],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      }
+    }
+  }

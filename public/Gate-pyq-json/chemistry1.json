@@ -1,0 +1,2312 @@
+{
+    "id": "chemistry-pyq",
+    "title": "Chemistry PYQ (CY)",
+    "description": "Comprehensive GATE Chemistry assessment covering General Aptitude and Core Chemistry subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core chemistry questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Moderate",
+    "isActive": true,
+    "featured": true,
+    "metadata": {
+      "icon": "chemistry",
+      "gradient": "from-blue-600 to-purple-600",
+      "userCount": 8500,
+      "tags": ["GATE", "Chemistry", "Physical Chemistry", "Organic Chemistry", "Inorganic Chemistry", "Aptitude", "Core Subjects"]
+    },
+    "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Chemistry is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in chemistry including Physical Chemistry, Organic Chemistry, and Inorganic Chemistry. This assessment follows the official GATE pattern with General Aptitude and Core Chemistry questions.",
+    "typicalCareers": [
+      {
+        "title": "Research Scientist in Chemical Industries",
+        "description": "Conduct research and development in chemical and pharmaceutical companies"
+      },
+      {
+        "title": "Analytical Chemist",
+        "description": "Specialize in chemical analysis and quality control"
+      },
+      {
+        "title": "Materials Science Engineer",
+        "description": "Develop new materials and study their properties"
+      }
+    ],
+    "whoShouldConsider": [
+      "Chemistry graduates preparing for GATE",
+      "Students seeking admission to M.Tech/M.E programs in chemistry",
+      "Professionals looking for PSU jobs in chemistry",
+      "Researchers in chemistry and related fields"
+    ],
+    "idealTraits": [
+      "Strong foundation in chemistry fundamentals",
+      "Analytical and problem-solving skills",
+      "Mathematical aptitude for physical chemistry",
+      "Good understanding of molecular structures and reactions"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude Assessment (10 questions, 15 marks)",
+        "Core Chemistry Assessment (55 questions, 85 marks)"
+      ],
+      "resultsInclude": [
+        "Section-wise scores (Aptitude & Core)",
+        "Topic-wise performance analysis",
+        "Difficulty-wise accuracy",
+        "Overall percentile ranking",
+        "Detailed explanations for all questions"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment",
+        "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "The price of an item is increased by 10% and then decreased by 10%. The net change in price is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1% decrease",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1% increase",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.1% decrease",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Percentage",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "Let the original price be P. Increase by 10%: P(1.1). Decrease by 10%: P(1.1)(0.9) = P(0.99). The net change is a 100-99=1% decrease."
+          },
+          {
+            "id": "GA002",
+            "text": "The ratio of the speed of a boat in still water to the speed of the current is 5:1. If the boat travels a certain distance downstream in 3 hours, what is the time taken to travel the same distance upstream?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "4 hours",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5 hours",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6 hours",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "7.5 hours",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Time & Distance",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Let speed of boat be 5x and current be x. Downstream speed = 6x. Upstream speed = 4x. Distance D = 6x × 3 = 18x. Upstream time T = D / 4x = 18x / 4x = 4.5 hours."
+          },
+          {
+            "id": "GA003",
+            "text": "Choose the most appropriate word from the options given below to complete the following sentence: The candidate's statement was a ___ of truth.",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "deprivation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "dearth",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "travesty",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "recapitulation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Verbal Ability - Vocabulary",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "A 'travesty of truth' means a grotesque misrepresentation or distortion of the truth. 'Dearth' means scarcity, which does not fit the context."
+          },
+          {
+            "id": "GA004",
+            "text": "Find the next term in the series: 3, 7, 13, 21, 31, ...",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "41",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "43",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "45",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "47",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analytical Reasoning - Number Series",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "The differences between consecutive terms are 4, 6, 8, 10. The next difference should be 12. Thus, 31 + 12 = 43."
+          },
+          {
+            "id": "GA005",
+            "text": "If f(x) = |x-2| + |x-5|, the minimum value of f(x) is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Quantitative Aptitude - Calculus/Functions",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "The function f(x) represents the sum of distances from x to 2 and x to 5. The minimum value occurs for x between 2 and 5, where f(x) = (x-2) + (5-x) = 3."
+          },
+          {
+            "id": "GA006",
+            "text": "A clock shows 4:30. What is the angle between the hour and minute hands?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "30 degrees",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "45 degrees",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "60 degrees",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "90 degrees",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Clocks/Geometry",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 90,
+            "explanation": "Angle θ = |30H - (11/2)M|. θ = |30(4) - (11/2)(30)| = |120 - 165| = 45 degrees."
+          },
+          {
+            "id": "GA007",
+            "text": "The synonym for 'Mellifluous' is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Discordant",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Harmonious",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Cacophonous",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Raucous",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Vocabulary (Synonyms)",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "'Mellifluous' means a sound that is sweet and musical; pleasant to hear. 'Harmonious' is the closest synonym."
+          },
+          {
+            "id": "GA008",
+            "text": "In a group, 70% of the students speak English and 50% speak Hindi. If 40 students speak both, what is the total number of students in the group?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "150",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "200",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "400",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4000",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Set Theory",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Percentage speaking both = (70% + 50%) - 100% = 20%. If 20% of total X is 40, then 0.20 × X = 40, so X = 200."
+          },
+          {
+            "id": "GA009",
+            "text": "The pair of words that best expresses a similar relationship as 'Surgeon : Scalpel' is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sculptor : Chisel",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Musician : Instrument",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Lawyer : Court",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Baker : Oven",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Verbal Ability - Analogy",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "The relationship is 'Person : Primary Tool'. A Surgeon uses a Scalpel; a Sculptor uses a Chisel."
+          },
+          {
+            "id": "GA010",
+            "text": "A sum of money doubles in 5 years at simple interest. In how many years will it become four times?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "10",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "15",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "20",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "25",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Simple Interest",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "To double, Interest (I) must be 1P, taking 5 years. To become four times, I must be 3P. Since simple interest is linear, it takes 3 × 5 = 15 years."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Chemistry Assessment",
+        "description": "Comprehensive assessment of core chemistry subjects including Physical Chemistry, Organic Chemistry, and Inorganic Chemistry. This section carries 85% weight in the total assessment.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "CY001",
+            "text": "The maximum possible spin multiplicity for an octahedral d⁶ ion is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "5",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "6",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Inorganic Chemistry - Transition Metals",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "For a d⁶ configuration, the maximum number of unpaired electrons (n) is achieved in the high spin state, where n=4 electrons (t₂g⁴ eg²). Spin multiplicity is 2S+1. S = n/2 = 4/2 = 2. Multiplicity = 2(2) + 1 = 5."
+          },
+          {
+            "id": "CY002",
+            "text": "The zero-point energy of a quantum harmonic oscillator with frequency ν is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "½ hν",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "hν",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3hν/2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Physical Chemistry - Quantum Chemistry",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The energy levels are En = (n + ½) hν. The minimum energy (ground state, n=0) is the zero-point energy: E₀ = ½ hν."
+          },
+          {
+            "id": "CY003",
+            "text": "The rate law for an elementary step in a reaction mechanism is directly determined by the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Stoichiometry of the overall reaction.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Order of the reaction.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Molecularity of the step.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Activation energy.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Physical Chemistry - Chemical Kinetics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "For an elementary step, the molecularity (the number of molecules/ions participating) is equal to the order of the reaction with respect to the reactants."
+          },
+          {
+            "id": "CY004",
+            "text": "The major product formed by the reaction of acetylene with dilute sulfuric acid in the presence of mercuric sulfate is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Ethanol",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Ethanoic acid",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Ethanal (Acetaldehyde)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Ethene",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Organic Chemistry - Alkynes",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "This is the hydration of an alkyne (Markovnikov addition of H₂O), catalyzed by Hg²⁺. Acetylene forms an unstable enol intermediate, which immediately tautomerizes to ethanal (acetaldehyde)."
+          },
+          {
+            "id": "CY005",
+            "text": "The point group of a molecule of water (H₂O) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "C∞v",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "C₂v",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "D₂h",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Td",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Inorganic Chemistry - Group Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The H₂O molecule is bent, possessing a C₂ rotation axis and two vertical mirror planes (σv). Its point group is C₂v."
+          },
+          {
+            "id": "CY006",
+            "text": "The Faraday constant (F) is related to the elementary charge (e) and the Avogadro number (NA) by the relation:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "F = e / NA",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "F = NA / e",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "F = e · NA",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "F = e² NA",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Physical Chemistry - Electrochemistry",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Faraday constant is the charge carried by one mole of electrons: F = e · NA (≈ 96485 C/mol)."
+          },
+          {
+            "id": "CY007",
+            "text": "The stability order of carbocations is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3° > 2° > 1° > methyl",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "methyl > 1° > 2° > 3°",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2° > 3° > 1° > methyl",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1° > 2° > 3° > methyl",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Organic Chemistry - Reactive Intermediates",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Carbocation stability is increased by electron-donating alkyl groups via the inductive effect and hyperconjugation: 3° > 2° > 1° > methyl."
+          },
+          {
+            "id": "CY008",
+            "text": "The Born-Haber cycle is used to calculate the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Entropy of fusion.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Heat of hydration.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Lattice energy of an ionic solid.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Solubility product.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Inorganic Chemistry - Bonding/Energetics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Born-Haber cycle is an application of Hess's Law used to calculate the lattice energy (ΔHlattice) of an ionic compound from known thermodynamic data."
+          },
+          {
+            "id": "CY009",
+            "text": "The number of phases (P), components (C), and degrees of freedom (F) for pure water at its triple point are:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "P=1, C=1, F=1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "P=3, C=1, F=0",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "P=3, C=3, F=1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "P=2, C=1, F=1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Physical Chemistry - Phase Equilibria",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "At the triple point, ice, liquid water, and water vapor coexist, so P=3. It is pure water, so C=1. Using the Gibbs phase rule F = C - P + 2, F = 1 - 3 + 2 = 0."
+          },
+          {
+            "id": "CY010",
+            "text": "The Woodward-Fieser rule is used to predict the λmax (maximum absorbance wavelength) for:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "IR spectroscopy.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "UV-Vis spectroscopy of conjugated systems.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "NMR spectroscopy.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Mass spectrometry.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Organic Chemistry - Spectroscopy",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The rules are empirical guidelines for predicting the wavelength of the longest wavelength UV-Vis absorption band (λmax) for conjugated dienes and ketones."
+          },
+          {
+            "id": "CY011",
+            "text": "The number of lone pairs of electrons on the central atom in XeF₄ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Inorganic Chemistry - VSEPR/Structure",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "Xe has 8 valence electrons. 4 are used for bonding with F. Remaining 8 - 4 = 4 electrons form 2 lone pairs. The molecular geometry is square planar (AX₄E₂)."
+          },
+          {
+            "id": "CY012",
+            "text": "The rate of a first-order reaction is 1.0 × 10⁻⁴ M/s when the concentration of the reactant is 0.2 M. The rate constant (k) in s⁻¹ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.0002",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.0005",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.002",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.005",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Physical Chemistry - Chemical Kinetics",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "For a first-order reaction: Rate = k[A]. k = Rate / [A]. k = (1.0 × 10⁻⁴ M/s) / (0.2 M) = 5.0 × 10⁻⁴ s⁻¹ or 0.0005 s⁻¹."
+          },
+          {
+            "id": "CY013",
+            "text": "The common intermediate in Friedel-Crafts alkylation and acylation of benzene is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Carbanion",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Free radical",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Carbocation (Electrophile)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Benzene cation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Organic Chemistry - Reaction Mechanism",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Both reactions are examples of Electrophilic Aromatic Substitution and proceed via an electrophilic carbocation or acylium ion intermediate."
+          },
+          {
+            "id": "CY014",
+            "text": "The crystal field splitting energy (Δt) in a tetrahedral complex is related to the octahedral splitting (Δo) by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Δt ≈ 9/4 Δo",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Δt ≈ 4/9 Δo",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Δt ≈ 2/3 Δo",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Δt ≈ 1/2 Δo",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Inorganic Chemistry - Coordination Compounds",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Due to fewer ligands and less direct orbital-ligand interaction, the tetrahedral splitting is significantly smaller: Δt ≈ 4/9 Δo."
+          },
+          {
+            "id": "CY015",
+            "text": "The eigenfunctions of the linear momentum operator p̂x = -iℏ ∂/∂x are proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "sin(kx)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "e^(-kx²)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "e^(ikx)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "cos(kx)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Physical Chemistry - Quantum Chemistry",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Solving the eigenvalue equation p̂x ψ(x) = p ψ(x) (where p is the eigenvalue) yields ψ(x) ∝ e^(ikx) (free particle wave function), where p = ℏk."
+          },
+          {
+            "id": "CY016",
+            "text": "Which reagent is used for the selective reduction of an ester to an alcohol without affecting a ketone group?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "LiAlH₄ (Lithium Aluminum Hydride)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "NaBH₄ (Sodium Borohydride)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "H₂ / Pd-C (Catalytic Hydrogenation)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "DIBAL-H (Diisobutylaluminum Hydride)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Organic Chemistry - Reagents",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "DIBAL-H is a bulky hydride reagent used at low temperature (-78°C) that can selectively reduce esters to aldehydes without affecting ketones."
+          },
+          {
+            "id": "CY017",
+            "text": "The Debye-Huckel Limiting Law describes the activity coefficient of an ion in a solution as a function of the ionic strength (μ) at:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "High concentrations.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Zero concentration.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Very low concentrations.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Saturation point.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Physical Chemistry - Electrochemistry",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Debye-Huckel Limiting Law provides an accurate description of ion interactions only at very low concentrations (dilute solutions, μ ≤ 0.01 M), where inter-ionic interactions are minimal."
+          },
+          {
+            "id": "CY018",
+            "text": "The oxidation state of Fe in the complex Na₄[Fe(CN)₆] is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "+1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "+2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "+3",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Inorganic Chemistry - Coordination Compounds",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The charge on the complex is -4 (from 4 Na⁺ ions). Each CN⁻ ligand has a charge of -1. Let x be the oxidation state of Fe. x + 6(-1) = -4. x - 6 = -4. x = +2. Fe(II)."
+          },
+          {
+            "id": "CY019",
+            "text": "The term chromophore in UV-Vis spectroscopy refers to the part of the molecule responsible for:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Molecular mass.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Absorption of UV or visible light.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Fluorescence emission.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Vibrational energy levels.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Organic Chemistry - Spectroscopy",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A chromophore is the part of a molecule that absorbs light (UV or visible) due to the presence of π or non-bonding electrons (e.g., C=C, C=O)."
+          },
+          {
+            "id": "CY020",
+            "text": "For the reaction coordinate in kinetics, the highest energy point corresponds to the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Products.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reactants.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Transition state.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Intermediate.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Physical Chemistry - Chemical Kinetics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The transition state (‡) is the highest energy configuration that the reacting species pass through, defining the activation energy barrier."
+          },
+          {
+            "id": "CY021",
+            "text": "Hückel's rule for aromaticity requires a cyclic, planar molecule to have (4n+2) π electrons, where n is a:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Half-integer.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Negative integer.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Positive integer or zero.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Any real number.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Organic Chemistry - Aromaticity",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Hückel's rule requires 4n+2 π electrons, where n must be a non-negative integer (0, 1, 2, 3, ...)."
+          },
+          {
+            "id": "CY022",
+            "text": "The effective atomic number (EAN) of Fe in [Fe(CN)₆]⁴⁻ is: (Given Atomic No. of Fe=26).",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "32",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "34",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "36",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "38",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Inorganic Chemistry - Coordination Compounds",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "EAN = Atomic No. of Metal - Oxidation State + 2 × (Coordination No.). Fe oxidation state is +2. EAN = 26 - 2 + 2(6) = 24 + 12 = 36. (This matches the atomic number of Kr)."
+          },
+          {
+            "id": "CY023",
+            "text": "For a BCC (Body-Centered Cubic) crystal structure, the number of atoms per unit cell is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "4",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "8",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Physical Chemistry - Solid State",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The BCC unit cell has 8 atoms at the corners (1/8 × 8 = 1) and 1 atom at the body center (1 × 1 = 1). Total atoms per unit cell = 1 + 1 = 2."
+          },
+          {
+            "id": "CY024",
+            "text": "The major product of the reaction between propene and HBr in the absence of peroxides follows:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Saytzeff's rule.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Hofmann's rule.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Markovnikov's rule.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Anti-Markovnikov's rule.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Organic Chemistry - Alkenes",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The addition of HBr to an alkene in the absence of peroxides is an electrophilic addition that proceeds via the most stable carbocation intermediate, which is described by Markovnikov's rule."
+          },
+          {
+            "id": "CY025",
+            "text": "The formula that relates the change in free energy (ΔG) to the equilibrium constant (K) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "ΔG = ΔH - T ΔS",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "ΔG = -R T ln K",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "ΔG = -n F Ecell",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "ΔG = ΔG° + R T ln Q",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Physical Chemistry - Thermodynamics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "At equilibrium, ΔG° (standard change) is related to the equilibrium constant K by the equation ΔG° = -R T ln K."
+          },
+          {
+            "id": "CY026",
+            "text": "The number of normal vibrational modes for a non-linear molecule with N atoms is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3N",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "3N - 5",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3N - 6",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "3N - 3",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Physical Chemistry - Spectroscopy",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Total degrees of freedom are 3N. For a non-linear molecule, there are 3 translational and 3 rotational modes. The remaining modes are vibrational: 3N - 6."
+          },
+          {
+            "id": "CY027",
+            "text": "Which of the following compounds exhibits Jahn-Teller distortion?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "[Cu(H₂O)₆]²⁺",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "[Zn(H₂O)₆]²⁺",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "[Cr(H₂O)₆]³⁺",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "[Fe(CN)₆]³⁻",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Inorganic Chemistry - Coordination Compounds",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "Jahn-Teller distortion occurs when the ground state is electronically degenerate. Cu²⁺ is d⁹. In octahedral geometry, the eg orbitals are unevenly filled (t₂g⁶ eg³), making the complex unstable and prone to distortion."
+          },
+          {
+            "id": "CY028",
+            "text": "The E2 elimination reaction proceeds via which mechanism?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Carbocation intermediate.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Concerted one-step mechanism.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Free radical intermediate.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Stepwise mechanism with a carbanion.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Organic Chemistry - Reaction Mechanism",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "E2 (Elimination bimolecular) is a single, concerted step where the base removes a proton and the leaving group departs simultaneously."
+          },
+          {
+            "id": "CY029",
+            "text": "For the reaction 2A → B following second-order kinetics, the half-life (t₁/₂) is proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "[A]₀",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1/[A]₀",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "ln([A]₀)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Independent of [A]₀",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Physical Chemistry - Chemical Kinetics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The half-life for a second-order reaction is t₁/₂ = 1/(k[A]₀). Thus, t₁/₂ is inversely proportional to the initial concentration [A]₀."
+          },
+          {
+            "id": "CY030",
+            "text": "The maximum bond order exhibited by the diatomic molecule N₂ according to Molecular Orbital Theory is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Inorganic Chemistry - Bonding/MO Theory",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "N₂ has 10 valence electrons (2 × 5). The electron configuration fills up to σ₂px², π₂py², π₂pz². Bond order = ½ (bonding - antibonding). Bonding = 8, Antibonding = 2. Bond order = ½(8-2) = 3."
+          },
+          {
+            "id": "CY031",
+            "text": "The major product of the reaction of phenol with chloroform and NaOH is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Benzaldehyde",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Benzoic acid",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Salicylic acid",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Salicylaldehyde (2-Hydroxybenzaldehyde)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Organic Chemistry - Named Reactions",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "This is the Reimer-Tiemann reaction, where the electrophile is dichlorocarbene (:CCl₂). It results in the ortho-formylation of phenol to give salicylaldehyde."
+          },
+          {
+            "id": "CY032",
+            "text": "The chemical potential (μ) of a component in a mixture is defined as the partial molar:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Entropy.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Enthalpy.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Gibbs Free Energy.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Volume.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Physical Chemistry - Thermodynamics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Chemical potential (μᵢ) is rigorously defined as the partial molar Gibbs Free Energy (μᵢ = (∂G / ∂nᵢ)ₜ,ₚ,ₙⱼ≠ᵢ)."
+          },
+          {
+            "id": "CY033",
+            "text": "The number of vertices (V), edges (E), and faces (F) for the octahedron satisfy the Euler's relation (V-E+F):",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Inorganic Chemistry - Geometry/Topology",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "For an octahedron, V=6, E=12, F=8. Euler's relation: V - E + F = 6 - 12 + 8 = 2."
+          },
+          {
+            "id": "CY034",
+            "text": "The order of reactivity of the carbonyl compounds towards nucleophilic addition is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Ketone > Aldehyde > Formaldehyde",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Formaldehyde > Aldehyde > Ketone",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Aldehyde > Ketone > Formaldehyde",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Ketone > Formaldehyde > Aldehyde",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Organic Chemistry - Carbonyl Chemistry",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Reactivity is governed by steric hindrance and electronic effects. Formaldehyde (H, H) has the least steric hindrance, making it the most reactive: Formaldehyde > Aldehyde > Ketone."
+          },
+          {
+            "id": "CY035",
+            "text": "The conjugate acid of H₂PO₄⁻ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "H₃PO₄",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "PO₄³⁻",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "HPO₄²⁻",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "H₂O",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Physical Chemistry - Acid-Base",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A conjugate acid is formed by adding a proton (H⁺) to the base. H₂PO₄⁻ + H⁺ → H₃PO₄."
+          },
+          {
+            "id": "CY036",
+            "text": "The spin-only magnetic moment (in BM) for Ni²⁺ (d⁸) in an octahedral high spin complex is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1.73 BM",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2.45 BM",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2.83 BM",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "3.46 BM",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Inorganic Chemistry - Coordination Compounds",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "For d⁸ in octahedral geometry, the configuration is t₂g⁶ eg² regardless of spin state (always two unpaired electrons, n=2). Magnetic moment (μ) = √n(n+2) BM. μ = √2(2+2) = √8 ≈ 2.83 BM."
+          },
+          {
+            "id": "CY037",
+            "text": "The chemical shift (δ) in ¹H-NMR spectroscopy is primarily influenced by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The number of adjacent protons.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The nuclear spin quantum number.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The electronic environment (shielding/deshielding).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The mass of the nucleus.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Organic Chemistry - Spectroscopy",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Chemical shift depends on the local magnetic field experienced by the nucleus, which is modulated by the surrounding electron density (shielding/deshielding effects)."
+          },
+          {
+            "id": "CY038",
+            "text": "The Nernst equation relates the cell potential (Ecell) to the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Temperature only.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Equilibrium constant (K).",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Concentration of reactants and products.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Standard cell potential (E°cell) only.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Physical Chemistry - Electrochemistry",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Nernst equation, Ecell = E°cell - (R T)/(n F) ln Q, allows the calculation of cell potential under non-standard conditions (varying concentrations)."
+          },
+          {
+            "id": "CY039",
+            "text": "The chirality of an amino acid (except glycine) is due to the presence of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "A carboxylic acid group.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "An amino group.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "An asymmetric (chiral) carbon atom.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "A double bond.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Organic Chemistry - Stereochemistry",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "All naturally occurring L-amino acids (except glycine, where the R group is H) have four different groups attached to the α-carbon atom, making it asymmetric and hence, chiral."
+          },
+          {
+            "id": "CY040",
+            "text": "The order of acidic strength for the hydrides HF, HCl, HBr, HI is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "HF < HCl < HBr < HI",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "HF > HCl > HBr > HI",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "HCl > HBr > HI > HF",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "HI < HBr < HCl < HF",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Inorganic Chemistry - Periodicity",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Acidity increases down the group primarily due to the decreasing bond dissociation energy (H-X bond strength) and increasing size of the anion: HF < HCl < HBr < HI."
+          },
+          {
+            "id": "CY041",
+            "text": "The term fugacity (f) is introduced in real gases to replace the term:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Volume",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Temperature",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Pressure",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Entropy",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Physical Chemistry - Thermodynamics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Fugacity is an effective pressure term used for real gases to maintain the simplicity of the ideal gas relationship for the chemical potential (μ = μ° + R T ln(f))."
+          },
+          {
+            "id": "CY042",
+            "text": "The hybridization of N in ammonia (NH₃) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "sp",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "sp²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "sp³",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "dsp²",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Inorganic Chemistry - Bonding/Hybridization",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The central N atom has 3 σ bonds and 1 lone pair. The steric number is 3+1=4, corresponding to sp³ hybridization and a pyramidal molecular geometry."
+          },
+          {
+            "id": "CY043",
+            "text": "The major product of the reaction between ethyl bromide and sodium ethoxide is formed via which mechanism?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "SN1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "SN2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "E1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Rearrangement",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Organic Chemistry - Substitution/Elimination",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Ethyl bromide is a primary alkyl halide. Sodium ethoxide is a strong nucleophile and a strong, non-bulky base. Under these conditions, the reaction proceeds primarily through SN2 (substitution) to form diethyl ether."
+          },
+          {
+            "id": "CY044",
+            "text": "The kinetic energy operator (T̂) in one dimension is given by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "-ℏ²/(2m) ∂²/∂x²",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "iℏ ∂/∂t",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "-ℏ²/(2m) ∂/∂x",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "½ m ω² x²",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Physical Chemistry - Quantum Chemistry",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Since T = p²/(2m) and p̂ = -iℏ ∂/∂x, the kinetic energy operator is T̂ = p̂²/(2m) = -ℏ²/(2m) ∂²/∂x²."
+          },
+          {
+            "id": "CY045",
+            "text": "The monomer used in the synthesis of Teflon (Polytetrafluoroethylene) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Vinyl chloride.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Tetrafluoroethylene (CF₂=CF₂)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Styrene.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Isoprene.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Organic Chemistry - Polymers",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Teflon is the polymer (PTFE), and its monomer unit is tetrafluoroethylene (CF₂=CF₂)."
+          },
+          {
+            "id": "CY046",
+            "text": "The unit of viscosity in the CGS system (Poise) is equivalent to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Pa · s",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "g · cm⁻¹ · s⁻¹",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "N · m⁻²",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "J · s",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Physical Chemistry - Surface Chemistry",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "Viscosity (η) is Force · time / (area · velocity gradient). Poise = dyne · s / cm². Since dyne = g · cm / s², Poise = (g · cm / s²) · s / cm² = g · cm⁻¹ · s⁻¹."
+          },
+          {
+            "id": "CY047",
+            "text": "Which element forms a coordination compound that is square planar in geometry?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Cr³⁺ (d³)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Co²⁺ (d⁷)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Ni²⁺ (d⁸)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Sc³⁺ (d⁰)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Inorganic Chemistry - Coordination Compounds",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The d⁸ configuration in conjunction with strong field ligands (low spin) forces all electrons into the lower four d-orbitals, leaving the dx²-y² orbital empty, leading to a square planar geometry."
+          },
+          {
+            "id": "CY048",
+            "text": "The electrophile in the nitration of benzene is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "NO₂",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "NO₂⁺ (Nitronium ion)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "HNO₃",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "H₂SO₄",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Organic Chemistry - Aromatic Substitution",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The mixture of HNO₃ and H₂SO₄ generates the strong electrophile, the nitronium ion (NO₂⁺)."
+          },
+          {
+            "id": "CY049",
+            "text": "For an isothermal expansion of an ideal gas in a reversible process, ΔU (internal energy change) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Positive",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Negative",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Zero",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Equal to ΔS",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Physical Chemistry - Thermodynamics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "For an ideal gas, the internal energy (U) depends only on temperature. Since the process is isothermal (ΔT = 0), the change in internal energy ΔU is zero."
+          },
+          {
+            "id": "CY050",
+            "text": "The number of stereoisomers possible for a molecule with 2 asymmetric carbon atoms (with different substituents) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "3",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "4",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "6",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Organic Chemistry - Stereochemistry",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The maximum number of stereoisomers is 2ⁿ, where n is the number of asymmetric centers. For n=2, 2² = 4 stereoisomers (usually 2 enantiomers and 2 diastereomers)."
+          },
+          {
+            "id": "CY051",
+            "text": "The structure of B₂H₆ (diborane) is characterized by the presence of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Two 2-center, 2-electron (2c-2e) bonds.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Four 3-center, 2-electron (3c-2e) bonds.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Two 3-center, 2-electron (3c-2e) bonds.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Six 2-center, 2-electron (2c-2e) bonds.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Inorganic Chemistry - Main Group/Bonding",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "Diborane is electron deficient. It has four terminal B-H (2c-2e) bonds and two bridging B-H-B bonds, which are 3-center, 2-electron (3c-2e) bonds (banana bonds)."
+          },
+          {
+            "id": "CY052",
+            "text": "In kinetics, the Arrhenius equation relates the rate constant (k) to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Concentration.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Activation energy (Ea) and Temperature (T).",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Reaction order.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Partial pressure.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Physical Chemistry - Chemical Kinetics",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Arrhenius equation is k = A e^(-Ea / R T). It describes the temperature dependence of the rate constant (k) via the activation energy (Ea)."
+          },
+          {
+            "id": "CY053",
+            "text": "Which of the following organic reaction types typically involves the highest positive value of activation entropy (ΔS‡)?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "SN2 (Bimolecular)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Addition",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Unimolecular decomposition (e.g., E1)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Diels-Alder reaction",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Organic Chemistry - Energetics",
+            "difficulty": "Easy",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "A positive ΔS‡ means the transition state is more disordered than the reactant(s). This occurs when one molecule breaks into two (dissociation). Unimolecular decomposition (E1 or SN1) involves a single reactant forming two species in the rate-determining step."
+          },
+          {
+            "id": "CY054",
+            "text": "The structure of [Ni(CN)₄]²⁻ is: (Given CN⁻ is a strong field ligand).",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Tetrahedral",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Square planar",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Octahedral",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Trigonal bipyramidal",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Inorganic Chemistry - Coordination Compounds",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Ni²⁺ is d⁸. With a strong field ligand (CN⁻), the complex is low spin, leading to dsp² hybridization and square planar geometry."
+          },
+          {
+            "id": "CY055",
+            "text": "The Debye temperature (ΘD) in the Debye model of solids is related to the maximum possible phonon frequency (νmax) by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "kB / (h νmax)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "h / (kB νmax)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "h νmax / kB",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "kB h / νmax",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Physical Chemistry - Solid State",
+            "difficulty": "Easy",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The Debye temperature is the characteristic temperature of the solid. It is defined by the energy of the maximum frequency phonon: kB ΘD = h νmax, so ΘD = h νmax / kB."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "Results & Analysis",
+        "description": "Comprehensive analysis of your performance across all sections with detailed insights and recommendations.",
+        "timeLimit": 0,
+        "questions": [],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      }
+    }
+  }

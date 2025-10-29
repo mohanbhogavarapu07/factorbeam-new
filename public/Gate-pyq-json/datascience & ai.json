@@ -1,0 +1,2323 @@
+{
+    "id": "data-science-ai-pyq",
+    "title": "Data Science & AI PYQ (DA)",
+    "description": "Full-length, difficulty-calibrated mock exam using simulated authentic GATE Previous Year Questions (PYQs) relevant to the Data Science and AI (DA) syllabus. Difficulty profile: Moderate. This variant strictly adheres to the official GATE DA pattern (10 GA Qs, 55 Core DA Qs). NOTE: All question difficulty fields are set to 'Medium' per previous request.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Moderate",
+    "isActive": true,
+    "featured": true,
+    "metadata": {
+      "icon": "data-science",
+      "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "userCount": 1250,
+      "tags": ["GATE", "Data Science", "AI", "PYQ", "Machine Learning", "Statistics"]
+    },
+    "whatIsDescription": "The GATE Data Science and AI (DA) exam is a comprehensive assessment designed to evaluate candidates' proficiency in data science, artificial intelligence, machine learning, and related mathematical foundations. This exam tests your understanding of statistical methods, programming concepts, algorithms, and their applications in real-world data science problems.",
+    "typicalCareers": [
+      {
+        "title": "Data Scientist",
+        "description": "Analyze complex data to help organizations make informed decisions"
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "description": "Design and implement machine learning systems and algorithms"
+      },
+      {
+        "title": "AI Research Scientist",
+        "description": "Conduct research to advance artificial intelligence technologies"
+      },
+      {
+        "title": "Business Intelligence Analyst",
+        "description": "Transform data into insights for business decision-making"
+      },
+      {
+        "title": "Data Engineer",
+        "description": "Build and maintain data infrastructure and pipelines"
+      },
+      {
+        "title": "AI Product Manager",
+        "description": "Lead development of AI-powered products and features"
+      }
+    ],
+    "whoShouldConsider": "Students and professionals with backgrounds in Computer Science, Mathematics, Statistics, or related fields who want to pursue careers in data science, artificial intelligence, or machine learning.",
+    "idealTraits": [
+      "Strong mathematical foundation",
+      "Programming skills (Python, R)",
+      "Statistical thinking",
+      "Problem-solving abilities",
+      "Understanding of algorithms and data structures"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude (Verbal & Quantitative)",
+        "Mathematics & Statistics",
+        "Programming & Data Structures",
+        "Machine Learning & AI",
+        "Data Analysis & Visualization"
+      ],
+      "resultsInclude": [
+        "Detailed performance analysis",
+        "Subject-wise breakdown",
+        "Difficulty level assessment",
+        "Improvement recommendations",
+        "Career guidance based on performance"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment (GA)",
+        "description": "10 Questions, 15 Marks. Verbal Ability, Quantitative Aptitude, and Analytical Reasoning.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "The price of an item is increased by 10% and then decreased by 10%. The net change in price is: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1% decrease",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1% increase",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.1% decrease",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Percentage",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "Let the original price be P. Increase by 10%: P(1.1). Decrease by 10%: P(1.1)(0.9) = P(0.99). The net change is a 100-99=1% decrease."
+          },
+          {
+            "id": "GA002",
+            "text": "The ratio of the speed of a boat in still water to the speed of the current is 5:1. If the boat travels a certain distance downstream in 3 hours, what is the time taken to travel the same distance upstream? (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "4 hours",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5 hours",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6 hours",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "7.5 hours",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Time & Distance",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Let speed of boat be 5x and current be x. Downstream speed = 6x. Upstream speed = 4x. Distance D = 6x × 3 = 18x. Upstream time T = D / 4x = 18x / 4x = 4.5 hours."
+          },
+          {
+            "id": "GA003",
+            "text": "Choose the most appropriate word from the options given below to complete the following sentence: The candidate's statement was a ___ of truth. (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "deprivation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "dearth",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "travesty",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "recapitulation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Verbal Ability - Vocabulary",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "A 'travesty of truth' means a grotesque misrepresentation or distortion of the truth. 'Dearth' means scarcity, which does not fit the context."
+          },
+          {
+            "id": "GA004",
+            "text": "Find the next term in the series: 3, 7, 13, 21, 31, ... (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "41",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "43",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "45",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "47",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analytical Reasoning - Number Series",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "The differences between consecutive terms are 4, 6, 8, 10. The next difference should be 12. Thus, 31 + 12 = 43."
+          },
+          {
+            "id": "GA005",
+            "text": "If f(x) = |x-2| + |x-5|, the minimum value of f(x) is: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Quantitative Aptitude - Calculus/Functions",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "The function f(x) represents the sum of distances from x to 2 and x to 5. The minimum value occurs for x between 2 and 5, where f(x) = (x-2) + (5-x) = 3."
+          },
+          {
+            "id": "GA006",
+            "text": "A clock shows 4:30. What is the angle between the hour and minute hands? (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "30 degrees",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "45 degrees",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "60 degrees",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "90 degrees",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Clocks/Geometry",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 90,
+            "explanation": "Angle θ = |30H - (11/2)M|. θ = |30(4) - (11/2)(30)| = |120 - 165| = 45 degrees."
+          },
+          {
+            "id": "GA007",
+            "text": "The synonym for 'Mellifluous' is: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Discordant",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Harmonious",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Cacophonous",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Raucous",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Vocabulary (Synonyms)",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "'Mellifluous' means a sound that is sweet and musical; pleasant to hear. 'Harmonious' is the closest synonym."
+          },
+          {
+            "id": "GA008",
+            "text": "In a group, 70% of the students speak English and 50% speak Hindi. If 40 students speak both, what is the total number of students in the group? (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "150",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "200",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "400",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4000",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Set Theory",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Percentage speaking both = (70% + 50%) - 100% = 20%. If 20% of total X is 40, then 0.20 × X = 40, so X = 200."
+          },
+          {
+            "id": "GA009",
+            "text": "The pair of words that best expresses a similar relationship as 'Surgeon : Scalpel' is: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sculptor : Chisel",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Musician : Instrument",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Lawyer : Court",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Baker : Oven",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Verbal Ability - Analogy",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "The relationship is 'Person : Primary Tool'. A Surgeon uses a Scalpel; a Sculptor uses a Chisel."
+          },
+          {
+            "id": "GA010",
+            "text": "A sum of money doubles in 5 years at simple interest. In how many years will it become four times? (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "10",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "15",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "20",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "25",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Simple Interest",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "To double, Interest (I) must be 1P, taking 5 years. To become four times, I must be 3P. Since simple interest is linear, it takes 3 × 5 = 15 years."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Data Science and AI Assessment",
+        "description": "55 Questions, 85 Marks. Comprehensive coverage of Mathematics, Statistics, Programming, Data Structures, Algorithms, and Machine Learning/AI.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "DA001",
+            "text": "If A = [[2, 1], [4, 3]], find the eigenvalues of A. (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1 and 4",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1 and 2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0 and 5",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1 and 5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Mathematics - Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "The characteristic equation is det(A - λI) = 0. (2-λ)(3-λ) - 4 = 0. λ² - 5λ + 6 - 4 = 0. λ² - 5λ + 2 = 0. Using the trace and determinant: trace = 5, det = 2. The eigenvalues are 1 and 4."
+          },
+          {
+            "id": "DA002",
+            "text": "The activation function most commonly used in the output layer of a multi-class classification neural network is: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "ReLU",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Sigmoid",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Tanh",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Softmax",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "AI/ML - Neural Networks",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Softmax is used to convert the raw output scores (logits) into a probability distribution, which is necessary for multi-class classification problems."
+          },
+          {
+            "id": "DA003",
+            "text": "What is the expected value of a random variable X that follows a Bernoulli distribution with success probability p? (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "p(1-p)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "√p",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "p",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1/p",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Statistics - Probability Distributions",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "The expected value E[X] for a Bernoulli random variable is 0 · (1-p) + 1 · p = p."
+          },
+          {
+            "id": "DA004",
+            "text": "In Python/NumPy, if array A is [[1, 2], [3, 4]], what is the result of A * A? (Simulated GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Array multiplication (dot product)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Element-wise multiplication",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Error",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Matrix exponentiation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Programming - Python/NumPy",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The standard * operator in NumPy performs element-wise multiplication (Hadamard product). The A @ A or np.dot(A, A) is used for matrix multiplication."
+          },
+          {
+            "id": "DA005",
+            "text": "Which of the following metrics is most suitable for evaluating an imbalanced classification model? (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Accuracy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Precision",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Recall",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "F1 Score",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "AI/ML - Evaluation Metrics",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "F1 Score is the harmonic mean of Precision and Recall. It provides a balanced measure that is less misleading than Accuracy when dealing with imbalanced datasets."
+          },
+          {
+            "id": "DA006",
+            "text": "If f(x) = x³ - 3x² + 5, find the maximum value of the second derivative f''(x) in the interval [0, 4]. (Simulated GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "12",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "15",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "18",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "21",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Mathematics - Calculus",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "First derivative: f'(x) = 3x² - 6x. Second derivative: f''(x) = 6x - 6. In the interval [0, 4], f''(x) is an increasing linear function. The maximum occurs at the right endpoint: f''(4) = 6(4) - 6 = 24 - 6 = 18."
+          },
+          {
+            "id": "DA007",
+            "text": "The process of reducing the dimensionality of a dataset by selecting a subset of the most relevant features is known as: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Principal Component Analysis (PCA)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Feature Extraction",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Feature Selection",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Manifold Learning",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI/ML - Feature Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Feature Selection involves choosing a subset of the original features. Feature Extraction transforms the original features into a new, smaller set of features (e.g., PCA)."
+          },
+          {
+            "id": "DA008",
+            "text": "Which property of a search algorithm guarantees finding the optimal solution if one exists? (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Completeness",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Admissibility",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Optimality",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Heuristic",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI - Search Algorithms",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Optimality means the search algorithm is guaranteed to find the best possible solution (lowest cost path) among all available solutions."
+          },
+          {
+            "id": "DA009",
+            "text": "The null hypothesis for a standard A/B test comparing two website versions based on conversion rate is typically: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Version A is better than Version B.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Version B is better than Version A.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "There is no difference in conversion rates between A and B.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The conversion rates are both greater than 50%.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Statistics - Hypothesis Testing",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The null hypothesis (H₀) always represents the status quo or no effect. In an A/B test, this means assuming the conversion rate of A equals the conversion rate of B (P_A = P_B)."
+          },
+          {
+            "id": "DA010",
+            "text": "Which data structure is typically used to implement the decision-making process in a Decision Tree algorithm? (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Hash Table",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Queue",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Binary Tree/General Tree",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Linked List",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI/ML - Tree-based Models",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A Decision Tree fundamentally uses a tree data structure where internal nodes are test conditions and leaf nodes are the prediction outcomes."
+          },
+          {
+            "id": "DA011",
+            "text": "The time complexity of finding the kᵗʰ smallest element in an unsorted array using the randomized selection algorithm (average case) is: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "O(n log n)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "O(n)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "O(n²)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "O(1)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Algorithms - Selection",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 105,
+            "explanation": "The randomized selection algorithm, similar to the average case of QuickSort's partitioning, has an expected time complexity of O(n)."
+          },
+          {
+            "id": "DA012",
+            "text": "Which loss function is typically used for a regression problem in Machine Learning? (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Cross-Entropy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Hinge Loss",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Mean Squared Error (MSE)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Log Loss",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI/ML - Loss Functions",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "MSE is the square of the difference between predicted and actual values, making it the standard loss function for continuous prediction (regression)."
+          },
+          {
+            "id": "DA013",
+            "text": "If a sample space S has events A and B, and P(A) = 0.5, P(B) = 0.3, and P(A ∪ B) = 0.7, then P(A ∩ B) is: (Simulated GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.05",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.15",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.2",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Statistics - Probability",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "Use the addition rule: P(A ∪ B) = P(A) + P(B) - P(A ∩ B). 0.7 = 0.5 + 0.3 - P(A ∩ B). P(A ∩ B) = 0.8 - 0.7 = 0.1."
+          },
+          {
+            "id": "DA014",
+            "text": "The primary disadvantage of using k-Nearest Neighbors (k-NN) for large datasets is its high computational cost during the: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Training phase",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Prediction phase",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Data preprocessing phase",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Hyperparameter tuning phase",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "AI/ML - Classification Models",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "k-NN is a lazy learner; the 'training' phase is minimal. The prediction phase requires calculating the distance to all training points, making it very slow for large datasets (O(n) where n is the number of training points)."
+          },
+          {
+            "id": "DA015",
+            "text": "Which of the following is true for the standard deviation (σ) of a dataset? (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "It is always negative.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "It measures the average of the data points.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "It is the square root of the variance.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "It is not affected by outliers.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Statistics - Descriptive Statistics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Standard deviation is defined as the square root of the variance, and it is a non-negative value that measures the spread of the data."
+          },
+          {
+            "id": "DA016",
+            "text": "The main reason for using gradient descent with mini-batches instead of stochastic gradient descent (SGD) for training large neural networks is: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Mini-batches converge faster to the exact minimum.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Mini-batches can exploit GPU parallelism.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Mini-batches require less memory.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Mini-batches prevent overfitting.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "AI/ML - Optimization",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 105,
+            "explanation": "Mini-batch updates allow modern hardware (GPUs) to process multiple samples simultaneously, significantly accelerating training via parallelism, unlike traditional SGD (batch size 1)."
+          },
+          {
+            "id": "DA017",
+            "text": "If a vector v = (1, 2, 3) and a scalar k=5, what is the result of k · v? (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "5",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "(5, 10, 15)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "5, 10, 15",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "(1, 2, 15)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Mathematics - Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Scalar multiplication applies the scalar to every element of the vector: 5 · (1, 2, 3) = (5·1, 5·2, 5·3) = (5, 10, 15)."
+          },
+          {
+            "id": "DA018",
+            "text": "The primary role of the recurrent connection in a Recurrent Neural Network (RNN) is to capture: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Spatial features",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Local patterns",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Temporal dependencies",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Global context",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI/ML - Deep Learning (RNN)",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The recurrent connection allows information from previous steps (or time slices) to be fed back into the current step, which is crucial for processing sequential data and capturing temporal dependencies."
+          },
+          {
+            "id": "DA019",
+            "text": "What is the expected output of the Python code: print(5 / 2)? (Simulated GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2.5",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2.0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Programming - Python",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "In Python 3, the single slash operator (/) performs floating-point division, even between integers. The double slash (//) performs integer division."
+          },
+          {
+            "id": "DA020",
+            "text": "Which measure of central tendency is least affected by extreme outliers? (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Mean",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Median",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Mode",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Standard Deviation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Statistics - Descriptive Statistics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The median (middle value) is a robust statistic, as it is calculated based on rank and is not directly influenced by the magnitude of extreme values (outliers)."
+          },
+          {
+            "id": "DA021",
+            "text": "For a binary classification problem, if the decision boundary is linear, which algorithm is NOT capable of modeling it effectively? (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Logistic Regression",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Support Vector Machine (Linear Kernel)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Perceptron",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "k-NN",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "AI/ML - Classification Algorithms",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "k-NN generates a piecewise linear (non-linear) decision boundary determined by the neighborhood of the data points, unlike Logistic Regression, SVM (Linear), or Perceptron, which are inherently linear classifiers."
+          },
+          {
+            "id": "DA022",
+            "text": "The complexity of Gaussian Elimination (solving Ax=b) for an N × N matrix is: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "O(N²)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "O(N³)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "O(N log N)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "O(log N)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Mathematics - Numerical Methods",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 105,
+            "explanation": "Gaussian elimination (reduction to row echelon form) involves three nested loops, giving a time complexity of O(N³)."
+          },
+          {
+            "id": "DA023",
+            "text": "In relational databases, which SQL clause is used to filter group results (after aggregation)? (Simulated GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "WHERE",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "GROUP BY",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "ORDER BY",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "HAVING",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Data Structures - DBMS (SQL)",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The HAVING clause filters records based on aggregate functions (groups), while the WHERE clause filters individual records before aggregation."
+          },
+          {
+            "id": "DA024",
+            "text": "Which of the following describes the kernel function in a Support Vector Machine (SVM)? (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "It finds the exact center of the data clusters.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "It maps the input data to a lower-dimensional space.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "It computes the dot product of data points in a higher-dimensional feature space.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "It determines the learning rate for optimization.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI/ML - SVM",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 105,
+            "explanation": "The kernel trick allows SVM to implicitly operate in a high-dimensional feature space without explicitly calculating the coordinates, by calculating the dot product of the transformed vectors."
+          },
+          {
+            "id": "DA025",
+            "text": "The purpose of using the Dropout regularization technique in Deep Learning is to: (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increase the learning rate.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Prevent vanishing gradient problem.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Reduce overfitting.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Accelerate convergence to the minimum.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI/ML - Deep Learning",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Dropout randomly sets a fraction of neurons to zero during training, preventing complex co-adaptations between neurons and forcing the network to learn more robust features, thus reducing overfitting."
+          },
+          {
+            "id": "DA026",
+            "text": "If two events A and B are independent, and P(A)=0.4, P(B)=0.5, then P(A ∩ B) is: (Simulated GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Statistics - Probability",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "For independent events, P(A ∩ B) = P(A) · P(B). P(A ∩ B) = 0.4 · 0.5 = 0.2."
+          },
+          {
+            "id": "DA027",
+            "text": "The main component of an Expert System that contains facts, rules, and procedures for problem-solving is the: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Inference Engine",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "User Interface",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Knowledge Base",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Working Memory",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI - Expert Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Knowledge Base stores the domain-specific knowledge required by the Expert System."
+          },
+          {
+            "id": "DA028",
+            "text": "In Python, which method is typically used to handle missing values (NaN) in a Pandas DataFrame by replacing them with a specified value? (Simulated GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "drop_na()",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "replace_na()",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "fill_na()",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "set_na()",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Programming - Data Handling (Pandas)",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The Pandas fillna() method is the standard way to replace NaN values in a DataFrame or Series."
+          },
+          {
+            "id": "DA029",
+            "text": "The main advantage of using Ensemble methods (like Random Forest or Gradient Boosting) over a single Decision Tree is: (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "They are easier to interpret.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "They are guaranteed to run in O(n log n) time.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "They typically reduce variance and improve predictive accuracy.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "They only use linear decision boundaries.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI/ML - Ensemble Methods",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "Ensemble methods combine predictions from multiple base models (trees) to mitigate the high variance (overfitting) tendency of single, deep decision trees, leading to better generalization and accuracy."
+          },
+          {
+            "id": "DA030",
+            "text": "If a dataset has a high degree of multicollinearity, which linear model regularization technique would be most appropriate to select only a few important features? (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Ridge Regression (L₂)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Lasso Regression (L₁)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Elastic Net",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Principal Component Regression",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "AI/ML - Regularization",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "Lasso Regression (L1 penalty) drives the coefficients of less important features exactly to zero, effectively performing feature selection, which is helpful in high multicollinearity scenarios."
+          },
+          {
+            "id": "DA031",
+            "text": "The covariance between two identical random variables X and X is equal to the: (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Mean of X",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Standard deviation of X",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Variance of X",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Correlation of X and X",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Statistics - Correlation/Covariance",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Covariance is defined as Cov(X, Y) = E[(X-E[X])(Y-E[Y])]. When Y=X, Cov(X, X) = E[(X-E[X])²], which is the definition of Variance (Var(X))."
+          },
+          {
+            "id": "DA032",
+            "text": "In the context of Convolutional Neural Networks (CNNs), the role of the Pooling layer is primarily to: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Apply non-linearity to the feature map.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Extract spatial hierarchies of features.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Reduce dimensionality and achieve spatial invariance.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Convert the feature map into a probability distribution.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI/ML - Deep Learning (CNN)",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 75,
+            "explanation": "Pooling layers summarize the presence of features in patches of the feature map, reducing the number of parameters (dimensionality) and making the model less sensitive to the precise location of features (invariance)."
+          },
+          {
+            "id": "DA033",
+            "text": "Given the function f(x, y) = x²y + 3x, find the partial derivative ∂f/∂x. (Simulated GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2xy + 3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "x²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2xy",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2xy² + 3",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Mathematics - Calculus",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "Treat y as a constant: ∂/∂x (x²y + 3x) = y · (2x) + 3 = 2xy + 3."
+          },
+          {
+            "id": "DA034",
+            "text": "The worst-case time complexity for searching an element in a balanced Binary Search Tree (BST) is: (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "O(1)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "O(log n)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "O(n)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "O(n log n)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Data Structures - Trees",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "In a balanced BST (like AVL or Red-Black), the height is guaranteed to be logarithmic, so search complexity is O(log n)."
+          },
+          {
+            "id": "DA035",
+            "text": "The technique used to automatically discover categories or clusters in unlabeled data is called: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Supervised Learning",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reinforcement Learning",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Unsupervised Learning",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Transfer Learning",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI/ML - Learning Paradigms",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Unsupervised learning deals with unlabeled data, with clustering (e.g., K-Means) being a prime example of automatically discovering hidden structure."
+          },
+          {
+            "id": "DA036",
+            "text": "If a fair six-sided die is rolled twice, what is the probability that the sum of the two rolls is exactly 7? (Simulated GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1/12",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1/6",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/4",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1/3",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Statistics - Probability",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "Total outcomes = 6 × 6 = 36. Outcomes summing to 7: (1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1). Total favorable outcomes = 6. Probability = 6/36 = 1/6 ≈ 0.1666."
+          },
+          {
+            "id": "DA037",
+            "text": "What is the primary role of the Adam optimizer in neural network training? (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "It fixes the learning rate to a constant value.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "It computes adaptive learning rates for each parameter.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "It only uses the magnitude of the gradient.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "It only works with ReLU activation functions.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "AI/ML - Optimization",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Adam (Adaptive Moment Estimation) is an adaptive learning rate optimization algorithm that computes individual learning rates for different parameters, based on estimates of first and second moments of the gradients."
+          },
+          {
+            "id": "DA038",
+            "text": "The complexity of traversing all nodes of a graph using Breadth-First Search (BFS), given an adjacency list representation with V vertices and E edges, is: (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "O(V²)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "O(V log V)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "O(V + E)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "O(E log V)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Algorithms - Graph",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "BFS visits every vertex once (O(V)) and examines every edge once (O(E)) when using an adjacency list, resulting in O(V+E) complexity."
+          },
+          {
+            "id": "DA039",
+            "text": "What is the range of values for the Pearson correlation coefficient (r)? (Simulated GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "[0, 1]",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "[-1, 1]",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "(-1, 1)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "[0, ∞)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Statistics - Correlation",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Pearson correlation coefficient ranges from -1 (perfect negative correlation) to +1 (perfect positive correlation), including 0 (no linear correlation)."
+          },
+          {
+            "id": "DA040",
+            "text": "The core concept that allows Reinforcement Learning agents to learn optimal actions without labeled data is: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Backpropagation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Maximum Likelihood Estimation",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Exploration-Exploitation Trade-off",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Clustering",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI/ML - Reinforcement Learning",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "RL agents must balance exploration (trying new actions to discover better rewards) and exploitation (choosing the best-known action based on current knowledge) to optimize their long-term reward."
+          },
+          {
+            "id": "DA041",
+            "text": "The main limitation of Naive Bayes classifier is the assumption of: (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Linear separability of data",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Conditional independence of features",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Normal distribution of features",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Multicollinearity between features",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "AI/ML - Classification Models",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Naive Bayes assumes that all features are conditionally independent given the class label, which is often not true in real-world data, hence the 'naive' part."
+          },
+          {
+            "id": "DA042",
+            "text": "The data structure best suited for representing sparse matrices (matrices with mostly zero entries) efficiently is: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2D Array",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Linked List",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Hash Map/Dictionary (Coordinate List/Dictionary of Keys)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Stack",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Data Structures - Special Arrays",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Sparse matrices are best represented by storing only the non-zero elements along with their row and column indices. Coordinate List (COO) format or Dictionary of Keys (DOK) use structures like Hash Maps for efficient space saving."
+          },
+          {
+            "id": "DA043",
+            "text": "If a sample space S is composed of three disjoint events A, B, and C, and P(A)=0.2, P(B)=0.3, then P(C) is: (Simulated GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.5",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.6",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Statistics - Probability",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "Since A, B, C partition the sample space, P(A) + P(B) + P(C) = 1. 0.2 + 0.3 + P(C) = 1. P(C) = 1 - 0.5 = 0.5."
+          },
+          {
+            "id": "DA044",
+            "text": "The process of modifying the weights in a neural network based on the gradient of the loss function is called: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Forward Propagation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Activation",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Backpropagation",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Normalization",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI/ML - Optimization",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Backpropagation is the algorithm that computes the gradient of the loss function with respect to the network weights, allowing for the application of gradient descent."
+          },
+          {
+            "id": "DA045",
+            "text": "Which of the following describes the Bias-Variance tradeoff in machine learning? (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increasing model complexity increases bias and decreases variance.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Increasing model complexity decreases bias and increases variance.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Bias and variance always increase together.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Bias and variance are independent of model complexity.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "AI/ML - Model Concepts",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "More complex models can fit the training data better (lower bias) but are highly sensitive to training data variations (higher variance), creating a tradeoff."
+          },
+          {
+            "id": "DA046",
+            "text": "The Singular Value Decomposition (SVD) of a matrix A decomposes it into: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "PDP⁻¹ (Eigen Decomposition)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "LU (LU Decomposition)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "UΣVᵀ",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "QR (QR Decomposition)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Mathematics - Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "SVD decomposes a matrix A into A = UΣVᵀ, where U and V are orthogonal matrices and Σ is a diagonal matrix containing the singular values."
+          },
+          {
+            "id": "DA047",
+            "text": "The time complexity of inserting an element into a Min-Heap of size N is: (Simulated GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "O(1)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "O(log N)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "O(N)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "O(N log N)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Data Structures - Heaps",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Insertion involves placing the element at the end and then performing a 'heapify-up' operation, which takes time proportional to the height of the tree, O(log N)."
+          },
+          {
+            "id": "DA048",
+            "text": "In Natural Language Processing (NLP), TF-IDF (Term Frequency-Inverse Document Frequency) weighting is primarily used to: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Measure the sentiment of a document.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Encode text into a sequence of numbers.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Assign importance to a word based on its relevance to a document in a corpus.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Convert words into dense vector embeddings.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI/ML - NLP",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 75,
+            "explanation": "TF-IDF assigns a higher weight to words that appear frequently in a specific document (high TF) but rarely across the entire corpus (high IDF), signifying their importance."
+          },
+          {
+            "id": "DA049",
+            "text": "Which property is a necessary condition for a function f(x) to be differentiable at a point c? (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "f(x) must be concave.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "f(x) must be continuous at c.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "f(x) must be periodic.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "f'(x) must be zero at c.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Mathematics - Calculus",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Differentiability implies continuity. If a function is differentiable at a point, it must also be continuous at that point."
+          },
+          {
+            "id": "DA050",
+            "text": "What is the degree of freedom for a sample variance calculated from a sample of size n? (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "n",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "n-1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "n-2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "n+1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Statistics - Inferential Statistics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The degree of freedom is n-1 because one degree of freedom is lost when the sample mean is used as an estimate of the population mean in the calculation of the variance."
+          },
+          {
+            "id": "DA051",
+            "text": "If A and B are square matrices of size n × n, and det(A)=4, det(B)=2, then det(AB) is: (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "6",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "8",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "10",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "12",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Mathematics - Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "The determinant of a product of matrices is the product of their determinants: det(AB) = det(A) · det(B) = 4 · 2 = 8."
+          },
+          {
+            "id": "DA052",
+            "text": "The primary objective of the K-Means clustering algorithm is to minimize: (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Inter-cluster distance",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Total variance",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Within-cluster sum of squares (WCSS)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Between-cluster sum of squares (BCSS)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI/ML - Clustering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "K-Means aims to minimize the sum of squared distances between data points and their assigned cluster center (centroid), which is the WCSS."
+          },
+          {
+            "id": "DA053",
+            "text": "The standard data structure used to implement the backtracking technique in algorithms is: (Simulated GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Queue",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Stack",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Heap",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Array",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Algorithms - Paradigms",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Backtracking often uses recursion, which implicitly uses the stack to store the state of the current path and allows the algorithm to return to a previous decision point (backtrack)."
+          },
+          {
+            "id": "DA054",
+            "text": "Which machine learning paradigm is typically used for developing self-driving car navigation systems? (Simulated GATE 2024)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Supervised Learning",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Unsupervised Learning",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Reinforcement Learning",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Association Rule Learning",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "AI/ML - Applications",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "Self-driving navigation is a sequential decision-making process involving maximizing long-term rewards (reaching the destination safely), making it an ideal application for Reinforcement Learning."
+          },
+          {
+            "id": "DA055",
+            "text": "The main purpose of the sigmoid activation function in the hidden layers of a deep network (historically) was to introduce: (Simulated GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Linearity",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Non-linearity",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Sparsity",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Symmetry",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "AI/ML - Neural Networks",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Activation functions introduce non-linearity, enabling the neural network to learn complex, non-linear relationships in the data."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "GATE Assessment Results",
+        "description": "Your comprehensive GATE DA assessment results with detailed analysis and recommendations for improvement.",
+        "timeLimit": 0,
+        "questions": [],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      }
+    }
+  }

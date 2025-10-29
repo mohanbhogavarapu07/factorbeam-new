@@ -1,0 +1,2210 @@
+{
+    "id": "chemistry",
+    "title": "Chemistry (CY)",
+    "description": "Comprehensive GATE Chemistry assessment covering General Aptitude and Core Chemistry subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core chemistry questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Easy",
+    "tags": ["GATE", "Chemistry", "Engineering", "Aptitude", "Core Subjects"],
+    "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Chemistry is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in chemistry and related fields. This assessment follows the official GATE pattern with General Aptitude and Core Chemistry questions.",
+    "typicalCareers": [
+      {
+        "title": "Research Scientist",
+        "description": "Advanced chemistry research positions in academia and industry"
+      },
+      {
+        "title": "PhD Candidate",
+        "description": "Pursue higher studies in chemistry and related fields"
+      },
+      {
+        "title": "Chemical Engineer",
+        "description": "Senior technical roles in chemical process design and optimization"
+      }
+    ],
+    "whoShouldConsider": [
+      "Chemistry graduates preparing for GATE",
+      "Students seeking admission to M.Tech/M.E programs in chemistry",
+      "Professionals looking for PSU jobs in chemical sector",
+      "Researchers in chemistry and related fields"
+    ],
+    "idealTraits": [
+      "Strong analytical and problem-solving skills",
+      "Solid foundation in chemistry fundamentals",
+      "Mathematical aptitude and logical reasoning",
+      "Good understanding of chemical principles and reactions"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude Assessment (10 questions, 15 marks)",
+        "Core Chemistry Assessment (55 questions, 85 marks)"
+      ],
+      "resultsInclude": [
+        "Section-wise scores (Aptitude & Core)",
+        "Topic-wise performance analysis",
+        "Difficulty-wise accuracy",
+        "Overall percentile ranking",
+        "Detailed explanations for all questions"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment",
+        "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "If GATE is coded as 1207205, how is EXAM coded?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "5241303",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "52113",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "5241013",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "524113",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Verbal Ability - Coding",
+            "difficulty": "Easy",
+            "explanation": "Each letter is coded as its position in alphabet: E=5, X=24, A=1, M=13. Hence 5241013."
+          },
+          {
+            "id": "GA002",
+            "text": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "40",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "42",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "44",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "46",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Numerical Ability - Series",
+            "difficulty": "Easy",
+            "explanation": "Pattern: n(n+1). So 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42."
+          },
+          {
+            "id": "GA003",
+            "text": "In a class of 50 students, 30 play cricket, 25 play football, and 10 play both. How many play neither?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "7",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "10",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Logical Reasoning - Set Theory",
+            "difficulty": "Medium",
+            "explanation": "Using set theory: Total = Cricket only + Football only + Both + Neither. 50 = (30-10) + (25-10) + 10 + Neither. Neither = 5."
+          },
+          {
+            "id": "GA004",
+            "text": "Which word does NOT belong to the group: Temperature, Pressure, Density, Force?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Temperature",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Pressure",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Density",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Force",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Verbal Ability - Classification",
+            "difficulty": "Easy",
+            "explanation": "Force is a vector quantity while others are scalar quantities."
+          },
+          {
+            "id": "GA005",
+            "text": "The ratio of boys to girls in a class is 3:2. If there are 15 boys, how many girls are there?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "8",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "10",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "12",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "15",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Numerical Ability - Ratio",
+            "difficulty": "Easy",
+            "explanation": "Ratio 3:2 means for every 3 boys, there are 2 girls. 15 boys ÷ 3 = 5 sets. So girls = 5 × 2 = 10."
+          },
+          {
+            "id": "GA006",
+            "text": "If all chemists are scientists and some scientists are mathematicians, which statement is definitely true?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "All chemists are mathematicians",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Some chemists are mathematicians",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "No chemist is a mathematician",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "None of the above",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Logical Reasoning - Syllogism",
+            "difficulty": "Medium",
+            "explanation": "The relationship between chemists and mathematicians cannot be determined from the given statements."
+          },
+          {
+            "id": "GA007",
+            "text": "A train travels 60 km in 45 minutes. What is its speed in km/h?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "70",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "75",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "80",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "85",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Numerical Ability - Speed",
+            "difficulty": "Easy",
+            "explanation": "Speed = Distance/Time. 60 km / (45/60) hours = 60 × (60/45) = 80 km/h."
+          },
+          {
+            "id": "GA008",
+            "text": "Choose the word most similar in meaning to 'METICULOUS':",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Careless",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Precise",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Quick",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Lazy",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Synonyms",
+            "difficulty": "Easy",
+            "explanation": "Meticulous means very careful and precise."
+          },
+          {
+            "id": "GA009",
+            "text": "If P = 2Q and Q = 3R, what is the value of P when R = 5?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "20",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "25",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "30",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "35",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Numerical Ability - Algebra",
+            "difficulty": "Easy",
+            "explanation": "Q = 3R = 3×5 = 15. P = 2Q = 2×15 = 30."
+          },
+          {
+            "id": "GA010",
+            "text": "A pie chart shows: Research 40%, Teaching 30%, Admin 20%, Others 10%. If the total budget is ₹1 crore, how much is for Teaching?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "₹20 lakhs",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "₹30 lakhs",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "₹40 lakhs",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "₹50 lakhs",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Data Interpretation - Percentage",
+            "difficulty": "Easy",
+            "explanation": "Teaching = 30% of ₹1 crore = 0.30 × ₹100 lakhs = ₹30 lakhs."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Chemistry Assessment",
+        "description": "Comprehensive assessment of core chemistry subjects including Physical Chemistry, Organic Chemistry, Inorganic Chemistry, Analytical Chemistry, and related topics. This section carries 85% weight in the total assessment.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "CY001",
+            "text": "What is the ground state electronic configuration of Cr (Z=24)?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "[Ar] 3d⁴ 4s²",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "[Ar] 3d⁵ 4s¹",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "[Ar] 3d⁶",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "[Ar] 3d³ 4s³",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Atomic Structure - Electronic Configuration",
+            "difficulty": "Easy",
+            "explanation": "Chromium shows exceptional configuration due to half-filled d-orbital stability: [Ar] 3d⁵ 4s¹ instead of [Ar] 3d⁴ 4s²."
+          },
+          {
+            "id": "CY002",
+            "text": "Which of the following has the highest first ionization energy?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "N",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "O",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "F",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Ne",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Periodic Properties - Ionization Energy",
+            "difficulty": "Easy",
+            "explanation": "Noble gases have the highest ionization energies due to stable electronic configuration. Ne > F > N > O."
+          },
+          {
+            "id": "CY003",
+            "text": "Calculate the molarity of a solution containing 5.85g NaCl in 500 mL water (Molar mass NaCl = 58.5 g/mol):",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.1 M",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.2 M",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.5 M",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1.0 M",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Solutions - Molarity",
+            "difficulty": "Easy",
+            "explanation": "Moles = 5.85/58.5 = 0.1 mol. Volume = 500 mL = 0.5 L. Molarity = 0.1/0.5 = 0.2 M."
+          },
+          {
+            "id": "CY004",
+            "text": "For the reaction N₂ + 3H₂ ⇌ 2NH₃, if Kc = 0.5, what is Kp at 400K? (R = 0.082 L atm/mol K)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "4.92 × 10⁻⁴",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5.92 × 10⁻⁴",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6.92 × 10⁻⁴",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "7.92 × 10⁻⁴",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Chemical Equilibrium - Kp and Kc",
+            "difficulty": "Medium",
+            "explanation": "Kp = Kc(RT)^Δn. Δn = 2-4 = -2. Kp = 0.5 × (0.082 × 400)^(-2) = 4.92 × 10⁻⁴."
+          },
+          {
+            "id": "CY005",
+            "text": "Which molecule has zero dipole moment?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "H₂O",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "NH₃",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "CO₂",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "CH₃Cl",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Chemical Bonding - Dipole Moment",
+            "difficulty": "Easy",
+            "explanation": "CO₂ is linear and symmetrical, so bond dipoles cancel out resulting in zero net dipole moment."
+          },
+          {
+            "id": "CY006",
+            "text": "What is the hybridization of central atom in SF₆?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "sp³",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "sp³d",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "sp³d²",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "sp³d³",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Chemical Bonding - Hybridization",
+            "difficulty": "Easy",
+            "explanation": "SF₆ has 6 bond pairs and 0 lone pairs. Steric number = 6, hence sp³d² hybridization (octahedral geometry)."
+          },
+          {
+            "id": "CY007",
+            "text": "Calculate ΔH for the reaction: C + O₂ → CO₂, given ΔHf(CO₂) = -393.5 kJ/mol:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "-393.5 kJ/mol",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "+393.5 kJ/mol",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "-196.75 kJ/mol",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0 kJ/mol",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Thermodynamics - Enthalpy",
+            "difficulty": "Easy",
+            "explanation": "ΔH of reaction = Σ ΔHf(products) - Σ ΔHf(reactants) = -393.5 - 0 = -393.5 kJ/mol."
+          },
+          {
+            "id": "CY008",
+            "text": "For a first-order reaction, if the rate constant k = 0.693 min⁻¹, what is the half-life?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.5 min",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1.0 min",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1.5 min",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2.0 min",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Chemical Kinetics - Half-life",
+            "difficulty": "Easy",
+            "explanation": "For first-order: t₁/₂ = 0.693/k = 0.693/0.693 = 1.0 min."
+          },
+          {
+            "id": "CY009",
+            "text": "Which of the following is an ore of aluminum?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sphalerite",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Bauxite",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Galena",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Chalcopyrite",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Metallurgy - Ores",
+            "difficulty": "Easy",
+            "explanation": "Bauxite (Al₂O₃·2H₂O) is the primary ore of aluminum."
+          },
+          {
+            "id": "CY010",
+            "text": "Which reagent is used for the Clemmensen reduction?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Zn-Hg/HCl",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "LiAlH₄",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "NaBH₄",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "H₂/Pt",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Organic Chemistry - Reduction Reactions",
+            "difficulty": "Medium",
+            "explanation": "Clemmensen reduction uses Zn-Hg/HCl to reduce carbonyl groups to alkanes under acidic conditions."
+          },
+          {
+            "id": "CY011",
+            "text": "The pH of 0.01 M HCl solution is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Ionic Equilibrium - pH",
+            "difficulty": "Easy",
+            "explanation": "pH = -log[H⁺] = -log(0.01) = -log(10⁻²) = 2."
+          },
+          {
+            "id": "CY012",
+            "text": "Which has the highest boiling point?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "CH₄",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "C₂H₆",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "C₃H₈",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "C₄H₁₀",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "States of Matter - Boiling Point",
+            "difficulty": "Easy",
+            "explanation": "Boiling point increases with molecular mass due to stronger Van der Waals forces. C₄H₁₀ has highest MW."
+          },
+          {
+            "id": "CY013",
+            "text": "The oxidation state of Mn in KMnO₄ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "+5",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "+6",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "+7",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "+8",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Redox Reactions - Oxidation State",
+            "difficulty": "Easy",
+            "explanation": "K(+1) + Mn(x) + 4O(-2) = 0. 1 + x - 8 = 0. x = +7."
+          },
+          {
+            "id": "CY014",
+            "text": "Which quantum number determines the shape of an orbital?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Principal quantum number (n)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Azimuthal quantum number (l)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Magnetic quantum number (m)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Spin quantum number (s)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Atomic Structure - Quantum Numbers",
+            "difficulty": "Easy",
+            "explanation": "The azimuthal quantum number (l) determines the shape of the orbital (s, p, d, f)."
+          },
+          {
+            "id": "CY015",
+            "text": "For an ideal gas, which relationship is correct?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "PV = constant (at constant T)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "V/T = constant (at constant P)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "P/T = constant (at constant V)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "All of the above",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Gaseous State - Gas Laws",
+            "difficulty": "Easy",
+            "explanation": "All three are gas laws: Boyle's (A), Charles' (B), and Gay-Lussac's (C) law."
+          },
+          {
+            "id": "CY016",
+            "text": "The entropy change for an irreversible adiabatic process is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Zero",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Positive",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Negative",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Cannot be determined",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics - Entropy",
+            "difficulty": "Medium",
+            "explanation": "For irreversible processes, entropy of universe always increases (ΔS > 0)."
+          },
+          {
+            "id": "CY017",
+            "text": "Which has the maximum number of unpaired electrons?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Fe²⁺",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Fe³⁺",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Co²⁺",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Ni²⁺",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Coordination Chemistry - Electronic Configuration",
+            "difficulty": "Medium",
+            "explanation": "Fe³⁺: [Ar] 3d⁵ has 5 unpaired electrons (maximum). Fe²⁺: 4, Co²⁺: 3, Ni²⁺: 2."
+          },
+          {
+            "id": "CY018",
+            "text": "What is the IUPAC name of CH₃-CH(CH₃)-CH₂-OH?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1-methylpropan-1-ol",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2-methylpropan-1-ol",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Isobutanol",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2-methylpropan-3-ol",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Organic Nomenclature - IUPAC",
+            "difficulty": "Medium",
+            "explanation": "Main chain is 3 carbons with OH at C-1 and methyl at C-2: 2-methylpropan-1-ol."
+          },
+          {
+            "id": "CY019",
+            "text": "Lucas test is used to distinguish between:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Primary, secondary, and tertiary alcohols",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Aldehydes and ketones",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Alcohols and phenols",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Esters and ethers",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Organic Chemistry - Tests",
+            "difficulty": "Easy",
+            "explanation": "Lucas reagent (ZnCl₂/HCl) reacts fastest with tertiary, then secondary, slowest with primary alcohols."
+          },
+          {
+            "id": "CY020",
+            "text": "The number of stereoisomers of 2,3-dichlorobutane is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "3",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "4",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "6",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Stereochemistry - Stereoisomers",
+            "difficulty": "Medium",
+            "explanation": "2,3-dichlorobutane has 2 chiral centers. Total = 2² = 4, but one pair is meso, so 3 stereoisomers."
+          },
+          {
+            "id": "CY021",
+            "text": "Which of the following is not a colligative property?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Osmotic pressure",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Vapor pressure lowering",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Refractive index",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Boiling point elevation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Solutions - Colligative Properties",
+            "difficulty": "Easy",
+            "explanation": "Refractive index depends on the nature of solute, not just number of particles. Colligative properties depend only on the number of solute particles.",
+            "marks": 1
+          },
+          {
+            "id": "CY022",
+            "text": "The rate of a reaction becomes 4 times when temperature increases from 300K to 320K. The activation energy is approximately:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "26.5 kJ/mol",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "52.9 kJ/mol",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "105.8 kJ/mol",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "211.6 kJ/mol",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Chemical Kinetics - Arrhenius Equation",
+            "difficulty": "Hard",
+            "explanation": "Using Arrhenius equation: ln(k₂/k₁) = (Ea/R)(1/T₁ - 1/T₂). ln(4) = (Ea/8.314)(1/300 - 1/320). Ea ≈ 52.9 kJ/mol.",
+            "marks": 2
+          },
+          {
+            "id": "CY023",
+            "text": "In the extraction of copper from copper pyrites, the extraction involves:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Calcination → Roasting → Smelting → Refining",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Roasting → Smelting → Bessemerisation → Refining",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Smelting → Roasting → Refining",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Roasting → Calcination → Smelting",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Metallurgy - Copper Extraction",
+            "difficulty": "Medium",
+            "explanation": "Copper pyrites (CuFeS₂) extraction: Roasting → Smelting → Bessemerisation → Electrolytic refining.",
+            "marks": 2
+          },
+          {
+            "id": "CY024",
+            "text": "Which of the following is strongest acid?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "HClO",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "HClO₂",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "HClO₃",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "HClO₄",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Inorganic Chemistry - Oxyacids",
+            "difficulty": "Easy",
+            "explanation": "Acidity of oxyacids increases with number of oxygen atoms. HClO₄ > HClO₃ > HClO₂ > HClO.",
+            "marks": 1
+          },
+          {
+            "id": "CY025",
+            "text": "Bakelite is a polymer of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Phenol and formaldehyde",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Urea and formaldehyde",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Ethylene glycol and terephthalic acid",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Styrene",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Polymers - Condensation Polymers",
+            "difficulty": "Easy",
+            "explanation": "Bakelite is a thermosetting polymer formed by condensation of phenol and formaldehyde.",
+            "marks": 1
+          },
+          {
+            "id": "CY026",
+            "text": "The coordination number of Fe in K₃[Fe(CN)₆] is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "8",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Coordination Chemistry - Coordination Number",
+            "difficulty": "Easy",
+            "explanation": "In K₃[Fe(CN)₆], Fe is surrounded by 6 CN⁻ ligands, so coordination number is 6.",
+            "marks": 1
+          },
+          {
+            "id": "CY027",
+            "text": "The number of π bonds in benzene is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "6",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "9",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "12",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Organic Chemistry - Aromatic Compounds",
+            "difficulty": "Easy",
+            "explanation": "Benzene has 3 π bonds (delocalized) formed by overlap of p-orbitals in the ring.",
+            "marks": 1
+          },
+          {
+            "id": "CY028",
+            "text": "The unit of rate constant for a second-order reaction is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "mol L⁻¹ s⁻¹",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "s⁻¹",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "L mol⁻¹ s⁻¹",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "mol² L⁻² s⁻¹",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Chemical Kinetics - Rate Constant Units",
+            "difficulty": "Easy",
+            "explanation": "For second-order: rate = k[A]². Units: mol L⁻¹ s⁻¹ = k × (mol L⁻¹)². Therefore k = L mol⁻¹ s⁻¹.",
+            "marks": 1
+          },
+          {
+            "id": "CY029",
+            "text": "Which of the following is a Lewis acid?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "NH₃",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "BF₃",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "H₂O",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "OH⁻",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Acid-Base Chemistry - Lewis Theory",
+            "difficulty": "Easy",
+            "explanation": "Lewis acid accepts electron pairs. BF₃ has incomplete octet and can accept electron pairs.",
+            "marks": 1
+          },
+          {
+            "id": "CY030",
+            "text": "The number of isomers possible for C₄H₁₀ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Organic Chemistry - Isomerism",
+            "difficulty": "Easy",
+            "explanation": "C₄H₁₀ has 2 isomers: n-butane and isobutane (2-methylpropane).",
+            "marks": 1
+          },
+          {
+            "id": "CY031",
+            "text": "The pH of a buffer solution containing 0.1 M CH₃COOH and 0.1 M CH₃COONa is: (Ka = 1.8 × 10⁻⁵)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "4.74",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5.74",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6.74",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "7.74",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Ionic Equilibrium - Buffer Solutions",
+            "difficulty": "Medium",
+            "explanation": "For buffer: pH = pKa + log([salt]/[acid]) = -log(1.8×10⁻⁵) + log(0.1/0.1) = 4.74 + 0 = 4.74.",
+            "marks": 2
+          },
+          {
+            "id": "CY032",
+            "text": "The hybridization of carbon in C₂H₂ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "sp",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "sp²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "sp³",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "sp³d",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Chemical Bonding - Hybridization",
+            "difficulty": "Easy",
+            "explanation": "C₂H₂ (acetylene) has linear geometry with sp hybridization (2 σ bonds, 2 π bonds).",
+            "marks": 1
+          },
+          {
+            "id": "CY033",
+            "text": "The number of moles of electrons required to reduce 1 mole of Cr₂O₇²⁻ to Cr³⁺ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "6",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "9",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "12",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Redox Reactions - Electron Transfer",
+            "difficulty": "Medium",
+            "explanation": "Cr₂O₇²⁻ → 2Cr³⁺. Each Cr changes from +6 to +3 (3 electrons each). Total: 2 × 3 = 6 electrons.",
+            "marks": 2
+          },
+          {
+            "id": "CY034",
+            "text": "Which of the following is a reducing agent?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "KMnO₄",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "K₂Cr₂O₇",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "H₂O₂",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Na₂S₂O₃",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Redox Reactions - Reducing Agents",
+            "difficulty": "Easy",
+            "explanation": "Na₂S₂O₃ (sodium thiosulfate) is a common reducing agent. Others are oxidizing agents.",
+            "marks": 1
+          },
+          {
+            "id": "CY035",
+            "text": "The number of σ bonds in ethene (C₂H₄) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "4",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "7",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Chemical Bonding - Sigma Bonds",
+            "difficulty": "Easy",
+            "explanation": "C₂H₄ has: 4 C-H σ bonds + 1 C-C σ bond = 5 σ bonds total.",
+            "marks": 1
+          },
+          {
+            "id": "CY036",
+            "text": "The order of reaction with respect to A in the rate equation: rate = k[A]²[B] is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Chemical Kinetics - Order of Reaction",
+            "difficulty": "Easy",
+            "explanation": "The order with respect to A is the exponent of [A] in the rate equation, which is 2.",
+            "marks": 1
+          },
+          {
+            "id": "CY037",
+            "text": "Which of the following has the highest melting point?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "NaCl",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "KCl",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "CaCl₂",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "MgCl₂",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Solid State - Ionic Compounds",
+            "difficulty": "Easy",
+            "explanation": "Melting point increases with charge and decreases with size. Mg²⁺ has highest charge/size ratio.",
+            "marks": 1
+          },
+          {
+            "id": "CY038",
+            "text": "The number of lone pairs on oxygen in H₂O is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Chemical Bonding - VSEPR Theory",
+            "difficulty": "Easy",
+            "explanation": "Oxygen in H₂O has 6 valence electrons, 2 used in bonds, leaving 4 electrons (2 lone pairs).",
+            "marks": 1
+          },
+          {
+            "id": "CY039",
+            "text": "The standard electrode potential of hydrogen electrode is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.00 V",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1.00 V",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2.00 V",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "3.00 V",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electrochemistry - Standard Electrode Potential",
+            "difficulty": "Easy",
+            "explanation": "Standard hydrogen electrode (SHE) is assigned 0.00 V by convention as the reference electrode.",
+            "marks": 1
+          },
+          {
+            "id": "CY040",
+            "text": "The number of π electrons in benzene is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "12",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Organic Chemistry - Aromaticity",
+            "difficulty": "Easy",
+            "explanation": "Benzene has 6 π electrons (4n+2 rule, n=1), which makes it aromatic.",
+            "marks": 1
+          },
+          {
+            "id": "CY041",
+            "text": "Which of the following is a nucleophile?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "BF₃",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "AlCl₃",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "NH₃",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "H⁺",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Organic Chemistry - Nucleophiles",
+            "difficulty": "Easy",
+            "explanation": "Nucleophiles are electron-rich species that donate electron pairs. NH₃ has lone pair on nitrogen.",
+            "marks": 1
+          },
+          {
+            "id": "CY042",
+            "text": "The number of stereocenters in glucose is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "3",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "4",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Stereochemistry - Chiral Centers",
+            "difficulty": "Medium",
+            "explanation": "Glucose has 4 stereocenters (chiral carbons) at positions 2, 3, 4, and 5.",
+            "marks": 2
+          },
+          {
+            "id": "CY043",
+            "text": "The rate of reaction increases with temperature because:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "More molecules have sufficient energy to overcome activation barrier",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Activation energy decreases",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Concentration increases",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Equilibrium constant increases",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Chemical Kinetics - Temperature Effect",
+            "difficulty": "Easy",
+            "explanation": "Higher temperature increases the fraction of molecules with energy ≥ Ea, increasing reaction rate.",
+            "marks": 1
+          },
+          {
+            "id": "CY044",
+            "text": "The coordination number of platinum in [Pt(NH₃)₄]²⁺ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "8",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Coordination Chemistry - Coordination Number",
+            "difficulty": "Easy",
+            "explanation": "In [Pt(NH₃)₄]²⁺, platinum is surrounded by 4 NH₃ ligands, so coordination number is 4.",
+            "marks": 1
+          },
+          {
+            "id": "CY045",
+            "text": "Which of the following is an example of addition polymer?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Nylon",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Polyester",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Polyethylene",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Bakelite",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Polymers - Addition vs Condensation",
+            "difficulty": "Easy",
+            "explanation": "Polyethylene is formed by addition polymerization of ethylene. Others are condensation polymers.",
+            "marks": 1
+          },
+          {
+            "id": "CY046",
+            "text": "The number of nodes in a 3p orbital is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "3",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Atomic Structure - Quantum Mechanics",
+            "difficulty": "Medium",
+            "explanation": "For 3p orbital: n=3, l=1. Number of nodes = n-l-1 = 3-1-1 = 1 radial node + 1 angular node = 2 total.",
+            "marks": 2
+          },
+          {
+            "id": "CY047",
+            "text": "The oxidation state of sulfur in H₂SO₄ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "+4",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "+6",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "+8",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "-2",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Redox Reactions - Oxidation State",
+            "difficulty": "Easy",
+            "explanation": "In H₂SO₄: 2(+1) + S(x) + 4(-2) = 0. 2 + x - 8 = 0. x = +6.",
+            "marks": 1
+          },
+          {
+            "id": "CY048",
+            "text": "Which of the following is a strong electrolyte?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "CH₃COOH",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "NH₄OH",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "HCl",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "H₂CO₃",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Ionic Equilibrium - Electrolytes",
+            "difficulty": "Easy",
+            "explanation": "HCl is a strong acid that completely ionizes in water. Others are weak electrolytes.",
+            "marks": 1
+          },
+          {
+            "id": "CY049",
+            "text": "The number of isomers possible for C₃H₈ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Organic Chemistry - Isomerism",
+            "difficulty": "Easy",
+            "explanation": "C₃H₈ (propane) has only one possible structure - no structural isomers exist.",
+            "marks": 1
+          },
+          {
+            "id": "CY050",
+            "text": "The hybridization of nitrogen in NH₃ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "sp",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "sp²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "sp³",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "sp³d",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Chemical Bonding - Hybridization",
+            "difficulty": "Easy",
+            "explanation": "NH₃ has 3 bond pairs + 1 lone pair = 4 electron pairs, hence sp³ hybridization (tetrahedral geometry).",
+            "marks": 1
+          },
+          {
+            "id": "CY051",
+            "text": "The number of moles of KMnO₄ required to oxidize 1 mole of Fe²⁺ to Fe³⁺ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.5",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1.0",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2.0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Redox Reactions - Stoichiometry",
+            "difficulty": "Medium",
+            "explanation": "MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O. 1 mole KMnO₄ oxidizes 5 moles Fe²⁺, so 1 mole Fe²⁺ needs 0.2 moles KMnO₄.",
+            "marks": 2
+          },
+          {
+            "id": "CY052",
+            "text": "Which of the following has the highest bond energy?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "H-H",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "F-F",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Cl-Cl",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Br-Br",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Chemical Bonding - Bond Energy",
+            "difficulty": "Easy",
+            "explanation": "H-H has the highest bond energy (436 kJ/mol). Bond energy decreases down the group: H-H > F-F > Cl-Cl > Br-Br.",
+            "marks": 1
+          },
+          {
+            "id": "CY053",
+            "text": "The number of π bonds in acetylene (C₂H₂) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Chemical Bonding - Pi Bonds",
+            "difficulty": "Easy",
+            "explanation": "C₂H₂ has a triple bond: 1 σ bond + 2 π bonds between the carbon atoms.",
+            "marks": 1
+          },
+          {
+            "id": "CY054",
+            "text": "The coordination number of central atom in [Co(NH₃)₆]³⁺ is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "8",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Coordination Chemistry - Coordination Number",
+            "difficulty": "Easy",
+            "explanation": "In [Co(NH₃)₆]³⁺, cobalt is surrounded by 6 NH₃ ligands, so coordination number is 6.",
+            "marks": 1
+          },
+          {
+            "id": "CY055",
+            "text": "Which of the following is an example of electrophilic substitution?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Addition of H₂ to alkene",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Nitration of benzene",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Hydrolysis of ester",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Oxidation of alcohol",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Organic Chemistry - Reaction Mechanisms",
+            "difficulty": "Easy",
+            "explanation": "Nitration of benzene involves electrophilic substitution where NO₂⁺ acts as electrophile. Others are different reaction types.",
+            "marks": 1
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "Results & Analysis",
+        "description": "Comprehensive analysis of your performance across all sections with detailed insights and recommendations.",
+        "timeLimit": 0,
+        "questions": [],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      }
+    }
+  }

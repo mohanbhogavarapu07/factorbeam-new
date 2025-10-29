@@ -1,0 +1,2166 @@
+{
+    "id": "petroleum",
+    "title": "Petroleum Engineering (PE)",
+    "description": "Comprehensive GATE Petroleum Engineering assessment covering General Aptitude and Core Petroleum Engineering subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core petroleum engineering questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Easy",
+    "tags": ["GATE", "Petroleum Engineering", "Engineering", "Aptitude", "Core Subjects"],
+    "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Petroleum Engineering is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in petroleum engineering and related fields. This assessment follows the official GATE pattern with General Aptitude and Core Petroleum Engineering questions.",
+    "typicalCareers": [
+      {
+        "title": "Petroleum Engineer",
+        "description": "Advanced petroleum engineering positions in oil and gas industry"
+      },
+      {
+        "title": "PhD Candidate",
+        "description": "Pursue higher studies in petroleum engineering and related fields"
+      },
+      {
+        "title": "Reservoir Engineer",
+        "description": "Senior technical roles in reservoir management and optimization"
+      }
+    ],
+    "whoShouldConsider": [
+      "Petroleum Engineering graduates preparing for GATE",
+      "Students seeking admission to M.Tech/M.E programs in petroleum engineering",
+      "Professionals looking for PSU jobs in petroleum sector",
+      "Researchers in petroleum engineering and related fields"
+    ],
+    "idealTraits": [
+      "Strong analytical and problem-solving skills",
+      "Solid foundation in petroleum engineering fundamentals",
+      "Mathematical aptitude and logical reasoning",
+      "Good understanding of reservoir mechanics and drilling operations"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude Assessment (10 questions, 15 marks)",
+        "Core Petroleum Engineering Assessment (55 questions, 85 marks)"
+      ],
+      "resultsInclude": [
+        "Section-wise scores (Aptitude & Core)",
+        "Topic-wise performance analysis",
+        "Difficulty-wise accuracy",
+        "Overall percentile ranking",
+        "Detailed explanations for all questions"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment",
+        "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "If the ratio of boys to girls in a class is 3:2 and there are 15 boys, how many girls are there?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "8",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "10",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "12",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "15",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Numerical Ability - Ratio",
+            "difficulty": "Easy",
+            "explanation": "If ratio is 3:2, then boys/girls = 3/2. Given boys = 15, so 15/girls = 3/2, girls = (15 × 2)/3 = 10."
+          },
+          {
+            "id": "GA002",
+            "text": "Choose the word that is most similar in meaning to \"ABUNDANT\".",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Scarce",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Plentiful",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Rare",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Limited",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Synonyms",
+            "difficulty": "Easy",
+            "explanation": "Abundant means existing in large quantities; plentiful is the closest synonym."
+          },
+          {
+            "id": "GA003",
+            "text": "If all roses are flowers and some flowers fade quickly, which statement must be true?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "All roses fade quickly",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Some roses may fade quickly",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "No roses fade quickly",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "All flowers are roses",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Logical Reasoning - Syllogism",
+            "difficulty": "Medium",
+            "explanation": "Since all roses are flowers and some flowers fade quickly, it is possible that some roses are among those flowers that fade quickly."
+          },
+          {
+            "id": "GA004",
+            "text": "A train travels 120 km in 2 hours. What is its average speed in m/s?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "16.67 m/s",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "20 m/s",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "33.33 m/s",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "60 m/s",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Numerical Ability - Speed",
+            "difficulty": "Easy",
+            "explanation": "Speed = 120 km / 2 hrs = 60 km/hr. Converting to m/s: 60 × 1000 / 3600 = 16.67 m/s."
+          },
+          {
+            "id": "GA005",
+            "text": "Complete the series: 2, 6, 12, 20, 30, ?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "38",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "40",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "42",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "44",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Numerical Ability - Series",
+            "difficulty": "Easy",
+            "explanation": "Pattern: +4, +6, +8, +10, +12. So 30 + 12 = 42."
+          },
+          {
+            "id": "GA006",
+            "text": "Identify the grammatically correct sentence.",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Neither of the students have completed their homework",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Neither of the students has completed their homework",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Neither of the students have completed his homework",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Neither of the student has completed their homework",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Grammar",
+            "difficulty": "Easy",
+            "explanation": "\"Neither\" is singular and takes \"has\". \"Their\" is acceptable for gender-neutral reference."
+          },
+          {
+            "id": "GA007",
+            "text": "If A is taller than B, and B is taller than C, which statement is definitely true?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "C is the shortest",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "A is taller than C",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "B is the tallest",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "All are equally tall",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Logical Reasoning - Transitivity",
+            "difficulty": "Easy",
+            "explanation": "By transitive property: A > B and B > C, therefore A > C."
+          },
+          {
+            "id": "GA008",
+            "text": "What is 25% of 80?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "15",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "20",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "25",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "30",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Numerical Ability - Percentage",
+            "difficulty": "Easy",
+            "explanation": "25% of 80 = (25/100) × 80 = 20."
+          },
+          {
+            "id": "GA009",
+            "text": "Choose the word opposite in meaning to \"EXPAND\".",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Enlarge",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Contract",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Grow",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Extend",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Antonyms",
+            "difficulty": "Easy",
+            "explanation": "Expand means to increase in size; contract means to decrease in size."
+          },
+          {
+            "id": "GA010",
+            "text": "A man buys an item for ₹50 and sells it for ₹60. What is his profit percentage?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "10%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "15%",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "20%",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "25%",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Numerical Ability - Profit and Loss",
+            "difficulty": "Easy",
+            "explanation": "Profit = 60 - 50 = 10. Profit % = (10/50) × 100 = 20%."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Petroleum Engineering Assessment",
+        "description": "Comprehensive assessment of core petroleum engineering subjects including Reservoir Engineering, Drilling Engineering, Production Engineering, Petroleum Geology, and related topics. This section carries 85% weight in the total assessment.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "PE001",
+            "text": "What is the primary component of natural gas?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Propane",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Methane",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Butane",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Ethane",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Petroleum Geology - Natural Gas",
+            "difficulty": "Easy",
+            "explanation": "Methane (CH₄) is the primary component of natural gas, typically comprising 70-90% of its composition."
+          },
+          {
+            "id": "PE002",
+            "text": "The SI unit of permeability is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Darcy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "m²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Pascal",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "kg/m³",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Reservoir Engineering - Permeability",
+            "difficulty": "Easy",
+            "explanation": "In SI units, permeability is measured in m². The commonly used unit in petroleum engineering is Darcy (1 Darcy ≈ 9.87 × 10⁻¹³ m²)."
+          },
+          {
+            "id": "PE003",
+            "text": "Which type of trap is formed by folding of rock layers?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Stratigraphic trap",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Anticlinal trap",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Fault trap",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Salt dome trap",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Petroleum Geology - Traps",
+            "difficulty": "Easy",
+            "explanation": "Anticlinal traps are structural traps formed by upward folding of rock layers into an arch shape."
+          },
+          {
+            "id": "PE004",
+            "text": "What does API gravity measure?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Viscosity of crude oil",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Density of crude oil relative to water",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Temperature of crude oil",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Pressure of crude oil",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Petroleum Properties - API Gravity",
+            "difficulty": "Easy",
+            "explanation": "API (American Petroleum Institute) gravity is an inverse measure of petroleum liquid density relative to water. Higher API gravity indicates lighter (less dense) crude oil."
+          },
+          {
+            "id": "PE005",
+            "text": "In a reservoir, porosity is defined as:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The ability of rock to transmit fluids",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The ratio of pore volume to bulk volume",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The pressure gradient in the formation",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The temperature of the reservoir",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Reservoir Engineering - Porosity",
+            "difficulty": "Easy",
+            "explanation": "Porosity (φ) is the ratio of pore volume to total bulk volume of the rock, expressed as a fraction or percentage."
+          },
+          {
+            "id": "PE006",
+            "text": "Which drilling fluid property helps in carrying cuttings to surface?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Density",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Viscosity",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "pH",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Electrical conductivity",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Drilling Engineering - Drilling Fluids",
+            "difficulty": "Easy",
+            "explanation": "Viscosity provides the carrying capacity for drill cuttings. Higher viscosity helps suspend and transport cuttings to the surface."
+          },
+          {
+            "id": "PE007",
+            "text": "The bubble point pressure is the pressure at which:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "First bubble of gas appears in liquid",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Last bubble of gas disappears",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Oil and water separate",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Maximum gas production occurs",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Reservoir Engineering - Phase Behavior",
+            "difficulty": "Easy",
+            "explanation": "Bubble point pressure is the pressure at which the first gas bubble appears as pressure decreases in an initially undersaturated oil."
+          },
+          {
+            "id": "PE008",
+            "text": "What is the typical range of oil well drilling depths?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "10-100 meters",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "100-500 meters",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "500-7000 meters",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "10000-20000 meters",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Drilling Engineering - Well Depths",
+            "difficulty": "Easy",
+            "explanation": "Most oil wells are drilled to depths between 500 and 7000 meters, though some ultra-deep wells exceed 10,000 meters."
+          },
+          {
+            "id": "PE009",
+            "text": "Which recovery mechanism involves injecting water into the reservoir?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Primary recovery",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Gas cap drive",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Waterflooding",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Solution gas drive",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Production Engineering - Recovery Methods",
+            "difficulty": "Easy",
+            "explanation": "Waterflooding is a secondary recovery method where water is injected to maintain pressure and displace oil toward production wells."
+          },
+          {
+            "id": "PE010",
+            "text": "The formation volume factor relates:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Surface volume to reservoir volume",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reservoir volume to surface volume",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Pressure to volume",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Temperature to density",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Reservoir Engineering - Formation Volume Factor",
+            "difficulty": "Medium",
+            "explanation": "Formation volume factor (Bo, Bg) is the ratio of volume occupied by oil or gas at reservoir conditions to the volume at standard surface conditions."
+          },
+          {
+            "id": "PE011",
+            "text": "In rotary drilling, the kelly is used to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Circulate mud",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Transmit rotary motion to drill string",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Control well pressure",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Measure depth",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Drilling Engineering - Rotary Drilling",
+            "difficulty": "Easy",
+            "explanation": "The kelly is a square or hexagonal pipe that transmits rotary motion from the rotary table to the drill string."
+          },
+          {
+            "id": "PE012",
+            "text": "What is the main purpose of well cementing?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increase production rate",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Provide zonal isolation",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Reduce drilling time",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Cool the drill bit",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Drilling Engineering - Well Cementing",
+            "difficulty": "Easy",
+            "explanation": "Primary cementing provides zonal isolation by sealing the annulus between casing and formation, preventing fluid migration."
+          },
+          {
+            "id": "PE013",
+            "text": "The bottom hole pressure in a flowing well is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Always equal to reservoir pressure",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Less than reservoir pressure",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Greater than reservoir pressure",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Independent of production rate",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Production Engineering - Well Performance",
+            "difficulty": "Medium",
+            "explanation": "During production, bottom hole flowing pressure is less than reservoir pressure due to pressure drop required to flow fluids from reservoir to wellbore."
+          },
+          {
+            "id": "PE014",
+            "text": "Reservoir simulation is primarily used for:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Drilling optimization",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Predicting future reservoir performance",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Mud property analysis",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Seismic interpretation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Reservoir Engineering - Simulation",
+            "difficulty": "Easy",
+            "explanation": "Reservoir simulation models fluid flow in porous media to predict future production performance and optimize recovery strategies."
+          },
+          {
+            "id": "PE015",
+            "text": "Enhanced oil recovery (EOR) methods are applied during:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Primary recovery",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Secondary recovery",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Tertiary recovery",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Exploratory phase",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Production Engineering - EOR",
+            "difficulty": "Easy",
+            "explanation": "EOR methods are tertiary recovery techniques applied after primary and secondary methods to recover additional oil."
+          },
+          {
+            "id": "PE016",
+            "text": "Sample question 16 for Drilling Fluids?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Drilling Fluids",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 16. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE017",
+            "text": "Sample question 17 for Well Testing?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Well Testing",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 17. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE018",
+            "text": "Sample question 18 for Reservoir Characterization?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Reservoir Characterization",
+            "difficulty": "Medium",
+            "explanation": "This is a sample explanation for question 18. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE019",
+            "text": "Sample question 19 for Production Optimization?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Production Optimization",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 19. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE020",
+            "text": "Sample question 20 for Formation Evaluation?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Formation Evaluation",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 20. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE021",
+            "text": "Sample question 21 for Well Completion?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Well Completion",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 21. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE022",
+            "text": "Sample question 22 for Artificial Lift?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Artificial Lift",
+            "difficulty": "Medium",
+            "explanation": "This is a sample explanation for question 22. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE023",
+            "text": "Sample question 23 for Petrophysics?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Petrophysics",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 23. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE024",
+            "text": "Sample question 24 for Fluid Mechanics?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 24. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE025",
+            "text": "Sample question 25 for Thermodynamics?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 25. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE026",
+            "text": "Sample question 26 for Drilling Fluids?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Drilling Fluids",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 26. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE027",
+            "text": "Sample question 27 for Well Testing?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Well Testing",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 27. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE028",
+            "text": "Sample question 28 for Reservoir Characterization?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Reservoir Characterization",
+            "difficulty": "Medium",
+            "explanation": "This is a sample explanation for question 28. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE029",
+            "text": "Sample question 29 for Production Optimization?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Production Optimization",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 29. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE030",
+            "text": "Sample question 30 for Formation Evaluation?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Formation Evaluation",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 30. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE031",
+            "text": "Sample question 31 for Well Completion?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Well Completion",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 31. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE032",
+            "text": "Sample question 32 for Artificial Lift?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Artificial Lift",
+            "difficulty": "Medium",
+            "explanation": "This is a sample explanation for question 32. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE033",
+            "text": "Sample question 33 for Petrophysics?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Petrophysics",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 33. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE034",
+            "text": "Sample question 34 for Fluid Mechanics?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 34. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE035",
+            "text": "Sample question 35 for Thermodynamics?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Thermodynamics",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 35. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE036",
+            "text": "Sample question 36 for Drilling Fluids?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Drilling Fluids",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 36. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE037",
+            "text": "Sample question 37 for Well Testing?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Well Testing",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 37. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE038",
+            "text": "Sample question 38 for Reservoir Characterization?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Reservoir Characterization",
+            "difficulty": "Medium",
+            "explanation": "This is a sample explanation for question 38. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE039",
+            "text": "Sample question 39 for Production Optimization?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Production Optimization",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 39. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE040",
+            "text": "Sample question 40 for Formation Evaluation?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Formation Evaluation",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 40. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE041",
+            "text": "Sample question 41 for Well Completion?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Well Completion",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 41. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE042",
+            "text": "Sample question 42 for Artificial Lift?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Artificial Lift",
+            "difficulty": "Medium",
+            "explanation": "This is a sample explanation for question 42. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE043",
+            "text": "Sample question 43 for Petrophysics?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Petrophysics",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 43. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE044",
+            "text": "Sample question 44 for Fluid Mechanics?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 44. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE045",
+            "text": "Sample question 45 for Thermodynamics?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 45. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE046",
+            "text": "Sample question 46 for Drilling Fluids?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Drilling Fluids",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 46. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE047",
+            "text": "Sample question 47 for Well Testing?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Well Testing",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 47. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE048",
+            "text": "Sample question 48 for Reservoir Characterization?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Reservoir Characterization",
+            "difficulty": "Medium",
+            "explanation": "This is a sample explanation for question 48. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE049",
+            "text": "Sample question 49 for Production Optimization?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Production Optimization",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 49. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE050",
+            "text": "Sample question 50 for Formation Evaluation?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Formation Evaluation",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 50. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE051",
+            "text": "Sample question 51 for Well Completion?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Well Completion",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 51. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE052",
+            "text": "Sample question 52 for Artificial Lift?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Artificial Lift",
+            "difficulty": "Medium",
+            "explanation": "This is a sample explanation for question 52. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE053",
+            "text": "Sample question 53 for Petrophysics?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Petrophysics",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 53. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE054",
+            "text": "Sample question 54 for Fluid Mechanics?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Fluid Mechanics",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 54. In a real exam, this would contain detailed solution steps, formulas, and references."
+          },
+          {
+            "id": "PE055",
+            "text": "Sample question 55 for Thermodynamics?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Option A",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Option B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Option C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Option D",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Thermodynamics",
+            "difficulty": "Easy",
+            "explanation": "This is a sample explanation for question 55. In a real exam, this would contain detailed solution steps, formulas, and references."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "GATE Petroleum Engineering Assessment Results",
+        "description": "Your comprehensive GATE Petroleum Engineering assessment results with detailed analysis and recommendations for improvement.",
+        "questions": []
+      }
+    }
+  }

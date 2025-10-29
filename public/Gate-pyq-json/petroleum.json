@@ -1,0 +1,2335 @@
+{
+    "id": "petroleum-pyq",
+    "title": "Petroleum Engineering PYQ (PE)",
+    "description": "Comprehensive GATE Petroleum Engineering assessment covering all core subjects with 10 General Aptitude and 55 Core Petroleum Engineering questions.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty":"Moderate",
+    "isActive": true,
+    "featured": true,
+    "metadata": {
+      "icon": "🛢️",
+      "gradient": "from-orange-500 to-red-600",
+      "userCount": 1250,
+      "tags": ["GATE", "Petroleum Engineering", "PE", "Reservoir", "Drilling", "Production", "PYQ"]
+    },
+    "whatIsDescription": "The GATE Petroleum Engineering assessment evaluates your understanding of petroleum engineering fundamentals, reservoir engineering, drilling operations, production systems, and enhanced oil recovery techniques. This comprehensive exam tests both theoretical knowledge and practical problem-solving skills essential for petroleum engineering careers.",
+    "typicalCareers": [
+      {
+        "title": "Reservoir Engineer",
+        "description": "Analyze and model reservoir behavior to optimize oil and gas recovery"
+      },
+      {
+        "title": "Drilling Engineer",
+        "description": "Design and oversee drilling operations for oil and gas wells"
+      },
+      {
+        "title": "Production Engineer",
+        "description": "Optimize production operations and manage well performance"
+      },
+      {
+        "title": "Petroleum Geologist",
+        "description": "Study geological formations to locate and evaluate hydrocarbon deposits"
+      },
+      {
+        "title": "Well Testing Engineer",
+        "description": "Conduct and analyze well tests to determine reservoir properties"
+      },
+      {
+        "title": "Enhanced Oil Recovery Specialist",
+        "description": "Develop and implement EOR techniques to increase oil recovery"
+      },
+      {
+        "title": "Petroleum Consultant",
+        "description": "Provide expert advice on petroleum engineering projects and operations"
+      },
+      {
+        "title": "Oil & Gas Operations Manager",
+        "description": "Oversee and manage oil and gas field operations"
+      }
+    ],
+    "whoShouldConsider": [
+      "Petroleum Engineering graduates",
+      "Chemical Engineering students with oil & gas interest",
+      "Mechanical Engineering graduates pursuing energy sector",
+      "Geology graduates interested in petroleum",
+      "Working professionals in oil & gas industry",
+      "Students preparing for GATE PE exam",
+      "Researchers in petroleum technology"
+    ],
+    "idealTraits": [
+      "Strong analytical and problem-solving skills",
+      "Understanding of fluid mechanics and thermodynamics",
+      "Knowledge of geology and earth sciences",
+      "Mathematical proficiency",
+      "Interest in energy and natural resources",
+      "Ability to work with complex technical systems",
+      "Good communication and teamwork skills"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "Engineering Mathematics",
+        "Reservoir Engineering", 
+        "Drilling Engineering",
+        "Production Engineering",
+        "Well Testing",
+        "Enhanced Oil Recovery (EOR)",
+        "PVT Analysis",
+        "Petroleum Economics"
+      ],
+      "resultsInclude": [
+        "Detailed performance analysis by subject area",
+        "Strength and improvement recommendations",
+        "Career guidance based on performance",
+        "Study plan for GATE preparation",
+        "Comparison with industry standards"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment (GA)",
+        "description": "10 Questions, 15 Marks. Verbal Ability, Quantitative Aptitude, and Analytical Reasoning.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "The price of an item is increased by 10% and then decreased by 10%. The net change in price is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0%",
+                "value": "A"
+              },
+              {
+                "id": "B", 
+                "text": "1% decrease",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1% increase", 
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.1% decrease",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Percentage",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "Let the original price be P. Increase by 10%: P(1.1). Decrease by 10%: P(1.1)(0.9) = P(0.99). The net change is a 1% decrease."
+          },
+          {
+            "id": "GA002",
+            "text": "The ratio of the speed of a boat in still water to the speed of the current is 5:1. If the boat travels a certain distance downstream in 3 hours, what is the time taken to travel the same distance upstream?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "4 hours",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5 hours",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6 hours",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "7.5 hours",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Time & Distance",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Let speed of boat be 5x and current be x. Downstream speed = 6x. Upstream speed = 4x. Distance D = 6x × 3 = 18x. Upstream time T = D / 4x = 18x / 4x = 4.5 hours."
+          },
+          {
+            "id": "GA003",
+            "text": "Choose the most appropriate word from the options given below to complete the following sentence: The candidate's statement was a ___ of truth.",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "deprivation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "dearth",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "travesty",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "recapitulation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Verbal Ability - Vocabulary",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "A 'travesty of truth' means a grotesque misrepresentation or distortion of the truth. 'Dearth' means scarcity, which does not fit the context."
+          },
+          {
+            "id": "GA004",
+            "text": "Find the next term in the series: 3, 7, 13, 21, 31, ...",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "41",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "43",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "45",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "47",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analytical Reasoning - Number Series",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "The differences between consecutive terms are 4, 6, 8, 10. The next difference should be 12. Thus, 31 + 12 = 43."
+          },
+          {
+            "id": "GA005",
+            "text": "If f(x) = |x-2| + |x-5|, the minimum value of f(x) is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Quantitative Aptitude - Calculus/Functions",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "The function f(x) represents the sum of distances from x to 2 and x to 5. The minimum value occurs for x between 2 and 5, where f(x) = (x-2) + (5-x) = 3."
+          },
+          {
+            "id": "GA006",
+            "text": "A clock shows 4:30. What is the angle between the hour and minute hands?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "30 degrees",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "45 degrees",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "60 degrees",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "90 degrees",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Clocks/Geometry",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 90,
+            "explanation": "Angle θ = |30H - (11/2)M|. θ = |30(4) - (11/2)(30)| = |120 - 165| = 45 degrees."
+          },
+          {
+            "id": "GA007",
+            "text": "The synonym for 'Mellifluous' is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Discordant",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Harmonious",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Cacophonous",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Raucous",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Vocabulary (Synonyms)",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "'Mellifluous' means a sound that is sweet and musical; pleasant to hear. 'Harmonious' is the closest synonym."
+          },
+          {
+            "id": "GA008",
+            "text": "In a group, 70% of the students speak English and 50% speak Hindi. If 40 students speak both, what is the total number of students in the group?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "150",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "200",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "400",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4000",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Set Theory",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Percentage speaking both = (70% + 50%) - 100% = 20%. If 20% of total X is 40, then 0.20 × X = 40, so X = 200."
+          },
+          {
+            "id": "GA009",
+            "text": "The pair of words that best expresses a similar relationship as 'Surgeon : Scalpel' is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sculptor : Chisel",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Musician : Instrument",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Lawyer : Court",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Baker : Oven",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Verbal Ability - Analogy",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "The relationship is 'Person : Primary Tool'. A Surgeon uses a Scalpel; a Sculptor uses a Chisel."
+          },
+          {
+            "id": "GA010",
+            "text": "A sum of money doubles in 5 years at simple interest. In how many years will it become four times?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "10",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "15",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "20",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "25",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Simple Interest",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "To double, Interest (I) must be 1P, taking 5 years. To become four times, I must be 3P. Since simple interest is linear, it takes 3 × 5 = 15 years."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Petroleum Engineering Assessment",
+        "description": "55 Questions, 85 Marks. Comprehensive coverage of Engineering Mathematics, Reservoir Engineering, Drilling Engineering, Production Engineering, Well Testing, and Enhanced Oil Recovery (EOR).",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "PE001",
+            "text": "The porosity of a reservoir rock is defined as the ratio of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Bulk volume to grain volume.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Pore volume to bulk volume.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Pore volume to grain volume.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Grain volume to pore volume.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Reservoir Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Porosity (φ) is the fraction of the total volume of rock that is occupied by pore space (voids): φ = V_pore / V_bulk."
+          },
+          {
+            "id": "PE002",
+            "text": "Darcy's law is fundamentally applicable for:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Turbulent flow of gas.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Laminar flow of incompressible fluids.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Non-Darcian flow regimes.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Flow through fractured reservoirs only.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Reservoir Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Darcy's law describes the flow of fluids through porous media and is valid only for laminar, steady-state, incompressible flow at low velocities."
+          },
+          {
+            "id": "PE003",
+            "text": "The primary function of drilling mud circulating in the wellbore is to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increase reservoir pressure.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Cool the surface equipment.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Balance formation pressure and transport cuttings.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Enhance oil viscosity.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Drilling Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Drilling mud performs multiple critical functions, primarily controlling subsurface pressure to prevent formation fluid inflow (blowouts) and carrying rock cuttings to the surface."
+          },
+          {
+            "id": "PE004",
+            "text": "Which method is commonly used to estimate reserves in a reservoir that is already under production?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Volumetric method",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Analogy method",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Decline Curve Analysis (DCA)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Seismic survey",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Reservoir Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Decline Curve Analysis (DCA) is an empirical method that uses historical production rate data to extrapolate future production and estimate remaining reserves."
+          },
+          {
+            "id": "PE005",
+            "text": "The bubble point pressure (Pb) of a crude oil is the pressure at which:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Gas begins to dissolve in oil.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The oil volume is minimum.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The first bubble of gas comes out of solution.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The oil and water phases become immiscible.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "PVT/Reservoir Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Pb is the maximum pressure at which a crude oil is saturated with gas. Below this pressure, free gas begins to evolve from the solution."
+          },
+          {
+            "id": "PE006",
+            "text": "The Mud Weight Window in drilling refers to the safe range between:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Mud viscosity and mud density.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Yield point and plastic viscosity.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Pore pressure and fracture pressure.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Drilling rate and mud flow rate.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Drilling Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The mud weight must be heavy enough to exceed the pore pressure (prevent inflow) but light enough to stay below the fracture pressure (prevent lost circulation)."
+          },
+          {
+            "id": "PE007",
+            "text": "The compressibility factor (Z) for an ideal gas is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "∞",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "PVT",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The compressibility factor (Z = P V / (n R T)) accounts for the deviation of real gases from ideal gas behavior. For an ideal gas, P V = n R T, so Z = 1."
+          },
+          {
+            "id": "PE008",
+            "text": "Which Enhanced Oil Recovery (EOR) method is typically classified as a miscible displacement process?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Polymer flooding",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Waterflooding",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Miscible gas injection (e.g., CO2)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Steam injection",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "EOR",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Miscible gas injection (using gases like CO2 or hydrocarbon gas) works by mixing with the oil, eliminating the oil-gas interface, and achieving complete displacement efficiency."
+          },
+          {
+            "id": "PE009",
+            "text": "The maximum deviation in the wellbore is typically measured from:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "True vertical depth (TVD).",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Measured depth (MD).",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The vertical reference (vertical line through the surface location).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The reservoir top.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Drilling Engineering",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "Wellbore deviation is measured as the horizontal distance from the vertical projection of the surface location to a point in the wellbore. This is often referred to as the horizontal departure or lateral displacement."
+          },
+          {
+            "id": "PE010",
+            "text": "For a reservoir under solution gas drive, the primary energy mechanism is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Water influx.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Expansion of the oil and dissolved gas.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Rock and water compressibility.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Gas cap expansion.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Reservoir Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "In a solution gas drive, the energy comes from the expansion of the oil and, more significantly, the expansion of the gas that comes out of solution as pressure drops below the bubble point."
+          },
+          {
+            "id": "PE011",
+            "text": "The reciprocal of the formation volume factor (Bo) of oil is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Reservoir volume of oil per surface volume of oil.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Surface volume of oil per reservoir volume of oil.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Gas-oil ratio.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Compressibility of oil.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "PVT",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Formation Volume Factor Bo = V_res / V_std. Its reciprocal, 1/Bo, is V_std / V_res, representing the standard (surface) volume of oil contained in one unit of reservoir volume."
+          },
+          {
+            "id": "PE012",
+            "text": "In the Modified Isochronal Test (MIT), the isochronal flow period is used to determine:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Reservoir boundary conditions.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The permeability-thickness product (kh).",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The stabilized flow rate.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The skin factor (s).",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Well Testing",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The MIT is used to estimate the stabilized deliverability of a gas well by measuring transient flow rates, which are then extrapolated to model the stabilized flow condition."
+          },
+          {
+            "id": "PE013",
+            "text": "The drilling fluid property measured by a Marsh Funnel is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Plastic viscosity.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Yield point.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Fluid loss.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Funnel viscosity (flow time).",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Drilling Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Marsh Funnel measures the time required for a specific volume (usually one quart) of mud to flow out. This is reported as Funnel Viscosity and gives a quick, qualitative measure of the mud's flow properties."
+          },
+          {
+            "id": "PE014",
+            "text": "The recovery efficiency in waterflooding is primarily controlled by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Reservoir temperature only.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Molecular weight of the oil.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Areal and vertical sweep efficiency and displacement efficiency.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Drilling cost.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Reservoir Engineering/EOR",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "Total recovery efficiency (ER) is the product of sweep efficiency (ES) and displacement efficiency (ED). Sweep efficiency (Areal and Vertical) refers to how much of the reservoir volume is contacted by the injected fluid."
+          },
+          {
+            "id": "PE015",
+            "text": "The maximum value of the permeability ratio (kg/ko) in a gas-oil system occurs at:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Initial gas saturation.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Residual oil saturation.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Irreducible water saturation.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Pore pressure.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Reservoir Engineering",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The relative permeability of the gas (kg) increases and the relative permeability of the oil (ko) decreases as the oil saturation drops. The maximum ratio occurs when So approaches Sor (residual oil saturation) and ko approaches zero."
+          },
+          {
+            "id": "PE016",
+            "text": "In a gas lift system, the gas is injected into the tubing string primarily to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increase bottom-hole pressure.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reduce the density of the fluid column.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Prevent hydrate formation.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Control sand production.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Production Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Gas lift is an artificial lift method where injected gas mixes with the produced fluid, reducing the average density of the fluid column and thereby decreasing the flowing bottom-hole pressure."
+          },
+          {
+            "id": "PE017",
+            "text": "The drill string component that converts rotary motion to reciprocating motion (hammering) is the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Drill collar.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Drill bit.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Jar.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Stabilizer.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Drilling Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A Jar is a tool placed in the drill string used to provide an instantaneous impact force (upward or downward) to free stuck pipe, acting like a hammer."
+          },
+          {
+            "id": "PE018",
+            "text": "The value of the definite integral ∫₀¹ x² dx is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.25",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.333",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.5",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1.0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Calculus",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "∫₀¹ x² dx = [x³/3]₀¹ = 1³/3 - 0³/3 = 1/3 ≈ 0.333."
+          },
+          {
+            "id": "PE019",
+            "text": "The mobility ratio (M) in a displacement process is defined as:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Viscosity of injected fluid to viscosity of displaced fluid.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Mobility of displaced fluid to mobility of injected fluid.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Mobility of injected fluid to mobility of displaced fluid.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Permeability ratio.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Reservoir Engineering/EOR",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The mobility ratio M is the ratio of the mobility of the displacing fluid (injected) to the mobility of the displaced fluid (oil). M = (k_injected / μ_injected) / (k_oil / μ_oil)."
+          },
+          {
+            "id": "PE020",
+            "text": "The primary cementing operation in drilling is performed immediately after:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Drilling the pay zone.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Running the casing string.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Testing the formation pressure.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Perforating the well.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Drilling Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Primary cementing involves pumping cement down the casing and up into the annular space between the casing and the wellbore, creating zonal isolation. This is done right after running the casing."
+          },
+          {
+            "id": "PE021",
+            "text": "Which type of pump is typically used in beam pumping units (sucker rod pumps)?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Electrical Submersible Pump (ESP).",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Jet pump.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Subsurface rod pump.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Centrifugal pump.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Production Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Beam pumping (or 'nodding donkey') uses a surface unit to drive subsurface sucker rod pumps, which are positive displacement pumps located downhole."
+          },
+          {
+            "id": "PE022",
+            "text": "The material balance equation (MBE) in reservoir engineering is an application of the conservation of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Energy.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Mass.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Momentum.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Volume.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Reservoir Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Material Balance Equation (MBE) states that the initial volume of hydrocarbons in the reservoir equals the remaining volume plus the cumulative production. It is a direct application of the conservation of mass."
+          },
+          {
+            "id": "PE023",
+            "text": "The primary purpose of a well test is to determine:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The reservoir rock color.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reservoir properties like permeability and skin factor.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The total volume of oil in place.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The drilling trajectory.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Well Testing",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Well testing (e.g., pressure buildup, draw-down) is conducted to obtain dynamic reservoir characteristics, most importantly effective permeability (k) and the skin factor (s)."
+          },
+          {
+            "id": "PE024",
+            "text": "The blowout preventer (BOP) system on a drilling rig is primarily designed to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Prevent drill string sticking.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reduce mud viscosity.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Control sudden, uncontrolled flow of formation fluids.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Measure weight on bit.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Drilling Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The BOP is a fail-safe device located at the wellhead that can seal the well to contain formation pressures and prevent a blowout."
+          },
+          {
+            "id": "PE025",
+            "text": "Which artificial lift method is typically used for wells producing large volumes of water along with oil?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Gas lift",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Plunger lift",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Electrical Submersible Pump (ESP)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Sucker rod pump",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Production Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The ESP is a high-volume, high-efficiency centrifugal pump capable of lifting large volumes of fluid (e.g., up to 100,000 bbl/day), making it ideal for high-volume water cut wells."
+          },
+          {
+            "id": "PE026",
+            "text": "If A is a square matrix, and det(A) ≠ 0, then the matrix is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Singular",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Symmetric",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Non-singular",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Diagonal",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics - Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A matrix is non-singular (invertible) if and only if its determinant is non-zero."
+          },
+          {
+            "id": "PE027",
+            "text": "The critical gas saturation (Sgc) is the gas saturation at which:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Gas relative permeability becomes one.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Gas begins to flow.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Water begins to flow.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Oil relative permeability is zero.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Reservoir Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The critical gas saturation (Sgc) is the minimum gas saturation that must be present in the reservoir before the gas phase becomes continuous and can begin to flow."
+          },
+          {
+            "id": "PE028",
+            "text": "The drilling fluid property that measures the shear stress required to initiate flow is the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Plastic viscosity.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Gel strength.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Yield point.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Thixotropy.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Drilling Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Yield Point is a direct measure of the forces of attraction between solid particles and gives an indication of the stress required to start the mud moving after it has been static."
+          },
+          {
+            "id": "PE029",
+            "text": "In acid fracturing, the purpose of the acid is to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increase oil viscosity.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Dissolve the reservoir rock (e.g., limestone) to create a high-conductivity fracture face.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Plug existing pores in the rock.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Lower the fracture pressure.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Well Interventions/Stimulation",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Acid fracturing involves creating a fracture (using high pressure) and then etching the fracture face by dissolving soluble minerals (like calcium carbonate) to leave a high-permeability path when the fracture closes."
+          },
+          {
+            "id": "PE030",
+            "text": "The skin factor (s) calculated from a well test represents:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The reservoir height.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The reservoir pressure far from the well.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Damage or improvement near the wellbore.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The compressibility of the fluid.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Well Testing",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The skin factor is a dimensionless parameter that quantifies the additional pressure drop (positive s) or pressure gain (negative s, due to stimulation) caused by the area immediately surrounding the wellbore."
+          },
+          {
+            "id": "PE031",
+            "text": "The ultimate recovery from a reservoir under primary depletion is typically highest for:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Solution gas drive.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Water drive.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Gravity drainage.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Compaction drive.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Reservoir Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "While water drive can be efficient, Gravity Drainage (especially in thick, high-permeability reservoirs) can yield the highest primary recovery by utilizing the density difference between oil and gas to efficiently sweep the oil downwards."
+          },
+          {
+            "id": "PE032",
+            "text": "The equation ∇ · v = 0 in fluid mechanics implies that the flow is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Rotational",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Compressible",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Irrotational",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Incompressible",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Engineering Mathematics/Fluid Mechanics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The divergence of the velocity field (∇ · v) represents the rate of volume change. If it is zero, the flow is incompressible (mass conservation for constant density)."
+          },
+          {
+            "id": "PE033",
+            "text": "The Gas Oil Ratio (GOR) is usually measured at:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Downhole conditions.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reservoir conditions.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Standard surface conditions.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Bubble point pressure.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Production Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The GOR is the ratio of the volume of gas produced to the volume of oil produced, with both volumes measured at Standard Temperature and Pressure (STP) or standard surface conditions."
+          },
+          {
+            "id": "PE034",
+            "text": "In drilling cement, the primary component responsible for setting and strength is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Bentonite",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Water",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Calcium silicate compounds (e.g., C3S)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Barite",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Drilling Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Portland cement (the base for well cement) is composed primarily of calcium silicate and aluminate compounds. Tricalcium Silicate (C3S) provides the primary early strength."
+          },
+          {
+            "id": "PE035",
+            "text": "The Initial Gas in Place (GIP) for a dry gas reservoir is proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The square of porosity (φ²)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Porosity (φ) and water saturation (Sw)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Permeability (k)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Formation volume factor (Bg)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Reservoir Engineering",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "GIP = 43560 × A × h × φ(1 - Sw)/Bgi. It is directly proportional to porosity (φ) and inversely proportional to (1 - Sw), so it depends on φ × (1-Sw)."
+          },
+          {
+            "id": "PE036",
+            "text": "The pressure buildup test is conducted by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Flowing the well at a constant rate.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Shutting in the well after a flow period.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Injecting gas into the reservoir.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Changing the choke size constantly.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Well Testing",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A pressure buildup test is performed by shutting in the well after it has flowed for a period and then recording the increase in wellbore pressure over time."
+          },
+          {
+            "id": "PE037",
+            "text": "The WAG (Water-Alternating-Gas) injection process is primarily used to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Reduce the viscosity of the injected fluid.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Improve sweep efficiency and control gas mobility.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Increase the formation compressibility.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Reduce the capillary pressure.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "EOR",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "WAG injection is an EOR technique that alternates slugs of gas and water. This improves the sweep efficiency by controlling the high mobility of the gas and providing better conformance."
+          },
+          {
+            "id": "PE038",
+            "text": "The drill bit type most suitable for drilling through very hard, abrasive formations is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Roller Cone Bit (Milled Tooth)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Roller Cone Bit (Tungsten Carbide Insert)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Polycrystalline Diamond Compact (PDC) Bit",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Drag Bit",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Drilling Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "PDC bits have synthetic diamond cutters that are extremely durable and cut rock via a shearing action, making them the superior choice for hard, non-interrupted drilling."
+          },
+          {
+            "id": "PE039",
+            "text": "If f(x) = e^(2x), then the second derivative f''(x) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2e^(2x)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4e^(2x)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "e^(2x)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "e^x",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Calculus",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "First derivative: f'(x) = 2e^(2x). Second derivative: f''(x) = d/dx(2e^(2x)) = 2(2e^(2x)) = 4e^(2x)."
+          },
+          {
+            "id": "PE040",
+            "text": "The phenomenon of Coning in a well is caused by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Very low production rate.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "High reservoir temperature.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "High production rate in a layered reservoir.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Excessive pressure drawdown and gravity segregation.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Reservoir Engineering/Production",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "Coning (water or gas) occurs due to excessive pressure drawdown at the wellbore, which overcomes the natural gravity forces separating the fluids, causing the non-oil phase to 'cone' into the perforation."
+          },
+          {
+            "id": "PE041",
+            "text": "The term TVD (True Vertical Depth) in directional drilling refers to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The actual length of the wellbore.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The vertical distance from the surface to a point in the well.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The horizontal distance to the target.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The depth measured along the drill string.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Drilling Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "TVD is the vertical distance from a reference point (usually the rig floor or mean sea level) to any point in the wellbore, regardless of the well's inclination."
+          },
+          {
+            "id": "PE042",
+            "text": "The solution gas oil ratio (Rs) for a saturated oil (P ≤ Pb) reservoir:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Remains constant.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Increases as pressure drops.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Decreases as pressure drops.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Is always zero.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "PVT",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Below the bubble point (Pb), gas comes out of solution. As pressure decreases, the amount of gas remaining dissolved in the oil (the solution GOR) decreases."
+          },
+          {
+            "id": "PE043",
+            "text": "The liquid limit and plastic limit of a drilling mud cake are determined using which test?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Filter press test.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Marsh funnel test.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Atterberg limits test (Soil Mechanics).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "API Retort test.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Drilling Engineering",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "While primarily soil mechanics terms, the Atterberg limits test is adapted to characterize the rheological and physical properties of the filter cake formed by the drilling mud."
+          },
+          {
+            "id": "PE044",
+            "text": "For a reservoir under water drive, the reservoir pressure generally:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Drops rapidly.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Maintains a high level for a longer period.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Increases initially.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Becomes zero quickly.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Reservoir Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "In a strong water drive, the influx of water from the aquifer provides pressure support, causing the reservoir pressure to decline slowly and maintain a high level."
+          },
+          {
+            "id": "PE045",
+            "text": "The Wickoff Plot is a commonly used graphical method for analyzing data from a:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Decline Curve Analysis (DCA).",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Pressure Drawdown Test.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Pressure Buildup Test.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Drill Stem Test (DST).",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Well Testing",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The Wickoff Plot (or Horner plot) plots the buildup pressure against the Horner time ratio, and is the primary tool for analyzing pressure buildup test data."
+          },
+          {
+            "id": "PE046",
+            "text": "If A is a real, symmetric matrix, then its eigenvalues are always:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Real",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Imaginary",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Complex conjugates",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Zero",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Engineering Mathematics - Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A fundamental property of real symmetric matrices is that all of their eigenvalues are real."
+          },
+          {
+            "id": "PE047",
+            "text": "The pressure regime where the gas viscosity is most sensitive to pressure changes is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Very low pressure (near atmospheric).",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Very high pressure (above 10,000 psi).",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Critical pressure.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Near the maximum temperature.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "PVT",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "At low pressures, the viscosity of gas is nearly independent of pressure. The greatest sensitivity to pressure changes occurs at very high pressures where intermolecular forces dominate and the gas behaves non-ideally."
+          },
+          {
+            "id": "PE048",
+            "text": "The casing program in a drilling operation is designed based on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The total volume of oil expected.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The geological survey cost.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Pore pressure and fracture gradient of the formations.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The wellhead temperature.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Drilling Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Casing strings are set at depths where the mud weight window becomes too narrow. This requires covering a weak zone (low fracture gradient) to allow mud weight to be increased to control a deeper, higher pore pressure zone."
+          },
+          {
+            "id": "PE049",
+            "text": "The net present value (NPV) method in economic analysis indicates profitability when NPV is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Negative.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Zero.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Positive.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Equal to the initial investment.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Petroleum Economics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A positive NPV means the project's discounted cash inflows exceed the discounted cash outflows (initial investment), indicating a financially viable project."
+          },
+          {
+            "id": "PE050",
+            "text": "In a perforating operation, the depth of perforation penetration is primarily affected by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Casing weight.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Drilling fluid density.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Perforating charge type and formation strength.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Mud logging data.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Production Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Perforation depth is governed by the energy output of the explosive charge used and the mechanical strength of the reservoir rock and cement sheath."
+          },
+          {
+            "id": "PE051",
+            "text": "The gas formation volume factor (Bg) is proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "P/Z T",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "P Z / T",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Z T / P",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1 / Z T P",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "PVT",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "Bg ∝ Z T / P. The formula is Bg = 0.02827 Z T / P. It is directly proportional to the compressibility factor (Z) and temperature (T), and inversely proportional to pressure (P)."
+          },
+          {
+            "id": "PE052",
+            "text": "The cementing bond log (CBL) is used to evaluate:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Reservoir fluid saturation.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Permeability of the reservoir rock.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Quality of the cement bond between the casing and formation.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Wellbore deviation.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Well Logging/Drilling",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The CBL uses acoustic signals to measure the amplitude of sound traveling through the casing. Low amplitude indicates a good cement bond that is absorbing the acoustic energy."
+          },
+          {
+            "id": "PE053",
+            "text": "For a solution gas drive reservoir, the oil relative permeability (ko) below Pb:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increases rapidly.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Decreases rapidly.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Remains constant.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Becomes one.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Reservoir Engineering",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Below Pb, gas comes out of solution, occupying pore space. The saturation of gas increases, which reduces the relative permeability to oil (ko) and eventually causes gas channeling."
+          },
+          {
+            "id": "PE054",
+            "text": "The divergence of the curl of a vector field is always:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "∞",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Undefined",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Engineering Mathematics - Vector Calculus",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The vector identity ∇ · (∇ × F) = 0 states that the divergence of the curl of any vector field is identically zero."
+          },
+          {
+            "id": "PE055",
+            "text": "The term Workover in the production life of a well refers to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Initial drilling phase.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Any operation involving entry into the wellbore to maintain or enhance production.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Abandonment procedures.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Seismic data acquisition.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Well Interventions/Production",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A workover is any operation performed on a well to sustain or increase production after the well has been initially completed, involving pulling and replacing the completion equipment."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "GATE Assessment Results",
+        "description": "Your comprehensive GATE PE assessment results with detailed analysis and recommendations for improvement.",
+        "questions": []
+      }
+    }
+  }

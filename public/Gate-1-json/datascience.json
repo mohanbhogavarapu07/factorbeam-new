@@ -1,0 +1,2247 @@
+{
+    "id": "data-science-ai",
+    "title": "Data Science & Artificial Intelligence (DA)",
+    "description": "Comprehensive GATE Data Science & AI assessment covering General Aptitude and Core Data Science & AI subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core data science & AI questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Easy",
+    "isActive": true,
+    "featured": true,
+    "metadata": {
+      "icon": "data-science-ai",
+      "gradient": "from-purple-600 to-pink-600",
+      "userCount": 18000,
+      "tags": ["GATE", "Data Science", "Artificial Intelligence", "Machine Learning", "Aptitude", "Core Subjects"]
+    },
+    "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Data Science & Artificial Intelligence is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in data science, machine learning, artificial intelligence, and related fields. This assessment follows the official GATE pattern with General Aptitude and Core Data Science & AI questions.",
+    "typicalCareers": [
+      {
+        "title": "Data Scientist",
+        "description": "Advanced data science positions in machine learning, AI research, and analytics"
+      },
+      {
+        "title": "PhD Candidate",
+        "description": "Pursue higher studies in data science, AI, and machine learning fields"
+      },
+      {
+        "title": "AI Research Engineer",
+        "description": "Senior technical roles in artificial intelligence, deep learning, and neural networks"
+      }
+    ],
+    "whoShouldConsider": [
+      "Data Science & AI graduates preparing for GATE",
+      "Students seeking admission to M.Tech/M.E programs in data science and AI",
+      "Professionals looking for PSU jobs in data science sector",
+      "Researchers in data science and artificial intelligence fields"
+    ],
+    "idealTraits": [
+      "Strong analytical and problem-solving skills",
+      "Solid foundation in mathematics, statistics, and programming",
+      "Mathematical aptitude and logical reasoning",
+      "Good understanding of machine learning algorithms and data structures"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude Assessment (10 questions, 15 marks)",
+        "Core Data Science & AI Assessment (55 questions, 85 marks)"
+      ],
+      "resultsInclude": [
+        "Section-wise scores (Aptitude & Core)",
+        "Topic-wise performance analysis",
+        "Difficulty-wise accuracy",
+        "Overall percentile ranking",
+        "Detailed explanations for all questions"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment",
+        "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "Choose the word that is most similar in meaning to 'PROFOUND':",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Shallow",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Deep",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Simple",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Surface",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability",
+            "difficulty": "Easy",
+            "explanation": "PROFOUND means showing great knowledge or insight, which is synonymous with 'deep' in the context of understanding or thinking.",
+            "marks": 1
+          },
+          {
+            "id": "GA002",
+            "text": "If the ratio of boys to girls in a class is 3:2 and there are 15 boys, how many girls are there?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "8",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "10",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "12",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "15",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude",
+            "difficulty": "Easy",
+            "explanation": "If boys:girls = 3:2, and boys = 15, then 3x = 15, so x = 5. Therefore, girls = 2x = 2(5) = 10.",
+            "marks": 2
+          },
+          {
+            "id": "GA003",
+            "text": "If all roses are flowers and some flowers fade quickly, which statement is definitely true?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "All roses fade quickly",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Some roses fade quickly",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "All roses are flowers",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "No roses fade quickly",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Logical Reasoning",
+            "difficulty": "Easy",
+            "explanation": "The statement 'All roses are flowers' is given as a premise, so it is definitely true. We cannot conclude anything definite about roses fading quickly.",
+            "marks": 1
+          },
+          {
+            "id": "GA004",
+            "text": "A company's revenue increased from $500,000 to $650,000. What is the percentage increase?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "20%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "25%",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "30%",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "35%",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Data Interpretation",
+            "difficulty": "Medium",
+            "explanation": "Percentage increase = ((650,000 - 500,000) / 500,000) × 100 = (150,000 / 500,000) × 100 = 30%",
+            "marks": 2
+          },
+          {
+            "id": "GA005",
+            "text": "Fill in the blank: 'The professor's lecture was so _____ that many students fell asleep.'",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Engaging",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Monotonous",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Exciting",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Stimulating",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability",
+            "difficulty": "Easy",
+            "explanation": "'Monotonous' means dull and tedious, which would cause students to fall asleep.",
+            "marks": 1
+          },
+          {
+            "id": "GA006",
+            "text": "A train travels 120 km in 2 hours. If it maintains the same speed, how far will it travel in 5 hours?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "240 km",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "280 km",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "300 km",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "360 km",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Quantitative Aptitude",
+            "difficulty": "Medium",
+            "explanation": "Speed = 120 km / 2 hours = 60 km/h. Distance in 5 hours = 60 × 5 = 300 km",
+            "marks": 2
+          },
+          {
+            "id": "GA007",
+            "text": "In a certain code, COMPUTER is written as DPNQVUFS. How is SCIENCE written in that code?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "TDJFODF",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "RBHFMBD",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "SDJFMDF",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "TDJFMDF",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Logical Reasoning",
+            "difficulty": "Easy",
+            "explanation": "Each letter is shifted by +1 position in the alphabet. S→T, C→D, I→J, E→F, N→O, C→D, E→F",
+            "marks": 1
+          },
+          {
+            "id": "GA008",
+            "text": "What is 15% of 200?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "25",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "30",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "35",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "40",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude",
+            "difficulty": "Easy",
+            "explanation": "15% of 200 = (15/100) × 200 = 30",
+            "marks": 2
+          },
+          {
+            "id": "GA009",
+            "text": "Choose the correct spelling:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Occassion",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Occasion",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Ocassion",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Ocasion",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability",
+            "difficulty": "Easy",
+            "explanation": "The correct spelling is 'Occasion' with two 'c's and one 's'.",
+            "marks": 1
+          },
+          {
+            "id": "GA010",
+            "text": "If 40% of students passed an exam and 120 students failed, how many students took the exam?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "180",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "200",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "220",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "240",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Data Interpretation",
+            "difficulty": "Medium",
+            "explanation": "If 40% passed, then 60% failed. Let total = x. 0.6x = 120, so x = 200 students",
+            "marks": 2
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Data Science & AI Assessment",
+        "description": "Comprehensive assessment of core data science and AI subjects including Machine Learning, Deep Learning, Statistics, Probability, Linear Algebra, Python Programming, Data Structures, Neural Networks, Natural Language Processing, Computer Vision, and Ethics in AI. This section carries 85% weight in the total assessment.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "DA001",
+            "text": "What is the probability of getting a head when flipping a fair coin?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.25",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.5",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.75",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1.0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Probability & Statistics",
+            "difficulty": "Easy",
+            "explanation": "A fair coin has two equally likely outcomes: heads or tails. P(Head) = 1/2 = 0.5",
+            "marks": 1
+          },
+          {
+            "id": "DA002",
+            "text": "What is the determinant of the 2×2 identity matrix?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Linear Algebra",
+            "difficulty": "Easy",
+            "explanation": "The identity matrix I = [[1,0],[0,1]]. det(I) = (1×1) - (0×0) = 1",
+            "marks": 2
+          },
+          {
+            "id": "DA003",
+            "text": "Which of the following is used to create a list in Python?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "{}",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "[]",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "()",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "<>",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Python Programming",
+            "difficulty": "Easy",
+            "explanation": "Square brackets [] are used to create lists in Python. {} creates dictionaries, () creates tuples.",
+            "marks": 1
+          },
+          {
+            "id": "DA004",
+            "text": "Which algorithm is typically used for classification problems?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Linear Regression",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "K-Means Clustering",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Logistic Regression",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "PCA",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Machine Learning",
+            "difficulty": "Medium",
+            "explanation": "Logistic Regression is used for classification. Linear Regression is for regression, K-Means for clustering, and PCA for dimensionality reduction.",
+            "marks": 2
+          },
+          {
+            "id": "DA005",
+            "text": "What is the time complexity of accessing an element in an array by index?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "O(1)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "O(log n)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "O(n)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "O(n²)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Data Structures",
+            "difficulty": "Easy",
+            "explanation": "Array access by index is O(1) constant time because it's direct memory access using the index.",
+            "marks": 1
+          },
+          {
+            "id": "DA006",
+            "text": "Which activation function is most commonly used in hidden layers of deep neural networks?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sigmoid",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "ReLU",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Linear",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Step",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Neural Networks",
+            "difficulty": "Medium",
+            "explanation": "ReLU (Rectified Linear Unit) is most common in hidden layers due to computational efficiency and ability to mitigate vanishing gradient problem.",
+            "marks": 2
+          },
+          {
+            "id": "DA007",
+            "text": "What is the mean of the numbers: 2, 4, 6, 8, 10?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "5",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "6",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "7",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "8",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Probability & Statistics",
+            "difficulty": "Easy",
+            "explanation": "Mean = (2+4+6+8+10)/5 = 30/5 = 6",
+            "marks": 1
+          },
+          {
+            "id": "DA008",
+            "text": "Which SQL clause is used to filter rows based on a condition?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "SELECT",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "FROM",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "WHERE",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "GROUP BY",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "SQL & Databases",
+            "difficulty": "Medium",
+            "explanation": "The WHERE clause is used to filter rows that meet a specified condition in SQL queries.",
+            "marks": 2
+          },
+          {
+            "id": "DA009",
+            "text": "Which technique is used to handle missing values by replacing them with the mean?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Normalization",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Standardization",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Imputation",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Encoding",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Data Preprocessing",
+            "difficulty": "Easy",
+            "explanation": "Imputation is the process of replacing missing values with substituted values such as mean, median, or mode.",
+            "marks": 1
+          },
+          {
+            "id": "DA010",
+            "text": "Which optimization algorithm is commonly used in training neural networks?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Bubble Sort",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Gradient Descent",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Binary Search",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Quick Sort",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Optimization",
+            "difficulty": "Medium",
+            "explanation": "Gradient Descent (and its variants like SGD, Adam) is the primary optimization algorithm for training neural networks.",
+            "marks": 2
+          },
+          {
+            "id": "DA011",
+            "text": "What is the derivative of x² with respect to x?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "x",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2x",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "x²",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Calculus",
+            "difficulty": "Easy",
+            "explanation": "Using the power rule, d/dx(x²) = 2x^(2-1) = 2x",
+            "marks": 1
+          },
+          {
+            "id": "DA012",
+            "text": "Which technique is used for edge detection in images?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sobel Operator",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "K-Means",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Decision Tree",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Linear Regression",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Computer Vision",
+            "difficulty": "Medium",
+            "explanation": "Sobel Operator is a widely used edge detection algorithm that calculates the gradient of image intensity.",
+            "marks": 2
+          },
+          {
+            "id": "DA013",
+            "text": "Which Python library is most commonly used for data visualization?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "NumPy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Pandas",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Matplotlib",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Scikit-learn",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Data Visualization",
+            "difficulty": "Easy",
+            "explanation": "Matplotlib is the foundational library for creating static, animated, and interactive visualizations in Python.",
+            "marks": 1
+          },
+          {
+            "id": "DA014",
+            "text": "What is the purpose of tokenization in NLP?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To encrypt text",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To break text into smaller units",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To translate text",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To compress text",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Natural Language Processing",
+            "difficulty": "Medium",
+            "explanation": "Tokenization is the process of breaking down text into smaller units (tokens) such as words or sentences for further processing.",
+            "marks": 2
+          },
+          {
+            "id": "DA015",
+            "text": "Which of the following is a key principle of responsible AI?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Maximizing profit",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Fairness and bias mitigation",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Faster processing",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Complex algorithms",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Ethics in AI",
+            "difficulty": "Easy",
+            "explanation": "Fairness and bias mitigation is a fundamental principle of responsible AI, ensuring equitable treatment across different groups.",
+            "marks": 1
+          },
+          {
+            "id": "DA016",
+            "text": "What is the vanishing gradient problem in deep neural networks?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Gradients become too large during backpropagation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Gradients become extremely small during backpropagation",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The network stops learning completely",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The loss function increases",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Deep Learning",
+            "difficulty": "Hard",
+            "explanation": "The vanishing gradient problem occurs when gradients become extremely small during backpropagation, making it difficult for early layers to learn.",
+            "marks": 2
+          },
+          {
+            "id": "DA017",
+            "text": "Which sorting algorithm has the best average-case time complexity?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Bubble Sort (O(n²))",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Merge Sort (O(n log n))",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Selection Sort (O(n²))",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Insertion Sort (O(n²))",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Algorithms",
+            "difficulty": "Easy",
+            "explanation": "Merge Sort has O(n log n) average-case complexity, which is better than the O(n²) of bubble, selection, and insertion sort.",
+            "marks": 1
+          },
+          {
+            "id": "DA018",
+            "text": "In reinforcement learning, what does the 'reward' represent?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The initial state",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The feedback signal for an action",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The learning rate",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The number of epochs",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Reinforcement Learning",
+            "difficulty": "Medium",
+            "explanation": "In RL, the reward is a feedback signal that indicates how good or bad an action was, guiding the agent's learning.",
+            "marks": 2
+          },
+          {
+            "id": "DA019",
+            "text": "Which framework is commonly used for distributed data processing?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Excel",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Apache Spark",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "MS Word",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "PowerPoint",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Big Data",
+            "difficulty": "Easy",
+            "explanation": "Apache Spark is a widely-used framework for large-scale distributed data processing and analytics.",
+            "marks": 1
+          },
+          {
+            "id": "DA020",
+            "text": "What is the purpose of one-hot encoding?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To normalize continuous variables",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To convert categorical variables into numerical format",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To reduce dimensionality",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To handle missing values",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Feature Engineering",
+            "difficulty": "Medium",
+            "explanation": "One-hot encoding converts categorical variables into a binary vector format that machine learning algorithms can process.",
+            "marks": 2
+          },
+          {
+            "id": "DA021",
+            "text": "What is the median of: 1, 3, 5, 7, 9?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "7",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "9",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Probability & Statistics",
+            "difficulty": "Easy",
+            "explanation": "The median is the middle value in a sorted list. For 1, 3, 5, 7, 9, the median is 5.",
+            "marks": 1
+          },
+          {
+            "id": "DA022",
+            "text": "Which metric is most appropriate for imbalanced classification problems?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Accuracy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "F1-Score",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Mean Squared Error",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "R-squared",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Model Evaluation",
+            "difficulty": "Medium",
+            "explanation": "F1-Score balances precision and recall, making it more suitable for imbalanced datasets than accuracy.",
+            "marks": 2
+          },
+          {
+            "id": "DA023",
+            "text": "Which cloud service model provides the most control over infrastructure?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "SaaS (Software as a Service)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "PaaS (Platform as a Service)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "IaaS (Infrastructure as a Service)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "FaaS (Function as a Service)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Cloud Computing",
+            "difficulty": "Easy",
+            "explanation": "IaaS provides the most control, giving users access to virtual machines and infrastructure components.",
+            "marks": 1
+          },
+          {
+            "id": "DA024",
+            "text": "What is the primary purpose of pooling layers in CNNs?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To increase the number of parameters",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To reduce spatial dimensions and computation",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To add non-linearity",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To normalize inputs",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Convolutional Neural Networks",
+            "difficulty": "Hard",
+            "explanation": "Pooling layers reduce spatial dimensions (height and width), decreasing computational cost while retaining important features.",
+            "marks": 2
+          },
+          {
+            "id": "DA025",
+            "text": "Which command is used to initialize a Git repository?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "git start",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "git init",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "git create",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "git new",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Version Control",
+            "difficulty": "Easy",
+            "explanation": "The 'git init' command initializes a new Git repository in the current directory.",
+            "marks": 1
+          },
+          {
+            "id": "DA026",
+            "text": "What is the purpose of regularization in machine learning?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To increase model complexity",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To prevent overfitting",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To speed up training",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To reduce data size",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Machine Learning",
+            "difficulty": "Medium",
+            "explanation": "Regularization techniques like L1/L2 regularization help prevent overfitting by adding penalty terms to the loss function.",
+            "marks": 2
+          },
+          {
+            "id": "DA027",
+            "text": "Which data structure follows LIFO (Last In First Out) principle?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Queue",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Stack",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Array",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Linked List",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Data Structures",
+            "difficulty": "Easy",
+            "explanation": "Stack follows LIFO principle where the last element inserted is the first to be removed.",
+            "marks": 1
+          },
+          {
+            "id": "DA028",
+            "text": "What is the time complexity of binary search?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "O(1)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "O(log n)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "O(n)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "O(n²)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Algorithms",
+            "difficulty": "Easy",
+            "explanation": "Binary search divides the search space in half each time, resulting in O(log n) time complexity.",
+            "marks": 1
+          },
+          {
+            "id": "DA029",
+            "text": "Which technique is used for dimensionality reduction?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Linear Regression",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Principal Component Analysis (PCA)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Decision Trees",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "K-Means",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Dimensionality Reduction",
+            "difficulty": "Medium",
+            "explanation": "PCA is a linear dimensionality reduction technique that finds the directions of maximum variance in the data.",
+            "marks": 2
+          },
+          {
+            "id": "DA030",
+            "text": "What is the purpose of cross-validation?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To increase model accuracy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To assess model generalization",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To reduce training time",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To increase data size",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Model Validation",
+            "difficulty": "Medium",
+            "explanation": "Cross-validation helps assess how well a model will generalize to new, unseen data by training on different subsets.",
+            "marks": 2
+          },
+          {
+            "id": "DA031",
+            "text": "Which activation function is used in the output layer for binary classification?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "ReLU",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Sigmoid",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Linear",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Tanh",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Neural Networks",
+            "difficulty": "Easy",
+            "explanation": "Sigmoid function outputs values between 0 and 1, making it suitable for binary classification problems.",
+            "marks": 1
+          },
+          {
+            "id": "DA032",
+            "text": "What is the difference between supervised and unsupervised learning?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Supervised uses labeled data, unsupervised doesn't",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Supervised is faster than unsupervised",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Supervised requires more data",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Supervised is more accurate",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Machine Learning",
+            "difficulty": "Easy",
+            "explanation": "Supervised learning uses labeled training data, while unsupervised learning finds patterns in unlabeled data.",
+            "marks": 1
+          },
+          {
+            "id": "DA033",
+            "text": "Which Python library is used for machine learning?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "NumPy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Scikit-learn",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Matplotlib",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Pandas",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Python Programming",
+            "difficulty": "Easy",
+            "explanation": "Scikit-learn is a comprehensive library for machine learning in Python, providing various algorithms and tools.",
+            "marks": 1
+          },
+          {
+            "id": "DA034",
+            "text": "What is the purpose of feature scaling?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To increase model accuracy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To normalize features to similar scales",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To reduce overfitting",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To speed up training",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Data Preprocessing",
+            "difficulty": "Easy",
+            "explanation": "Feature scaling ensures all features are on similar scales, preventing features with larger ranges from dominating.",
+            "marks": 1
+          },
+          {
+            "id": "DA035",
+            "text": "Which algorithm is used for clustering?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Linear Regression",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "K-Means",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Logistic Regression",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Decision Tree",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Unsupervised Learning",
+            "difficulty": "Easy",
+            "explanation": "K-Means is a popular clustering algorithm that groups data points into k clusters based on similarity.",
+            "marks": 1
+          },
+          {
+            "id": "DA036",
+            "text": "What is the purpose of dropout in neural networks?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To increase model accuracy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To prevent overfitting",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To speed up training",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To reduce model size",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Deep Learning",
+            "difficulty": "Medium",
+            "explanation": "Dropout randomly sets a fraction of input units to 0 during training, helping prevent overfitting.",
+            "marks": 2
+          },
+          {
+            "id": "DA037",
+            "text": "Which metric is used to evaluate regression models?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Accuracy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Mean Squared Error (MSE)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Precision",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Recall",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Model Evaluation",
+            "difficulty": "Easy",
+            "explanation": "MSE measures the average squared difference between predicted and actual values, commonly used for regression.",
+            "marks": 1
+          },
+          {
+            "id": "DA038",
+            "text": "What is the purpose of batch normalization?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To increase model accuracy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To normalize inputs to each layer",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To reduce training time",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To increase model size",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Deep Learning",
+            "difficulty": "Medium",
+            "explanation": "Batch normalization normalizes the inputs to each layer, helping with training stability and speed.",
+            "marks": 2
+          },
+          {
+            "id": "DA039",
+            "text": "Which technique is used for handling imbalanced datasets?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Feature scaling",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "SMOTE (Synthetic Minority Oversampling)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "One-hot encoding",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Normalization",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Data Preprocessing",
+            "difficulty": "Medium",
+            "explanation": "SMOTE generates synthetic samples for the minority class to balance the dataset.",
+            "marks": 2
+          },
+          {
+            "id": "DA040",
+            "text": "What is the purpose of ensemble methods?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To reduce model complexity",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To combine multiple models for better performance",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To speed up training",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To reduce data size",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Ensemble Learning",
+            "difficulty": "Medium",
+            "explanation": "Ensemble methods combine multiple models to achieve better performance than individual models.",
+            "marks": 2
+          },
+          {
+            "id": "DA041",
+            "text": "Which algorithm is used for time series forecasting?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "K-Means",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "ARIMA",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Decision Tree",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "K-NN",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Time Series Analysis",
+            "difficulty": "Medium",
+            "explanation": "ARIMA (AutoRegressive Integrated Moving Average) is commonly used for time series forecasting.",
+            "marks": 2
+          },
+          {
+            "id": "DA042",
+            "text": "What is the purpose of hyperparameter tuning?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To increase data size",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To optimize model parameters",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To reduce training time",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To simplify models",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Model Optimization",
+            "difficulty": "Medium",
+            "explanation": "Hyperparameter tuning optimizes the parameters that control the learning process to improve model performance.",
+            "marks": 2
+          },
+          {
+            "id": "DA043",
+            "text": "Which technique is used for feature selection?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Data augmentation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Recursive Feature Elimination (RFE)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Data imputation",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Data normalization",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Feature Engineering",
+            "difficulty": "Medium",
+            "explanation": "RFE recursively removes features and builds models to identify the most important features.",
+            "marks": 2
+          },
+          {
+            "id": "DA044",
+            "text": "What is the purpose of A/B testing?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To increase model accuracy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To compare two versions of a system",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To reduce training time",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To simplify models",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "A/B Testing",
+            "difficulty": "Easy",
+            "explanation": "A/B testing compares two versions of a system to determine which performs better.",
+            "marks": 1
+          },
+          {
+            "id": "DA045",
+            "text": "Which technique is used for anomaly detection?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Linear Regression",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Isolation Forest",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "K-Means",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Decision Tree",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Anomaly Detection",
+            "difficulty": "Medium",
+            "explanation": "Isolation Forest is an unsupervised algorithm used for anomaly detection by isolating outliers.",
+            "marks": 2
+          },
+          {
+            "id": "DA046",
+            "text": "What is the purpose of attention mechanisms in neural networks?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To increase model size",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To focus on relevant parts of input",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To reduce training time",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To simplify models",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Attention Mechanisms",
+            "difficulty": "Hard",
+            "explanation": "Attention mechanisms allow models to focus on relevant parts of the input sequence, improving performance.",
+            "marks": 2
+          },
+          {
+            "id": "DA047",
+            "text": "Which technique is used for model interpretability?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Data augmentation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "SHAP (SHapley Additive exPlanations)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Data imputation",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Feature scaling",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Model Interpretability",
+            "difficulty": "Medium",
+            "explanation": "SHAP provides explanations for individual predictions by attributing feature contributions.",
+            "marks": 2
+          },
+          {
+            "id": "DA048",
+            "text": "What is the purpose of transfer learning?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To increase data size",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To reuse pre-trained models for new tasks",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To reduce model accuracy",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To simplify models",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Transfer Learning",
+            "difficulty": "Medium",
+            "explanation": "Transfer learning reuses knowledge from pre-trained models to improve performance on new, related tasks.",
+            "marks": 2
+          },
+          {
+            "id": "DA049",
+            "text": "Which technique is used for generative modeling?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Linear Regression",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Generative Adversarial Networks (GANs)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "K-Means",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Decision Tree",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Generative AI",
+            "difficulty": "Hard",
+            "explanation": "GANs are used for generative modeling, creating new data samples that resemble the training data.",
+            "marks": 2
+          },
+          {
+            "id": "DA050",
+            "text": "What is the purpose of MLOps?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To increase model accuracy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To manage ML models in production",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To reduce training time",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To simplify models",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "MLOps",
+            "difficulty": "Medium",
+            "explanation": "MLOps (ML Operations) focuses on deploying, monitoring, and maintaining ML models in production environments.",
+            "marks": 2
+          },
+          {
+            "id": "DA051",
+            "text": "Which technique is used for causal inference?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Linear Regression",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Randomized Controlled Trials (RCTs)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "K-Means",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Decision Tree",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Causal Inference",
+            "difficulty": "Hard",
+            "explanation": "RCTs are the gold standard for causal inference, establishing cause-and-effect relationships.",
+            "marks": 2
+          },
+          {
+            "id": "DA052",
+            "text": "What is the purpose of sequence models?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To increase model accuracy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To process sequential data",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To reduce training time",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To simplify models",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Sequence Models",
+            "difficulty": "Medium",
+            "explanation": "Sequence models like RNNs and LSTMs are designed to process sequential data with temporal dependencies.",
+            "marks": 2
+          },
+          {
+            "id": "DA053",
+            "text": "Which technique is used for distributed computing?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Linear Regression",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "MapReduce",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "K-Means",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Decision Tree",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Distributed Systems",
+            "difficulty": "Medium",
+            "explanation": "MapReduce is a programming model for processing large datasets in parallel across distributed systems.",
+            "marks": 2
+          },
+          {
+            "id": "DA054",
+            "text": "What is the purpose of API design in data science?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "To increase model accuracy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "To expose ML models as services",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "To reduce training time",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "To simplify models",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "API Design",
+            "difficulty": "Medium",
+            "explanation": "API design allows ML models to be exposed as web services for integration with other applications.",
+            "marks": 2
+          },
+          {
+            "id": "DA055",
+            "text": "Which technique is used for containerization?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Linear Regression",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Docker",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "K-Means",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Decision Tree",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Docker & Containers",
+            "difficulty": "Easy",
+            "explanation": "Docker is a platform for containerization, packaging applications and dependencies into portable containers.",
+            "marks": 1
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "Results & Analysis",
+        "description": "Comprehensive analysis of your performance across all sections with detailed insights and recommendations.",
+        "timeLimit": 0,
+        "questions": [],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      }
+    }
+  }

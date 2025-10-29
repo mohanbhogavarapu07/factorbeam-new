@@ -1,0 +1,2312 @@
+{
+  "id": "computer-science-pyq",
+  "title": "Computer Science PYQ (CS)",
+  "description": "Comprehensive GATE Computer Science assessment covering General Aptitude and Core Computer Science subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core computer science questions (85% weight) following the official GATE pattern.",
+  "category": "GATE",
+  "duration": "180 mins",
+  "difficulty": "Moderate",
+  "isActive": true,
+  "featured": true,
+  "metadata": {
+    "icon": "computer-science",
+    "gradient": "from-blue-600 to-purple-600",
+    "userCount": 15000,
+    "tags": ["GATE", "Computer Science", "Engineering", "Aptitude", "Core Subjects"]
+  },
+  "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Computer Science & IT is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in computer science including Data Structures, Algorithms, Programming, Computer Networks, Operating Systems, Database Management Systems, Theory of Computation, and Digital Logic. This assessment follows the official GATE pattern with General Aptitude and Core Computer Science questions.",
+  "typicalCareers": [
+    {
+      "title": "Software Engineer",
+      "description": "Design and develop software applications and systems"
+    },
+    {
+      "title": "Data Scientist",
+      "description": "Analyze complex data to help organizations make informed decisions"
+    },
+    {
+      "title": "System Administrator",
+      "description": "Manage and maintain computer systems and networks"
+    }
+  ],
+  "whoShouldConsider": [
+    "Computer Science graduates preparing for GATE",
+    "Students seeking admission to M.Tech/M.E programs in computer science",
+    "Professionals looking for PSU jobs in computer science",
+    "Researchers in computer science and related fields"
+  ],
+  "idealTraits": [
+    "Strong analytical and problem-solving skills",
+    "Solid foundation in computer science fundamentals",
+    "Mathematical aptitude and logical reasoning",
+    "Good understanding of algorithms and data structures"
+  ],
+  "assessmentOverview": {
+    "modules": [
+      "General Aptitude Assessment (10 questions, 15 marks)",
+      "Core Computer Science Assessment (55 questions, 85 marks)"
+    ],
+    "resultsInclude": [
+      "Section-wise scores (Aptitude & Core)",
+      "Topic-wise performance analysis",
+      "Difficulty-wise accuracy",
+      "Overall percentile ranking",
+      "Detailed explanations for all questions"
+    ]
+  },
+  "gateSections": {
+    "aptitude": {
+      "title": "General Aptitude Assessment",
+      "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+      "timeLimit": 30,
+      "questions": [
+        {
+          "id": "GA001",
+          "text": "The price of an item is increased by 10% and then decreased by 10%. The net change in price is:",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "0%",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "1% decrease",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "1% increase",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "0.1% decrease",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantitative Aptitude - Percentage",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 60,
+          "explanation": "Let the original price be P. Increase by 10%: P(1.1). Decrease by 10%: P(1.1)(0.9) = P(0.99). The net change is a 1% decrease."
+        },
+        {
+          "id": "GA002",
+          "text": "The ratio of the speed of a boat in still water to the speed of the current is 5:1. If the boat travels a certain distance downstream in 3 hours, what is the time taken to travel the same distance upstream?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "4 hours",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "5 hours",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "6 hours",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "7.5 hours",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantitative Aptitude - Time & Distance",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 150,
+          "explanation": "Let speed of boat be 5x and current be x. Downstream speed = 6x. Upstream speed = 4x. Distance D = 6x × 3 = 18x. Upstream time T = D / 4x = 18x / 4x = 4.5 hours."
+        },
+        {
+          "id": "GA003",
+          "text": "Choose the most appropriate word from the options given below to complete the following sentence: The candidate's statement was a ___ of truth.",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "deprivation",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "dearth",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "travesty",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "recapitulation",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Verbal Ability - Vocabulary",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "A 'travesty of truth' means a grotesque misrepresentation or distortion of the truth. 'Dearth' means scarcity, which does not fit the context."
+        },
+        {
+          "id": "GA004",
+          "text": "Find the next term in the series: 3, 7, 13, 21, 31, ...",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "41",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "43",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "45",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "47",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Analytical Reasoning - Number Series",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 120,
+          "explanation": "The differences between consecutive terms are 4, 6, 8, 10. The next difference should be 12. Thus, 31 + 12 = 43."
+        },
+        {
+          "id": "GA005",
+          "text": "If f(x) = |x-2| + |x-5|, the minimum value of f(x) is:",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "0",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "2",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "3",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "5",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Quantitative Aptitude - Calculus/Functions",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 180,
+          "explanation": "The function f(x) represents the sum of distances from x to 2 and x to 5. The minimum value occurs for x between 2 and 5, where f(x) = (x-2) + (5-x) = 3."
+        },
+        {
+          "id": "GA006",
+          "text": "A clock shows 4:30. What is the angle between the hour and minute hands?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "30 degrees",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "45 degrees",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "60 degrees",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "90 degrees",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantitative Aptitude - Clocks/Geometry",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 90,
+          "explanation": "Angle θ = |30H - (11/2)M|. θ = |30(4) - (11/2)(30)| = |120 - 165| = 45 degrees."
+        },
+        {
+          "id": "GA007",
+          "text": "The synonym for 'Mellifluous' is:",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "Discordant",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Harmonious",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Cacophonous",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Raucous",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Verbal Ability - Vocabulary (Synonyms)",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "'Mellifluous' means a sound that is sweet and musical; pleasant to hear. 'Harmonious' is the closest synonym."
+        },
+        {
+          "id": "GA008",
+          "text": "In a group, 70% of the students speak English and 50% speak Hindi. If 40 students speak both, what is the total number of students in the group?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "150",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "200",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "400",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "4000",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantitative Aptitude - Set Theory",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 150,
+          "explanation": "Percentage speaking both = (70% + 50%) - 100% = 20%. If 20% of total X is 40, then 0.20 × X = 40, so X = 200."
+        },
+        {
+          "id": "GA009",
+          "text": "The pair of words that best expresses a similar relationship as 'Surgeon : Scalpel' is:",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sculptor : Chisel",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Musician : Instrument",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Lawyer : Court",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Baker : Oven",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Verbal Ability - Analogy",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 60,
+          "explanation": "The relationship is 'Person : Primary Tool'. A Surgeon uses a Scalpel; a Sculptor uses a Chisel."
+        },
+        {
+          "id": "GA010",
+          "text": "A sum of money doubles in 5 years at simple interest. In how many years will it become four times?",
+          "type": "multiple-choice",
+          "category": "General Aptitude",
+          "options": [
+            {
+              "id": "A",
+              "text": "10",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "15",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "20",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "25",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Quantitative Aptitude - Simple Interest",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 180,
+          "explanation": "To double, Interest (I) must be 1P, taking 5 years. To become four times, I must be 3P. Since simple interest is linear, it takes 3 × 5 = 15 years."
+        }
+      ],
+      "scoringConfig": {
+        "algorithm": "simple",
+        "thresholds": {
+          "excellent": 80,
+          "good": 60,
+          "needsImprovement": 40
+        }
+      }
+    },
+    "core": {
+      "title": "Core Computer Science Assessment",
+      "description": "Comprehensive assessment of core computer science subjects including Data Structures, Algorithms, Programming, Computer Networks, Operating Systems, Database Management Systems, Theory of Computation, and Digital Logic. This section carries 85% weight in the total assessment.",
+      "timeLimit": 150,
+      "questions": [
+        {
+          "id": "CS001",
+          "text": "What is the minimum number of NAND gates required to implement the Boolean expression A(B + C)?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "2",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "3",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "4",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "5",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Digital Logic - Combinational Circuits",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 60,
+          "explanation": "The expression A(B+C) requires 3 NAND gates: 1 for B, 1 for C, then 1 for the final AND operation."
+        },
+        {
+          "id": "CS002",
+          "text": "The time complexity of the Floyd-Warshall algorithm for all-pairs shortest paths in a graph with V vertices is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "O(V²)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "O(V² log V)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "O(VE)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "O(V³)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Algorithms - Graph Algorithms",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "Floyd-Warshall uses three nested loops, each iterating up to V times, leading to O(V³)."
+        },
+        {
+          "id": "CS003",
+          "text": "Consider the following statements about the ACID properties of a database transaction: I. Atomicity. II. Consistency. III. Isolation. IV. Durability. Which of the above statements are correct?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "I and II only",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "II and III only",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "I, II, and IV only",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "I, II, III, and IV",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "DBMS - Transaction Management",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 90,
+          "explanation": "ACID is an acronym for Atomicity, Consistency, Isolation, and Durability. All four properties are fundamental to ensuring database transactions are processed reliably."
+        },
+        {
+          "id": "CS004",
+          "text": "The addressing mode in which the operand is specified in the instruction itself is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Direct addressing",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Register addressing",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Immediate addressing",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Indexed addressing",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Computer Organization - Instruction Formats",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "In Immediate addressing, the operand value is immediately available as part of the instruction itself."
+        },
+        {
+          "id": "CS005",
+          "text": "Which of the following sorting algorithms has a worst-case running time of O(n log n)?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Insertion Sort",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Quick Sort",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Merge Sort",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Bubble Sort",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Algorithms - Sorting",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "Merge Sort consistently achieves O(n log n) complexity in all cases (best, average, worst). Quicksort's worst case is O(n²)."
+        },
+        {
+          "id": "CS006",
+          "text": "In the context of the OSI model, which layer is responsible for translating, encrypting, and compressing data?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Application Layer",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Presentation Layer",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Session Layer",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Transport Layer",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Computer Networks - OSI Model",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The Presentation Layer (Layer 6) handles data representation, including format conversion, encryption, and compression."
+        },
+        {
+          "id": "CS007",
+          "text": "Consider a system with 3 processes P₁, P₂, P₃ and 10 units of resource R. The maximum number of units required by Pᵢ is Maxᵢ, and the current number of units held by Pᵢ is Holdᵢ. If Max = [6, 5, 4] and Hold = [1, 2, 1]. Is the system in a safe state?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes, sequence P1, P2, P3",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Yes, sequence P3, P2, P1",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "No, it is in an unsafe state",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "The data is insufficient to determine",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Operating Systems - Deadlocks (Banker's Algorithm)",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 240,
+          "explanation": "Available resources (Avail) = 10 - (1+2+1) = 6. Need vector (Max - Hold) = [5, 3, 3]. P₁ needs 5 ≤ 6 (Avail), runs, completes. Avail becomes 6-5+6=7. P₂ needs 3 ≤ 7, runs. P₃ needs 3 ≤ 9, runs. Safe sequence found: P₁, P₂, P₃."
+        },
+        {
+          "id": "CS008",
+          "text": "Consider a relation R(A, B, C, D) with functional dependencies AB → C and C → D. Which of the following is a candidate key?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "A",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "AB",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "ABC",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "AC",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "DBMS - Functional Dependencies and Keys",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 90,
+          "explanation": "To find the candidate key, calculate closure: (AB)⁺ = AB → C, C → D. Thus, (AB)⁺ = ABCD. Since AB determines all attributes and no proper subset of AB determines all, AB is the candidate key."
+        },
+        {
+          "id": "CS009",
+          "text": "How many page faults occur for the reference string 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2 with 3 page frames using the FIFO Page Replacement algorithm?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "7",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "8",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "9",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "10",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Operating Systems - Memory Management (Paging)",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 210,
+          "explanation": "Faults occur at: 7, 0, 1 (Frames: [7,0,1]), 2 (Replace 7. Frames: [0,1,2]), 0 (Hit), 3 (Replace 0. Frames: [1,2,3]), 0 (Replace 1. Frames: [2,3,0]), 4 (Replace 2. Frames: [3,0,4]), 2 (Replace 3. Frames: [0,4,2]), 3 (Replace 0. Frames: [4,2,3]), 0 (Replace 4. Frames: [2,3,0]), 3 (Hit), 2 (Hit). Total faults: 9."
+        },
+        {
+          "id": "CS010",
+          "text": "The minimum number of states in a Deterministic Finite Automaton (DFA) that accepts the language L = {w ∈ {a, b}* | w contains the substring abb} is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "3",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "4",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "5",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "6",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Theory of Computation - Finite Automata",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 150,
+          "explanation": "The DFA requires 4 states to track the prefixes: ε (initial), a, ab, and abb (final, accepting)."
+        },
+        {
+          "id": "CS011",
+          "text": "What is the result of the following SQL query? SELECT AVG(Salary) FROM Employee WHERE Department = 'Sales' AND Salary > (SELECT MIN(Salary) FROM Employee WHERE Department = 'Marketing');",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "The minimum salary in the Sales department.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "The average salary of all employees in the Sales department.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "The average salary of Sales employees whose salary is greater than the minimum salary in the Marketing department.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "The average salary of Marketing employees whose salary is greater than the minimum salary in the Sales department.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "DBMS - SQL",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 60,
+          "explanation": "The subquery determines a scalar value (MIN salary in Marketing). The outer query then filters Sales employees based on this value and computes the AVG salary of the filtered set."
+        },
+        {
+          "id": "CS012",
+          "text": "For a 16-bit microprocessor, the size of the instruction word is typically:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "8 bits",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "16 bits",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "32 bits",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Depends on the addressing mode",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Computer Organization - Architecture",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The architecture width (16-bit) usually defines the size of the word, including instructions, registers, and data bus."
+        },
+        {
+          "id": "CS013",
+          "text": "In C programming, the expression 25/3*3 evaluates to:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "22",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "24",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "25",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "27",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Programming in C - Operators",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "The expression evaluates left-to-right due to equal precedence: (25/3) (integer division) is 8, and then 8 × 3 is 24."
+        },
+        {
+          "id": "CS014",
+          "text": "The number of edges in a complete graph with n vertices is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "n-1",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "n²",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "n(n-1)/2",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "2ⁿ",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Discrete Mathematics - Graph Theory",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "A complete graph has edges between all distinct pairs of vertices, which is C(n,2)."
+        },
+        {
+          "id": "CS015",
+          "text": "The maximum window size for data transfer in a T-bit sequence number space using the Selective Repeat protocol is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "2ᵀ",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "2ᵀ - 1",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "2ᵀ⁻¹",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "2ᵀ⁻¹ - 1",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Computer Networks - Transport Layer (Error Control)",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 120,
+          "explanation": "In Selective Repeat, the sender window size Ws and receiver window size Wr must satisfy Ws + Wr ≤ 2ᵀ. To maximize window size and prevent confusion, Ws = Wr = 2ᵀ⁻¹."
+        },
+        {
+          "id": "CS016",
+          "text": "A computer uses a 32-bit address and 4KB page size. How many entries are there in the page table if it is a single-level page table?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "2¹⁰",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "2²⁰",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "2²²",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "2³²",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Operating Systems - Memory Management (Paging)",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 150,
+          "explanation": "Page size P = 4KB = 2¹² bytes. Offset bits = 12. Virtual Address (VA) bits = 32. Page number bits = 32 - 12 = 20. Number of page table entries = 2^(Page Number Bits) = 2²⁰."
+        },
+        {
+          "id": "CS017",
+          "text": "The context-free language L = {aⁿbⁿ | n ≥ 1} is accepted by a:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Finite Automaton (FA)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Pushdown Automaton (PDA)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Turing Machine (TM)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Linear Bounded Automaton (LBA)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Theory of Computation - Language Classification",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The language requires counting and matching the a's and b's, which needs memory (stack) and is thus recognized by a Pushdown Automaton (PDA)."
+        },
+        {
+          "id": "CS018",
+          "text": "Which of the following is true for B+ trees?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Data pointers are stored in all internal nodes.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "All records are stored only in leaf nodes.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "B+ trees are used primarily in main memory databases.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Leaf nodes are not linked to each other.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Data Structures - B-Trees",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "A key feature of B+ trees is that all data pointers (records) are stored exclusively in the leaf nodes, while internal nodes only store key values for indexing."
+        },
+        {
+          "id": "CS019",
+          "text": "What is the result of 22₁₀ in 8-bit two's complement form?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "00010110",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "11101010",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "01011000",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "10010110",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Digital Logic - Number Representation",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "22₁₀ = 16 + 4 + 2 = 10110₂. In 8-bit form, since it is a positive number, the representation is the same as signed magnitude: 00010110."
+        },
+        {
+          "id": "CS020",
+          "text": "The number of undirected graphs with n vertices and k edges is given by:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "C(n,k)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "C(n(n-1)/2, k)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "k!",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "nᵏ",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Discrete Mathematics - Combinatorics (Graph)",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 120,
+          "explanation": "A simple undirected graph with n vertices can have a maximum of M = n(n-1)/2 edges. The number of ways to choose exactly k edges from these M possible edges is C(M,k) = C(n(n-1)/2, k)."
+        },
+        {
+          "id": "CS021",
+          "text": "What is the worst-case time complexity of inserting n elements into an initially empty Max-Heap?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "O(n)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "O(n log n)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "O(n²)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "O(log n)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Data Structures - Heaps",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 150,
+          "explanation": "Inserting one element takes O(log n) time (due to the heapify process). Inserting n elements sequentially takes n × O(log n) = O(n log n) time."
+        },
+        {
+          "id": "CS022",
+          "text": "Which of the following is true for the Critical Section problem?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mutual exclusion must be satisfied.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Bounded waiting is optional.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Progress is guaranteed if processes are outside the critical section.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Deadlock is necessary for a solution.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Operating Systems - Synchronization",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "The three requirements for a solution to the Critical Section problem are Mutual Exclusion (mandatory), Progress, and Bounded Waiting."
+        },
+        {
+          "id": "CS023",
+          "text": "The minimum number of gates in a half adder is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "1",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "2",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "3",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "4",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Digital Logic - Combinational Circuits",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "A half adder requires one XOR gate (for Sum) and one AND gate (for Carry Out). Total 2 gates."
+        },
+        {
+          "id": "CS024",
+          "text": "The subnet mask for a network address 192.168.1.0/26 is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "255.255.255.0",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "255.255.255.128",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "255.255.255.192",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "255.255.255.252",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Computer Networks - IP Addressing/Subnetting",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 90,
+          "explanation": "CIDR /26 means 26 bits are set to 1. 26 = 3 × 8 + 2. The first three octets are 255.255.255. The fourth octet has 2 bits set: 11000000₂ = 128+64 = 192. Subnet mask: 255.255.255.192."
+        },
+        {
+          "id": "CS025",
+          "text": "In a B-tree of order m, the minimum number of keys in a non-root node is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "⌈m/2⌉ - 1",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "m/2",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "⌈(m-1)/2⌉",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "⌊m/2⌋ - 1",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Data Structures - B-Trees",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 90,
+          "explanation": "For a B-tree of order m, non-root nodes must be at least half full. Minimum number of children is ⌈m/2⌉. The minimum number of keys is one less than the minimum number of children: ⌈m/2⌉ - 1."
+        },
+        {
+          "id": "CS026",
+          "text": "The minimum number of arithmetic operations required to evaluate the polynomial P(x) = a₀ + a₁x + a₂x² + a₃x³ using Horner's rule is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "4",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "5",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "6",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "7",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Algorithms - Numerical/Polynomial Evaluation",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 150,
+          "explanation": "Horner's rule rewrites P(x) as a₀ + x(a₁ + x(a₂ + x(a₃))). For a degree n polynomial, it requires n multiplications and n additions. For n=3, this is 3 mult + 3 add = 6 operations."
+        },
+        {
+          "id": "CS027",
+          "text": "Which of the following statements about 3-CNF is correct?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Every Boolean formula is convertible to 3-CNF in polynomial time.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "3-CNF is an instance of the Satisfiability (SAT) problem.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "The 3-CNF-SAT problem is solvable in polynomial time.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "The decision problem for 3-CNF is NP-complete.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Algorithms - Complexity Theory",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 90,
+          "explanation": "Cook's theorem proves that the Satisfiability problem is NP-complete, and the 3-CNF-SAT problem (SAT where each clause has exactly 3 literals) is the standard reduction, confirming its NP-completeness."
+        },
+        {
+          "id": "CS028",
+          "text": "The data structure best suited for implementing a priority queue is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stack",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Queue",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Heap",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "AVL Tree",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Data Structures - Priority Queue",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "A Heap (Max-Heap or Min-Heap) provides O(log n) time complexity for the crucial operations of insertion and deletion of the maximum/minimum element, making it the most efficient structure for priority queues."
+        },
+        {
+          "id": "CS029",
+          "text": "In the 8085 microprocessor, the instruction MOV A, M means:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Move data from Accumulator (A) to Memory (M).",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Move data from Memory (M) to Accumulator (A).",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Move data from Memory location pointed by HL register pair to A.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Move data from Memory location pointed by Stack Pointer to A.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Computer Organization - Microprocessor",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 60,
+          "explanation": "In 8085 instruction set, M refers to the memory location whose address is held in the HL register pair. The instruction MOV A, M moves the content of this memory location to the Accumulator A."
+        },
+        {
+          "id": "CS030",
+          "text": "Which normal form requires that every non-prime attribute be fully functionally dependent on every candidate key?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "1NF",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "2NF",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "3NF",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "BCNF",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "DBMS - Normalization",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "The Second Normal Form (2NF) eliminates partial dependency, meaning every non-prime attribute must be fully functionally dependent on the entire candidate key(s)."
+        },
+        {
+          "id": "CS031",
+          "text": "In a typical modern computer, which component has the fastest access time?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Magnetic Disk",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Main Memory (RAM)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "L1 Cache",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Solid State Drive (SSD)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Computer Organization - Memory Hierarchy",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "Access time in a computer hierarchy is fastest at the top (closest to the CPU). The order of speed is: CPU Registers > L1 Cache > L2 Cache > L3 Cache > RAM > SSD/Disk."
+        },
+        {
+          "id": "CS032",
+          "text": "The total number of comparisons in the worst case for merging two sorted lists of sizes m and n is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "O(m+n)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "m+n",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "m+n-1",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "O(log(m+n))",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Algorithms - Sorting/Merging",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 120,
+          "explanation": "In the worst case, every element except the last one must be compared. If we have m+n total elements, we need a maximum of m+n-1 comparisons. The complexity remains O(m+n)."
+        },
+        {
+          "id": "CS033",
+          "text": "Which of the following is an example of an unguided transmission medium?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Twisted-pair cable",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Optical fiber",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Coaxial cable",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Wireless radio waves",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "D",
+          "subject": "Computer Networks - Physical Layer",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "Unguided media (wireless) use air or vacuum to transmit signals. Guided media (cables) confine the signal along a physical path."
+        },
+        {
+          "id": "CS034",
+          "text": "Given a graph G with n vertices and e edges, the maximum number of edges in G if G is a simple undirected graph is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "n²",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "n(n+1)/2",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "n(n-1)/2",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "2ⁿ",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Discrete Mathematics - Graph Theory",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The maximum number of edges in a simple undirected graph is that of a complete graph, Kn, which is C(n,2) = n(n-1)/2."
+        },
+        {
+          "id": "CS035",
+          "text": "A relation R is in 3NF if:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is in 2NF and has no partial dependency.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "It is in 2NF and has no transitive dependency.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Every determinant is a candidate key.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "All attributes are atomic.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "DBMS - Normalization",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "A relation is in 3NF if it is in 2NF and there is no transitive dependency of a non-prime attribute on the primary key."
+        },
+        {
+          "id": "CS036",
+          "text": "The number of cycles in the given undirected graph is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "5",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "6",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "7",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "8",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Discrete Mathematics - Graph Theory",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 210,
+          "explanation": "A complete graph K₄ has 4 vertices. Number of k-cycles is C(n,k) × (k-1)!/2. For K₄: 3-cycles: C(4,3) = 4. 4-cycles: C(4,4) × 3!/2 = 3. Total cycles = 4+3 = 7."
+        },
+        {
+          "id": "CS037",
+          "text": "Which of the following memory allocation schemes suffers from external fragmentation?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Paging",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Segmentation",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Swapping",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Pure Demand Paging",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Operating Systems - Memory Management",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 60,
+          "explanation": "Segmentation uses variable-sized partitions, leading to scattered, small free memory blocks between segments (external fragmentation). Paging only suffers from internal fragmentation."
+        },
+        {
+          "id": "CS038",
+          "text": "Which of the following is the regular expression for the language of all strings over Σ = {a, b} that do not contain the substring aa?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "(b+ab)* (ε + a)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "(b* a)* b*",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "(b+a)* (ε + a)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "a* b* a*",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Theory of Computation - Regular Expressions",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 180,
+          "explanation": "The pattern ensures that every 'a' must be immediately followed by a 'b', except possibly for the very last character. The segments are (b) or (ab), followed by an optional final 'a'. Correct form is (b|ab)* (ε|a)."
+        },
+        {
+          "id": "CS039",
+          "text": "A recursive function T(n) is defined as T(n) = 2T(n/2) + n. The asymptotic time complexity of T(n) is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "O(n)",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "O(n log n)",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "O(n²)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "O(n³)",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Algorithms - Recurrence Relations",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 90,
+          "explanation": "Using the Master Theorem: T(n) = aT(n/b) + f(n). Here a=2, b=2, f(n)=n. n^(log_b a) = n^(log_2 2) = n. Since f(n) = n = O(n^(log_b a)), we are in Case 2, so T(n) = Θ(n log n)."
+        },
+        {
+          "id": "CS040",
+          "text": "The minimum number of relations required to represent a many-to-many relationship set in the E-R model (Relational Schema) is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "2",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "3",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "4",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "5",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "DBMS - E-R Model to Relational Schema",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "A many-to-many relationship between two entity sets E₁ and E₂ requires three relations: one for E₁, one for E₂, and one for the relationship set (which includes the primary keys of E₁ and E₂)."
+        },
+        {
+          "id": "CS041",
+          "text": "What is the purpose of the register MAR (Memory Address Register) in the CPU?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Holds the data being written to or read from memory.",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Holds the address of the next instruction to be executed.",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Holds the memory address of the data or instruction.",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Holds the instruction being currently executed.",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Computer Organization - Registers",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The MAR (Memory Address Register) holds the address of the memory location that the CPU is about to access (read from or write to)."
+        },
+        {
+          "id": "CS042",
+          "text": "In a hash table, which collision resolution technique guarantees that a free slot will always be found if the table is not full?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Linear probing",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Quadratic probing",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Separate chaining",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Double hashing",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Data Structures - Hashing",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "Separate chaining uses linked lists for collision resolution. As long as the system memory permits, a new node can always be added to the list, guaranteeing resolution."
+        },
+        {
+          "id": "CS043",
+          "text": "What is the result of the logical expression (¬A ∧ B) ∨ (A ∧ B)?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "A",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "B",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "A ∧ B",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "A ∨ B",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Digital Logic - Boolean Algebra",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 90,
+          "explanation": "Using the distributive law: (¬A ∧ B) ∨ (A ∧ B) = B ∧ (¬A ∨ A). Since (¬A ∨ A) is True (or 1), the result is B ∧ True = B."
+        },
+        {
+          "id": "CS044",
+          "text": "In the TCP/IP protocol suite, which protocol is responsible for mapping an IP address to a physical (MAC) address?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "ICMP",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "ARP",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "RARP",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "IGMP",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Computer Networks - Network Layer",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "ARP (Address Resolution Protocol) is used to find the physical address, such as the Ethernet hardware address, corresponding to a known network layer address (IP address)."
+        },
+        {
+          "id": "CS045",
+          "text": "What is the output of the following C code, assuming integer size is 4 bytes? int a[5] = {1, 2, 3, 4, 5}; int *p = a + 3; printf(\"%d\", p[-1]);",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "2",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "3",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "4",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "5",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Programming in C - Pointers and Arrays",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 120,
+          "explanation": "The array a is {1, 2, 3, 4, 5}. a+3 points to the element at index 3 (value 4). p points to a[3]. p[-1] is equivalent to *(p-1), which points to the element at index 3-1=2. a[2] is 3."
+        },
+        {
+          "id": "CS046",
+          "text": "In a non-pipelined system, the instruction execution time is 100 ns. If the system is pipelined into 5 stages, each with 20 ns delay, what is the speedup achieved?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "3",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "4",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "5",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "6",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Computer Organization - Pipelining",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 150,
+          "explanation": "Non-pipelined time T_non = 100 ns. Pipelined time T_pipe = max(stage delays) = 20 ns. Speedup S = T_non / T_pipe = 100 / 20 = 5."
+        },
+        {
+          "id": "CS047",
+          "text": "The minimum number of states in a DFA accepting the language L = {aⁿ | n ≥ 0} is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "1",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "2",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "3",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "4",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "A",
+          "subject": "Theory of Computation - Finite Automata",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "The language contains a*. A single state that is both initial and final with a self-loop on 'a' accepts this language. Minimum states = 1."
+        },
+        {
+          "id": "CS048",
+          "text": "Which memory management technique requires a Translation Lookaside Buffer (TLB) for efficient address translation?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Contiguous Allocation",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Paging",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Segmentation",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Buddy System",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Operating Systems - Memory Management",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "Paging involves two memory accesses per data access (one for the page table, one for the data). The TLB is a small, fast cache used to speed up the page number to frame number translation, making paging practical."
+        },
+        {
+          "id": "CS049",
+          "text": "The language L = {aᵖ | p is a prime number} is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Regular",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Context-Free but not Regular",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Context-Sensitive but not Context-Free",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Recursive but not Context-Sensitive",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Theory of Computation - Language Classification (Hierarchy)",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 120,
+          "explanation": "Checking for primality requires unlimited counting which cannot be done by a PDA (Context-Free). However, a Linear Bounded Automaton (Context-Sensitive) can recognize it."
+        },
+        {
+          "id": "CS050",
+          "text": "A full binary tree has 9 internal nodes. The number of leaves it has is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "8",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "9",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "10",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "11",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Data Structures - Trees",
+          "difficulty": "Easy",
+          "marks": 2,
+          "estimatedSolveTime": 90,
+          "explanation": "For any non-empty full binary tree (where every non-leaf node has two children), the number of leaves (L) is one more than the number of internal nodes (I). L = I + 1. Here, L = 9 + 1 = 10."
+        },
+        {
+          "id": "CS051",
+          "text": "Consider the relations R₁(A, B) and R₂(B, C). The result of the natural join R₁ ⋈ R₂ has attributes:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "R₁, R₂",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "A, B, C",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "A, C",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "A, B, B, C",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "DBMS - Relational Algebra",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "Natural join combines tuples from two relations where the values of the common attribute (B) are equal, and includes each common attribute only once. The schema is A, B, C."
+        },
+        {
+          "id": "CS052",
+          "text": "Which mode of data transfer does not involve the CPU?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Programmed I/O",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "Interrupt-driven I/O",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Direct Memory Access (DMA)",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Memory-mapped I/O",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Computer Organization - I/O Transfer",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "DMA allows peripherals to transfer data directly to/from main memory without CPU intervention, significantly speeding up data transfer for large blocks."
+        },
+        {
+          "id": "CS053",
+          "text": "The total number of edges in a binary tree with n nodes is:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "n",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "n-1",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "n+1",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "2n",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "B",
+          "subject": "Data Structures - Trees",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "In any tree structure with n vertices/nodes, there are exactly n-1 edges."
+        },
+        {
+          "id": "CS054",
+          "text": "The worst-case running time of Quick Sort occurs when the pivot element is always chosen as the:",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "Median element",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "First element",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "Smallest or largest element",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "Middle element",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Algorithms - Sorting",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 45,
+          "explanation": "The worst-case O(n²) time complexity occurs when the pivot causes the partition to be highly unbalanced, which happens when the pivot is consistently the smallest or largest element."
+        },
+        {
+          "id": "CS055",
+          "text": "What is the maximum number of leaves in a binary tree of height h?",
+          "type": "multiple-choice",
+          "category": "Core Subject",
+          "options": [
+            {
+              "id": "A",
+              "text": "h",
+              "value": "A"
+            },
+            {
+              "id": "B",
+              "text": "h+1",
+              "value": "B"
+            },
+            {
+              "id": "C",
+              "text": "2ʰ",
+              "value": "C"
+            },
+            {
+              "id": "D",
+              "text": "2ʰ⁺¹ - 1",
+              "value": "D"
+            }
+          ],
+          "correctAnswer": "C",
+          "subject": "Data Structures - Trees",
+          "difficulty": "Easy",
+          "marks": 1,
+          "estimatedSolveTime": 30,
+          "explanation": "Assuming the root is at height h=0, the maximum number of leaves occurs in a full binary tree at the deepest level h, and is 2ʰ."
+        }
+      ],
+      "scoringConfig": {
+        "algorithm": "weighted",
+        "thresholds": {
+          "excellent": 80,
+          "good": 60,
+          "needsImprovement": 40
+        }
+      }
+    },
+    "results": {
+      "title": "Results & Analysis",
+      "description": "Comprehensive analysis of your performance across all sections with detailed insights and recommendations.",
+      "timeLimit": 0,
+      "questions": [],
+      "scoringConfig": {
+        "algorithm": "simple",
+        "thresholds": {
+          "excellent": 80,
+          "good": 60,
+          "needsImprovement": 40
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2166 @@
+{
+    "id": "instrumentation",
+    "title": "Instrumentation Engineering (IN)",
+    "description": "Comprehensive GATE Instrumentation Engineering assessment covering General Aptitude and Core Instrumentation Engineering subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core instrumentation engineering questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Easy",
+    "tags": ["GATE", "Instrumentation Engineering", "Engineering", "Aptitude", "Core Subjects"],
+    "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Instrumentation Engineering is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in instrumentation engineering and related fields. This assessment follows the official GATE pattern with General Aptitude and Core Instrumentation Engineering questions.",
+    "typicalCareers": [
+      {
+        "title": "Instrumentation Engineer",
+        "description": "Advanced instrumentation engineering positions in process control, automation, and measurement systems"
+      },
+      {
+        "title": "PhD Candidate",
+        "description": "Pursue higher studies in instrumentation engineering and related fields"
+      },
+      {
+        "title": "Control Systems Engineer",
+        "description": "Senior technical roles in control systems and process automation"
+      }
+    ],
+    "whoShouldConsider": [
+      "Instrumentation Engineering graduates preparing for GATE",
+      "Students seeking admission to M.Tech/M.E programs in instrumentation engineering",
+      "Professionals looking for PSU jobs in instrumentation sector",
+      "Researchers in instrumentation engineering and related fields"
+    ],
+    "idealTraits": [
+      "Strong analytical and problem-solving skills",
+      "Solid foundation in instrumentation engineering fundamentals",
+      "Mathematical aptitude and logical reasoning",
+      "Good understanding of control systems and measurement principles"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude Assessment (10 questions, 15 marks)",
+        "Core Instrumentation Engineering Assessment (55 questions, 85 marks)"
+      ],
+      "resultsInclude": [
+        "Section-wise scores (Aptitude & Core)",
+        "Topic-wise performance analysis",
+        "Difficulty-wise accuracy",
+        "Overall percentile ranking",
+        "Detailed explanations for all questions"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment",
+        "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "If a person travels 60 km at 40 km/h and returns at 60 km/h, what is the average speed for the entire journey?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "48 km/h",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "50 km/h",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "52 km/h",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "45 km/h",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Numerical Ability - Speed",
+            "difficulty": "Easy",
+            "explanation": "Average speed = (2 × v₁ × v₂)/(v₁ + v₂) = (2 × 40 × 60)/(40 + 60) = 4800/100 = 48 km/h"
+          },
+          {
+            "id": "GA002",
+            "text": "Choose the word most similar in meaning to 'METICULOUS':",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Careless",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Careful",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Quick",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Slow",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Synonyms",
+            "difficulty": "Easy",
+            "explanation": "Meticulous means showing great attention to detail; very careful and precise. Hence, 'Careful' is the closest synonym."
+          },
+          {
+            "id": "GA003",
+            "text": "In a series: 2, 6, 12, 20, 30, ?, what is the next number?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "40",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "42",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "44",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "38",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Numerical Ability - Series",
+            "difficulty": "Medium",
+            "explanation": "Pattern: n(n+1) where n = 1,2,3,4,5,6... Next term = 6×7 = 42"
+          },
+          {
+            "id": "GA004",
+            "text": "A statement followed by two assumptions I and II is given. Which assumption(s) is/are implicit? Statement: 'Please keep the door closed' - Notice on an office door. I. People tend to keep doors open. II. The office needs air conditioning.",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Only I is implicit",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Only II is implicit",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both I and II are implicit",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Neither I nor II is implicit",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Logical Reasoning - Assumptions",
+            "difficulty": "Medium",
+            "explanation": "The notice assumes people tend to keep doors open (hence the reminder). There's no indication about air conditioning necessity."
+          },
+          {
+            "id": "GA005",
+            "text": "If 'RENDER' is coded as 'SFMCFQ', how is 'MASTER' coded?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "NZTUFS",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "LZTUFS",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "NBTDFS",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "NBTUFS",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Logical Reasoning - Coding",
+            "difficulty": "Easy",
+            "explanation": "Each letter is replaced by the next letter in alphabetical order: M→N, A→B, S→T, T→U, E→F, R→S"
+          },
+          {
+            "id": "GA006",
+            "text": "A rectangular plot of land has an area of 360 m². If its length is increased by 10m and breadth decreased by 5m, the area remains the same. What is the original length?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "20m",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "24m",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "30m",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "18m",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Numerical Ability - Geometry",
+            "difficulty": "Hard",
+            "explanation": "Let L and B be original dimensions. L×B = 360 and (L+10)(B-5) = 360. Solving: LB - 5L + 10B - 50 = LB → 10B = 5L + 50 → 2B = L + 10. Substituting in L×B = 360 gives L = 30m, B = 12m"
+          },
+          {
+            "id": "GA007",
+            "text": "Which of the following sentences is grammatically correct?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Each of the students have submitted their assignments.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Each of the students has submitted their assignment.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Each of the students has submitted his or her assignment.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Each of the students have submitted his assignment.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Verbal Ability - Grammar",
+            "difficulty": "Medium",
+            "explanation": "'Each' is singular, requiring 'has' (not 'have'), and the pronoun should agree: 'his or her' (singular) rather than 'their' (plural)."
+          },
+          {
+            "id": "GA008",
+            "text": "In a class of 60 students, 30 play cricket, 25 play football, and 10 play both. How many students play neither cricket nor football?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "15",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "10",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "20",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Numerical Ability - Set Theory",
+            "difficulty": "Medium",
+            "explanation": "Using set theory: n(C∪F) = n(C) + n(F) - n(C∩F) = 30 + 25 - 10 = 45. Students playing neither = 60 - 45 = 15"
+          },
+          {
+            "id": "GA009",
+            "text": "Complete the analogy: Pen : Writer :: Brush : ?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Paint",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Artist",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Canvas",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Color",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Logical Reasoning - Analogy",
+            "difficulty": "Easy",
+            "explanation": "A pen is the tool used by a writer; similarly, a brush is the tool used by an artist."
+          },
+          {
+            "id": "GA010",
+            "text": "A sum of money doubles itself in 8 years at simple interest. In how many years will it become 5 times?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "32 years",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "24 years",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "40 years",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "16 years",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Numerical Ability - Simple Interest",
+            "difficulty": "Medium",
+            "explanation": "If principal doubles in 8 years, then 100% interest is earned in 8 years. Rate = 100/(8×1) = 12.5% per year. To become 5 times means 400% interest needed. Time = 400/12.5 = 32 years"
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Instrumentation Engineering Assessment",
+        "description": "Comprehensive assessment of core instrumentation engineering subjects including Control Systems, Analog Electronics, Measurements, Sensors and Transducers, Signal Processing, and Process Control. This section carries 85% weight in the total assessment.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "IN001",
+            "text": "A first-order system has a time constant of 2 seconds. What is the system's bandwidth in rad/s?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.5",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1.0",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2.0",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.25",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems - System Analysis",
+            "difficulty": "Easy",
+            "explanation": "For a first-order system, bandwidth ω = 1/τ where τ is the time constant. ω = 1/2 = 0.5 rad/s"
+          },
+          {
+            "id": "IN002",
+            "text": "What is the resolution of a 12-bit ADC with a full-scale voltage range of 5V?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1.22 mV",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2.44 mV",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.61 mV",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5.0 mV",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Analog Electronics - ADC",
+            "difficulty": "Easy",
+            "explanation": "Resolution = Full Scale Voltage / (2^n) = 5 / (2^12) = 5 / 4096 ≈ 1.22 mV"
+          },
+          {
+            "id": "IN003",
+            "text": "In a Wheatstone bridge, three resistors have values R₁=100Ω, R₂=200Ω, R₃=150Ω. What should be the value of R₄ for bridge balance?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "250Ω",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "300Ω",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "350Ω",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "400Ω",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Measurements - Bridge Circuits",
+            "difficulty": "Easy",
+            "explanation": "For bridge balance: R₁/R₂ = R₃/R₄. Therefore R₄ = R₃ × R₂/R₁ = 150 × 200/100 = 300Ω"
+          },
+          {
+            "id": "IN004",
+            "text": "A thermocouple produces 40μV/°C. What is the temperature if the output voltage is 2mV (assuming reference at 0°C)?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "50°C",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "40°C",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "60°C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "45°C",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Sensors and Transducers - Temperature",
+            "difficulty": "Easy",
+            "explanation": "Temperature = Output Voltage / Sensitivity = 2mV / 40μV/°C = 2000μV / 40μV/°C = 50°C"
+          },
+          {
+            "id": "IN005",
+            "text": "The transfer function of a system is G(s) = 10/(s+5). What is the DC gain of this system?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "5",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "10",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems - Transfer Functions",
+            "difficulty": "Medium",
+            "explanation": "DC gain is found by setting s=0: G(0) = 10/(0+5) = 10/5 = 2"
+          },
+          {
+            "id": "IN006",
+            "text": "What type of feedback is used in an instrumentation amplifier to achieve high CMRR?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Positive feedback",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Negative feedback",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both positive and negative",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "No feedback",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog Electronics - Amplifiers",
+            "difficulty": "Medium",
+            "explanation": "Instrumentation amplifiers use negative feedback to achieve high Common Mode Rejection Ratio (CMRR) and stable, precise amplification."
+          },
+          {
+            "id": "IN007",
+            "text": "A pressure transducer has a sensitivity of 5mV/kPa and operates over a range of 0-100 kPa. What is its full-scale output?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "250mV",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "500mV",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "750mV",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1000mV",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Sensors and Transducers - Pressure",
+            "difficulty": "Easy",
+            "explanation": "Full-scale output = Sensitivity × Maximum Pressure = 5mV/kPa × 100kPa = 500mV"
+          },
+          {
+            "id": "IN008",
+            "text": "In a PID controller, which term is responsible for eliminating steady-state error?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Proportional",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Integral",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Derivative",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "All three equally",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems - PID Control",
+            "difficulty": "Medium",
+            "explanation": "The Integral (I) term accumulates error over time and is specifically designed to eliminate steady-state error by continuously adjusting the control signal."
+          },
+          {
+            "id": "IN009",
+            "text": "What is the Nyquist sampling rate for a signal with maximum frequency component of 5 kHz?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "5 kHz",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2.5 kHz",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "10 kHz",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "15 kHz",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Signal Processing - Sampling",
+            "difficulty": "Easy",
+            "explanation": "According to Nyquist theorem, sampling rate must be at least twice the maximum frequency: fs ≥ 2 × 5kHz = 10kHz"
+          },
+          {
+            "id": "IN010",
+            "text": "An RTD has a resistance of 100Ω at 0°C and a temperature coefficient of 0.00385Ω/Ω/°C. What is its resistance at 100°C?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "138.5Ω",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "125.0Ω",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "150.0Ω",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "110.5Ω",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Sensors and Transducers - RTD",
+            "difficulty": "Medium",
+            "explanation": "R(T) = R₀(1 + α×ΔT) = 100(1 + 0.00385×100) = 100(1 + 0.385) = 100 × 1.385 = 138.5Ω"
+          },
+          {
+            "id": "IN011",
+            "text": "What is the order of the system with transfer function G(s) = 5(s+2)/[(s+1)(s²+4s+5)]?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "First order",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Second order",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Third order",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Fourth order",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Control Systems - System Order",
+            "difficulty": "Easy",
+            "explanation": "System order equals the highest power of s in the denominator. Here: (s+1)(s²+4s+5) expands to s³+..., so it's third order."
+          },
+          {
+            "id": "IN012",
+            "text": "In an operational amplifier, the slew rate specification indicates:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Maximum voltage gain",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Maximum rate of change of output voltage",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Input impedance",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Bandwidth",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog Electronics - Op-Amp",
+            "difficulty": "Easy",
+            "explanation": "Slew rate is the maximum rate at which an op-amp's output voltage can change, typically measured in V/μs."
+          },
+          {
+            "id": "IN013",
+            "text": "A strain gauge has a gauge factor of 2.0 and nominal resistance of 120Ω. If subjected to a strain of 1000 microstrain, what is the change in resistance?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.12Ω",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.24Ω",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.36Ω",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.48Ω",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Sensors and Transducers - Strain Gauge",
+            "difficulty": "Medium",
+            "explanation": "ΔR = GF × R₀ × ε where ε = 1000×10⁻⁶ = 0.001. ΔR = 2.0 × 120 × 0.001 = 0.24Ω"
+          },
+          {
+            "id": "IN014",
+            "text": "For a second-order system with natural frequency ωn = 10 rad/s and damping ratio ζ = 0.5, what is the damped natural frequency?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "5 rad/s",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "8.66 rad/s",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "7.07 rad/s",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "10 rad/s",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems - Second Order Systems",
+            "difficulty": "Medium",
+            "explanation": "Damped natural frequency ωd = ωn√(1-ζ²) = 10√(1-0.25) = 10√0.75 = 10×0.866 = 8.66 rad/s"
+          },
+          {
+            "id": "IN015",
+            "text": "Which of the following is NOT an advantage of digital instruments over analog instruments?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Higher accuracy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Easier to read",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Lower power consumption",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Better trend visualization",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Measurements - Digital vs Analog",
+            "difficulty": "Easy",
+            "explanation": "Analog instruments (like analog meters with moving needles) provide better trend visualization and continuous reading. Digital displays show discrete values, making trend observation less intuitive."
+          },
+          {
+            "id": "IN016",
+            "text": "The Laplace transform of a unit step function u(t) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1/s",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "s",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/s²",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Signal Processing - Laplace Transform",
+            "difficulty": "Easy",
+            "explanation": "The Laplace transform of unit step function u(t) is L{u(t)} = 1/s"
+          },
+          {
+            "id": "IN017",
+            "text": "In a capacitive transducer, the output is inversely proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Plate area",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Distance between plates",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Dielectric constant",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Applied voltage",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Sensors and Transducers - Capacitive",
+            "difficulty": "Easy",
+            "explanation": "Capacitance C = εA/d, where d is distance between plates. Capacitance is inversely proportional to distance d."
+          },
+          {
+            "id": "IN018",
+            "text": "The gain margin of a system is 20 dB. What is the gain margin in absolute value?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "10",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "20",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "100",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems - Stability",
+            "difficulty": "Medium",
+            "explanation": "Gain margin (absolute) = 10^(GM_dB/20) = 10^(20/20) = 10^1 = 10"
+          },
+          {
+            "id": "IN019",
+            "text": "Which of the following sensors works on the piezoelectric effect?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "LVDT",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Accelerometer",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "RTD",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Photodiode",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Sensors and Transducers - Piezoelectric",
+            "difficulty": "Easy",
+            "explanation": "Piezoelectric accelerometers generate electric charge when subjected to mechanical stress/acceleration."
+          },
+          {
+            "id": "IN020",
+            "text": "An 8-bit DAC has a reference voltage of 10V. What is the analog output for digital input 10000000?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "5V",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5.02V",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "4.98V",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "10V",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Analog Electronics - DAC",
+            "difficulty": "Medium",
+            "explanation": "10000000 in binary = 128 in decimal. Output = (128/256) × 10V = 0.5 × 10V = 5V"
+          },
+          {
+            "id": "IN021",
+            "text": "The characteristic equation of a control system is s³ + 6s² + 11s + 6 = 0. The system is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Stable",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Unstable",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Marginally stable",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Cannot be determined",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems - Stability Analysis",
+            "difficulty": "Medium",
+            "explanation": "Using Routh-Hurwitz criterion: all coefficients are positive and s¹ row gives (66-6)/6 = 10 > 0. All elements in first column are positive, hence stable."
+          },
+          {
+            "id": "IN022",
+            "text": "LVDT stands for:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Linear Variable Differential Transformer",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Linear Voltage Differential Transducer",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Low Voltage Direct Transfer",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Linear Variable Displacement Transducer",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Sensors and Transducers - LVDT",
+            "difficulty": "Easy",
+            "explanation": "LVDT = Linear Variable Differential Transformer, used for measuring linear displacement."
+          },
+          {
+            "id": "IN023",
+            "text": "The Z-transform of a discrete unit step sequence u[n] is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "z/(z-1)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1/(z-1)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "z/(z+1)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1/z",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Signal Processing - Z-Transform",
+            "difficulty": "Medium",
+            "explanation": "Z{u[n]} = Σ(z^-n) from n=0 to ∞ = 1/(1-z^-1) = z/(z-1) for |z| > 1"
+          },
+          {
+            "id": "IN024",
+            "text": "In a closed-loop control system, the steady-state error for a unit ramp input with type-1 system is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Zero",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Infinity",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/Kv",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1/Kp",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Control Systems - Steady State Error",
+            "difficulty": "Medium",
+            "explanation": "For type-1 system with ramp input, steady-state error ess = 1/Kv where Kv is velocity error constant."
+          },
+          {
+            "id": "IN025",
+            "text": "The active element in a thermistor is typically made of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Metal oxide semiconductor",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Pure platinum",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Carbon composite",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Nichrome wire",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Sensors and Transducers - Thermistor",
+            "difficulty": "Easy",
+            "explanation": "Thermistors are made of metal oxide semiconductors that exhibit large changes in resistance with temperature."
+          },
+          {
+            "id": "IN026",
+            "text": "An instrumentation amplifier typically has an input impedance of the order of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1 kΩ",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "10 kΩ",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1 MΩ",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1 GΩ",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Analog Electronics - Instrumentation Amplifier",
+            "difficulty": "Medium",
+            "explanation": "Instrumentation amplifiers are designed with very high input impedance (typically in GΩ range) to avoid loading the source."
+          },
+          {
+            "id": "IN027",
+            "text": "The Bode plot of a system shows a slope of -40 dB/decade at high frequencies. This indicates:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "One pole",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Two poles",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "One zero",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Two zeros",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems - Bode Plot",
+            "difficulty": "Medium",
+            "explanation": "Each pole contributes -20 dB/decade slope. A slope of -40 dB/decade indicates two poles."
+          },
+          {
+            "id": "IN028",
+            "text": "In a digital voltmeter using dual-slope integration, the accuracy is primarily dependent on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Clock frequency stability",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Integrator time constant",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Reference voltage accuracy",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Comparator speed",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Measurements - Digital Voltmeter",
+            "difficulty": "Hard",
+            "explanation": "In dual-slope ADC, the unknown voltage is compared against a precise reference voltage. Accuracy depends on reference voltage accuracy, not clock frequency."
+          },
+          {
+            "id": "IN029",
+            "text": "The settling time of a second-order underdamped system is approximately:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1/(ζωn)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "4/(ζωn)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "π/(ωn√(1-ζ²))",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2/ωn",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems - Time Response",
+            "difficulty": "Hard",
+            "explanation": "Settling time (2% criterion) Ts ≈ 4/(ζωn) for underdamped second-order systems."
+          },
+          {
+            "id": "IN030",
+            "text": "A Hall effect sensor is primarily used to measure:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Temperature",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Magnetic field",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Pressure",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Light intensity",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Sensors and Transducers - Hall Effect",
+            "difficulty": "Easy",
+            "explanation": "Hall effect sensors measure magnetic field strength by detecting the voltage developed across a conductor in a magnetic field."
+          },
+          {
+            "id": "IN031",
+            "text": "The output of a Schmitt trigger with upper threshold +5V and lower threshold +2V, when input varies from 0V to 8V and back, exhibits:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "No hysteresis",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Hysteresis of 3V",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Hysteresis of 5V",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Hysteresis of 7V",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog Electronics - Schmitt Trigger",
+            "difficulty": "Medium",
+            "explanation": "Hysteresis = Upper threshold - Lower threshold = 5V - 2V = 3V"
+          },
+          {
+            "id": "IN032",
+            "text": "In process control, the term 'dead time' refers to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Time taken for sensor to respond",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Delay between cause and effect",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Controller processing time",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Actuator lag time",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Process Control - Dead Time",
+            "difficulty": "Easy",
+            "explanation": "Dead time (or transport delay) is the time delay between when a control action is taken and when its effect is observed in the process."
+          },
+          {
+            "id": "IN033",
+            "text": "The frequency response of an ideal low-pass filter with cutoff frequency ωc is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Unity for ω < ωc, zero for ω > ωc",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Zero for ω < ωc, unity for ω > ωc",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Constant at all frequencies",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Linearly decreasing with frequency",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Signal Processing - Filters",
+            "difficulty": "Easy",
+            "explanation": "An ideal low-pass filter passes all frequencies below cutoff (gain = 1) and blocks all above (gain = 0)."
+          },
+          {
+            "id": "IN034",
+            "text": "A 4-20 mA current loop is used for a sensor with range 0-200°C. What temperature does 12 mA represent?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "100°C",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "120°C",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "150°C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "80°C",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Process Control - Current Loop",
+            "difficulty": "Medium",
+            "explanation": "Temperature = [(I - 4)/(20 - 4)] × Range = [(12 - 4)/16] × 200 = (8/16) × 200 = 100°C"
+          },
+          {
+            "id": "IN035",
+            "text": "The resolution of a measurement system is defined as:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Largest measurable value",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Smallest measurable change",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Difference between max and min values",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Accuracy of measurement",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Measurements - Resolution",
+            "difficulty": "Easy",
+            "explanation": "Resolution is the smallest change in the measured quantity that can be detected by the measurement system."
+          },
+          {
+            "id": "IN036",
+            "text": "For a unity feedback system with open-loop transfer function G(s) = K/[s(s+2)(s+4)], the system type is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Type 0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Type 1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Type 2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Type 3",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems - System Type",
+            "difficulty": "Easy",
+            "explanation": "System type is determined by number of poles at origin. Here, one pole at s=0, hence Type 1 system."
+          },
+          {
+            "id": "IN037",
+            "text": "A bourdon tube pressure gauge is based on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Piezoelectric effect",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Capacitive effect",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Elastic deformation",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Magnetic induction",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Sensors and Transducers - Bourdon Tube",
+            "difficulty": "Easy",
+            "explanation": "Bourdon tube gauges work on the principle that a curved tube tends to straighten when internal pressure increases (elastic deformation)."
+          },
+          {
+            "id": "IN038",
+            "text": "The effective number of bits (ENOB) of an ADC accounts for:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Only quantization error",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "All non-ideal effects including noise",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Only sampling rate limitations",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Only reference voltage errors",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog Electronics - ADC Performance",
+            "difficulty": "Medium",
+            "explanation": "ENOB represents the actual performance of an ADC considering all real-world imperfections: noise, distortion, quantization, etc."
+          },
+          {
+            "id": "IN039",
+            "text": "In cascade control, the secondary controller regulates:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The final control element",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "An intermediate variable",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The primary setpoint",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The disturbance directly",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Process Control - Cascade Control",
+            "difficulty": "Medium",
+            "explanation": "In cascade control, the secondary (slave) controller regulates an intermediate variable, while the primary (master) controller regulates the main process variable."
+          },
+          {
+            "id": "IN040",
+            "text": "A spectrum analyzer displays:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Time domain signal",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Frequency domain representation",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Phase vs frequency",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Impulse response",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Measurements - Spectrum Analyzer",
+            "difficulty": "Easy",
+            "explanation": "A spectrum analyzer shows the magnitude of signal components across frequency, i.e., frequency domain representation."
+          },
+          {
+            "id": "IN041",
+            "text": "The phase margin of a stable system is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Always negative",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Always positive",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Zero",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Can be positive or negative",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems - Phase Margin",
+            "difficulty": "Easy",
+            "explanation": "For a stable system, phase margin must be positive (typically > 0°). Negative phase margin indicates instability."
+          },
+          {
+            "id": "IN042",
+            "text": "A photodiode operates in reverse bias because:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "It increases dark current",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "It provides faster response",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "It increases forward current",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "It reduces junction capacitance",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Sensors and Transducers - Photodiode",
+            "difficulty": "Medium",
+            "explanation": "Reverse bias operation provides faster response time by widening the depletion region and reducing junction capacitance, though option B is the primary reason."
+          },
+          {
+            "id": "IN043",
+            "text": "The transfer function of an ideal PID controller is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Kp + Ki/s + Kd·s",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Kp + Ki·s + Kd/s",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Kp·Ki·Kd",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Kp + Ki + Kd",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems - PID Controller",
+            "difficulty": "Medium",
+            "explanation": "PID controller: Gc(s) = Kp (proportional) + Ki/s (integral) + Kd·s (derivative)"
+          },
+          {
+            "id": "IN044",
+            "text": "Aliasing occurs when:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sampling rate is too high",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Sampling rate < 2 × maximum frequency",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Signal amplitude is too large",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Quantization levels are insufficient",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Signal Processing - Aliasing",
+            "difficulty": "Medium",
+            "explanation": "Aliasing occurs when sampling rate violates Nyquist criterion: fs < 2fm, causing high frequencies to appear as lower frequencies."
+          },
+          {
+            "id": "IN045",
+            "text": "A capacitive proximity sensor detects objects by measuring changes in:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Magnetic field",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Electric field",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Light intensity",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Temperature",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Sensors and Transducers - Proximity Sensors",
+            "difficulty": "Easy",
+            "explanation": "Capacitive proximity sensors detect objects by sensing changes in the electric field (capacitance) when an object enters the sensing area."
+          },
+          {
+            "id": "IN046",
+            "text": "The common-mode rejection ratio (CMRR) of an ideal differential amplifier is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Zero",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Unity",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Infinite",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Depends on frequency",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Analog Electronics - CMRR",
+            "difficulty": "Easy",
+            "explanation": "An ideal differential amplifier completely rejects common-mode signals (Acm = 0), giving CMRR = Ad/Acm = ∞"
+          },
+          {
+            "id": "IN047",
+            "text": "In a root locus plot, the breakaway point occurs where:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "dK/ds = 0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "K = 0",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Real part is maximum",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Imaginary part is zero",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems - Root Locus",
+            "difficulty": "Hard",
+            "explanation": "Breakaway/break-in points on root locus occur where dK/ds = 0, representing points where multiple roots have the same value."
+          },
+          {
+            "id": "IN048",
+            "text": "The key advantage of a Kelvin double bridge over a Wheatstone bridge is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Measures high resistance accurately",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Eliminates lead resistance effects",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Faster measurement",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Digital output",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Measurements - Bridge Circuits",
+            "difficulty": "Medium",
+            "explanation": "Kelvin double bridge eliminates errors due to lead and contact resistance, making it ideal for measuring very low resistances."
+          },
+          {
+            "id": "IN049",
+            "text": "An optical encoder provides:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Analog position measurement",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Digital position measurement",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Velocity measurement only",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Temperature measurement",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Sensors and Transducers - Optical Encoder",
+            "difficulty": "Easy",
+            "explanation": "Optical encoders convert mechanical position/motion into digital electrical signals using optical sensing."
+          },
+          {
+            "id": "IN050",
+            "text": "The settling time criterion of 2% means the response stays within:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "±2% of initial value",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "±2% of peak value",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "±2% of final value",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "±2% of step size",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Control Systems - Settling Time",
+            "difficulty": "Easy",
+            "explanation": "Settling time (2% criterion) is when the response remains within ±2% of the final steady-state value."
+          },
+          {
+            "id": "IN051",
+            "text": "A load cell typically uses which principle for force measurement?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Piezoelectric",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Strain gauge",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Capacitive",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Inductive",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Sensors and Transducers - Load Cell",
+            "difficulty": "Easy",
+            "explanation": "Load cells typically use strain gauges bonded to a metal structure. Applied force causes strain, changing gauge resistance."
+          },
+          {
+            "id": "IN052",
+            "text": "The Q-factor of a band-pass filter is defined as:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Center frequency / Bandwidth",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Bandwidth / Center frequency",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Upper cutoff / Lower cutoff",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Peak gain / DC gain",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Signal Processing - Filter Q-Factor",
+            "difficulty": "Medium",
+            "explanation": "Quality factor Q = f₀/BW where f₀ is center frequency and BW is bandwidth. Higher Q means narrower, more selective filter."
+          },
+          {
+            "id": "IN053",
+            "text": "In ratio control, the wild stream is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The controlled variable",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The uncontrolled flow that sets the ratio",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The manipulated variable",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The setpoint",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Process Control - Ratio Control",
+            "difficulty": "Medium",
+            "explanation": "In ratio control, the 'wild' stream is the uncontrolled flow (often a disturbance) that other flows are ratioed against."
+          },
+          {
+            "id": "IN054",
+            "text": "A thermowell is used in temperature measurement to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increase sensitivity",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Protect the sensor from process conditions",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Amplify the signal",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Provide electrical isolation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Sensors and Transducers - Thermowell",
+            "difficulty": "Easy",
+            "explanation": "A thermowell is a protective tube that allows sensor removal/replacement without process shutdown, protecting it from harsh conditions."
+          },
+          {
+            "id": "IN055",
+            "text": "The Ziegler-Nichols tuning method for PID controllers is based on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Mathematical modeling",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Process reaction curve or ultimate gain method",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Trial and error",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Frequency response analysis",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Process Control - PID Tuning",
+            "difficulty": "Medium",
+            "explanation": "Ziegler-Nichols provides two methods: reaction curve method (open-loop step test) and ultimate gain method (closed-loop oscillation test)."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "GATE Instrumentation Engineering Assessment Results",
+        "description": "Your comprehensive GATE Instrumentation Engineering assessment results with detailed analysis and recommendations for improvement.",
+        "questions": []
+      }
+    }
+  }

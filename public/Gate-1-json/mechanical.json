@@ -1,0 +1,2486 @@
+{
+    "id": "mechanical",
+    "title": "Mechanical Engineering (ME)",
+    "description": "Comprehensive GATE Mechanical Engineering assessment covering General Aptitude and Core Mechanical Engineering subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core mechanical engineering questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Easy",
+    "tags": ["GATE", "Mechanical Engineering", "Engineering", "Aptitude", "Core Subjects"],
+    "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Mechanical Engineering is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in mechanical engineering and related fields. This assessment follows the official GATE pattern with General Aptitude and Core Mechanical Engineering questions.",
+    "typicalCareers": [
+      {
+        "title": "Mechanical Engineer",
+        "description": "Advanced mechanical engineering positions in design, manufacturing, and research"
+      },
+      {
+        "title": "PhD Candidate",
+        "description": "Pursue higher studies in mechanical engineering and related fields"
+      },
+      {
+        "title": "Research Engineer",
+        "description": "Senior technical roles in mechanical systems and thermal engineering"
+      }
+    ],
+    "whoShouldConsider": [
+      "Mechanical Engineering graduates preparing for GATE",
+      "Students seeking admission to M.Tech/M.E programs in mechanical engineering",
+      "Professionals looking for PSU jobs in mechanical sector",
+      "Researchers in mechanical engineering and related fields"
+    ],
+    "idealTraits": [
+      "Strong analytical and problem-solving skills",
+      "Solid foundation in mechanical engineering fundamentals",
+      "Mathematical aptitude and logical reasoning",
+      "Good understanding of mechanical principles and systems"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude Assessment (10 questions, 15 marks)",
+        "Core Mechanical Engineering Assessment (55 questions, 85 marks)"
+      ],
+      "resultsInclude": [
+        "Section-wise scores (Aptitude & Core)",
+        "Topic-wise performance analysis",
+        "Difficulty-wise accuracy",
+        "Overall percentile ranking",
+        "Detailed explanations for all questions"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment",
+        "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "Choose the word most similar in meaning to \"PROLIFERATE\":",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Decrease",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Multiply",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Simplify",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Understand",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Synonyms",
+            "difficulty": "Easy",
+            "explanation": "PROLIFERATE means to increase rapidly in number or spread profusely. MULTIPLY is the closest synonym."
+          },
+          {
+            "id": "GA002",
+            "text": "If 5 machines can produce 5 widgets in 5 minutes, how many machines are needed to produce 100 widgets in 100 minutes?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "5",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "20",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "25",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "100",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Numerical Ability - Work Rate",
+            "difficulty": "Easy",
+            "explanation": "Each machine produces 1 widget in 5 minutes. To produce 100 widgets in 100 minutes (20 times longer), we still need only 5 machines."
+          },
+          {
+            "id": "GA003",
+            "text": "Complete the series: 2, 6, 12, 20, 30, ?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "40",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "42",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "44",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "46",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Numerical Ability - Series",
+            "difficulty": "Easy",
+            "explanation": "The differences are 4, 6, 8, 10, so the next difference is 12. 30 + 12 = 42."
+          },
+          {
+            "id": "GA004",
+            "text": "A train travels 180 km at a uniform speed. If the speed had been 9 km/hr more, it would have taken 1 hour less for the same journey. Find the original speed of the train.",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "27 km/hr",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "36 km/hr",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "45 km/hr",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "54 km/hr",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Numerical Ability - Speed Problems",
+            "difficulty": "Medium",
+            "explanation": "Let speed = x. Then 180/x - 180/(x+9) = 1. Solving: x = 36 km/hr."
+          },
+          {
+            "id": "GA005",
+            "text": "Choose the grammatically correct sentence:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "The committee have made their decision.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The committee has made its decision.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The committee has made their decision.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The committee have made its decision.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Grammar",
+            "difficulty": "Easy",
+            "explanation": "\"Committee\" is a collective noun treated as singular, requiring \"has\" and \"its\"."
+          },
+          {
+            "id": "GA006",
+            "text": "In a class of 60 students, 40% are girls. If 10 more girls join the class, what percentage of the class will be girls?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "45%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "46.67%",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "48.57%",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "50%",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Numerical Ability - Percentage",
+            "difficulty": "Easy",
+            "explanation": "Initially 24 girls (40% of 60). After adding 10, total girls = 34, total students = 70. Percentage = (34/70) × 100 = 48.57%."
+          },
+          {
+            "id": "GA007",
+            "text": "Find the odd one out:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Rectangle",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Square",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Circle",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Triangle",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Logical Reasoning - Classification",
+            "difficulty": "Easy",
+            "explanation": "Circle is the only shape without straight edges."
+          },
+          {
+            "id": "GA008",
+            "text": "If \"GATE\" is coded as \"HCVG\", how is \"EXAM\" coded?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "GZCO",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "FYCN",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "HACO",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "GYBM",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Logical Reasoning - Coding",
+            "difficulty": "Medium",
+            "explanation": "Each letter is shifted by +2 positions. E→H, X→A (wraps), A→C, M→O."
+          },
+          {
+            "id": "GA009",
+            "text": "The average of 5 consecutive odd numbers is 27. What is the largest of these numbers?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "29",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "31",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "33",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "35",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Numerical Ability - Average",
+            "difficulty": "Easy",
+            "explanation": "If average is 27, the middle number is 27. The sequence is 23, 25, 27, 29, 31. Largest is 31."
+          },
+          {
+            "id": "GA010",
+            "text": "Which of the following statements can be inferred from: \"All engineers are problem solvers. Some problem solvers are creative.\"",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "All engineers are creative",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Some engineers may be creative",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "No engineer is creative",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "All creative people are engineers",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Logical Reasoning - Syllogism",
+            "difficulty": "Medium",
+            "explanation": "Since all engineers are problem solvers and some problem solvers are creative, it's possible (but not certain) that some engineers are creative."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Mechanical Engineering Assessment",
+        "description": "Comprehensive assessment of core mechanical engineering subjects including Thermodynamics, Fluid Mechanics, Heat Transfer, Manufacturing, Material Science, Theory of Machines, Strength of Materials, and Vibrations. This section carries 85% weight in the total assessment.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "ME001",
+            "text": "The first law of thermodynamics is a statement of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Conservation of energy",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Conservation of mass",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Conservation of momentum",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Entropy principle",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Thermodynamics - Laws",
+            "difficulty": "Easy",
+            "explanation": "The first law of thermodynamics states that energy cannot be created or destroyed, only converted from one form to another."
+          },
+          {
+            "id": "ME002",
+            "text": "For an ideal gas undergoing an isothermal process, which of the following remains constant?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Pressure",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Volume",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Temperature",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Entropy",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Thermodynamics - Processes",
+            "difficulty": "Easy",
+            "explanation": "Isothermal means constant temperature. For an ideal gas in an isothermal process, T remains constant while P and V change according to PV = constant."
+          },
+          {
+            "id": "ME003",
+            "text": "The efficiency of a Carnot engine operating between 400 K and 300 K is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "15%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "20%",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "25%",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "30%",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Thermodynamics - Heat Engines",
+            "difficulty": "Easy",
+            "explanation": "Carnot efficiency η = 1 - (T_cold/T_hot) = 1 - (300/400) = 0.25 = 25%."
+          },
+          {
+            "id": "ME004",
+            "text": "In a tensile test, the ratio of lateral strain to longitudinal strain is called:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Young's modulus",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Poisson's ratio",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Bulk modulus",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Modulus of rigidity",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Strength of Materials - Material Properties",
+            "difficulty": "Easy",
+            "explanation": "Poisson's ratio (ν) is defined as the ratio of lateral strain to longitudinal strain."
+          },
+          {
+            "id": "ME005",
+            "text": "A simply supported beam of length L carries a uniformly distributed load w per unit length. The maximum bending moment is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "wL²/2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "wL²/4",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "wL²/8",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "wL²/12",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Strength of Materials - Beams",
+            "difficulty": "Easy",
+            "explanation": "For a simply supported beam with UDL, max bending moment occurs at center and equals wL²/8."
+          },
+          {
+            "id": "ME006",
+            "text": "The stress that causes change in volume without change in shape is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Shear stress",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Normal stress",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Hydrostatic stress",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Principal stress",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Strength of Materials - Stress Types",
+            "difficulty": "Easy",
+            "explanation": "Hydrostatic stress (equal normal stresses in all directions) causes volume change without shape change."
+          },
+          {
+            "id": "ME007",
+            "text": "Reynolds number is the ratio of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Viscous force to inertia force",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Inertia force to viscous force",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Pressure force to inertia force",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Surface tension to inertia force",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Fluid Mechanics - Dimensionless Numbers",
+            "difficulty": "Easy",
+            "explanation": "Reynolds number Re = (ρVL)/μ represents the ratio of inertia forces to viscous forces."
+          },
+          {
+            "id": "ME008",
+            "text": "For a fluid flowing through a pipe, if the Reynolds number is less than 2000, the flow is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Turbulent",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Laminar",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Transitional",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Unsteady",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Fluid Mechanics - Flow Types",
+            "difficulty": "Easy",
+            "explanation": "Flow is laminar when Re < 2000, transitional for 2000 < Re < 4000, and turbulent when Re > 4000."
+          },
+          {
+            "id": "ME009",
+            "text": "Bernoulli's equation is based on the principle of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Conservation of mass",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Conservation of energy",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Conservation of momentum",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Conservation of angular momentum",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Fluid Mechanics - Bernoulli's Equation",
+            "difficulty": "Easy",
+            "explanation": "Bernoulli's equation (P + ½ρv² + ρgh = constant) represents conservation of energy for an ideal fluid."
+          },
+          {
+            "id": "ME010",
+            "text": "In a heat exchanger, the effectiveness is defined as the ratio of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Actual heat transfer to maximum possible heat transfer",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Maximum heat transfer to actual heat transfer",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Heat input to heat output",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Heat output to work output",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Heat Transfer - Heat Exchangers",
+            "difficulty": "Easy",
+            "explanation": "Effectiveness ε = (Actual heat transfer)/(Maximum possible heat transfer)."
+          },
+          {
+            "id": "ME011",
+            "text": "Fourier's law of heat conduction states that heat flux is proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Temperature",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Temperature gradient",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Heat capacity",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Thermal diffusivity",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Heat Transfer - Conduction",
+            "difficulty": "Easy",
+            "explanation": "Fourier's law: q = -k(dT/dx), where heat flux is proportional to temperature gradient."
+          },
+          {
+            "id": "ME012",
+            "text": "The critical thickness of insulation for a cylinder depends on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Thermal conductivity only",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Convection coefficient only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both thermal conductivity and convection coefficient",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Cylinder radius only",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Heat Transfer - Insulation",
+            "difficulty": "Medium",
+            "explanation": "Critical radius r_c = k/h, where k is thermal conductivity and h is convection coefficient."
+          },
+          {
+            "id": "ME013",
+            "text": "In orthogonal cutting, the shear angle increases with:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increase in rake angle",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Decrease in rake angle",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Increase in feed rate",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Increase in cutting speed",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Manufacturing - Machining",
+            "difficulty": "Easy",
+            "explanation": "According to Merchant's theory, shear angle increases with increase in rake angle."
+          },
+          {
+            "id": "ME014",
+            "text": "Which welding process does not use a filler material?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "TIG welding",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "MIG welding",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Resistance welding",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Gas welding",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Manufacturing - Welding",
+            "difficulty": "Easy",
+            "explanation": "Resistance welding (spot, seam) joins metals by heat from electrical resistance without filler material."
+          },
+          {
+            "id": "ME015",
+            "text": "In sand casting, the purpose of a riser is to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Provide path for molten metal",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Compensate for shrinkage",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Allow gases to escape",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Support the mold",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Manufacturing - Casting",
+            "difficulty": "Easy",
+            "explanation": "A riser provides additional molten metal to compensate for shrinkage during solidification."
+          },
+          {
+            "id": "ME016",
+            "text": "The property of a material to absorb energy in the plastic range is called:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Resilience",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Toughness",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Ductility",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Hardness",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Material Science - Mechanical Properties",
+            "difficulty": "Easy",
+            "explanation": "Toughness is the ability to absorb energy in the plastic range before fracture."
+          },
+          {
+            "id": "ME017",
+            "text": "Austenite in steel is stable at:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Room temperature",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Below 723°C",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Above 912°C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Below 0°C",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Material Science - Phase Diagrams",
+            "difficulty": "Easy",
+            "explanation": "Austenite (FCC iron) is stable above 912°C in the iron-carbon phase diagram."
+          },
+          {
+            "id": "ME018",
+            "text": "The primary function of alloying elements in steel is to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Reduce cost",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Improve mechanical properties",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Increase weight",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Reduce melting point",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Material Science - Alloying",
+            "difficulty": "Easy",
+            "explanation": "Alloying elements like Ni, Cr, Mo improve strength, toughness, corrosion resistance, and hardenability."
+          },
+          {
+            "id": "ME019",
+            "text": "In a four-bar mechanism, the condition for a crank-rocker mechanism is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "s + l < p + q",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "s + l > p + q",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "s + l = p + q",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "s = l",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Theory of Machines - Mechanisms",
+            "difficulty": "Medium",
+            "explanation": "Grashof's law: s + l < p + q (where s is shortest, l is longest) and shortest is the frame for crank-rocker."
+          },
+          {
+            "id": "ME020",
+            "text": "The instantaneous center of rotation for a link in planar motion is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Always at the center of mass",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The point where velocity is zero",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The point of maximum velocity",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The point of maximum acceleration",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Theory of Machines - Kinematics",
+            "difficulty": "Easy",
+            "explanation": "The instantaneous center is the point about which the link appears to rotate at that instant, where velocity is zero."
+          },
+          {
+            "id": "ME021",
+            "text": "In a slider-crank mechanism, the ratio of maximum to minimum speed is called:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Velocity ratio",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Acceleration ratio",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Speed ratio",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Crank ratio",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Theory of Machines - Mechanisms",
+            "difficulty": "Easy",
+            "explanation": "Speed ratio is defined as the ratio of maximum to minimum speed in a mechanism."
+          },
+          {
+            "id": "ME022",
+            "text": "In vibration analysis, critical damping occurs when the damping ratio is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "< 1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "= 1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "> 1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Vibrations - Damping",
+            "difficulty": "Easy",
+            "explanation": "Critical damping occurs when damping ratio ζ = 1, separating oscillatory from non-oscillatory motion."
+          },
+          {
+            "id": "ME023",
+            "text": "The natural frequency of a spring-mass system is proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "√(k/m)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "√(m/k)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "k/m",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "m/k",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Vibrations - Natural Frequency",
+            "difficulty": "Easy",
+            "explanation": "Natural frequency ω_n = √(k/m), where k is stiffness and m is mass."
+          },
+          {
+            "id": "ME024",
+            "text": "A Rankine cycle operates between 30 bar and 0.05 bar. The efficiency increases if:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "High pressure increases",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Low pressure increases",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "High pressure decreases",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Both pressures remain constant",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Thermodynamics - Power Cycles",
+            "difficulty": "Medium",
+            "explanation": "Rankine cycle efficiency increases with higher boiler pressure (increasing T_high) or lower condenser pressure (decreasing T_low)."
+          },
+          {
+            "id": "ME025",
+            "text": "The purpose of superheating steam in a Rankine cycle is to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increase turbine efficiency",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reduce moisture content at turbine exit",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Decrease boiler pressure",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Increase condenser pressure",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics - Power Cycles",
+            "difficulty": "Easy",
+            "explanation": "Superheating reduces moisture at turbine exit, preventing blade erosion and improving cycle efficiency."
+          },
+          {
+            "id": "ME026",
+            "text": "In a refrigeration cycle, the coefficient of performance (COP) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Always less than 1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Always equal to 1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Can be greater than 1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Always infinite",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Thermodynamics - Refrigeration",
+            "difficulty": "Easy",
+            "explanation": "COP = Q_L/W can be greater than 1 for refrigerators and heat pumps, unlike thermal efficiency which is always < 1."
+          },
+          {
+            "id": "ME027",
+            "text": "The hardness test that uses a diamond indenter is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Brinell",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Rockwell",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Vickers",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Both Rockwell and Vickers",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Material Science - Testing",
+            "difficulty": "Easy",
+            "explanation": "Both Rockwell (diamond cone) and Vickers (diamond pyramid) use diamond indenters."
+          },
+          {
+            "id": "ME028",
+            "text": "Tempering of hardened steel is done to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increase hardness",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reduce brittleness",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Increase brittleness",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Remove carbon",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Material Science - Heat Treatment",
+            "difficulty": "Easy",
+            "explanation": "Tempering involves reheating quenched steel to reduce brittleness while sacrificing some hardness."
+          },
+          {
+            "id": "ME029",
+            "text": "Case hardening is a process used to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Harden the entire component",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Harden only the surface",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Soften the surface",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Remove surface defects",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Material Science - Heat Treatment",
+            "difficulty": "Easy",
+            "explanation": "Case hardening (carburizing, nitriding) hardens only the surface layer while keeping the core tough."
+          },
+          {
+            "id": "ME030",
+            "text": "The maximum shear stress in a solid circular shaft subjected to torsion occurs at:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Center",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Outer surface",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Mid-radius",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Quarter radius",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Strength of Materials - Torsion",
+            "difficulty": "Easy",
+            "explanation": "In torsion, shear stress varies linearly from zero at center to maximum at outer surface."
+          },
+          {
+            "id": "ME031",
+            "text": "The polar moment of inertia of a solid circular shaft of diameter d is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "πd⁴/32",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "πd⁴/64",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "πd³/32",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "πd³/16",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Strength of Materials - Moment of Inertia",
+            "difficulty": "Easy",
+            "explanation": "Polar moment of inertia J = πd⁴/32 for solid circular shaft."
+          },
+          {
+            "id": "ME032",
+            "text": "Euler's formula for buckling load is applicable when:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Column is short",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Column is long and slender",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Material is brittle",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Load is tensile",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Strength of Materials - Buckling",
+            "difficulty": "Easy",
+            "explanation": "Euler's formula P_cr = π²EI/L² applies to long, slender columns where buckling occurs before material yield."
+          },
+          {
+            "id": "ME033",
+            "text": "In a gear train, if the number of intermediate gears is odd, the output gear rotates:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "In same direction as input",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "In opposite direction to input",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Depends on gear ratio",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Does not rotate",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Theory of Machines - Gears",
+            "difficulty": "Easy",
+            "explanation": "Each gear reverses direction. Odd number of gears means output rotates opposite to input."
+          },
+          {
+            "id": "ME034",
+            "text": "The velocity ratio of a simple gear train is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Product of driven teeth / Product of driver teeth",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Product of driver teeth / Product of driven teeth",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Sum of all teeth",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Difference of all teeth",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Theory of Machines - Gears",
+            "difficulty": "Easy",
+            "explanation": "Velocity ratio = (Product of teeth on driven gears)/(Product of teeth on driver gears)."
+          },
+          {
+            "id": "ME035",
+            "text": "In a differential gear system, if both side gears rotate at same speed, the carrier:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Rotates at same speed",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Does not rotate",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Rotates at double speed",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Rotates in opposite direction",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Theory of Machines - Differential",
+            "difficulty": "Medium",
+            "explanation": "When both outputs rotate at same speed, differential pinions do not rotate relative to carrier, so carrier rotates at that speed."
+          },
+          {
+            "id": "ME036",
+            "text": "The dimension of kinematic viscosity is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "L²/T",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "L/T²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "M/LT",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "ML/T",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Fluid Mechanics - Dimensions",
+            "difficulty": "Easy",
+            "explanation": "Kinematic viscosity ν = μ/ρ has dimension [L²T⁻¹] or L²/T."
+          },
+          {
+            "id": "ME037",
+            "text": "The pressure coefficient in dimensional analysis is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "p/(ρV²)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2p/(ρV²)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "p/(½ρV²)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "p/ρV",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Fluid Mechanics - Dimensionless Numbers",
+            "difficulty": "Easy",
+            "explanation": "Pressure coefficient C_p = (p - p_∞)/(½ρV²) or equivalently p/(½ρV²) for gauge pressure."
+          },
+          {
+            "id": "ME038",
+            "text": "The head loss in a pipe due to friction is proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "V",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "V²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "V³",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "√V",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Fluid Mechanics - Pipe Flow",
+            "difficulty": "Easy",
+            "explanation": "Darcy-Weisbach equation: h_f = f(L/D)(V²/2g), showing head loss is proportional to V²."
+          },
+          {
+            "id": "ME039",
+            "text": "The tool life equation (Taylor's equation) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "VT = C",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "VTⁿ = C",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "V²T = C",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "V + T = C",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Manufacturing - Tool Life",
+            "difficulty": "Easy",
+            "explanation": "Taylor's tool life equation: VTⁿ = C, where V is cutting speed, T is tool life, n is exponent (0.1-0.5), C is constant."
+          },
+          {
+            "id": "ME040",
+            "text": "In ECM (Electrochemical Machining), material removal takes place by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Mechanical erosion",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Thermal energy",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Electrochemical dissolution",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Chemical reaction only",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Manufacturing - Non-traditional Machining",
+            "difficulty": "Easy",
+            "explanation": "ECM removes material through controlled electrochemical anodic dissolution using DC current."
+          },
+          {
+            "id": "ME041",
+            "text": "The primary advantage of powder metallurgy is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Low cost",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "High production rate",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Near-net shape manufacturing",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "No heat treatment required",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Manufacturing - Powder Metallurgy",
+            "difficulty": "Easy",
+            "explanation": "Powder metallurgy produces parts very close to final dimensions, minimizing machining."
+          },
+          {
+            "id": "ME042",
+            "text": "The Stefan-Boltzmann law for radiation heat transfer states that heat flux is proportional to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "T",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "T²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "T³",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "T⁴",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Heat Transfer - Radiation",
+            "difficulty": "Easy",
+            "explanation": "Stefan-Boltzmann law: q = εσT⁴, where heat flux is proportional to fourth power of absolute temperature."
+          },
+          {
+            "id": "ME043",
+            "text": "The Grashof number is used in:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Forced convection",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Natural convection",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Radiation",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Conduction",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Heat Transfer - Natural Convection",
+            "difficulty": "Easy",
+            "explanation": "Grashof number Gr = gβΔTL³/ν² characterizes natural (free) convection driven by buoyancy."
+          },
+          {
+            "id": "ME044",
+            "text": "The view factor (shape factor) in radiation depends on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Temperature only",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Geometry only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Material properties only",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Both geometry and temperature",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Heat Transfer - Radiation",
+            "difficulty": "Easy",
+            "explanation": "View factor (or configuration factor) depends only on geometry and orientation of surfaces, not temperature or material."
+          },
+          {
+            "id": "ME045",
+            "text": "In a Brayton cycle, compression and expansion processes are ideally:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Isothermal",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Adiabatic",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Isobaric",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Isochoric",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics - Gas Power Cycles",
+            "difficulty": "Easy",
+            "explanation": "Ideal Brayton cycle consists of isentropic (adiabatic reversible) compression and expansion."
+          },
+          {
+            "id": "ME046",
+            "text": "The efficiency of Otto cycle depends on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Compression ratio only",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Heat input only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Specific heat ratio and compression ratio",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Fuel type only",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Thermodynamics - Gas Power Cycles",
+            "difficulty": "Easy",
+            "explanation": "Otto cycle efficiency η = 1 - 1/r^(γ-1), depends on compression ratio r and specific heat ratio γ."
+          },
+          {
+            "id": "ME047",
+            "text": "In a Diesel cycle, heat addition occurs at:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Constant volume",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Constant pressure",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Constant temperature",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Constant entropy",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics - Gas Power Cycles",
+            "difficulty": "Easy",
+            "explanation": "Diesel cycle: compression (isentropic), heat addition (constant pressure), expansion (isentropic), heat rejection (constant volume)."
+          },
+          {
+            "id": "ME048",
+            "text": "The thermal stress in a constrained rod subjected to temperature change ΔT is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "αΔT",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "EαΔT",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "αΔT/E",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "E/αΔT",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Strength of Materials - Thermal Stress",
+            "difficulty": "Easy",
+            "explanation": "Thermal stress σ = EαΔT, where E is Young's modulus, α is thermal expansion coefficient."
+          },
+          {
+            "id": "ME049",
+            "text": "A material that has high hardness and low ductility is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Tough",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Brittle",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Malleable",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Resilient",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Material Science - Mechanical Properties",
+            "difficulty": "Easy",
+            "explanation": "Brittle materials (like glass, ceramics) have high hardness but low ductility and fracture with little plastic deformation."
+          },
+          {
+            "id": "ME050",
+            "text": "The slip planes in FCC crystals are:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "{100} planes",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "{110} planes",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "{111} planes",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "{112} planes",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Material Science - Crystal Structure",
+            "difficulty": "Medium",
+            "explanation": "FCC metals have {111} slip planes (most closely packed) with <110> slip directions, giving 12 slip systems."
+          },
+          {
+            "id": "ME051",
+            "text": "Normalizing of steel is done to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increase hardness",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Refine grain structure",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Increase ductility",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Remove internal stresses",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Material Science - Heat Treatment",
+            "difficulty": "Easy",
+            "explanation": "Normalizing (heating above A3 and air cooling) refines grain structure and removes effects of prior processing."
+          },
+          {
+            "id": "ME052",
+            "text": "In CNC machining, the G-code G01 represents:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Rapid positioning",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Linear interpolation",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Circular interpolation",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Dwell",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Manufacturing - CNC",
+            "difficulty": "Easy",
+            "explanation": "G01 is linear interpolation (cutting in straight line), G00 is rapid, G02/G03 are circular."
+          },
+          {
+            "id": "ME053",
+            "text": "In forging, the flash is the excess material that:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Remains in the die cavity",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Flows out between die faces",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Is compressed inside",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Forms the finished part",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Manufacturing - Forging",
+            "difficulty": "Easy",
+            "explanation": "Flash is excess material that flows out between die parting surfaces and is later trimmed."
+          },
+          {
+            "id": "ME054",
+            "text": "The specific speed of a pump is a dimensionless parameter that depends on:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Speed only",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Discharge only",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Head only",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Speed, discharge, and head",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Fluid Machinery - Pumps",
+            "difficulty": "Easy",
+            "explanation": "Specific speed N_s = NQ^0.5/H^0.75 combines rotational speed, discharge, and head to characterize pump type."
+          },
+          {
+            "id": "ME055",
+            "text": "Cavitation in pumps occurs when local pressure drops below:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Atmospheric pressure",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Vapor pressure",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Critical pressure",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Stagnation pressure",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Fluid Machinery - Cavitation",
+            "difficulty": "Easy",
+            "explanation": "Cavitation occurs when pressure drops below vapor pressure, causing liquid to vaporize and form bubbles."
+          },
+          {
+            "id": "ME056",
+            "text": "In a centrifugal pump, the impeller vanes are curved backward to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increase head",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reduce power consumption",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Increase efficiency",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Reduce vibration",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Fluid Machinery - Pump Design",
+            "difficulty": "Medium",
+            "explanation": "Backward curved vanes give higher efficiency, though lower head compared to radial or forward curved vanes."
+          },
+          {
+            "id": "ME057",
+            "text": "The critical point on a p-v diagram represents:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Triple point",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Point where liquid and vapor phases are indistinguishable",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Absolute zero",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Standard conditions",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics - Phase Diagrams",
+            "difficulty": "Easy",
+            "explanation": "At critical point, distinction between liquid and vapor disappears; properties become identical."
+          },
+          {
+            "id": "ME058",
+            "text": "The area under a p-v curve represents:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Heat transfer",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Work done",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Entropy change",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Internal energy change",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Thermodynamics - Work",
+            "difficulty": "Easy",
+            "explanation": "Work done W = ∫p dv, so area under p-v curve represents work done by/on the system."
+          },
+          {
+            "id": "ME059",
+            "text": "The section modulus of a beam is the ratio of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Moment of inertia to distance from neutral axis",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Area to distance from neutral axis",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Load to deflection",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Stress to strain",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Strength of Materials - Beams",
+            "difficulty": "Easy",
+            "explanation": "Section modulus Z = I/y_max, where I is moment of inertia and y_max is distance to outermost fiber."
+          },
+          {
+            "id": "ME060",
+            "text": "A beam subjected to pure bending experiences maximum bending stress at:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Neutral axis",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Outermost fiber",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Quarter depth",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Mid-depth",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Strength of Materials - Bending",
+            "difficulty": "Easy",
+            "explanation": "Bending stress σ = My/I is maximum at outermost fiber (maximum y), zero at neutral axis."
+          },
+          {
+            "id": "ME061",
+            "text": "In a simple harmonic motion, the acceleration is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Constant",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Proportional to displacement",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Proportional to velocity",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Zero",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Vibrations - SHM",
+            "difficulty": "Easy",
+            "explanation": "SHM: acceleration a = -ω²x, proportional to displacement and directed toward equilibrium."
+          },
+          {
+            "id": "ME062",
+            "text": "The phenomenon of resonance occurs when:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Forcing frequency equals natural frequency",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Damping is maximum",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Amplitude is minimum",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "System is at rest",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Vibrations - Resonance",
+            "difficulty": "Easy",
+            "explanation": "Resonance occurs when forcing frequency equals natural frequency, causing large amplitude oscillations."
+          },
+          {
+            "id": "ME063",
+            "text": "The Biot number in heat transfer is the ratio of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Conduction resistance to convection resistance",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Convection resistance to conduction resistance",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Thermal conductivity to thermal diffusivity",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Heat input to heat output",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Heat Transfer - Dimensionless Numbers",
+            "difficulty": "Medium",
+            "explanation": "Bi = hL/k = (convection)/(conduction). If Bi << 1, lumped system analysis is valid."
+          },
+          {
+            "id": "ME064",
+            "text": "The Prandtl number is the ratio of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Momentum diffusivity to thermal diffusivity",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Thermal diffusivity to momentum diffusivity",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Viscosity to density",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Conductivity to specific heat",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Heat Transfer - Dimensionless Numbers",
+            "difficulty": "Easy",
+            "explanation": "Pr = ν/α = (momentum diffusivity)/(thermal diffusivity) = Cpμ/k."
+          },
+          {
+            "id": "ME065",
+            "text": "In investment casting, the pattern is made of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Wood",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Metal",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Wax",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Plastic",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Manufacturing - Casting",
+            "difficulty": "Easy",
+            "explanation": "Investment (lost-wax) casting uses wax pattern that melts away when mold is heated, leaving cavity for metal."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "GATE Mechanical Engineering Assessment Results",
+        "description": "Your comprehensive GATE Mechanical Engineering assessment results with detailed analysis and recommendations for improvement.",
+        "questions": []
+      }
+    }
+  }

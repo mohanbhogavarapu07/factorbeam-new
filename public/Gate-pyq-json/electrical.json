@@ -1,0 +1,2325 @@
+{
+    "id": "electrical-pyq",
+    "title": "Electrical Engineering PYQ (EE)",
+    "description": "Comprehensive GATE Electrical Engineering assessment covering General Aptitude and Core Electrical Engineering subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core electrical engineering questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Moderate",
+    "isActive": true,
+    "featured": true,
+    "metadata": {
+      "icon": "electrical-engineering",
+      "gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "userCount": 1850,
+      "tags": ["GATE", "Electrical Engineering", "EE", "Power Systems", "Machines", "PYQ"]
+    },
+    "whatIsDescription": "The GATE Electrical Engineering (EE) exam is a comprehensive assessment designed to evaluate candidates' proficiency in electrical engineering fundamentals, power systems, electrical machines, control systems, and related mathematical foundations. This exam tests your understanding of circuit analysis, power generation, transmission, and distribution systems.",
+    "typicalCareers": [
+      {
+        "title": "Power Systems Engineer",
+        "description": "Design and maintain electrical power generation, transmission, and distribution systems"
+      },
+      {
+        "title": "Electrical Design Engineer",
+        "description": "Design electrical systems and components for various applications"
+      },
+      {
+        "title": "Control Systems Engineer",
+        "description": "Develop and implement control systems for industrial and commercial applications"
+      },
+      {
+        "title": "Power Plant Engineer",
+        "description": "Operate and maintain power generation facilities and equipment"
+      },
+      {
+        "title": "Transmission & Distribution Engineer",
+        "description": "Design and maintain electrical transmission and distribution networks"
+      },
+      {
+        "title": "Electrical Consultant",
+        "description": "Provide expert advice on electrical engineering projects and solutions"
+      }
+    ],
+    "whoShouldConsider": "Students and professionals with backgrounds in Electrical Engineering, Electronics Engineering, or related fields who want to pursue careers in power systems, electrical machines, or control systems.",
+    "idealTraits": [
+      "Strong mathematical foundation",
+      "Understanding of circuit analysis",
+      "Knowledge of power systems",
+      "Problem-solving abilities",
+      "Understanding of electrical machines and control systems"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude (Verbal & Quantitative)",
+        "Engineering Mathematics",
+        "Electric Circuits",
+        "Electrical Machines",
+        "Power Systems",
+        "Control Systems",
+        "Measurements & Instrumentation"
+      ],
+      "resultsInclude": [
+        "Detailed performance analysis",
+        "Subject-wise breakdown",
+        "Difficulty level assessment",
+        "Improvement recommendations",
+        "Career guidance based on performance"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment (GA)",
+        "description": "10 Questions, 15 Marks. Verbal Ability, Quantitative Aptitude, and Analytical Reasoning.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "The price of an item is increased by 10% and then decreased by 10%. The net change in price is: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1% decrease",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1% increase",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.1% decrease",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Percentage",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "Let the original price be P. Increase by 10%: P(1.1). Decrease by 10%: P(1.1)(0.9) = P(0.99). The net change is a 100-99=1% decrease."
+          },
+          {
+            "id": "GA002",
+            "text": "The ratio of the speed of a boat in still water to the speed of the current is 5:1. If the boat travels a certain distance downstream in 3 hours, what is the time taken to travel the same distance upstream? (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "4 hours",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5 hours",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6 hours",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "7.5 hours",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Time & Distance",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Let speed of boat be 5x and current be x. Downstream speed = 6x. Upstream speed = 4x. Distance D = 6x × 3 = 18x. Upstream time T = D / 4x = 18x / 4x = 4.5 hours."
+          },
+          {
+            "id": "GA003",
+            "text": "Choose the most appropriate word from the options given below to complete the following sentence: The candidate's statement was a ___ of truth. (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "deprivation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "dearth",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "travesty",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "recapitulation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Verbal Ability - Vocabulary",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "A 'travesty of truth' means a grotesque misrepresentation or distortion of the truth. 'Dearth' means scarcity, which does not fit the context."
+          },
+          {
+            "id": "GA004",
+            "text": "Find the next term in the series: 3, 7, 13, 21, 31, ... (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "41",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "43",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "45",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "47",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analytical Reasoning - Number Series",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "The differences between consecutive terms are 4, 6, 8, 10. The next difference should be 12. Thus, 31 + 12 = 43."
+          },
+          {
+            "id": "GA005",
+            "text": "If f(x) = |x-2| + |x-5|, the minimum value of f(x) is: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Quantitative Aptitude - Calculus/Functions",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "The function f(x) represents the sum of distances from x to 2 and x to 5. The minimum value occurs for x between 2 and 5, where f(x) = (x-2) + (5-x) = 3."
+          },
+          {
+            "id": "GA006",
+            "text": "A clock shows 4:30. What is the angle between the hour and minute hands? (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "30 degrees",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "45 degrees",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "60 degrees",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "90 degrees",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Clocks/Geometry",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 90,
+            "explanation": "Angle θ = |30H - (11/2)M|. θ = |30(4) - (11/2)(30)| = |120 - 165| = 45 degrees."
+          },
+          {
+            "id": "GA007",
+            "text": "The synonym for 'Mellifluous' is: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Discordant",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Harmonious",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Cacophonous",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Raucous",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Vocabulary (Synonyms)",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "'Mellifluous' means a sound that is sweet and musical; pleasant to hear. 'Harmonious' is the closest synonym."
+          },
+          {
+            "id": "GA008",
+            "text": "In a group, 70% of the students speak English and 50% speak Hindi. If 40 students speak both, what is the total number of students in the group? (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "150",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "200",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "400",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4000",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Set Theory",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Percentage speaking both = (70% + 50%) - 100% = 20%. If 20% of total X is 40, then 0.20 × X = 40, so X = 200."
+          },
+          {
+            "id": "GA009",
+            "text": "The pair of words that best expresses a similar relationship as 'Surgeon : Scalpel' is: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sculptor : Chisel",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Musician : Instrument",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Lawyer : Court",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Baker : Oven",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Verbal Ability - Analogy",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "The relationship is 'Person : Primary Tool'. A Surgeon uses a Scalpel; a Sculptor uses a Chisel."
+          },
+          {
+            "id": "GA010",
+            "text": "A sum of money doubles in 5 years at simple interest. In how many years will it become four times? (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "10",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "15",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "20",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "25",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Simple Interest",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "To double, Interest (I) must be 1P, taking 5 years. To become four times, I must be 3P. Since simple interest is linear, it takes 3 × 5 = 15 years."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Electrical Engineering Assessment",
+        "description": "55 Questions, 85 Marks. Comprehensive coverage of Engineering Mathematics, Electric Circuits, Electrical Machines, Power Systems, Control Systems, Measurements, and Analog/Digital Electronics.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "EE001",
+            "text": "In a series RLC circuit, if R=10Ω, L=1H, and C=1F, the damping ratio (ζ) is: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "3",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "5",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "10",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electric Circuits",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "The natural frequency ωn = 1/√(LC) = 1/√(1·1) = 1 rad/s. The damping ratio ζ = R / (2√(L/C)) = 10 / (2√(1/1)) = 5. Since ζ > 1, the circuit is overdamped."
+          },
+          {
+            "id": "EE002",
+            "text": "The efficiency of a DC machine operating as a generator is maximum when: (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Variable losses equal half of the constant losses.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Variable losses equal constant losses.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Variable losses are double the constant losses.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Constant losses are negligible.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electrical Machines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "For any electrical machine, the efficiency (η) is maximum when the variable losses (copper losses, proportional to Ia²) are equal to the constant losses (iron and mechanical losses)."
+          },
+          {
+            "id": "EE003",
+            "text": "The pu impedance of a transformer is Zpu. If the base voltage is doubled and the base MVA is halved, the new pu impedance will be: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "4Zpu",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "8Zpu",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.5Zpu",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.25Zpu",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Power Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "New Zpu = Zpu^old · (Sbase^old/Sbase^new) · (Vbase^new/Vbase^old)². Given Snew = Sold/2 and Vnew = 2Vold. New Zpu = Zpu · (1/(1/2)) · (2)² = Zpu · 2 · 4 = 8Zpu."
+          },
+          {
+            "id": "EE004",
+            "text": "The purpose of a damper winding in a synchronous machine is to: (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Improve efficiency.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Prevent self-excitation.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Suppress hunting and aid in starting as an induction motor.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Control the field current.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electrical Machines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Damper windings, typically embedded in the pole faces, provide damping torque to suppress load oscillations (hunting) and provide the necessary starting torque for the machine to run up to near-synchronous speed."
+          },
+          {
+            "id": "EE005",
+            "text": "A unity feedback system has an open-loop transfer function G(s) = K/(s(s+1)). The system is marginally stable for a gain K equal to: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The characteristic equation is 1 + G(s) = 0, so s(s+1) + K = s² + s + K = 0. Using the Routh array: Row 1: 1, K; Row 2: 1, 0. For stability, all terms must be positive. Since the second row is never zero for s>0, the system is inherently stable for any K>0. For marginal stability, K is often taken as the boundary of instability, K=0."
+          },
+          {
+            "id": "EE006",
+            "text": "The purpose of load shedding in a power system is to: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increase the system voltage.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Improve power factor.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Maintain system frequency stability during generation deficiency.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Reduce transmission line losses.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Power Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Load shedding is a last-resort protective measure involving planned, systematic disconnection of loads to stabilize the system frequency and prevent a widespread blackout when demand exceeds generation capacity."
+          },
+          {
+            "id": "EE007",
+            "text": "The superposition theorem is applicable to a circuit only if the circuit is: (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Non-linear and passive.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Linear and bilateral.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Linear and passive.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Non-linear and active.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electric Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The superposition theorem is strictly valid only for linear circuits. It applies to any circuit (active or passive, bilateral or unilateral) as long as the relationship between cause and effect (source and response) is linear."
+          },
+          {
+            "id": "EE008",
+            "text": "For a 3-phase induction motor, the relationship between synchronous speed (Ns), rotor speed (N), and slip (s) is: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "N = s Ns",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "s = (Ns - N) / N",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "N = Ns (1 - s)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Ns = N (1 + s)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electrical Machines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The slip is s = (Ns - N) / Ns. Rearranging gives s Ns = Ns - N, and finally N = Ns - s Ns = Ns (1 - s)."
+          },
+          {
+            "id": "EE009",
+            "text": "The main advantage of using a feedback control system is: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Increased system complexity.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Reduced bandwidth.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Increased accuracy and reduced sensitivity to parameter variations.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Elimination of power source.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Negative feedback significantly reduces the sensitivity of the closed-loop system's overall gain to changes in component parameters (noise and disturbance), thereby increasing accuracy and robustness."
+          },
+          {
+            "id": "EE010",
+            "text": "The instrument used for the measurement of insulation resistance of electrical machinery is the: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Ammeter",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Voltmeter",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Earth Tester",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Megger",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Megger (Mega-Ohm-meter) is specifically designed to measure high electrical resistance, such as the insulation resistance of cables and winding of electrical equipment."
+          },
+          {
+            "id": "EE011",
+            "text": "Which method is best suited for the solution of a large system of simultaneous linear algebraic equations in power system studies? (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Cramer's Rule",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Gauss-Jordan Elimination",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Gauss-Seidel Method",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Direct substitution",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics/Power Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "For very large, sparse systems (common in power flow analysis), iterative methods like the Gauss-Seidel or Newton-Raphson are computationally more efficient and memory-saving than direct methods like Gaussian elimination."
+          },
+          {
+            "id": "EE012",
+            "text": "The Thevenin's equivalent voltage of a given linear circuit is the voltage: (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Across the short-circuited terminals.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Across the output terminals when all sources are removed.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Across the output terminals when the load is disconnected (open circuit).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Equal to the source voltage.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electric Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Thevenin voltage (Vth) is defined as the open-circuit voltage (Voc) measured across the terminals of interest when the load is removed."
+          },
+          {
+            "id": "EE013",
+            "text": "The speed of a DC series motor under constant load torque is inversely proportional to: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Armature voltage only.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Flux (φ) only.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Armature resistance only.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Both armature voltage and flux.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electrical Machines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The speed of a DC motor is approximately N ∝ (V - Ia Ra) / φ. Since V and Ra are relatively constant, N ∝ 1/φ. For a series motor, φ is proportional to Ia at low saturation."
+          },
+          {
+            "id": "EE014",
+            "text": "In power system stability analysis, the swing equation relates the rotor angle (δ) to: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Active power and voltage.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Inertia and reactive power.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Inertia and accelerating power.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Mechanical torque and frequency.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Power Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The swing equation is M d²δ/dt² = Pa = Pm - Pe. It relates the rotor angle acceleration (inertia M) to the difference between mechanical input power (Pm) and electrical output power (Pe), which is the accelerating power (Pa)."
+          },
+          {
+            "id": "EE015",
+            "text": "The transfer function of a system is defined as the ratio of: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Output to input in time domain.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Laplace Transform of output to Laplace Transform of input, assuming zero initial conditions.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Input to output in s-domain.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Output to impulse response.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The transfer function G(s) = C(s) / R(s) is the Laplace Transform of the output C(s) divided by the Laplace Transform of the input R(s), assuming all initial conditions are zero."
+          },
+          {
+            "id": "EE016",
+            "text": "A PMMC (Permanent Magnet Moving Coil) instrument can measure: (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Only AC quantities.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Only DC quantities.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both AC and DC quantities.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "AC quantities only if rectified.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "PMMC instruments produce a unidirectional torque proportional to the average current. Since the average value of AC is zero, they can only measure DC quantities directly (unless a rectifier is used)."
+          },
+          {
+            "id": "EE017",
+            "text": "If A = [[1, 2], [0, 3]], the eigenvalues of A² are: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1 and 3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1 and 9",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2 and 6",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4 and 9",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "Since A is a triangular matrix, its eigenvalues are the diagonal entries: λ1 = 1 and λ2 = 3. The eigenvalues of Aᵏ are λᵢᵏ. Thus, eigenvalues of A² are 1² = 1 and 3² = 9."
+          },
+          {
+            "id": "EE018",
+            "text": "The Laplace Transform of a unit step function u(t) is: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1/s",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/s²",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Laplace Transform",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Laplace Transform of the unit step function u(t) is L{u(t)} = 1/s."
+          },
+          {
+            "id": "EE019",
+            "text": "In a PN junction, the barrier potential prevents: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Drift current",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Recombination",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Diffusion of majority carriers",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Generation of electron-hole pairs",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electronic Devices",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The barrier potential creates an electric field that opposes the movement (diffusion) of majority carriers (holes from P to N and electrons from N to P) across the junction."
+          },
+          {
+            "id": "EE020",
+            "text": "The characteristic equation of a synchronous machine is given by: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Xd = Xq",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "T = K Ia φ",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Pe = (Ef V/Xd) sin(δ)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "V = E + Ia Zs",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electrical Machines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The electrical power output Pe is related to the internal voltage Ef, terminal voltage V, synchronous reactance Xd, and the load angle δ by Pe = (Ef V/Xd) sin(δ) (for a non-salient pole machine)."
+          },
+          {
+            "id": "EE021",
+            "text": "The gain margin (GM) of a system is related to its: (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Phase shift at the gain crossover frequency.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Magnitude at the phase crossover frequency.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Frequency at which the phase is -90°.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Steady-state error.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Gain Margin is the reciprocal of the magnitude of the open-loop transfer function at the phase crossover frequency (ωpc), where the phase angle is -180°."
+          },
+          {
+            "id": "EE022",
+            "text": "What is the equivalent inductance Leq of two inductors L1 and L2 connected in parallel without mutual coupling? (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "L1 + L2",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "L1 L2 / (L1 + L2)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "√(L1 L2)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "L1 / L2",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electric Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Inductors in parallel combine like resistors in parallel: 1/Leq = 1/L1 + 1/L2. Thus, Leq = L1 L2 / (L1 + L2)."
+          },
+          {
+            "id": "EE023",
+            "text": "In a 3-phase system, the relationship between line voltage (VL) and phase voltage (Vp) for a star-connected load is: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "VL = Vp",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "VL = √3 Vp",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "VL = 3 Vp",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "VL = Vp / √3",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electric Circuits/Power Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "In a star connection, the line voltage is √3 times the phase voltage, and the line current equals the phase current (IL = Ip)."
+          },
+          {
+            "id": "EE024",
+            "text": "Which relay is generally used for the protection of long transmission lines? (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Overcurrent relay",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Differential relay",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Distance (Impedance) relay",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Thermal relay",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Power Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Distance relays (e.g., Impedance, Mho, Reactance) measure the impedance of the line from the relay location to the fault, making them the standard choice for the primary protection of long transmission lines."
+          },
+          {
+            "id": "EE025",
+            "text": "The condition for a system to be time-invariant is that: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The output is independent of the input.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "A time shift in the input results in the same time shift in the output.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The system equation has time-varying coefficients.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The input and output are proportional.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A system is time-invariant if its input-output relationship does not change with time. If x(t) → y(t), then x(t-t0) → y(t-t0)."
+          },
+          {
+            "id": "EE026",
+            "text": "The creep error in an induction type energy meter can be compensated by: (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Providing small holes in the aluminum disc.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Adjusting the braking magnet.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Shading the voltage coil.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Changing the pressure on the lower bearing.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "Creeping is the slow, continuous rotation of the disc with no current flowing. It is prevented by drilling two small holes in the aluminum disc, positioned such that one of the holes comes under the pole of the series magnet, arresting rotation."
+          },
+          {
+            "id": "EE027",
+            "text": "The determinant of the matrix A = [[1, 0, 0], [0, 2, 0], [0, 0, 3]] is: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "3",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "6",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "9",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "12",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "For a diagonal matrix (or triangular matrix), the determinant is the product of its diagonal elements: det(A) = 1 × 2 × 3 = 6."
+          },
+          {
+            "id": "EE028",
+            "text": "In a DC shunt motor, if the field current is suddenly reduced, the armature speed will: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Decrease",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Increase",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Remain constant",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Reverse direction",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electrical Machines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The speed of a DC motor is inversely proportional to the flux (N ∝ 1/φ). Reducing the field current reduces the flux, causing the speed to increase. This is known as field weakening."
+          },
+          {
+            "id": "EE029",
+            "text": "The maximum power output of a three-phase line is limited by: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Voltage drop in the line.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Thermal limit of conductors.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Stability limit of the system.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Ground fault resistance.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Power Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "For long transmission lines, the transient stability limit (or steady-state stability limit) is often the primary constraint on maximum power transfer, defined by the maximum load angle δ that can be sustained."
+          },
+          {
+            "id": "EE030",
+            "text": "The type of a unity feedback control system is equal to the number of: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Poles of the closed-loop system.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Zeros of the open-loop transfer function.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Poles of the open-loop transfer function at the origin.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Non-zero poles of the open-loop system.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The type number of a unity feedback system is defined as the number of poles of the open-loop transfer function G(s)H(s) located exactly at the origin (s=0) of the s-plane."
+          },
+          {
+            "id": "EE031",
+            "text": "A Lissajous pattern observed on an oscilloscope for two sinusoidal inputs is a circle. This indicates that the two signals have: (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Same frequency and phase shift 0°.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Same frequency and phase shift 90°.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Different frequencies.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Same frequency and phase shift 180°.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "A Lissajous figure is a circle if the two signals have the same frequency and a phase difference of exactly 90° (90° or 270°) and equal amplitudes."
+          },
+          {
+            "id": "EE032",
+            "text": "The diode current equation is based on: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Drift current only.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Diffusion current only.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Both drift and diffusion currents.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Breakdown voltage.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electronic Devices",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The total current in a PN junction is the sum of the drift current (due to electric field) and the diffusion current (due to carrier concentration gradient)."
+          },
+          {
+            "id": "EE033",
+            "text": "The maximum value of the output voltage of an ideal single-phase full-bridge rectifier supplied by Vm sin(ωt) is: (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Vm / π",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Vm",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2Vm / π",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Vm / √2",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog and Digital Electronics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The maximum instantaneous output voltage (Vpeak) of any rectifier circuit is equal to the peak input voltage (Vm). The average DC output is 2Vm / π."
+          },
+          {
+            "id": "EE034",
+            "text": "The differential equation d²y/dx² + 4y = 0 with initial conditions y(0)=1, y'(0)=0 has the solution: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "y = e^(-2x)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "y = cos(2x)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "y = sin(2x)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "y = cosh(2x)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Differential Equations",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "Auxiliary equation: m² + 4 = 0 ⟹ m = ±2j. General solution: y(x) = C₁ cos(2x) + C₂ sin(2x). y(0)=1 ⟹ C₁ = 1. y'(x) = -2C₁ sin(2x) + 2C₂ cos(2x). y'(0)=0 ⟹ 2C₂ = 0 ⟹ C₂ = 0. Solution is y(x) = cos(2x)."
+          },
+          {
+            "id": "EE035",
+            "text": "In a transmission line, the Ferranti effect occurs when: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Receiving end voltage is less than sending end voltage.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Receiving end voltage is higher than sending end voltage.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The line is heavily loaded.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "A short circuit occurs at the receiving end.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Power Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Ferranti effect is the phenomenon where the receiving end voltage (VR) is greater than the sending end voltage (VS) under light load or no-load conditions due to line capacitance."
+          },
+          {
+            "id": "EE036",
+            "text": "The frequency of the rotor current in a 3-phase induction motor running at slip s is: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Synchronous frequency (f)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "f / s",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "s f",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "f (1 - s)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electrical Machines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The rotor current frequency fr is related to the stator supply frequency f and the slip s by the relation fr = s f."
+          },
+          {
+            "id": "EE037",
+            "text": "If a step input is applied to a system with transfer function G(s) = 1/(s+1), the final value of the output is: (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "∞",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The input R(s) = 1/s. The output C(s) = G(s) R(s) = 1/(s(s+1)). Using the Final Value Theorem: lim(t→∞) c(t) = lim(s→0) s C(s) = lim(s→0) s · 1/(s(s+1)) = 1/(0+1) = 1."
+          },
+          {
+            "id": "EE038",
+            "text": "The Maximum Demand Indicator used in substations measures: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The instantaneous power.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The total energy consumed.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The highest average power drawn over a specified period.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The peak current value.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The MDI records the maximum value of the average power demand (kW or kVA) observed over a predetermined time interval (e.g., 15 minutes) during a billing period."
+          },
+          {
+            "id": "EE039",
+            "text": "The line integral of a vector field F around a closed path C is zero if and only if F is: (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Solenoidal",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Irrotational",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Non-conservative",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Harmonic",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Vector Calculus",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "By Stokes' Theorem, ∮C F · dr = ∬S (∇ × F) · dS. If the line integral is zero, the curl must be zero (∇ × F = 0), which is the definition of an irrotational (or conservative) vector field."
+          },
+          {
+            "id": "EE040",
+            "text": "The phenomenon where the voltage across an inductor opposes the change in current is due to: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Capacitance",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Resistance",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Self-inductance",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Skin effect",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electric Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "According to Faraday's law of induction and Lenz's law, a changing current creates a changing magnetic field, inducing a voltage (v = -L di/dt) that opposes the change in current. This property is quantified by self-inductance (L)."
+          },
+          {
+            "id": "EE041",
+            "text": "The efficiency of a power transformer is generally: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Less than 50%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Between 60% and 80%",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Above 95%",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Around 50%",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electrical Machines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Power transformers are highly efficient devices due to having no rotating parts and low loss cores. Their full-load efficiency typically ranges from 95% to 99%."
+          },
+          {
+            "id": "EE042",
+            "text": "The unit of mobility in semiconductor physics is: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "m² / (V·s)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "m² / s",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "V · s / m²",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Ω · m",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electronic Devices",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Mobility (μ) is defined as the drift velocity (vd) per unit electric field (E): μ = vd / E. Units: (m/s)/(V/m) = m²/(V·s)."
+          },
+          {
+            "id": "EE043",
+            "text": "In the Ybus matrix of a power system, the off-diagonal element Yij represents: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Self-admittance of bus i.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Mutual admittance between bus i and j with a negative sign.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Mutual admittance between bus i and j with a positive sign.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Total shunt admittance at bus i.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Power Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The off-diagonal element Yij is the negative of the total admittance of the line connecting bus i and bus j: Yij = -yij."
+          },
+          {
+            "id": "EE044",
+            "text": "Which bridge is typically used for measuring unknown inductance? (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Wheatstone Bridge",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Schering Bridge",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Maxwell's Bridge",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Wien Bridge",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Maxwell's Inductance-Capacitance Bridge is a highly accurate method for measuring an unknown inductance by comparison with a known standard capacitance."
+          },
+          {
+            "id": "EE045",
+            "text": "The principle of duality in circuit theory inter-relates: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Voltage and resistance.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Impedance and frequency.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Voltage and current, series and parallel circuits.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Inductor and resistor.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electric Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Duality is a property where a circuit's behavior can be described by interchanging dual quantities: voltage ↔ current, resistance ↔ conductance, inductance ↔ capacitance, series connection ↔ parallel connection."
+          },
+          {
+            "id": "EE046",
+            "text": "The Laplace Transform of e^(-at) u(t) is: (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1/s",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1/(s-a)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/(s+a)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "e^(-as) / s",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics - Laplace Transform",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "This is the exponential decay function. L{e^(-at) u(t)} = 1/(s+a)."
+          },
+          {
+            "id": "EE047",
+            "text": "The synchronous impedance method (EMF method) for finding the voltage regulation of a synchronous generator gives: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Accurate results.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Results lower than actual (optimistic).",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Results higher than actual (pessimistic).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Highly inconsistent results.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electrical Machines",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "The synchronous impedance method assumes the air-gap flux is sinusoidal and uses saturated open-circuit data but unsaturated short-circuit data, resulting in a calculated voltage regulation that is generally higher than the actual value (pessimistic)."
+          },
+          {
+            "id": "EE048",
+            "text": "The Boolean expression for a half adder's SUM output (S) in terms of inputs A and B is: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "A · B",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "A + B",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "A ⊕ B",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "A · B",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Analog and Digital Electronics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Sum output of a half adder is the XOR (Exclusive OR) operation: S = A ⊕ B = A·B + A·B."
+          },
+          {
+            "id": "EE049",
+            "text": "The breakaway points in a Root Locus plot occur at values of s that satisfy: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The poles of the open-loop transfer function.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The zeros of the open-loop transfer function.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "dK/ds = 0 (where K is the gain).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The intersection of asymptotes.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "Breakaway (or break-in) points occur where the closed-loop poles change direction. This corresponds to the roots of dK/ds = 0, where K = -1/G(s)H(s)."
+          },
+          {
+            "id": "EE050",
+            "text": "A galvanometer is converted into an ammeter by connecting a: (GATE 2018)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Low resistance in series.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "High resistance in series.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Low resistance in parallel (shunt).",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "High resistance in parallel (shunt).",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "To convert a galvanometer into an ammeter, a low resistance (shunt) must be connected in parallel with the galvanometer to bypass the majority of the current, allowing the instrument to measure high currents without damage."
+          },
+          {
+            "id": "EE051",
+            "text": "In a DC machine, armature reaction primarily affects: (GATE 2023)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The main field flux distribution.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The core loss.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The speed regulation.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The supply frequency.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Electrical Machines",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Armature reaction is the effect of armature flux on the main field flux. It causes distortion and demagnetization of the main field flux distribution."
+          },
+          {
+            "id": "EE052",
+            "text": "The purpose of using Zener diode in voltage regulator circuits is to exploit its: (GATE 2020)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Forward bias characteristic.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Breakdown voltage region.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "High forward resistance.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Low leakage current.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog and Digital Electronics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Zener diode is designed to operate reliably in its reverse breakdown region, where it maintains a nearly constant voltage regardless of the current, providing voltage regulation."
+          },
+          {
+            "id": "EE053",
+            "text": "The stability of a power system in the event of a large disturbance is referred to as: (GATE 2021)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Steady-state stability.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Transient stability.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Small-signal stability.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Voltage stability.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Power Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Transient stability is the ability of the power system to remain in synchronism after being subjected to a severe disturbance, such as a fault or sudden load change."
+          },
+          {
+            "id": "EE054",
+            "text": "The impedance matrix (Z) of a reciprocal two-port network satisfies the condition: (GATE 2022)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Z11 = Z22",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Z12 = Z21",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Z11 Z22 - Z12 Z21 = 1",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Z11 + Z22 = 0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Electric Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A two-port network is reciprocal if the transfer impedance is the same in both directions. For the Z-parameters, this is defined by the symmetry condition Z12 = Z21."
+          },
+          {
+            "id": "EE055",
+            "text": "The final value of f(t) given F(s) = (s+1)/(s(s² + 4)) is: (GATE 2019)",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.125",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.25",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.5",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Laplace Transform",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "Using the Final Value Theorem: lim(t→∞) f(t) = lim(s→0) s F(s). lim(s→0) s · (s+1)/(s(s² + 4)) = lim(s→0) (s+1)/(s² + 4). Substituting s=0: (0+1)/(0+4) = 1/4 = 0.25."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "GATE Assessment Results",
+        "description": "Your comprehensive GATE EE assessment results with detailed analysis and recommendations for improvement.",
+        "timeLimit": 0,
+        "questions": [],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      }
+    }
+  }

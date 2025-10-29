@@ -1,0 +1,2304 @@
+{
+    "id": "instrumental-pyq",
+    "title": "Instrumentation Engineering PYQ (IN)",
+    "description": "Comprehensive GATE Instrumentation Engineering assessment covering General Aptitude and Core Instrumentation Engineering subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core instrumentation engineering questions (85% weight) following the official GATE pattern.",
+    "category": "GATE",
+    "duration": "180 mins",
+    "difficulty": "Moderate",
+    "isActive": true,
+    "featured": true,
+    "metadata": {
+      "icon": "instrumentation-engineering",
+      "gradient": "from-purple-600 to-pink-600",
+      "userCount": 8500,
+      "tags": ["GATE", "Instrumentation Engineering", "Engineering", "Aptitude", "Core Subjects"]
+    },
+    "whatIsDescription": "GATE (Graduate Aptitude Test in Engineering) Instrumentation Engineering is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in instrumentation engineering including Electrical and Electronic Measurements, Signals and Systems, Control Systems, Analog and Digital Electronics, Transducers, and Industrial Instrumentation. This assessment follows the official GATE pattern with General Aptitude and Core Instrumentation Engineering questions.",
+    "typicalCareers": [
+      {
+        "title": "Instrumentation Engineer",
+        "description": "Design and maintain measurement and control systems for industrial processes"
+      },
+      {
+        "title": "Control Systems Engineer",
+        "description": "Develop and implement automated control systems for various industries"
+      },
+      {
+        "title": "Measurement Engineer",
+        "description": "Specialize in precision measurement and calibration systems"
+      }
+    ],
+    "whoShouldConsider": [
+      "Instrumentation Engineering graduates preparing for GATE",
+      "Students seeking admission to M.Tech/M.E programs in instrumentation engineering",
+      "Professionals looking for PSU jobs in instrumentation engineering",
+      "Researchers in instrumentation and control systems"
+    ],
+    "idealTraits": [
+      "Strong analytical and problem-solving skills",
+      "Solid foundation in electrical and electronic principles",
+      "Mathematical aptitude and logical reasoning",
+      "Good understanding of measurement and control systems"
+    ],
+    "assessmentOverview": {
+      "modules": [
+        "General Aptitude Assessment (10 questions, 15 marks)",
+        "Core Instrumentation Engineering Assessment (55 questions, 85 marks)"
+      ],
+      "resultsInclude": [
+        "Section-wise scores (Aptitude & Core)",
+        "Topic-wise performance analysis",
+        "Difficulty-wise accuracy",
+        "Overall percentile ranking",
+        "Detailed explanations for all questions"
+      ]
+    },
+    "gateSections": {
+      "aptitude": {
+        "title": "General Aptitude Assessment",
+        "description": "Test your general aptitude including verbal ability, quantitative aptitude, and analytical reasoning skills. This section carries 15% weight in the total assessment.",
+        "timeLimit": 30,
+        "questions": [
+          {
+            "id": "GA001",
+            "text": "The price of an item is increased by 10% and then decreased by 10%. The net change in price is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0%",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1% decrease",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1% increase",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "0.1% decrease",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Percentage",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "Let the original price be P. Increase by 10%: P(1.1). Decrease by 10%: P(1.1)(0.9) = P(0.99). The net change is a 100-99=1% decrease."
+          },
+          {
+            "id": "GA002",
+            "text": "The ratio of the speed of a boat in still water to the speed of the current is 5:1. If the boat travels a certain distance downstream in 3 hours, what is the time taken to travel the same distance upstream?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "4 hours",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "5 hours",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "6 hours",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "7.5 hours",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Time & Distance",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Let speed of boat be 5x and current be x. Downstream speed = 6x. Upstream speed = 4x. Distance D = 6x × 3 = 18x. Upstream time T = D / 4x = 18x / 4x = 4.5 hours."
+          },
+          {
+            "id": "GA003",
+            "text": "Choose the most appropriate word from the options given below to complete the following sentence: The candidate's statement was a ___ of truth.",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "deprivation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "dearth",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "travesty",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "recapitulation",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Verbal Ability - Vocabulary",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "A 'travesty of truth' means a grotesque misrepresentation or distortion of the truth. 'Dearth' means scarcity, which does not fit the context."
+          },
+          {
+            "id": "GA004",
+            "text": "Find the next term in the series: 3, 7, 13, 21, 31, ...",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "41",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "43",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "45",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "47",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analytical Reasoning - Number Series",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "The differences between consecutive terms are 4, 6, 8, 10. The next difference should be 12. Thus, 31 + 12 = 43."
+          },
+          {
+            "id": "GA005",
+            "text": "If f(x) = |x-2| + |x-5|, the minimum value of f(x) is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "2",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "3",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "5",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Quantitative Aptitude - Calculus/Functions",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "The function f(x) represents the sum of distances from x to 2 and x to 5. The minimum value occurs for x between 2 and 5, where f(x) = (x-2) + (5-x) = 3."
+          },
+          {
+            "id": "GA006",
+            "text": "A clock shows 4:30. What is the angle between the hour and minute hands?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "30 degrees",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "45 degrees",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "60 degrees",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "90 degrees",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Clocks/Geometry",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 90,
+            "explanation": "Angle θ = |30H - (11/2)M|. θ = |30(4) - (11/2)(30)| = |120 - 165| = 45 degrees."
+          },
+          {
+            "id": "GA007",
+            "text": "The synonym for 'Mellifluous' is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Discordant",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Harmonious",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Cacophonous",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Raucous",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Verbal Ability - Vocabulary (Synonyms)",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "'Mellifluous' means a sound that is sweet and musical; pleasant to hear. 'Harmonious' is the closest synonym."
+          },
+          {
+            "id": "GA008",
+            "text": "In a group, 70% of the students speak English and 50% speak Hindi. If 40 students speak both, what is the total number of students in the group?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "150",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "200",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "400",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4000",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Set Theory",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 150,
+            "explanation": "Percentage speaking both = (70% + 50%) - 100% = 20%. If 20% of total X is 40, then 0.20 × X = 40, so X = 200."
+          },
+          {
+            "id": "GA009",
+            "text": "The pair of words that best expresses a similar relationship as 'Surgeon : Scalpel' is:",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "Sculptor : Chisel",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Musician : Instrument",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Lawyer : Court",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Baker : Oven",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Verbal Ability - Analogy",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 60,
+            "explanation": "The relationship is 'Person : Primary Tool'. A Surgeon uses a Scalpel; a Sculptor uses a Chisel."
+          },
+          {
+            "id": "GA010",
+            "text": "A sum of money doubles in 5 years at simple interest. In how many years will it become four times?",
+            "type": "multiple-choice",
+            "category": "General Aptitude",
+            "options": [
+              {
+                "id": "A",
+                "text": "10",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "15",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "20",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "25",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Quantitative Aptitude - Simple Interest",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 180,
+            "explanation": "To double, Interest (I) must be 1P, taking 5 years. To become four times, I must be 3P. Since simple interest is linear, it takes 3 × 5 = 15 years."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "simple",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "core": {
+        "title": "Core Instrumentation Engineering Assessment",
+        "description": "Comprehensive assessment covering Engineering Mathematics, Electrical and Electronic Measurements, Signals and Systems, Control Systems, Analog and Digital Electronics, Transducers, and Industrial Instrumentation. This section carries 85% weight in the total assessment.",
+        "timeLimit": 150,
+        "questions": [
+          {
+            "id": "IN001",
+            "text": "The primary cause of creeping error in an induction type energy meter is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Frequency variation",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Overspeeding due to eddy currents",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Over-compensation of friction",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Incorrect magnet position",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Creeping is the slow, continuous rotation of the meter disc when only the voltage coil is energized (no load current). It is caused by over-compensation for friction or excessive vibration, making the voltage coil torque too high."
+          },
+          {
+            "id": "IN002",
+            "text": "A Thermistor is generally used as a temperature sensor because it has:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "High positive temperature coefficient (PTC)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Low temperature coefficient",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "High negative temperature coefficient (NTC)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Linear resistance characteristic",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Transducers",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Thermistors (specifically NTC type) are semiconductor-based. Their resistance drops rapidly and non-linearly with increasing temperature, providing high sensitivity."
+          },
+          {
+            "id": "IN003",
+            "text": "The Routh array shows a row of zeros. This indicates the presence of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "No poles in the right half s-plane.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "A pair of roots that are symmetric about the origin.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Only real roots.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "At least one pole at the origin.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "A row of zeros in the Routh array indicates that the characteristic equation has roots that are symmetrically located with respect to the origin (e.g., complex conjugate pair on the jω axis, or a pair of real roots ±σ). These are roots of the auxiliary equation."
+          },
+          {
+            "id": "IN004",
+            "text": "If f(t) = e^(-at) u(t), its Laplace Transform F(s) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1/s",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1/(s-a)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/(s+a)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "e^(-as) / s",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics/Signals and Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "This is the standard Laplace Transform pair for the exponentially decaying function: L{e^(-at) u(t)} = 1/(s+a), with ROC Re(s) > -a."
+          },
+          {
+            "id": "IN005",
+            "text": "The sensitivity of a measurement system is defined as the ratio of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Input change to output change.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Output change to input change.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Maximum input to maximum output.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Precision to accuracy.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Sensitivity is the measure of the change in the output signal per unit change in the measured input quantity: Sensitivity = ΔOutput/ΔInput."
+          },
+          {
+            "id": "IN006",
+            "text": "A Piezoresistive Strain Gauge measures strain by detecting changes in:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Capacitance",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Inductance",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Resistance",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Voltage",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Transducers",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Piezoresistive means 'pressure-sensitive resistance'. These strain gauges (typically semiconductors) utilize the change in electrical resistance when a mechanical strain (stress) is applied."
+          },
+          {
+            "id": "IN007",
+            "text": "For a unity feedback control system with open loop transfer function G(s) = 10/(s(s+1)), the steady-state error for a unit ramp input is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "0.05",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "0.1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "0.2",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "1.0",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 120,
+            "explanation": "The system is Type 1. The static acceleration error constant is Kv = lim(s→0) s G(s) = lim(s→0) s × 10/(s(s+1)) = 10. The steady-state error for a unit ramp input is ess = 1/Kv = 1/10 = 0.1."
+          },
+          {
+            "id": "IN008",
+            "text": "A 4½-digit Digital Voltmeter (DVM) has a maximum reading of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "9999",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "19999",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "99999",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "10000",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "A 4½-digit meter has four full digits (0 to 9) and one half-digit (0 or 1). The maximum count is 19999 (e.g., 1.9999 on the 2V range)."
+          },
+          {
+            "id": "IN009",
+            "text": "The condition for a system to be Linear is that it must satisfy the principles of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Time invariance and stability.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Homogeneity and time invariance.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Homogeneity and additivity.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Causality and stability.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Signals and Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Linearity requires the satisfaction of both the homogeneity (scaling: c·x(t) → c·y(t)) and additivity (superposition: x1(t) + x2(t) → y1(t) + y2(t)) properties."
+          },
+          {
+            "id": "IN010",
+            "text": "The output of an operational amplifier in a non-inverting configuration is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "In phase with the input.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "180° out of phase with the input.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Amplified and inverted.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Not amplified.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Analog Electronics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The non-inverting amplifier configuration applies the input to the non-inverting terminal. The output voltage is amplified and has the same phase as the input voltage."
+          },
+          {
+            "id": "IN011",
+            "text": "The strain gauge factor (Gf) is defined as:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "(ΔL/L)/(ΔR/R)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "(ΔR/R)/(ΔL/L)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "ΔR/ΔL",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "E × (ΔR/R)/(ΔL/L)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Transducers",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "The gauge factor is the ratio of the fractional change in resistance (ΔR/R) to the fractional change in length (strain, ε = ΔL/L): Gf = (ΔR/R)/ε."
+          },
+          {
+            "id": "IN012",
+            "text": "The maximum number of poles a stable unity feedback system can have on the jω-axis is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "None (must be strictly stable)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "One (simple pole)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Two (complex conjugate pair)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Any number of non-repeated poles.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "For a system to be strictly stable (as implied by 'stable' in most contexts), it cannot have any poles on the jω-axis. Poles on the jω-axis only lead to marginal stability (undamped oscillations)."
+          },
+          {
+            "id": "IN013",
+            "text": "The Wheatstone Bridge is mainly used for the precision measurement of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Inductance",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Capacitance",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Resistance",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Frequency",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Wheatstone bridge is the fundamental circuit for accurately determining an unknown electrical resistance by balancing two legs of a bridge circuit."
+          },
+          {
+            "id": "IN014",
+            "text": "The transfer function of a system with impulse response h(t) is given by the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Fourier Transform of h(t).",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Laplace Transform of h(t).",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Convolution of h(t) with the input.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Time integral of h(t).",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Signals and Systems/Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The transfer function G(s) is the Laplace Transform of the impulse response h(t), assuming zero initial conditions: G(s) = L{h(t)}."
+          },
+          {
+            "id": "IN015",
+            "text": "The major reason for preferring digital signal processing over analog signal processing is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Lower cost of components.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Immunity to noise and drift.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Higher power consumption.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Easier implementation of high-frequency filters.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Signals and Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Once a signal is digitized, it can be processed without introducing additional noise or being susceptible to parameter drift (ageing) of components, unlike analog circuits."
+          },
+          {
+            "id": "IN016",
+            "text": "The sensitivity of a control system to variations in the forward path gain is reduced by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Open-loop operation.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Positive feedback.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Negative feedback.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Using a higher-order system.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Negative feedback is universally used to make the closed-loop gain much less sensitive to variations in the system components and external disturbances."
+          },
+          {
+            "id": "IN017",
+            "text": "A linear variable differential transformer (LVDT) is an inductive transducer used to measure:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Angular displacement",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Linear displacement",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Temperature",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Flow rate",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Transducers",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The name itself specifies its function: Linear Variable Differential Transformer is an electromagnetic device that converts linear motion (displacement) into an electrical signal."
+          },
+          {
+            "id": "IN018",
+            "text": "The internal resistance of an ideal voltmeter is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Zero",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Infinite",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Low",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Unity",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "An ideal voltmeter should draw zero current from the circuit it measures, ensuring it doesn't disturb the measurement. This is achieved with infinite internal resistance."
+          },
+          {
+            "id": "IN019",
+            "text": "The J-K flip-flop operates in the toggle mode when the inputs J and K are:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "J=0, K=0",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "J=0, K=1",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "J=1, K=0",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "J=1, K=1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Digital Electronics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "When both J and K inputs are high (J=1, K=1), the output of the flip-flop complements its previous state on every clock pulse (Qn+1 = Q̄n)."
+          },
+          {
+            "id": "IN020",
+            "text": "The Final Value Theorem is applicable only if the function F(s) has poles:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Only in the left half s-plane.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Only at the origin.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "In the left half s-plane or a simple pole at the origin.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Anywhere in the s-plane.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics/Signals and Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "The Final Value Theorem is valid only if lim(t→∞) f(t) exists, which requires that sF(s) has all its poles in the left-half s-plane, or at most a single, simple pole at the origin."
+          },
+          {
+            "id": "IN021",
+            "text": "The piezoelectric effect is the interconversion between:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Temperature and voltage.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Light and current.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Mechanical stress and voltage.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Magnetic field and resistance.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Transducers",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The piezoelectric effect describes the ability of certain materials (like quartz) to generate an electric charge in response to applied mechanical stress (direct effect), or change shape in response to an applied voltage (converse effect)."
+          },
+          {
+            "id": "IN022",
+            "text": "The damping torque in most indicating instruments is produced by:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Gravity control",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Spring control",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Air friction or Eddy currents",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Magnetic field",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Damping torque is essential to bring the pointer to rest quickly without oscillation. This is typically achieved using air friction (pneumatic damping) or eddy currents (electromagnetic damping)."
+          },
+          {
+            "id": "IN023",
+            "text": "A PID controller is applied to a system. The effect of increasing the derivative action is to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Decrease the rise time.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Increase the steady-state error.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Increase the overshoot.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Decrease the stability margin.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "Derivative control provides anticipation based on the rate of error change. This damping effect reduces overshoot and allows higher gain for faster response, thus decreasing the rise time."
+          },
+          {
+            "id": "IN024",
+            "text": "The Laplace Transform of t·u(t) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1/s",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1/s²",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "1/s³",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "e^(-s)/s",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics/Signals and Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Using the differentiation in s-domain property on L{u(t)} = 1/s, we get L{t·u(t)} = -d/ds (1/s) = -(-1/s²) = 1/s²."
+          },
+          {
+            "id": "IN025",
+            "text": "The operational amplifier circuit that can perform addition and scaling of multiple input signals is the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Integrator",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Voltage follower",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Summing amplifier",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Comparator",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Analog Electronics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The summing amplifier (or adder) circuit uses an inverting configuration with multiple input resistors to produce an output voltage that is the weighted sum of the input voltages."
+          },
+          {
+            "id": "IN026",
+            "text": "The maximum number of distinct values that can be represented by a 10-bit digital signal is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "512",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1024",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2048",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "4096",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Digital Electronics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The number of distinct values (or levels) that can be represented by N bits is 2^N. For N=10, this is 2^10 = 1024."
+          },
+          {
+            "id": "IN027",
+            "text": "The Lissajous pattern on a CRO for signals x(t) = A sin(ωt) and y(t) = B cos(ωt) will be a:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Straight line",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Parabola",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Circle or ellipse",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Figure-of-eight",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "The signals have the same frequency (ω) and a phase difference of 90° (cos(ωt) = sin(ωt + 90°)). This condition results in a circle (if A=B) or an ellipse (if A ≠ B)."
+          },
+          {
+            "id": "IN028",
+            "text": "Which type of control system uses a relay to switch the final control element?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "P-controller",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Two-position (ON/OFF) controller",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "PI-controller",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Three-term controller",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Industrial Instrumentation",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A two-position (ON/OFF) controller drives the output to its maximum or minimum limit based on the error sign. This switching action is typically implemented using an electrical or pneumatic relay."
+          },
+          {
+            "id": "IN029",
+            "text": "The gauge pressure measurement is relative to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Vacuum",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Atmospheric pressure",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Absolute pressure",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Barometric pressure",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Industrial Instrumentation",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Gauge pressure is the pressure measured relative to the local atmospheric pressure. Absolute pressure is measured relative to a perfect vacuum (zero pressure)."
+          },
+          {
+            "id": "IN030",
+            "text": "Which transducer is an active transducer?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Strain Gauge",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "LVDT",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Thermocouple",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Potentiometer",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Transducers",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "An active transducer (self-generating) produces an electrical signal directly from the measured quantity (e.g., a Thermocouple generates voltage from temperature). Passive transducers (e.g., LVDT, Strain Gauge) require external power."
+          },
+          {
+            "id": "IN031",
+            "text": "The transfer function of a phase lag compensator contributes a phase shift that is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Always 0°",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Always negative (lagging)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Always positive (leading)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Equal to 90°",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "A phase lag compensator is designed to introduce a negative phase shift (lag) into the system over the relevant frequency range, primarily to improve the steady-state error."
+          },
+          {
+            "id": "IN032",
+            "text": "The total current entering a node in an electric circuit must equal the total current leaving the node. This is a statement of:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Ohm's Law",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Kirchhoff's Voltage Law (KVL)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Kirchhoff's Current Law (KCL)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Thevenin's Theorem",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Electric Circuits",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Kirchhoff's Current Law (KCL) is based on the conservation of charge and states that the algebraic sum of currents entering and leaving a node (junction) is zero."
+          },
+          {
+            "id": "IN033",
+            "text": "The error function (erf(x)) is primarily related to which probability distribution?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Poisson",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Binomial",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Normal (Gaussian)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Exponential",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics - Probability",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "The error function erf(x) is a special function of the sigmoid shape that is closely related to the cumulative distribution function (CDF) of the Normal (Gaussian) distribution."
+          },
+          {
+            "id": "IN034",
+            "text": "The maximum output voltage from an ideal differentiator circuit for a step input voltage is theoretically:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Zero",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "A finite pulse",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "A negative pulse",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Infinite",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Analog Electronics",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "An ideal differentiator's output is proportional to the derivative of the input. The derivative of a step function u(t) is the Dirac impulse δ(t), which has a theoretical peak amplitude of infinite at t=0."
+          },
+          {
+            "id": "IN035",
+            "text": "Which of the following is NOT an advantage of digital instruments over analog instruments?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Higher accuracy and resolution.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Absence of parallax error.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Higher cost and complexity.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Compatibility with computer systems.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Measurements",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Digital instruments generally have a higher cost and complexity than their basic analog counterparts, which is a disadvantage, not an advantage."
+          },
+          {
+            "id": "IN036",
+            "text": "A capacitive transducer (capacitance C) is used to measure displacement d. The relationship is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "C ∝ d",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "C ∝ 1/d",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "C ∝ d²",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "C ∝ 1/d²",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Transducers",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The capacitance of a parallel plate capacitor is C = εA/d. If A is constant, capacitance is inversely proportional to the distance (d) between the plates."
+          },
+          {
+            "id": "IN037",
+            "text": "The steady-state error of a Type 1 unity feedback system for a parabolic input is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Zero",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Finite constant",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Infinite",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Undefined",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "For a system of Type N, the steady-state error is zero for inputs of order up to N-1, finite for order N, and infinite for inputs of order greater than N. Parabolic input is order 2. Since Type 1 (N=1), the error is infinite."
+          },
+          {
+            "id": "IN038",
+            "text": "The eigenvalues of a skew-symmetric matrix are always:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Real and non-negative.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Purely imaginary or zero.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Non-zero real numbers.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Positive integers.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Engineering Mathematics - Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "A key property of skew-symmetric matrices (A^T = -A) is that all of their eigenvalues are purely imaginary or zero."
+          },
+          {
+            "id": "IN039",
+            "text": "The quantization process in Analog-to-Digital Conversion (ADC) is inherently:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Linear",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Non-linear",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Reversible",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Lossless",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Digital Electronics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Quantization maps a continuous range of values to a finite set of discrete values (steps). This step-wise relationship is inherently non-linear and irreversible (lossy)."
+          },
+          {
+            "id": "IN040",
+            "text": "The piezoelectric transducer is a self-generating device, making it suitable for measuring:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Static quantities (DC)",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Temperature",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Dynamic quantities (AC)",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Chemical composition",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Transducers",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "Piezoelectric materials generate charge only when strain is changing, making them suitable for measuring dynamic phenomena like acceleration, vibration, and pressure transients."
+          },
+          {
+            "id": "IN041",
+            "text": "A standard integrator circuit using an op-amp has:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "A resistor in the feedback path.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "A capacitor in the feedback path.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "An inductor in the feedback path.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Only a wire in the feedback path.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog Electronics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The op-amp integrator has a capacitor in the negative feedback path and a resistor at the inverting input terminal."
+          },
+          {
+            "id": "IN042",
+            "text": "The primary objective of adding a reset windup protection circuit to a PID controller is to prevent:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Noise amplification by the derivative term.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The integral term from accumulating large errors when the control element is saturated.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Overshoot caused by the proportional term.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Instability due to time delays.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Industrial Instrumentation",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 90,
+            "explanation": "Reset windup occurs when the integral term builds up excessively while the actuator is already saturated. Anti-windup techniques limit the integral term's accumulation to avoid large overshoot when the error eventually changes sign."
+          },
+          {
+            "id": "IN043",
+            "text": "The unit of gauge factor is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Ω/strain",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Dimensionless",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "meter/Ω",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Volt/strain",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Transducers",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The gauge factor (Gf) is the ratio of two dimensionless quantities (ΔR/R and ΔL/L), making the gauge factor itself dimensionless."
+          },
+          {
+            "id": "IN044",
+            "text": "The open-loop poles and zeros of a system are defined as the roots of the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Numerator and denominator of the closed-loop transfer function, respectively.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Numerator and denominator of the open-loop transfer function, respectively.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Characteristic equation.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Input and output signals.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The open-loop zeros are the roots of the numerator and the open-loop poles are the roots of the denominator of the open-loop transfer function G(s)H(s)."
+          },
+          {
+            "id": "IN045",
+            "text": "The resolution of an N-bit Digital-to-Analog Converter (DAC) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "1/2^N",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "1/(2^N - 1)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "2^N",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "2^N - 1",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Digital Electronics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "Resolution is the smallest analog step size that can be produced. It is V_FS/(2^N - 1), which is proportional to 1/(2^N - 1)."
+          },
+          {
+            "id": "IN046",
+            "text": "The Dirac Delta function δ(t) is the derivative of the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Ramp function",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Parabola function",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Unit step function",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Exponential function",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Signals and Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The unit step function u(t) has a sudden jump at t=0. The derivative of this jump is the unit impulse function δ(t)."
+          },
+          {
+            "id": "IN047",
+            "text": "If A is a square matrix, the maximum number of linearly independent eigenvectors is equal to:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "The size of the matrix.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "The rank of the matrix.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "The determinant of the matrix.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "The trace of the matrix.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "A",
+            "subject": "Engineering Mathematics - Linear Algebra",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "An N × N matrix can have at most N linearly independent eigenvectors. If the matrix is diagonalizable, it has exactly N linearly independent eigenvectors."
+          },
+          {
+            "id": "IN048",
+            "text": "The pressure transducer used to measure high pressures (up to 10,000 bar) is the:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Bourdon tube",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Diaphragm",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Capacitive transducer",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Piezoelectric transducer",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Industrial Instrumentation",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "The piezoelectric transducer is robust and has a very high natural frequency, making it suitable for measuring dynamic and extremely high pressures (shock/blast waves)."
+          },
+          {
+            "id": "IN049",
+            "text": "The unity gain bandwidth (GBW) of an op-amp is the frequency at which the open-loop gain is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Zero",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Unity (1)",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Maximum",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Equal to the phase margin",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Analog Electronics",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The Gain-Bandwidth Product (GBW) is defined as the frequency at which the open-loop voltage gain of an op-amp drops to unity (or 0 dB)."
+          },
+          {
+            "id": "IN050",
+            "text": "For a second-order system with damping ratio ζ=0, the system response is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Overdamped",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Critically damped",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Underdamped",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Undamped (oscillatory)",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "When ζ = 0, the system has poles on the jω-axis. The response exhibits sustained, non-decaying oscillations (undamped)."
+          },
+          {
+            "id": "IN051",
+            "text": "The Fourier Series of an odd function contains only:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "DC term and sine terms.",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Cosine terms only.",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Sine terms only.",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "DC term only.",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Engineering Mathematics/Signals and Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 45,
+            "explanation": "For an odd periodic function, the a₀ (DC) and aₙ (cosine) coefficients are zero. The series contains only the bₙ (sine terms)."
+          },
+          {
+            "id": "IN052",
+            "text": "The resistance of a Pt-100 RTD (Resistance Temperature Detector) at 0°C is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "50 Ω",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "100 Ω",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "200 Ω",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "500 Ω",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Transducers",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The '100' in Pt-100 specifically denotes that the resistance of the sensor is 100 Ω at 0°C."
+          },
+          {
+            "id": "IN053",
+            "text": "Which ADC technique is known for its high speed, but low resolution for a given power consumption?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Dual-slope ADC",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Successive Approximation Register (SAR) ADC",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Flash ADC",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Sigma-Delta ADC",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "C",
+            "subject": "Digital Electronics",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "A Flash ADC uses 2^N - 1 comparators for an N-bit output, making it extremely fast (single clock cycle) but very large, complex, and power-hungry, limiting it primarily to low-resolution, high-speed applications."
+          },
+          {
+            "id": "IN054",
+            "text": "The Bode magnitude plot slope for a simple pole at the origin (1/s) is:",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "20 dB/decade",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "-20 dB/decade",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "40 dB/decade",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "-40 dB/decade",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "B",
+            "subject": "Control Systems",
+            "difficulty": "Medium",
+            "marks": 1,
+            "estimatedSolveTime": 30,
+            "explanation": "The gain magnitude for G(s) = 1/s is |G(jω)| = 1/ω. In dB, 20 log₁₀(1/ω) = -20 log₁₀(ω). The slope is -20 dB/decade."
+          },
+          {
+            "id": "IN055",
+            "text": "Which type of flow meter has no moving parts and relies on the Faraday's law of electromagnetic induction?",
+            "type": "multiple-choice",
+            "category": "Core Subject",
+            "options": [
+              {
+                "id": "A",
+                "text": "Venturimeter",
+                "value": "A"
+              },
+              {
+                "id": "B",
+                "text": "Coriolis meter",
+                "value": "B"
+              },
+              {
+                "id": "C",
+                "text": "Orifice plate",
+                "value": "C"
+              },
+              {
+                "id": "D",
+                "text": "Electromagnetic flow meter",
+                "value": "D"
+              }
+            ],
+            "correctAnswer": "D",
+            "subject": "Industrial Instrumentation",
+            "difficulty": "Medium",
+            "marks": 2,
+            "estimatedSolveTime": 60,
+            "explanation": "The Electromagnetic Flow Meter induces a voltage across a conductive fluid moving through a magnetic field, where the voltage is proportional to the fluid velocity (flow rate), based on the principle of electromagnetic induction."
+          }
+        ],
+        "scoringConfig": {
+          "algorithm": "weighted",
+          "thresholds": {
+            "excellent": 80,
+            "good": 60,
+            "needsImprovement": 40
+          }
+        }
+      },
+      "results": {
+        "title": "GATE Assessment Results",
+        "description": "Your comprehensive GATE Instrumentation Engineering assessment results with detailed analysis and recommendations for improvement.",
+        "questions": []
+      }
+    }
+  }
+         
