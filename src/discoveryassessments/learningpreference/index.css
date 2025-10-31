@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+Updated: 2025-01-27 - Applied new teal/green color palette with blue-gray neutrals
+*/
+
+@layer base {
+  :root {
+    /* Primary Colors */
+    --primary: 160 84% 39%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Background & Foreground */
+    --background: 210 40% 98%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    /* Secondary Colors */
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    /* Accent Colors */
+    --accent: 160 60% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Muted Colors */
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    /* Card Colors */
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    /* Popover Colors */
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    /* Destructive/Error Colors */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Border & Input */
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 160 84% 39%;
+
+    --radius: 0.5rem;
+
+    --gradient-primary: linear-gradient(135deg, hsl(160 84% 39%) 0%, hsl(160 60% 45%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(160 60% 45%) 0%, hsl(160 70% 50%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(210 40% 98%) 0%, hsl(210 40% 96.1%) 100%);
+    
+    --shadow-sm: 0 2px 8px hsl(222.2 47.4% 11.2% / 0.04);
+    --shadow-md: 0 4px 16px hsl(222.2 47.4% 11.2% / 0.08);
+    --shadow-lg: 0 8px 32px hsl(222.2 47.4% 11.2% / 0.12);
+    
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    /* Primary Colors - Same as light mode for consistency */
+    --primary: 160 84% 39%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Background & Foreground */
+    --background: 222.2 47.4% 11.2%;
+    --foreground: 210 40% 98%;
+
+    /* Secondary Colors */
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    /* Accent Colors */
+    --accent: 160 60% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Muted Colors */
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    /* Card Colors */
+    --card: 217.2 32.6% 17.5%;
+    --card-foreground: 210 40% 98%;
+
+    /* Popover Colors */
+    --popover: 217.2 32.6% 17.5%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Destructive/Error Colors */
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Border & Input */
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 160 84% 39%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(160 84% 39%) 0%, hsl(160 60% 45%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(160 60% 45%) 0%, hsl(160 70% 50%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(222.2 47.4% 11.2%) 0%, hsl(217.2 32.6% 17.5%) 100%);
+    
+    --shadow-sm: 0 2px 8px hsl(0 0% 0% / 0.3);
+    --shadow-md: 0 4px 16px hsl(0 0% 0% / 0.4);
+    --shadow-lg: 0 8px 32px hsl(0 0% 0% / 0.5);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+  
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+  
+  .gradient-subtle {
+    background: var(--gradient-subtle);
+  }
+  
+  .shadow-elegant {
+    box-shadow: var(--shadow-md);
+  }
+  
+  .shadow-soft {
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .bg-gradient-card {
+    background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(var(--muted)) 100%);
+  }
+  
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+
+  /* Force color application with !important to override any cached styles */
+  .bg-primary {
+    background-color: hsl(var(--primary)) !important;
+  }
+  
+  .text-primary {
+    color: hsl(var(--primary)) !important;
+  }
+  
+  .border-primary {
+    border-color: hsl(var(--primary)) !important;
+  }
+  
+  .bg-accent {
+    background-color: hsl(var(--accent)) !important;
+  }
+  
+  .text-accent {
+    color: hsl(var(--accent)) !important;
+  }
+  
+  .border-accent {
+    border-color: hsl(var(--accent)) !important;
+  }
+}

@@ -107,7 +107,7 @@ const Home = () => {
             <Link 
               to="/gate-prep" 
               title="Access GATE exam mock tests and preparation materials"
-              className="text-sm text-primary hover:text-primary/80 font-medium mt-4 inline-flex items-center gap-1"
+              className="text-sm text-primary hover:text-primary/80 font-medium mt-4 inline-flex items-center justify-center gap-1"
             >
               Start Prep <ArrowRight className="h-3 w-3" />
             </Link>

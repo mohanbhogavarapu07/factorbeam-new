@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Careers = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -30,7 +32,7 @@ const Careers = () => {
                 </div>
               </div>
               <div className="p-6 border border-dashed border-slate-300 rounded-lg text-center">
-                <p className="text-slate-500">Don't see a role that fits? We're always looking for talented people. <a href="#" className="text-green-600 font-medium">Get in touch.</a></p>
+                <p className="text-slate-500">Don't see a role that fits? We're always looking for talented people. <Link to="/contact" className="text-green-600 font-medium">Get in touch.</Link></p>
               </div>
             </div>
           </section>

@@ -33,8 +33,15 @@ const Header = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="flex-shrink-0 flex items-center">
+            <Link to="/" className="flex-shrink-0 flex items-center gap-2">
               <span className="font-bold text-2xl text-primary">FactorBeam</span>
+              <span
+                className="inline-flex items-baseline rounded-md px-2 py-0.5 text-[10px] font-semibold"
+                style={{ backgroundColor: '#E7BE4B', color: '#1A1A1A' }}
+                aria-label="Beta badge"
+              >
+                Beta 0.1
+              </span>
             </Link>
           </div>
 

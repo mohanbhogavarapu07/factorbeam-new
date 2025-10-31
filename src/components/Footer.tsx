@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-slate-800 text-slate-300 mt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="flex justify-center">
+        <div className="flex justify-left">
           <div className="grid grid-cols-2 gap-16">
             <div>
               <h4 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">
@@ -49,9 +49,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8 border-t border-slate-700 pt-8 text-center">
+        <div className="mt-8 border-t border-slate-700 pt-8 text-left">
           <p className="text-base text-slate-400">
-            &copy; 2025 FactorBeam. All rights reserved.
+            &copy; 2025 FactorBeam. All rights reserved. All assessments are for educational purposes only.
           </p>
         </div>
       </div>

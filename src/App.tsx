@@ -22,6 +22,10 @@ import Notifications from "./pages/Notifications";
 import NotFound from "./pages/NotFound";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import CareerAssessment from "./discoveryassessments/career/CareerAssessment";
+import CognitiveAssessment from "./discoveryassessments/cognitive/CognitiveAssessment";
+import PersonalityAssessment from "./discoveryassessments/personality/PersonalityAssessment";
+import LearningPreferenceAssessment from "./discoveryassessments/learningpreference/LearningPreferenceAssessment";
 
 const queryClient = new QueryClient();
 
@@ -52,6 +56,10 @@ const App = () => (
                     <Route path="/faqs" element={<FAQs />} />
                     <Route path="/auth" element={<Auth />} />
                     <Route path="/notifications" element={<Notifications />} />
+                    <Route path="/discovery/career/*" element={<CareerAssessment />} />
+                    <Route path="/discovery/cognitive/*" element={<CognitiveAssessment />} />
+                    <Route path="/discovery/personality/*" element={<PersonalityAssessment />} />
+                    <Route path="/discovery/learning-preference/*" element={<LearningPreferenceAssessment />} />
                     {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                     <Route path="*" element={<NotFound />} />
                   </Routes>

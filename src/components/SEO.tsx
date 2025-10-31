@@ -38,6 +38,11 @@ const SEO = ({
       <meta name="keywords" content={keywords} />
       <link rel="canonical" href={canonicalUrl} />
       
+      {/* Remove any existing favicon references */}
+      <link rel="icon" href="data:," />
+      <link rel="shortcut icon" href="data:," />
+      <link rel="apple-touch-icon" href="data:," />
+      
       {/* Open Graph */}
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />

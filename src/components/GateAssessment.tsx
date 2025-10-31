@@ -54,6 +54,7 @@ const GateAssessment: React.FC<GateAssessmentProps> = ({ assessment, onComplete,
   const [answers, setAnswers] = useState<Record<string, any>>({});
   const [timeRemaining, setTimeRemaining] = useState<number>(0);
   const [currentSection, setCurrentSection] = useState<'aptitude' | 'core'>('aptitude');
+  const [markedForReview, setMarkedForReview] = useState<Record<string, boolean>>({});
   const { toast } = useToast();
 
   // Get current section questions
@@ -66,6 +67,12 @@ const GateAssessment: React.FC<GateAssessmentProps> = ({ assessment, onComplete,
                         assessment.gateSections.core.questions.length;
   const answeredQuestions = Object.keys(answers).length;
   const progress = totalQuestions > 0 ? (answeredQuestions / totalQuestions) * 100 : 0;
+  
+  // Flattened list of all questions to support global navigator indexes
+  const allQuestions: { q: GateQuestion; section: 'aptitude' | 'core'; indexInSection: number }[] = [
+    ...assessment.gateSections.aptitude.questions.map((q, i) => ({ q, section: 'aptitude' as const, indexInSection: i })),
+    ...assessment.gateSections.core.questions.map((q, i) => ({ q, section: 'core' as const, indexInSection: i }))
+  ];
 
   // Timer effect
   useEffect(() => {
@@ -126,6 +133,23 @@ const GateAssessment: React.FC<GateAssessmentProps> = ({ assessment, onComplete,
       setCurrentSection('aptitude');
       setCurrentQuestionIndex(assessment.gateSections.aptitude.questions.length - 1);
     }
+  };
+
+  const handleJumpToIndex = (globalIndex: number) => {
+    const aptitudeLen = assessment.gateSections.aptitude.questions.length;
+    if (globalIndex < aptitudeLen) {
+      setCurrentSection('aptitude');
+      setCurrentQuestionIndex(globalIndex);
+    } else {
+      setCurrentSection('core');
+      setCurrentQuestionIndex(globalIndex - aptitudeLen);
+    }
+  };
+
+  const toggleMarkForReview = () => {
+    const qid = currentQuestion?.id;
+    if (!qid) return;
+    setMarkedForReview(prev => ({ ...prev, [qid]: !prev[qid] }));
   };
 
   const calculateSectionScore = (sectionId: 'aptitude' | 'core') => {
@@ -263,8 +287,9 @@ const GateAssessment: React.FC<GateAssessmentProps> = ({ assessment, onComplete,
         </div>
       </div>
 
-      {/* Question Content */}
-      <div className="max-w-4xl mx-auto px-4 py-8">
+      {/* Question Content with Navigator */}
+      <div className="max-w-6xl mx-auto px-4 py-8">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 items-start">
         <Card>
           <CardHeader>
             <div className="flex items-center justify-between">
@@ -323,6 +348,9 @@ const GateAssessment: React.FC<GateAssessmentProps> = ({ assessment, onComplete,
               </Button>
               
               <div className="flex space-x-2">
+                <Button variant={markedForReview[currentQuestion?.id || ''] ? 'secondary' : 'outline'} onClick={toggleMarkForReview}>
+                  {markedForReview[currentQuestion?.id || ''] ? 'Unmark Review' : 'Mark for Review'}
+                </Button>
                 <Button onClick={handleNext}>
                   Next
                   <ArrowRight className="w-4 h-4 ml-2" />
@@ -336,6 +364,43 @@ const GateAssessment: React.FC<GateAssessmentProps> = ({ assessment, onComplete,
             </div>
           </CardContent>
         </Card>
+        
+        {/* Sidebar Navigator */}
+        <div className="lg:sticky lg:top-4">
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-base">Question Navigator</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="flex items-center gap-3 text-sm mb-4">
+                <div className="flex items-center gap-1"><span className="inline-block w-3 h-3 rounded bg-green-500" /> Answered</div>
+                <div className="flex items-center gap-1"><span className="inline-block w-3 h-3 rounded bg-orange-500" /> Marked</div>
+                <div className="flex items-center gap-1"><span className="inline-block w-3 h-3 rounded bg-gray-300" /> Not Answered</div>
+              </div>
+              <div className="grid grid-cols-5 gap-2">
+                {allQuestions.map((item, idx) => {
+                  const qid = item.q.id;
+                  const isAnswered = answers[qid] !== undefined && answers[qid] !== '';
+                  const isMarked = !!markedForReview[qid];
+                  const bg = isAnswered ? 'bg-green-500 text-white' : isMarked ? 'bg-orange-500 text-white' : 'bg-gray-200 text-gray-800';
+                  const isCurrent = currentSection === item.section && currentQuestion?.id === qid;
+                  const ring = isCurrent ? 'ring-2 ring-blue-500' : '';
+                  return (
+                    <button
+                      key={qid}
+                      type="button"
+                      onClick={() => handleJumpToIndex(idx)}
+                      className={`h-9 rounded-md text-sm font-medium ${bg} ${ring}`}
+                    >
+                      {idx + 1}
+                    </button>
+                  );
+                })}
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+        </div>
       </div>
     </div>
   );

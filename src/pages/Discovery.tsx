@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
 
 const Discovery = () => {
@@ -86,7 +87,9 @@ const Discovery = () => {
             <p><strong>Questions:</strong> 60 situational scenarios</p>
             <p><strong>Output:</strong> Your top 3 career clusters with detailed profiles</p>
           </div>
-          <Button className="mt-4 w-full">Start Assessment</Button>
+          <Link to="/discovery/career" className="block">
+            <Button className="mt-4 w-full">Start Assessment</Button>
+          </Link>
         </article>
 
         <article className="bg-card p-6 rounded-lg shadow-sm border border-border hover:shadow-md transition-shadow">
@@ -99,7 +102,9 @@ const Discovery = () => {
             <p><strong>Sections:</strong> Logical Reasoning, Verbal Ability, Quantitative Aptitude</p>
             <p><strong>Output:</strong> Detailed score breakdown with percentile rankings</p>
           </div>
-          <Button className="mt-4 w-full">Start Assessment</Button>
+          <Link to="/discovery/cognitive" className="block">
+            <Button className="mt-4 w-full">Start Assessment</Button>
+          </Link>
         </article>
 
         <article className="bg-card p-6 rounded-lg shadow-sm border border-border hover:shadow-md transition-shadow">
@@ -112,7 +117,9 @@ const Discovery = () => {
             <p><strong>Questions:</strong> 48 personality traits evaluation</p>
             <p><strong>Output:</strong> Your personality type with career recommendations</p>
           </div>
-          <Button className="mt-4 w-full">Start Assessment</Button>
+          <Link to="/discovery/personality" className="block">
+            <Button className="mt-4 w-full">Start Assessment</Button>
+          </Link>
         </article>
 
         <article className="bg-card p-6 rounded-lg shadow-sm border border-border hover:shadow-md transition-shadow">
@@ -125,7 +132,9 @@ const Discovery = () => {
             <p><strong>Questions:</strong> 40 learning preference scenarios</p>
             <p><strong>Output:</strong> Your primary and secondary learning styles</p>
           </div>
-          <Button className="mt-4 w-full">Start Assessment</Button>
+          <Link to="/discovery/learning-preference" className="block">
+            <Button className="mt-4 w-full">Start Assessment</Button>
+          </Link>
         </article>
       </div>
 
