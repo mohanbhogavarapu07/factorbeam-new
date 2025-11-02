@@ -95,7 +95,7 @@ export const ATTENTION_QUESTIONS: Question[] = [
     id: 'a11',
     type: 'attention-task',
     question: 'Which word is spelled correctly?',
-    options: ['ACCOMODATE', 'ACCOMMODATE', 'ACOMODATE', 'ACOMODATE'],
+    options: ['ACCOMODATE', 'ACCOMMODATE', 'ACOMODATE', 'ACCOMODATEE'],
     correctAnswer: 'ACCOMMODATE',
     explanation: 'ACCOMMODATE is spelled with double C and double M.',
     difficulty: 'medium',

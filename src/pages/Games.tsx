@@ -32,12 +32,13 @@ const Games = () => {
     ]
   };
   const [selectedGame, setSelectedGame] = useState<string | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState<string>("All Games");
 
   const categories = [
-    { name: "All Games", active: true },
-    { name: "Logic & Puzzles", active: false },
-    { name: "Verbal Ability", active: false },
-    { name: "Quantitative Speed", active: false },
+    { name: "All Games", id: "All Games" },
+    { name: "Logic & Puzzles", id: "Logic & Puzzles" },
+    { name: "Verbal Ability", id: "Verbal Ability" },
+    { name: "Quantitative Speed", id: "Quantitative Speed" },
   ];
 
   const games = [
@@ -46,44 +47,56 @@ const Games = () => {
       title: "Vocab Vortex",
       description: "A 60-second challenge to test and expand your vocabulary by matching synonyms and antonyms.",
       skills: "Verbal Ability, Speed",
+      category: "Verbal Ability",
     },
     {
       id: "logicLeap",
       title: "Logic Leap",
       description: "Solve a series of quick logical reasoning puzzles, including syllogisms and pattern recognition.",
       skills: "Logical Reasoning, Critical Thinking",
+      category: "Logic & Puzzles",
     },
     {
       id: "dataDash",
       title: "Data Dash",
       description: "Quickly interpret charts and graphs to answer true/false questions against the clock.",
       skills: "Data Interpretation, Analytical Speed",
+      category: "Quantitative Speed",
     },
     {
       id: "quickCalc",
       title: "Quick Calc",
       description: "Solve as many arithmetic problems as you can in 90 seconds to boost your mental math speed.",
       skills: "Quantitative Speed, Calculation",
+      category: "Quantitative Speed",
     },
     {
       id: "gridMaster",
       title: "Grid Master",
       description: "Solve classic seating arrangement and logic grid puzzles by placing items according to a set of rules.",
       skills: "Spatial Reasoning, Constraint Satisfaction",
+      category: "Logic & Puzzles",
     },
     {
       id: "sentenceWeaver",
       title: "Sentence Weaver",
       description: "Unscramble a set of jumbled sentences to form a coherent paragraph. A true test of verbal logic.",
       skills: "Reading Comprehension, Logical Sequencing",
+      category: "Verbal Ability",
     },
     {
       id: "ratioRacer",
       title: "Ratio Racer",
       description: "Solve problems involving percentages, ratios, and proportions as quickly as possible.",
       skills: "Quantitative Aptitude, Proportional Reasoning",
+      category: "Quantitative Speed",
     },
   ];
+
+  // Filter games based on selected category
+  const filteredGames = selectedCategory === "All Games" 
+    ? games 
+    : games.filter(game => game.category === selectedCategory);
 
   return (
     <>
@@ -101,18 +114,18 @@ const Games = () => {
           <div className="sticky top-20 bg-card p-4 rounded-lg shadow-sm border border-border">
             <h3 className="font-semibold text-foreground mb-4">Game Categories</h3>
             <nav className="space-y-1">
-              {categories.map((category, index) => (
-                <a
-                  key={index}
-                  href="#"
-                  className={`block p-2 text-sm font-medium rounded-md transition-colors ${
-                    category.active
+              {categories.map((category) => (
+                <button
+                  key={category.id}
+                  onClick={() => setSelectedCategory(category.id)}
+                  className={`block w-full text-left p-2 text-sm font-medium rounded-md transition-colors ${
+                    selectedCategory === category.id
                       ? "text-primary bg-primary/10"
                       : "text-muted-foreground hover:bg-muted hover:text-foreground"
                   }`}
                 >
                   {category.name}
-                </a>
+                </button>
               ))}
             </nav>
           </div>
@@ -120,8 +133,9 @@ const Games = () => {
 
         {/* Main Content */}
         <section className="col-span-12 lg:col-span-9">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {games.map((game) => (
+          {filteredGames.length > 0 ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {filteredGames.map((game) => (
               <div
                 key={game.id}
                 className="bg-card rounded-lg shadow-sm border border-border p-6 flex flex-col justify-between hover:shadow-md transition-shadow"
@@ -144,8 +158,13 @@ const Games = () => {
                   Play Now
                 </button>
               </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-12">
+              <p className="text-muted-foreground text-lg">No games found in this category.</p>
+            </div>
+          )}
         </section>
       </div>
 

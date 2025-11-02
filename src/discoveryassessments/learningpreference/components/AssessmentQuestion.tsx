@@ -55,77 +55,77 @@ export default function AssessmentQuestion({
   const progress = (questionNumber / totalQuestions) * 100;
 
   return (
-    <div className="w-full max-w-5xl mx-auto flex-1 flex flex-col min-h-0 animate-in fade-in slide-in-from-bottom-4 duration-500">
-      {/* Ultra-Compact Progress Section */}
-      <div className="space-y-1 mb-3 flex-shrink-0">
-        <div className="flex justify-between items-center text-xs text-muted-foreground">
+    <div className="w-full max-w-5xl mx-auto h-full flex flex-col animate-in fade-in slide-in-from-bottom-4 duration-500">
+      {/* Compact Progress Section */}
+      <div className="space-y-2 mb-4">
+        <div className="flex justify-between items-center text-xs text-foreground">
           <span className="font-medium">Question {questionNumber} of {totalQuestions}</span>
-          <span className="bg-primary/10 text-primary px-2 py-0.5 rounded-full text-xs font-semibold">
+          <span className="bg-primary/10 text-primary px-2 py-1 rounded-full text-xs font-semibold">
             {Math.round(progress)}%
           </span>
         </div>
         <div className="relative">
-          <Progress value={progress} className="h-1.5 bg-muted" />
+          <Progress value={progress} className="h-2 bg-muted" />
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-1 h-1 bg-primary rounded-full shadow-lg animate-pulse" />
+            <div className="w-1.5 h-1.5 bg-primary rounded-full shadow-lg animate-pulse" />
           </div>
         </div>
       </div>
 
-      {/* Ultra-Compact Question Card */}
-      <Card className="flex-1 p-4 md:p-6 shadow-soft border-2 bg-gradient-card flex flex-col min-h-0">
+      {/* Compact Question Card */}
+      <Card className="flex-1 p-4 md:p-6 shadow-soft border-2 bg-gradient-card flex flex-col">
         <div className="text-center space-y-3 flex-shrink-0">
           {/* Question Number Badge */}
-          <div className="inline-flex items-center justify-center w-10 h-10 rounded-full gradient-primary text-primary-foreground font-bold text-lg shadow-lg mx-auto border-2 border-primary/20">
+          <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white font-bold text-base shadow-lg">
             {questionNumber}
           </div>
           
           {/* Question Text */}
-          <h2 className="text-base md:text-lg lg:text-xl font-semibold leading-tight text-foreground px-1">
+          <h2 className="text-lg md:text-xl lg:text-2xl font-semibold leading-tight text-foreground px-2">
             {question}
           </h2>
           
           {/* Instructions */}
-          <p className="text-xs text-muted-foreground max-w-xl mx-auto">
+          <p className="text-xs md:text-sm text-foreground max-w-xl mx-auto">
             How true is this for you when studying or learning?
           </p>
         </div>
 
-        {/* Ultra-Compact Likert Scale */}
-        <div className="flex-1 flex items-center justify-center mt-2 min-h-0">
-          <div className="grid grid-cols-5 gap-1 md:gap-2 w-full max-w-4xl">
+        {/* Compact Likert Scale */}
+        <div className="flex-1 flex items-center justify-center mt-4">
+          <div className="grid grid-cols-5 gap-2 md:gap-3 w-full max-w-4xl">
             {likertOptions.map((option) => (
               <button
                 key={option.value}
                 onClick={() => onAnswer(option.value)}
                 className={cn(
-                  "group relative p-1.5 md:p-2 rounded-lg border-2 transition-all duration-300 transform",
-                  "hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-1",
-                  "active:scale-95 flex flex-col items-center justify-center min-h-[60px] md:min-h-[70px]",
+                  "group relative p-2 md:p-3 rounded-lg border-2 transition-all duration-300",
+                  "focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2",
+                  "flex flex-col items-center justify-center min-h-[80px] md:min-h-[100px]",
                   selectedValue === option.value
-                    ? "border-primary gradient-primary text-primary-foreground shadow-xl scale-105"
+                    ? "border-primary bg-primary text-white shadow-lg"
                     : "border-border bg-card hover:border-primary/50 hover:bg-primary/5"
                 )}
                 aria-label={`${option.label} - ${option.value} out of 5`}
               >
-                <div className="flex flex-col items-center space-y-1">
+                <div className="flex flex-col items-center space-y-1 md:space-y-2">
                   {/* Selection Indicator */}
-                  <div className="flex items-center justify-center w-4 h-4 rounded-full border-2 transition-all duration-300"
+                  <div className="flex items-center justify-center w-6 h-6 rounded-full border-2 transition-all duration-300"
                        style={{
-                         borderColor: selectedValue === option.value ? 'currentColor' : 'transparent',
-                         backgroundColor: selectedValue === option.value ? 'currentColor' : 'transparent'
+                         borderColor: selectedValue === option.value ? 'white' : 'transparent',
+                         backgroundColor: selectedValue === option.value ? 'white' : 'transparent'
                        }}>
                     {selectedValue === option.value ? (
-                      <CheckCircle className="w-2 h-2" />
+                      <CheckCircle className="w-3 h-3 text-primary" />
                     ) : (
-                      <Circle className="w-2 h-2 opacity-50" />
+                      <Circle className="w-3 h-3 text-foreground opacity-60" />
                     )}
                   </div>
                   
                   {/* Value Number */}
                   <div className={cn(
-                    "text-lg md:text-xl font-bold transition-colors",
-                    selectedValue === option.value ? "text-primary-foreground" : "text-primary"
+                    "text-2xl md:text-3xl font-bold transition-colors",
+                    selectedValue === option.value ? "text-white" : "text-primary"
                   )}>
                     {option.value}
                   </div>
@@ -133,7 +133,7 @@ export default function AssessmentQuestion({
                   {/* Label */}
                   <div className={cn(
                     "text-xs font-semibold text-center transition-colors leading-tight",
-                    selectedValue === option.value ? "text-primary-foreground" : "text-muted-foreground"
+                    selectedValue === option.value ? "text-white" : "text-foreground"
                   )}>
                     {option.shortLabel}
                   </div>

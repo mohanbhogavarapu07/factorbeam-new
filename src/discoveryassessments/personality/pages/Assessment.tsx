@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { AssessmentQuestion } from "../components/AssessmentQuestion";
 import { assessmentItems } from "../data/assessmentData";
 import { Button } from "@/components/ui/button";
-import { ChevronLeft, ChevronRight, Pause } from "lucide-react";
+import { Pause } from "lucide-react";
 
 export default function Assessment() {
   const navigate = useNavigate();
@@ -29,15 +29,47 @@ export default function Assessment() {
     );
   }, [responses, currentQuestion]);
 
+  const handleComplete = useCallback((finalResponses: Record<string, number>) => {
+    localStorage.setItem("assessment_responses", JSON.stringify(finalResponses));
+    localStorage.removeItem("assessment_progress");
+    navigate("/discovery/personality/results");
+  }, [navigate]);
+
+  const handleAnswer = useCallback((value: number) => {
+    // Capture current question index before state updates
+    const questionIndex = currentQuestion;
+    const currentItemId = assessmentItems[questionIndex].id;
+    
+    setResponses(prevResponses => {
+      const updatedResponses = {
+        ...prevResponses,
+        [currentItemId]: value,
+      };
+      
+      // Auto-advance to next question (always enabled)
+      setTimeout(() => {
+        if (questionIndex < assessmentItems.length - 1) {
+          setCurrentQuestion(questionIndex + 1);
+        } else {
+          // On last question, complete the assessment
+          const allAnswered = Object.keys(updatedResponses).length === assessmentItems.length;
+          if (allAnswered || updatedResponses[currentItemId]) {
+            handleComplete(updatedResponses);
+          }
+        }
+      }, 300); // Small delay for visual feedback
+      
+      return updatedResponses;
+    });
+  }, [currentQuestion, handleComplete]);
+
+
+
   useEffect(() => {
     // Keyboard shortcuts
     const handleKeyPress = (e: KeyboardEvent) => {
       if (e.key >= "1" && e.key <= "5") {
         handleAnswer(parseInt(e.key));
-      } else if (e.key === "ArrowLeft" && currentQuestion > 0) {
-        setCurrentQuestion(currentQuestion - 1);
-      } else if (e.key === "ArrowRight" && responses[assessmentItems[currentQuestion].id]) {
-        handleNext();
       } else if (e.key === "Escape") {
         setIsPaused(!isPaused);
       }
@@ -45,47 +77,17 @@ export default function Assessment() {
 
     window.addEventListener("keydown", handleKeyPress);
     return () => window.removeEventListener("keydown", handleKeyPress);
-  }, [currentQuestion, responses, isPaused]);
-
-  const handleAnswer = (value: number) => {
-    const newResponses = {
-      ...responses,
-      [assessmentItems[currentQuestion].id]: value,
-    };
-    setResponses(newResponses);
-
-    // Auto-advance after a brief delay
-    setTimeout(() => {
-      if (currentQuestion < assessmentItems.length - 1) {
-        setCurrentQuestion(currentQuestion + 1);
-      } else {
-        handleComplete(newResponses);
-      }
-    }, 300);
-  };
-
-  const handleNext = () => {
-    if (currentQuestion < assessmentItems.length - 1) {
-      setCurrentQuestion(currentQuestion + 1);
-    } else if (Object.keys(responses).length === assessmentItems.length) {
-      handleComplete(responses);
-    }
-  };
-
-  const handlePrevious = () => {
-    if (currentQuestion > 0) {
-      setCurrentQuestion(currentQuestion - 1);
-    }
-  };
-
-  const handleComplete = (finalResponses: Record<string, number>) => {
-    localStorage.setItem("assessment_responses", JSON.stringify(finalResponses));
-    localStorage.removeItem("assessment_progress");
-    navigate("/discovery/personality/results");
-  };
+  }, [currentQuestion, responses, isPaused, handleAnswer]);
 
   const currentItem = assessmentItems[currentQuestion];
   const selectedValue = responses[currentItem.id];
+  
+  // Check if all questions are answered
+  // Need to account for the current question's answer being selected but not yet saved
+  const answeredCount = Object.keys(responses).length;
+  const allQuestionsAnswered = 
+    answeredCount === assessmentItems.length || 
+    (answeredCount === assessmentItems.length - 1 && selectedValue !== undefined);
 
   if (isPaused) {
     return (
@@ -99,7 +101,7 @@ export default function Assessment() {
           </div>
           
           <div className="space-y-4">
-            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">
               Assessment Paused
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed">
@@ -154,7 +156,7 @@ export default function Assessment() {
             <div className="w-6 h-6 rounded-full bg-gradient-primary flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-xs">🧭</span>
             </div>
-            <h1 className="text-base md:text-lg font-bold bg-gradient-primary bg-clip-text text-transparent">
+            <h1 className="text-base md:text-lg font-bold text-primary">
               Professional Identity Compass
             </h1>
           </div>
@@ -189,20 +191,9 @@ export default function Assessment() {
 
           {/* Compact Navigation */}
           <div className="flex-shrink-0 mt-4">
-            <div className="flex flex-col sm:flex-row justify-between items-center gap-3">
-              {/* Previous Button */}
-              <Button
-                onClick={handlePrevious}
-                variant="outline"
-                disabled={currentQuestion === 0}
-                className="gap-2 w-full sm:w-auto order-2 sm:order-1 hover:bg-primary/10 transition-colors h-10"
-              >
-                <ChevronLeft className="h-4 w-4" />
-                Previous
-              </Button>
-
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-3">
               {/* Question Counter */}
-              <div className="flex items-center gap-2 text-xs text-muted-foreground order-1 sm:order-2">
+              <div className="flex items-center gap-2 text-xs text-muted-foreground">
                 <div className="flex gap-1">
                   {Array.from({ length: assessmentItems.length }, (_, i) => (
                     <div
@@ -221,29 +212,6 @@ export default function Assessment() {
                   {currentQuestion + 1} of {assessmentItems.length}
                 </span>
               </div>
-
-              {/* Next/Complete Button */}
-              {currentQuestion === assessmentItems.length - 1 &&
-              Object.keys(responses).length === assessmentItems.length ? (
-                <Button
-                  onClick={() => handleComplete(responses)}
-                  size="lg"
-                  className="gap-2 w-full sm:w-auto order-3 bg-gradient-primary hover:opacity-90 shadow-lg h-10"
-                >
-                  View Results
-                  <ChevronRight className="h-4 w-4" />
-                </Button>
-              ) : (
-                <Button
-                  onClick={handleNext}
-                  variant="outline"
-                  disabled={!selectedValue}
-                  className="gap-2 w-full sm:w-auto order-3 hover:bg-primary/10 transition-colors h-10"
-                >
-                  Next
-                  <ChevronRight className="h-4 w-4" />
-                </Button>
-              )}
             </div>
           </div>
         </div>

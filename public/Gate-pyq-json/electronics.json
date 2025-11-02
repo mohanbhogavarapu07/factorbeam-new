@@ -4,7 +4,7 @@
     "description": "Comprehensive GATE Electronics & Communication Engineering assessment covering General Aptitude and Core Electronics & Communication Engineering subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core electronics & communication engineering questions (85% weight) following the official GATE pattern.",
     "category": "GATE",
     "duration": "180 mins",
-    "difficulty": "Moderate",
+    "difficulty": "Easy",
     "isActive": true,
     "featured": true,
     "metadata": {

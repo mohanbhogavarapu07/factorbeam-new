@@ -3,8 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { assessmentItems, factorInfo } from "../data/assessmentData";
-import { Download, Share2, RotateCcw, Brain, Target, Users, TrendingUp, Lightbulb, CheckCircle, Star, Award, BookOpen, Zap } from "lucide-react";
-import { toast } from "sonner";
+import { RotateCcw, Brain, Target, Users, TrendingUp, Lightbulb, CheckCircle, Star, Award, Zap } from "lucide-react";
 
 interface FactorScores {
   [key: string]: {
@@ -382,10 +381,6 @@ export default function Results() {
 
   const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
 
-  const handleShare = () => {
-    toast.success("Share link copied to clipboard!");
-  };
-
   const handleRetake = () => {
     localStorage.removeItem("assessment_responses");
     localStorage.removeItem("assessment_progress");
@@ -409,9 +404,6 @@ export default function Results() {
       {/* Hero Section */}
       <section className="border-b bg-card/50 backdrop-blur-sm">
         <div className="container mx-auto px-3 py-8 md:py-12 lg:py-20 text-center space-y-4 md:space-y-6">
-          <div className="text-5xl md:text-6xl lg:text-8xl animate-in zoom-in duration-500">
-            ✨
-          </div>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold animate-in fade-in slide-in-from-bottom-4 duration-700 px-2">
             {archetype.name}
           </h1>
@@ -425,22 +417,6 @@ export default function Results() {
               <Award className="w-4 h-4" />
               Overall Score: {overallScore}%
             </div>
-          </div>
-          
-          {/* Action Buttons */}
-          <div className="flex flex-col sm:flex-row flex-wrap gap-2 md:gap-3 justify-center pt-4 animate-in fade-in duration-700 delay-200 px-4">
-            <Button onClick={handleShare} variant="outline" className="gap-2 w-full sm:w-auto text-sm">
-              <Share2 className="h-4 w-4" />
-              Share Results
-            </Button>
-            <Button onClick={handleRetake} variant="outline" className="gap-2 w-full sm:w-auto text-sm">
-              <RotateCcw className="h-4 w-4" />
-              Retake Assessment
-            </Button>
-            <Button className="gap-2 w-full sm:w-auto text-sm">
-              <Download className="h-4 w-4" />
-              Download PDF
-            </Button>
           </div>
         </div>
       </section>
@@ -483,17 +459,17 @@ export default function Results() {
                   </div>
 
                   {/* Progress Bar */}
-                  <div className="space-y-2">
-                    <div className="h-2 md:h-3 bg-muted rounded-full overflow-hidden">
+                  <div className="space-y-2 mt-3">
+                    <div className="h-3 md:h-4 bg-muted/80 rounded-full overflow-hidden border border-border">
                       <div
-                        className="h-full bg-gradient-primary transition-all duration-1000 ease-smooth"
+                        className="h-full bg-primary transition-all duration-1000 ease-smooth"
                         style={{
                           width: `${score.percentile}%`,
                           transitionDelay: `${delay + 300}ms`,
                         }}
                       />
                     </div>
-                    <div className="flex justify-between text-xs text-muted-foreground">
+                    <div className="flex justify-between text-xs font-medium text-foreground">
                       <span>Low</span>
                       <span>Average</span>
                       <span>High</span>
@@ -666,14 +642,14 @@ export default function Results() {
             These results are for personal development only. Use them to better understand
             your work preferences, communication style, and professional tendencies.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center flex-wrap pt-4">
-            <Button onClick={() => navigate("/discovery/personality")} variant="outline" className="w-full sm:w-auto">
-              Return Home
-            </Button>
-            <Button onClick={handleRetake} variant="outline" className="w-full sm:w-auto">
-              Take Again
-            </Button>
-          </div>
+        </div>
+        
+        {/* Retake Assessment Button */}
+        <div className="mt-8 md:mt-12 text-center pb-8">
+          <Button onClick={handleRetake} size="lg" className="bg-primary text-white px-8 py-4">
+            <RotateCcw className="h-5 w-5 mr-2" />
+            Retake Assessment
+          </Button>
         </div>
       </main>
 

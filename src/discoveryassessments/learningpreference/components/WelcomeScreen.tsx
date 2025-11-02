@@ -16,7 +16,7 @@ export default function WelcomeScreen({ onStart }: WelcomeScreenProps) {
             <span className="text-sm font-medium text-muted-foreground">Evidence-Based Assessment</span>
           </div>
           
-          <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent leading-tight">
+          <h1 className="text-5xl md:text-6xl font-bold text-primary leading-tight">
             Learning Preferences Discovery Tool
           </h1>
           

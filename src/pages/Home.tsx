@@ -52,6 +52,14 @@ const Home = () => {
       title: "Logic Leap",
       description: "Solve quick logical puzzles and syllogisms.",
     },
+    {
+      title: "Data Dash",
+      description: "Interpret charts and graphs against the clock.",
+    },
+    {
+      title: "Quick Calc",
+      description: "Boost your mental math speed in 90 seconds.",
+    },
   ];
 
   return (
@@ -113,23 +121,23 @@ const Home = () => {
             </Link>
           </article>
           
-          <article className="bg-card p-6 rounded-lg shadow-sm border border-border">
+          {/* <article className="bg-card p-6 rounded-lg shadow-sm border border-border">
             <div className="text-center">
               <div className="mx-auto w-12 h-12 bg-muted rounded-full flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="font-semibold text-foreground mb-2">Skill-Builders</h3>
+              {/* <h3 className="font-semibold text-foreground mb-2">Skill-Builders</h3>
               <p className="text-sm text-muted-foreground mb-3">
                 Coming Soon
               </p>
               <div className="flex items-center justify-center space-x-2 text-xs text-muted-foreground">
                 <div className="w-1.5 h-1.5 bg-primary rounded-full animate-pulse"></div>
                 <span>In Development</span>
-              </div>
-            </div>
-          </article>
+              </div> */}
+            {/* </div> */}
+          {/* </article> */} 
           
           <article className="bg-card p-6 rounded-lg shadow-sm border border-border hover:shadow-md transition-shadow">
             <h3 className="font-semibold text-foreground">Practice Arcade</h3>

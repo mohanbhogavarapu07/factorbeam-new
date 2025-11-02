@@ -4,7 +4,7 @@
     "description": "Comprehensive GATE Statistics assessment covering General Aptitude and Core Statistics subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core statistics questions (85% weight) following the official GATE pattern.",
     "category": "GATE",
     "duration": "180 mins",
-    "difficulty": "Moderate",
+    "difficulty": "Easy",
     "isActive": true,
     "featured": true,
     "metadata": {

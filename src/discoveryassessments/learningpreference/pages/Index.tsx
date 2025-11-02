@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { Button } from '@/components/ui/button';
-import { ChevronLeft, ChevronRight, Pause } from 'lucide-react';
+import { Pause } from 'lucide-react';
 import WelcomeScreen from '../components/WelcomeScreen';
 import PreAssessmentBriefing from '../components/PreAssessmentBriefing';
 import AssessmentQuestion from '../components/AssessmentQuestion';
@@ -60,10 +60,6 @@ export default function Index() {
       
       if (e.key >= "1" && e.key <= "5") {
         handleAnswer(parseInt(e.key));
-      } else if (e.key === "ArrowLeft" && currentQuestion > 0) {
-        setCurrentQuestion(currentQuestion - 1);
-      } else if (e.key === "ArrowRight" && getCurrentResponse()) {
-        handleNext();
       } else if (e.key === "Escape") {
         setIsPaused(!isPaused);
       }
@@ -71,7 +67,7 @@ export default function Index() {
 
     window.addEventListener("keydown", handleKeyPress);
     return () => window.removeEventListener("keydown", handleKeyPress);
-  }, [currentQuestion, responses, isPaused, screen]);
+  }, [currentQuestion, responses, isPaused, screen, handleAnswer]);
 
   const handleStart = () => {
     setScreen('briefing');
@@ -89,34 +85,33 @@ export default function Index() {
     setResponses([]);
   };
 
-  const handleAnswer = (value: number) => {
+  const handleAnswer = useCallback((value: number) => {
     const currentItem = assessmentItems[currentQuestion];
     if (!currentItem) return;
     
-    // Update responses and handle auto-advance
+    // Update responses and auto-advance (always enabled)
     setResponses(prev => {
       const existing = prev.findIndex(r => r.itemId === currentItem.id);
-      let newResponses;
-      if (existing >= 0) {
-        newResponses = [...prev];
-        newResponses[existing] = { itemId: currentItem.id, value };
-      } else {
-        newResponses = [...prev, { itemId: currentItem.id, value }];
-      }
-
-      // Auto-advance after a brief delay
+      const newResponses = existing >= 0
+        ? prev.map(r => r.itemId === currentItem.id ? { itemId: currentItem.id, value } : r)
+        : [...prev, { itemId: currentItem.id, value }];
+      
+      // Auto-advance to next question (always enabled)
       setTimeout(() => {
         if (currentQuestion < assessmentItems.length - 1) {
           setCurrentQuestion(currentQuestion + 1);
         } else {
-          // Use the updated responses for completion
-          handleComplete(newResponses);
+          // On last question, complete the assessment
+          const allAnswered = newResponses.length === assessmentItems.length;
+          if (allAnswered || newResponses.find(r => r.itemId === currentItem.id)) {
+            handleComplete(newResponses);
+          }
         }
-      }, 300);
-
+      }, 300); // Small delay for visual feedback
+      
       return newResponses;
     });
-  };
+  }, [currentQuestion, handleComplete]);
 
 
   const getCurrentResponse = () => {
@@ -124,25 +119,8 @@ export default function Index() {
     return responses.find(r => r.itemId === current.id)?.value || null;
   };
 
-  const handleNext = () => {
-    if (currentQuestion < assessmentItems.length - 1) {
-      setCurrentQuestion(prev => prev + 1);
-    } else {
-      // Validate that we have responses for all questions
-      const answeredQuestions = new Set(responses.map(r => r.itemId));
-      const allQuestions = new Set(assessmentItems.map(item => item.id));
-      const missingQuestions = [...allQuestions].filter(id => !answeredQuestions.has(id));
-      
-      if (missingQuestions.length === 0) {
-        handleComplete(responses);
-      } else {
-        console.warn("Missing responses for questions:", missingQuestions);
-        alert("Please answer all questions before proceeding.");
-      }
-    }
-  };
 
-  const handleComplete = (finalResponses?: Response[]) => {
+  const handleComplete = useCallback((finalResponses?: Response[]) => {
     try {
       const responsesToUse = finalResponses || responses;
       const calculatedResults = calculateScores(responsesToUse);
@@ -155,13 +133,8 @@ export default function Index() {
       alert("There was an error processing your results. Please try again.");
       setScreen('welcome');
     }
-  };
+  }, [responses]);
 
-  const handlePrevious = () => {
-    if (currentQuestion > 0) {
-      setCurrentQuestion(prev => prev - 1);
-    }
-  };
 
   const handleReset = () => {
     setScreen('welcome');
@@ -172,6 +145,13 @@ export default function Index() {
 
   const currentResponse = getCurrentResponse();
   const canProceed = currentResponse !== null;
+  
+  // Check if all questions are answered
+  // Need to account for the current question's answer being selected but not yet saved
+  const answeredCount = responses.length;
+  const allQuestionsAnswered = 
+    answeredCount === assessmentItems.length || 
+    (answeredCount === assessmentItems.length - 1 && currentResponse !== null);
 
   if (screen === 'welcome') {
     return <WelcomeScreen onStart={handleStart} />;
@@ -214,7 +194,7 @@ export default function Index() {
           </div>
           
           <div className="space-y-4">
-            <h2 className="text-3xl md:text-4xl font-bold gradient-primary bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">
               Assessment Paused
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed">
@@ -269,7 +249,7 @@ export default function Index() {
             <div className="w-6 h-6 rounded-full gradient-primary flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-xs">📚</span>
             </div>
-            <h1 className="text-base md:text-lg font-bold gradient-primary bg-clip-text text-transparent">
+            <h1 className="text-base md:text-lg font-bold text-foreground">
               Learning Preferences Assessment
             </h1>
           </div>
@@ -303,21 +283,10 @@ export default function Index() {
           />
 
           {/* Compact Navigation */}
-          <div className="flex-shrink-0 mt-2">
-            <div className="flex flex-col sm:flex-row justify-between items-center gap-3">
-              {/* Previous Button */}
-              <Button
-                onClick={handlePrevious}
-                variant="outline"
-                disabled={currentQuestion === 0}
-                className="gap-2 w-full sm:w-auto order-2 sm:order-1 hover:bg-primary/10 transition-colors h-10"
-              >
-                <ChevronLeft className="h-4 w-4" />
-                Previous
-              </Button>
-
+          <div className="flex-shrink-0 mt-4">
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-3">
               {/* Question Counter */}
-              <div className="flex items-center gap-2 text-xs text-muted-foreground order-1 sm:order-2">
+              <div className="flex items-center gap-2 text-xs text-muted-foreground">
                 <div className="flex gap-1">
                   {Array.from({ length: assessmentItems.length }, (_, i) => (
                     <div
@@ -336,29 +305,6 @@ export default function Index() {
                   {currentQuestion + 1} of {assessmentItems.length}
                 </span>
               </div>
-
-              {/* Next/Complete Button */}
-              {currentQuestion === assessmentItems.length - 1 &&
-              responses.length === assessmentItems.length ? (
-                <Button
-                  onClick={() => handleComplete(responses)}
-                  size="lg"
-                  className="gap-2 w-full sm:w-auto order-3 gradient-primary hover:opacity-90 shadow-lg h-10"
-                >
-                  View Results
-                  <ChevronRight className="h-4 w-4" />
-                </Button>
-              ) : (
-                <Button
-                  onClick={handleNext}
-                  variant="outline"
-                  disabled={!currentResponse}
-                  className="gap-2 w-full sm:w-auto order-3 hover:bg-primary/10 transition-colors h-10"
-                >
-                  Next
-                  <ChevronRight className="h-4 w-4" />
-                </Button>
-              )}
             </div>
           </div>
         </div>

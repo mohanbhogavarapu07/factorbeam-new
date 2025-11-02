@@ -4,24 +4,19 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { 
   Brain, 
-  Share2, 
-  Download, 
   RotateCcw, 
   Briefcase, 
   BookOpen, 
   Target, 
   TrendingUp,
-  Star,
   Award,
   Users,
-  Clock,
   CheckCircle,
   ArrowRight,
   Zap,
   Lightbulb,
   BarChart3,
   PieChart,
-  Activity,
   Eye,
   BrainCircuit,
   Rocket,
@@ -204,17 +199,24 @@ const Results = () => {
               <div className="text-sm text-muted-foreground">Overall Score</div>
             </div>
             <div className="bg-card/50 backdrop-blur-sm rounded-lg p-4 border border-border/50">
-              <div className="text-2xl font-bold text-accent">
+              <div className="text-2xl font-bold text-accent overflow-hidden text-ellipsis">
                 {(() => {
                   const sortedPoints = [...radarPoints].sort((a, b) => (b.score || 0) - (a.score || 0));
-                  return sortedPoints[0]?.score || 75;
+                  const bestScore = sortedPoints[0]?.score || 75;
+                  // Round to whole number to prevent overflow and for cleaner display
+                  return Math.round(bestScore);
                 })()}
               </div>
               <div className="text-sm text-muted-foreground">Best Area</div>
             </div>
             <div className="bg-card/50 backdrop-blur-sm rounded-lg p-4 border border-border/50">
               <div className="text-2xl font-bold text-success">
-                {state.session?.gameResults?.length || 5}
+                {(() => {
+                  const gameResults = state.session?.gameResults || [];
+                  // Count unique game IDs to avoid duplicates
+                  const uniqueGameIds = new Set(gameResults.map(result => result.gameId));
+                  return uniqueGameIds.size || 0;
+                })()}
               </div>
               <div className="text-sm text-muted-foreground">Games Done</div>
             </div>
@@ -226,21 +228,11 @@ const Results = () => {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-4 justify-center">
-            <Button variant="default" size="lg" className="bg-gradient-primary hover:opacity-90 px-8 py-4 text-lg">
-              <Share2 className="w-5 h-5 mr-2" />
-              Share Results
-            </Button>
-            <Button variant="outline" size="lg" className="px-8 py-4 text-lg">
-              <Download className="w-5 h-5 mr-2" />
-              Download PDF
-            </Button>
-          </div>
         </div>
 
         {/* Section Navigation */}
-        <div className="sticky top-4 z-50 mb-8">
-          <Card className="p-4 bg-card/80 backdrop-blur-sm border border-border/50 shadow-lg">
+        <div className="sticky top-16 z-40 mb-8">
+          <Card className="p-4 bg-card/95 backdrop-blur-md border border-border/50 shadow-lg">
             <div className="flex flex-wrap gap-2 justify-center items-center">
               <Button variant="ghost" size="sm" className="text-xs" onClick={() => document.getElementById('cognitive-profile')?.scrollIntoView({ behavior: 'smooth' })}>
                 <Brain className="w-4 h-4 mr-1" />
@@ -282,44 +274,8 @@ const Results = () => {
           <div className="grid xl:grid-cols-2 gap-8 lg:gap-12 items-start">
             {/* Radar Chart */}
             <div className="order-2 xl:order-1">
-              <div className="relative w-full max-w-lg mx-auto aspect-square">
-                <svg viewBox="0 0 400 400" className="w-full h-full">
-                  {/* Background circles */}
-                  <circle cx="200" cy="200" r="160" fill="none" stroke="hsl(var(--border))" strokeWidth="2" opacity="0.2"/>
-                  <circle cx="200" cy="200" r="120" fill="none" stroke="hsl(var(--border))" strokeWidth="1" opacity="0.3"/>
-                  <circle cx="200" cy="200" r="80" fill="none" stroke="hsl(var(--border))" strokeWidth="1" opacity="0.3"/>
-                  <circle cx="200" cy="200" r="40" fill="none" stroke="hsl(var(--border))" strokeWidth="1" opacity="0.3"/>
-                  
-                  {/* Grid lines */}
-                  <line x1="200" y1="40" x2="200" y2="360" stroke="hsl(var(--border))" strokeWidth="1" opacity="0.3"/>
-                  <line x1="40" y1="200" x2="360" y2="200" stroke="hsl(var(--border))" strokeWidth="1" opacity="0.3"/>
-                  <line x1="80" y1="80" x2="320" y2="320" stroke="hsl(var(--border))" strokeWidth="1" opacity="0.3"/>
-                  <line x1="320" y1="80" x2="80" y2="320" stroke="hsl(var(--border))" strokeWidth="1" opacity="0.3"/>
-                  
-                  {/* Data polygon with safe calculations */}
-                <polygon
-                    points={(() => {
-                      const logicalScore = scores.logical || 75;
-                      const verbalScore = scores.verbal || 70;
-                      const quantitativeScore = scores.quantitative || 80;
-                      const spatialScore = scores.spatial || 65;
-                      const attentionScore = scores.attention || 72;
-                      
-                      return `
-                        200,${200 - (logicalScore * 1.6)}
-                        ${200 + (verbalScore * 1.27)},${200 - (verbalScore * 0.46)}
-                        ${200 + (quantitativeScore * 0.8)},${200 + (quantitativeScore * 1.2)}
-                        ${200 - (spatialScore * 0.8)},${200 + (spatialScore * 1.2)}
-                        ${200 - (attentionScore * 1.27)},${200 - (attentionScore * 0.46)}
-                      `;
-                    })()}
-                    fill="url(#gradient)"
-                  fillOpacity="0.2"
-                    stroke="hsl(var(--primary))"
-                    strokeWidth="3"
-                  />
-                  
-                  {/* Gradient definition */}
+              <div className="relative w-full max-w-lg mx-auto aspect-square p-4">
+                <svg viewBox="0 0 500 500" className="w-full h-full" style={{ overflow: 'visible' }}>
                   <defs>
                     <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
                       <stop offset="0%" stopColor="hsl(var(--primary))" />
@@ -327,26 +283,182 @@ const Results = () => {
                     </linearGradient>
                   </defs>
                   
-                  {/* Labels with better positioning */}
-                  <text x="200" y="30" textAnchor="middle" className="fill-foreground text-base font-bold">Logical</text>
-                  <text x="370" y="205" textAnchor="start" className="fill-foreground text-base font-bold">Verbal</text>
-                  <text x="370" y="330" textAnchor="start" className="fill-foreground text-base font-bold">Quantitative</text>
-                  <text x="30" y="330" textAnchor="end" className="fill-foreground text-base font-bold">Spatial</text>
-                  <text x="30" y="205" textAnchor="end" className="fill-foreground text-base font-bold">Attention</text>
+                  {/* Background circles */}
+                  <circle cx="250" cy="250" r="140" fill="none" stroke="hsl(var(--border))" strokeWidth="2" opacity="0.2"/>
+                  <circle cx="250" cy="250" r="105" fill="none" stroke="hsl(var(--border))" strokeWidth="1" opacity="0.3"/>
+                  <circle cx="250" cy="250" r="70" fill="none" stroke="hsl(var(--border))" strokeWidth="1" opacity="0.3"/>
+                  <circle cx="250" cy="250" r="35" fill="none" stroke="hsl(var(--border))" strokeWidth="1" opacity="0.3"/>
                   
-                  {/* Score indicators on axes */}
-                  <circle cx="200" cy="40" r="4" fill="hsl(var(--primary))" />
-                  <circle cx="360" cy="200" r="4" fill="hsl(var(--primary))" />
-                  <circle cx="200" cy="360" r="4" fill="hsl(var(--primary))" />
-                  <circle cx="40" cy="200" r="4" fill="hsl(var(--primary))" />
+                  {/* Grid lines */}
+                  <line x1="250" y1="60" x2="250" y2="440" stroke="hsl(var(--border))" strokeWidth="1" opacity="0.3"/>
+                  <line x1="60" y1="250" x2="440" y2="250" stroke="hsl(var(--border))" strokeWidth="1" opacity="0.3"/>
+                  <line x1="100" y1="100" x2="400" y2="400" stroke="hsl(var(--border))" strokeWidth="1" opacity="0.3"/>
+                  <line x1="400" y1="100" x2="100" y2="400" stroke="hsl(var(--border))" strokeWidth="1" opacity="0.3"/>
                   
-                  {/* Score value labels */}
-                  <text x="200" y="25" textAnchor="middle" className="fill-foreground text-xs font-semibold">100</text>
-                  <text x="375" y="200" textAnchor="start" className="fill-foreground text-xs font-semibold">100</text>
-                  <text x="375" y="340" textAnchor="start" className="fill-foreground text-xs font-semibold">100</text>
-                  <text x="25" y="340" textAnchor="end" className="fill-foreground text-xs font-semibold">100</text>
-                  <text x="25" y="200" textAnchor="end" className="fill-foreground text-xs font-semibold">100</text>
-              </svg>
+                  {/* Data polygon with actual scores */}
+                  <polygon
+                    points={(() => {
+                      const logicalScore = scores.logical || 75;
+                      const verbalScore = scores.verbal || 70;
+                      const quantitativeScore = scores.quantitative || 80;
+                      const spatialScore = scores.spatial || 65;
+                      const attentionScore = scores.attention || 72;
+                      
+                      // Calculate positions with scale factor (max radius 140)
+                      const scale = 1.4;
+                      return `
+                        250,${250 - (logicalScore * scale)}
+                        ${250 + (verbalScore * 1.27 * scale)},${250 - (verbalScore * 0.46 * scale)}
+                        ${250 + (quantitativeScore * 0.8 * scale)},${250 + (quantitativeScore * 1.2 * scale)}
+                        ${250 - (spatialScore * 0.8 * scale)},${250 + (spatialScore * 1.2 * scale)}
+                        ${250 - (attentionScore * 1.27 * scale)},${250 - (attentionScore * 0.46 * scale)}
+                      `;
+                    })()}
+                    fill="url(#gradient)"
+                    fillOpacity="0.2"
+                    stroke="hsl(var(--primary))"
+                    strokeWidth="3"
+                  />
+                  
+                  {/* Score dots and labels */}
+                  {(() => {
+                    const logicalScore = Math.round(scores.logical || 75);
+                    const verbalScore = Math.round(scores.verbal || 70);
+                    const quantitativeScore = Math.round(scores.quantitative || 80);
+                    const spatialScore = Math.round(scores.spatial || 65);
+                    const attentionScore = Math.round(scores.attention || 72);
+                    const scale = 1.4;
+                    
+                    return (
+                      <>
+                        {/* Logical - Top */}
+                        <circle cx="250" cy={250 - (logicalScore * scale)} r="5" fill="hsl(var(--primary))" />
+                        <text 
+                          x="250" 
+                          y="45" 
+                          textAnchor="middle" 
+                          fill="hsl(var(--foreground))" 
+                          fontSize="14" 
+                          fontWeight="bold"
+                          style={{ fontFamily: 'inherit' }}
+                        >
+                          Logical
+                        </text>
+                        <text 
+                          x="250" 
+                          y="30" 
+                          textAnchor="middle" 
+                          fill="hsl(var(--primary))" 
+                          fontSize="12" 
+                          fontWeight="600"
+                          style={{ fontFamily: 'inherit' }}
+                        >
+                          {logicalScore}
+                        </text>
+                        
+                        {/* Verbal - Right */}
+                        <circle cx={250 + (verbalScore * 1.27 * scale)} cy={250 - (verbalScore * 0.46 * scale)} r="5" fill="hsl(var(--primary))" />
+                        <text 
+                          x="420" 
+                          y="250" 
+                          textAnchor="end" 
+                          fill="hsl(var(--foreground))" 
+                          fontSize="14" 
+                          fontWeight="bold"
+                          style={{ fontFamily: 'inherit' }}
+                        >
+                          Verbal
+                        </text>
+                        <text 
+                          x="420" 
+                          y="265" 
+                          textAnchor="end" 
+                          fill="hsl(var(--primary))" 
+                          fontSize="12" 
+                          fontWeight="600"
+                          style={{ fontFamily: 'inherit' }}
+                        >
+                          {verbalScore}
+                        </text>
+                        
+                        {/* Quantitative - Bottom Right */}
+                        <circle cx={250 + (quantitativeScore * 0.8 * scale)} cy={250 + (quantitativeScore * 1.2 * scale)} r="5" fill="hsl(var(--primary))" />
+                        <text 
+                          x="420" 
+                          y="430" 
+                          textAnchor="end" 
+                          fill="hsl(var(--foreground))" 
+                          fontSize="14" 
+                          fontWeight="bold"
+                          style={{ fontFamily: 'inherit' }}
+                        >
+                          Quantitative
+                        </text>
+                        <text 
+                          x="420" 
+                          y="445" 
+                          textAnchor="end" 
+                          fill="hsl(var(--primary))" 
+                          fontSize="12" 
+                          fontWeight="600"
+                          style={{ fontFamily: 'inherit' }}
+                        >
+                          {quantitativeScore}
+                        </text>
+                        
+                        {/* Spatial - Bottom Left */}
+                        <circle cx={250 - (spatialScore * 0.8 * scale)} cy={250 + (spatialScore * 1.2 * scale)} r="5" fill="hsl(var(--primary))" />
+                        <text 
+                          x="80" 
+                          y="430" 
+                          textAnchor="start" 
+                          fill="hsl(var(--foreground))" 
+                          fontSize="14" 
+                          fontWeight="bold"
+                          style={{ fontFamily: 'inherit' }}
+                        >
+                          Spatial
+                        </text>
+                        <text 
+                          x="80" 
+                          y="445" 
+                          textAnchor="start" 
+                          fill="hsl(var(--primary))" 
+                          fontSize="12" 
+                          fontWeight="600"
+                          style={{ fontFamily: 'inherit' }}
+                        >
+                          {spatialScore}
+                        </text>
+                        
+                        {/* Attention - Left */}
+                        <circle cx={250 - (attentionScore * 1.27 * scale)} cy={250 - (attentionScore * 0.46 * scale)} r="5" fill="hsl(var(--primary))" />
+                        <text 
+                          x="80" 
+                          y="250" 
+                          textAnchor="start" 
+                          fill="hsl(var(--foreground))" 
+                          fontSize="14" 
+                          fontWeight="bold"
+                          style={{ fontFamily: 'inherit' }}
+                        >
+                          Attention
+                        </text>
+                        <text 
+                          x="80" 
+                          y="265" 
+                          textAnchor="start" 
+                          fill="hsl(var(--primary))" 
+                          fontSize="12" 
+                          fontWeight="600"
+                          style={{ fontFamily: 'inherit' }}
+                        >
+                          {attentionScore}
+                        </text>
+                      </>
+                    );
+                  })()}
+                </svg>
               </div>
             </div>
 
@@ -894,23 +1006,6 @@ const Results = () => {
             })()}
           </div>
 
-          <div className="text-center mt-8">
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="px-8 py-4 hover:bg-primary/10 transition-colors"
-              onClick={() => {
-                // Scroll to career pathways section or show more careers
-                const careersSection = document.getElementById('careers');
-                if (careersSection) {
-                  careersSection.scrollIntoView({ behavior: 'smooth' });
-                }
-              }}
-            >
-              <Briefcase className="w-5 h-5 mr-2" />
-              Explore All Career Matches
-            </Button>
-          </div>
         </Card>
 
         {/* Development Areas */}
@@ -1246,17 +1341,6 @@ const Results = () => {
             </div>
           </div>
 
-          {/* Action Buttons */}
-          <div className="flex flex-wrap gap-4 justify-center pt-6 border-t mt-8">
-            <Button variant="outline" onClick={handleRetakeAssessment} size="lg" className="px-8 py-4 hover:bg-primary/10">
-              <RotateCcw className="w-5 h-5 mr-2" />
-              Retake Assessment
-            </Button>
-            <Button variant="default" className="bg-gradient-primary hover:opacity-90 px-8 py-4" size="lg">
-              <Download className="w-5 h-5 mr-2" />
-              Download Full Report
-            </Button>
-          </div>
         </Card>
 
 
@@ -1289,14 +1373,17 @@ const Results = () => {
             </div>
 
             <div className="flex flex-wrap gap-4 justify-center">
-              <Button variant="outline" onClick={handleRetakeAssessment} size="lg" className="px-8 py-4 hover:bg-primary/10">
+              <Button variant="default" onClick={handleRetakeAssessment} size="lg" className="bg-green-600 hover:bg-green-600 text-white px-8 py-4">
                 <RotateCcw className="w-5 h-5 mr-2" />
                 Retake Assessment
               </Button>
-              <Button variant="default" className="bg-gradient-primary hover:opacity-90 px-8 py-4" size="lg">
-                <Download className="w-5 h-5 mr-2" />
-                Download Full Report
-              </Button>
+            </div>
+
+            {/* Disclaimer */}
+            <div className="mt-8 text-center pb-4">
+              <p className="text-xs md:text-sm text-muted-foreground">
+                This assessment is for personal development only. Not validated for employment screening, clinical diagnosis, or high-stakes decisions.
+              </p>
             </div>
           </div>
         </div>

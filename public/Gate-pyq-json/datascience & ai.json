@@ -4,7 +4,7 @@
     "description": "Full-length, difficulty-calibrated mock exam using simulated authentic GATE Previous Year Questions (PYQs) relevant to the Data Science and AI (DA) syllabus. Difficulty profile: Moderate. This variant strictly adheres to the official GATE DA pattern (10 GA Qs, 55 Core DA Qs). NOTE: All question difficulty fields are set to 'Medium' per previous request.",
     "category": "GATE",
     "duration": "180 mins",
-    "difficulty": "Moderate",
+    "difficulty": "Easy",
     "isActive": true,
     "featured": true,
     "metadata": {

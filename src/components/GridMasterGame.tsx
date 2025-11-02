@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 interface GridMasterQuestion {
   rules: string[];
@@ -13,11 +13,25 @@ interface GridMasterGameProps {
 
 const GridMasterGame = ({ question, onSubmit }: GridMasterGameProps) => {
   const [draggedItem, setDraggedItem] = useState<string | null>(null);
+  const [draggedFromSlot, setDraggedFromSlot] = useState<number | null>(null);
   const [slots, setSlots] = useState<(string | null)[]>(new Array(question.items.length).fill(null));
   const [availableItems, setAvailableItems] = useState<string[]>(question.items);
 
-  const handleDragStart = (item: string) => {
+  // Reset state when question changes
+  useEffect(() => {
+    setSlots(new Array(question.items.length).fill(null));
+    setAvailableItems([...question.items]);
+    setDraggedItem(null);
+    setDraggedFromSlot(null);
+  }, [question]);
+
+  const handleDragStart = (item: string, slotIndex?: number) => {
     setDraggedItem(item);
+    if (slotIndex !== undefined) {
+      setDraggedFromSlot(slotIndex);
+    } else {
+      setDraggedFromSlot(null);
+    }
   };
 
   const handleDragOver = (e: React.DragEvent) => {
@@ -27,29 +41,40 @@ const GridMasterGame = ({ question, onSubmit }: GridMasterGameProps) => {
   const handleDropOnSlot = (slotIndex: number) => {
     if (!draggedItem) return;
 
+    const newSlots = [...slots];
+    const newAvailableItems = [...availableItems];
+
     // If slot already has an item, move it back to available
-    if (slots[slotIndex]) {
-      setAvailableItems(prev => [...prev, slots[slotIndex]!]);
+    if (newSlots[slotIndex]) {
+      newAvailableItems.push(newSlots[slotIndex]!);
+    }
+
+    // If dragging from another slot, clear that slot
+    if (draggedFromSlot !== null && draggedFromSlot !== slotIndex) {
+      newSlots[draggedFromSlot] = null;
+    } else if (draggedFromSlot === null) {
+      // Dragging from available items, remove from available
+      const itemIndex = newAvailableItems.indexOf(draggedItem);
+      if (itemIndex > -1) {
+        newAvailableItems.splice(itemIndex, 1);
+      }
     }
 
     // Place dragged item in slot
-    const newSlots = [...slots];
     newSlots[slotIndex] = draggedItem;
     setSlots(newSlots);
-
-    // Remove item from available
-    setAvailableItems(prev => prev.filter(item => item !== draggedItem));
+    setAvailableItems(newAvailableItems);
     setDraggedItem(null);
+    setDraggedFromSlot(null);
   };
 
   const handleDropOnAvailable = () => {
     if (!draggedItem) return;
     
-    // If item was from a slot, clear that slot
-    const slotIndex = slots.indexOf(draggedItem);
-    if (slotIndex !== -1) {
+    // If item was from a slot, clear that slot and return to available
+    if (draggedFromSlot !== null) {
       const newSlots = [...slots];
-      newSlots[slotIndex] = null;
+      newSlots[draggedFromSlot] = null;
       setSlots(newSlots);
       
       if (!availableItems.includes(draggedItem)) {
@@ -58,6 +83,7 @@ const GridMasterGame = ({ question, onSubmit }: GridMasterGameProps) => {
     }
     
     setDraggedItem(null);
+    setDraggedFromSlot(null);
   };
 
   const handleSubmit = () => {
@@ -96,25 +122,31 @@ const GridMasterGame = ({ question, onSubmit }: GridMasterGameProps) => {
         ))}
       </div>
 
-      <div className="mb-6 flex gap-4 justify-center flex-wrap">
-        {slots.map((item, idx) => (
-          <div
-            key={idx}
-            onDragOver={handleDragOver}
-            onDrop={() => handleDropOnSlot(idx)}
-            className="h-16 w-16 border-2 border-dashed border-border rounded-lg flex items-center justify-center bg-card hover:bg-muted transition-colors"
-          >
-            {item && (
-              <div
-                draggable
-                onDragStart={() => handleDragStart(item)}
-                className="p-2 bg-primary text-primary-foreground rounded cursor-move"
-              >
-                {item}
-              </div>
-            )}
-          </div>
-        ))}
+      <div className="mb-6">
+        <p className="text-sm text-muted-foreground text-center mb-3">Arrange items in the correct order:</p>
+        <div className="flex gap-4 justify-center flex-wrap">
+          {slots.map((item, idx) => (
+            <div
+              key={idx}
+              onDragOver={handleDragOver}
+              onDrop={() => handleDropOnSlot(idx)}
+              className="h-20 w-20 border-2 border-dashed border-border rounded-lg flex flex-col items-center justify-center bg-card hover:bg-muted transition-colors cursor-pointer"
+            >
+              <span className="text-xs text-muted-foreground mb-1">{idx + 1}</span>
+              {item ? (
+                <div
+                  draggable
+                  onDragStart={() => handleDragStart(item, idx)}
+                  className="p-2 bg-primary text-primary-foreground rounded cursor-move font-semibold"
+                >
+                  {item}
+                </div>
+              ) : (
+                <span className="text-xs text-muted-foreground">Drop here</span>
+              )}
+            </div>
+          ))}
+        </div>
       </div>
 
       <button

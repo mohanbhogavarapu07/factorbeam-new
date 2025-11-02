@@ -338,19 +338,21 @@ const GateAssessment: React.FC<GateAssessmentProps> = ({ assessment, onComplete,
 
             {/* Navigation Buttons */}
             <div className="flex justify-between pt-6 border-t">
-              <Button
-                variant="outline"
-                onClick={handlePrevious}
-                disabled={currentSection === 'aptitude' && currentQuestionIndex === 0}
-              >
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Previous
-              </Button>
-              
               <div className="flex space-x-2">
+                <Button
+                  variant="outline"
+                  onClick={handlePrevious}
+                  disabled={currentSection === 'aptitude' && currentQuestionIndex === 0}
+                >
+                  <ArrowLeft className="w-4 h-4 mr-2" />
+                  Previous
+                </Button>
                 <Button variant={markedForReview[currentQuestion?.id || ''] ? 'secondary' : 'outline'} onClick={toggleMarkForReview}>
                   {markedForReview[currentQuestion?.id || ''] ? 'Unmark Review' : 'Mark for Review'}
                 </Button>
+              </div>
+              
+              <div className="flex flex-col space-y-2">
                 <Button onClick={handleNext}>
                   Next
                   <ArrowRight className="w-4 h-4 ml-2" />

@@ -7,7 +7,7 @@ import { QuizScores, RIASECType } from "../types/quiz";
 import { riasecTypes, typeDescriptions } from "../data/riasecTypes";
 import { archetypes } from "../data/archetypes";
 import RadarChart from "../components/RadarChart";
-import { Compass, Share2, RefreshCw, Sparkles } from "lucide-react";
+import { Compass, Share2, RefreshCw, Sparkles, RotateCcw } from "lucide-react";
 import { toast } from "sonner";
 
 const Results = () => {
@@ -248,28 +248,24 @@ const Results = () => {
           </Card>
 
           {/* Actions */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              onClick={handleShare}
-              className={buttonVariants({ variant: "gradient", size: "lg" })}
-            >
-              <Share2 className="w-5 h-5 mr-2" />
-              Share My Archetype
-            </Button>
-            
+          <div className="text-center pt-8">
             <Button
               onClick={() => navigate('/discovery/career')}
-              variant="outline"
+              variant="default"
               size="lg"
+              className="bg-green-600 hover:bg-green-600 text-white px-8 py-4"
             >
-              <RefreshCw className="w-5 h-5 mr-2" />
-              Retake Quiz
+              <RotateCcw className="w-5 h-5 mr-2" />
+              Retake Assessment
             </Button>
           </div>
 
-          <p className="text-center text-sm text-muted-foreground">
-            Join 500,000+ people who've found their career compass
-          </p>
+          {/* Disclaimer */}
+          <div className="mt-8 text-center pb-4">
+            <p className="text-xs md:text-sm text-muted-foreground">
+              This assessment is for personal development only. Not validated for employment screening, clinical diagnosis, or high-stakes decisions.
+            </p>
+          </div>
         </div>
       </div>
     </div>

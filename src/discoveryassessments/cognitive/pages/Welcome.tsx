@@ -15,7 +15,7 @@ const Welcome = () => {
             <Brain className="w-4 h-4 text-primary" />
             <span className="text-sm font-medium text-muted-foreground">Evidence-Based Assessment</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent leading-normal pb-2 break-words px-2 sm:px-4">
             Discover Your Cognitive Engine
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

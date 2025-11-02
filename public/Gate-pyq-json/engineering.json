@@ -4,7 +4,7 @@
     "description": "Comprehensive GATE Engineering Sciences assessment covering General Aptitude and Core Engineering Sciences subjects. This assessment includes 10 aptitude questions (15% weight) and 55 core engineering sciences questions (85% weight) following the official GATE pattern.",
     "category": "GATE",
     "duration": "180 mins",
-    "difficulty": "Moderate",
+    "difficulty": "Easy",
     "isActive": true,
     "featured": true,
     "metadata": {

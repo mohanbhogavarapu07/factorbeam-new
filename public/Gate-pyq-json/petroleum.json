@@ -4,7 +4,7 @@
     "description": "Comprehensive GATE Petroleum Engineering assessment covering all core subjects with 10 General Aptitude and 55 Core Petroleum Engineering questions.",
     "category": "GATE",
     "duration": "180 mins",
-    "difficulty":"Moderate",
+    "difficulty":"Easy",
     "isActive": true,
     "featured": true,
     "metadata": {

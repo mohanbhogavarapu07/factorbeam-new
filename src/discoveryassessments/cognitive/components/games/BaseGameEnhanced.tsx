@@ -22,7 +22,7 @@ interface BaseGameProps {
     selectedAnswer: string | null;
     setSelectedAnswer: (answer: string | null) => void;
     showFeedback: boolean;
-    handleAnswer: () => void;
+    handleAnswer: (answer?: string) => void;
     handleContinue: () => void;
     isPractice: boolean;
   }) => React.ReactNode;
@@ -55,6 +55,9 @@ export default function BaseGameEnhanced({
   const currentQuestions = phase === 'practice' ? practiceQuestions : questions;
   const isLastQuestion = currentQuestion >= currentQuestions.length - 1;
   const isPractice = phase === 'practice';
+  
+  // Ensure currentQuestion is within bounds
+  const safeCurrentQuestion = Math.min(currentQuestion, currentQuestions.length - 1);
 
   // Timer effect
   useEffect(() => {
@@ -77,11 +80,18 @@ export default function BaseGameEnhanced({
     setQuestionStartTime(Date.now());
   }, [currentQuestion]);
 
-  const handleAnswer = () => {
-    if (!selectedAnswer) return;
+  const handleAnswer = (answerOverride?: string) => {
+    const answerToUse = answerOverride || selectedAnswer;
+    if (!answerToUse) return;
+    
+    // Ensure we have a valid question before proceeding
+    if (currentQuestion >= currentQuestions.length) {
+      handleComplete();
+      return;
+    }
 
     const responseTime = (Date.now() - questionStartTime) / 1000;
-    const isCorrect = selectedAnswer === currentQuestions[currentQuestion].correctAnswer;
+    const isCorrect = answerToUse === currentQuestions[safeCurrentQuestion].correctAnswer;
     
     setAnswers(prev => [...prev, isCorrect]);
     setResponseTimes(prev => [...prev, responseTime]);
@@ -90,7 +100,7 @@ export default function BaseGameEnhanced({
 
     // In test phase, auto-advance to the next question (no feedback screen)
     if (phase === 'test') {
-      if (isLastQuestion) {
+      if (isLastQuestion || currentQuestion >= currentQuestions.length - 1) {
         // Complete immediately for last question
         // Use a small timeout to allow state updates to flush
         setTimeout(() => {
@@ -98,7 +108,11 @@ export default function BaseGameEnhanced({
         }, 50);
       } else {
         setTimeout(() => {
-          setCurrentQuestion(prev => prev + 1);
+          setCurrentQuestion(prev => {
+            const next = prev + 1;
+            // Ensure we don't go beyond array bounds
+            return Math.min(next, currentQuestions.length - 1);
+          });
           setSelectedAnswer(null);
           setShowFeedback(false);
         }, 150);
@@ -271,7 +285,7 @@ export default function BaseGameEnhanced({
               <Button 
                 onClick={() => setPhase('practice')} 
                 size="lg"
-                className="bg-gradient-primary hover:opacity-90 px-8 py-4 text-lg shadow-lg"
+                className="bg-primary text-white px-8 py-4 text-lg shadow-lg"
               >
                 <div className="flex items-center gap-2">
                   <Play className="w-5 h-5" />
@@ -280,9 +294,8 @@ export default function BaseGameEnhanced({
               </Button>
               <Button 
                 onClick={() => setPhase('test')} 
-                variant="outline" 
                 size="lg"
-                className="px-8 py-4 text-lg"
+                className="bg-card text-foreground border border-border px-8 py-4 text-lg shadow-lg hover:bg-card hover:text-foreground"
               >
                 <div className="flex items-center gap-2">
                   <ArrowRight className="w-5 h-5" />
@@ -356,11 +369,11 @@ export default function BaseGameEnhanced({
               <div className="flex justify-between text-sm">
                 <span className="font-semibold">Progress</span>
                 <span className="text-muted-foreground">
-                  {currentQuestion + 1} of {currentQuestions.length}
+                  {Math.min(currentQuestion + 1, currentQuestions.length)} of {currentQuestions.length}
                 </span>
               </div>
               <Progress 
-                value={((currentQuestion + 1) / currentQuestions.length) * 100} 
+                value={Math.min(((currentQuestion + 1) / currentQuestions.length) * 100, 100)} 
                 className="h-3"
               />
             </div>
@@ -388,15 +401,20 @@ export default function BaseGameEnhanced({
 
         {/* Question Content */}
         <Card className="p-8 bg-gradient-card shadow-2xl border-0 animate-slide-up">
-          {children({
-            question: currentQuestions[currentQuestion],
+          {safeCurrentQuestion < currentQuestions.length && currentQuestions[safeCurrentQuestion] ? children({
+            question: currentQuestions[safeCurrentQuestion],
             selectedAnswer,
             setSelectedAnswer,
             showFeedback,
             handleAnswer,
             handleContinue,
             isPractice,
-          })}
+          }) : (
+            <div className="text-center py-8">
+              <div className="text-lg font-semibold mb-2">Assessment Complete</div>
+              <div className="text-sm text-muted-foreground">Redirecting to results...</div>
+            </div>
+          )}
         </Card>
 
         {/* Practice Indicator */}

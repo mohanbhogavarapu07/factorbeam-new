@@ -136,8 +136,27 @@ const GameModal = ({ gameId, onClose }: GameModalProps) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState<Question | GridMasterQuestion | SentenceWeaverQuestion | null>(null);
   const [gameEnded, setGameEnded] = useState(false);
+  const [gameStarted, setGameStarted] = useState(false);
 
   const gameData = gameDataConfig[gameId];
+  
+  // If game data doesn't exist, show error
+  if (!gameData) {
+    return (
+      <div className="fixed inset-0 bg-background/80 backdrop-blur-sm flex items-center justify-center z-50">
+        <div className="bg-card rounded-lg shadow-xl w-11/12 max-w-2xl p-8 border border-border">
+          <h2 className="text-xl font-bold text-foreground mb-4">Game Not Found</h2>
+          <p className="text-muted-foreground mb-4">The game you selected could not be loaded.</p>
+          <button
+            onClick={onClose}
+            className="bg-primary text-primary-foreground py-2 px-6 rounded-md font-medium hover:bg-primary/90 transition-colors"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   const generateCalcQuestion = useCallback((): Question => {
     const num1 = Math.floor(Math.random() * 20) + 1;
@@ -163,6 +182,8 @@ const GameModal = ({ gameId, onClose }: GameModalProps) => {
   }, []);
 
   const loadQuestion = useCallback(() => {
+    if (!gameStarted) return;
+    
     if (gameId === 'quickCalc') {
       setCurrentQuestion(generateCalcQuestion());
     } else if (gameId === 'gridMaster' || gameId === 'sentenceWeaver') {
@@ -178,7 +199,7 @@ const GameModal = ({ gameId, onClose }: GameModalProps) => {
       }
       setCurrentQuestion(gameData.questions[currentQuestionIndex]);
     }
-  }, [gameId, currentQuestionIndex, gameData.questions, generateCalcQuestion]);
+  }, [gameId, currentQuestionIndex, gameData.questions, generateCalcQuestion, gameStarted]);
 
   const checkAnswer = (selectedAnswer: string) => {
     if (currentQuestion && 'a' in currentQuestion && selectedAnswer === currentQuestion.a) {
@@ -210,15 +231,23 @@ const GameModal = ({ gameId, onClose }: GameModalProps) => {
     setTimer(gameData.duration);
     setCurrentQuestionIndex(0);
     setGameEnded(false);
+    setGameStarted(true);
+  };
+  
+  const handleStart = () => {
+    setGameStarted(true);
+    setTimer(gameData.duration);
   };
 
-  useEffect(() => {
-    setTimer(gameData.duration);
-  }, [gameData.duration]);
+  // Don't auto-start timer - wait for user to click start
+  // useEffect removed - timer will start when user clicks start button
 
   useEffect(() => {
-    if (timer <= 0) {
-      setGameEnded(true);
+    // Only start timer countdown if game has started
+    if (!gameStarted || timer <= 0) {
+      if (timer <= 0 && gameStarted) {
+        setGameEnded(true);
+      }
       return;
     }
 
@@ -227,13 +256,13 @@ const GameModal = ({ gameId, onClose }: GameModalProps) => {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [timer]);
+  }, [timer, gameStarted]);
 
   useEffect(() => {
-    if (!gameEnded) {
+    if (!gameEnded && gameStarted) {
       loadQuestion();
     }
-  }, [currentQuestionIndex, gameEnded, loadQuestion]);
+  }, [currentQuestionIndex, gameEnded, gameStarted, loadQuestion]);
 
   const formatTime = (seconds: number) => {
     const mins = Math.floor(seconds / 60).toString().padStart(2, '0');
@@ -248,9 +277,11 @@ const GameModal = ({ gameId, onClose }: GameModalProps) => {
         <header className="p-4 border-b border-border flex justify-between items-center">
           <h2 className="text-xl font-bold text-foreground">{gameData.title}</h2>
           <div className="flex items-center space-x-4">
-            <div className="text-lg font-mono font-semibold text-foreground">
-              {formatTime(timer)}
-            </div>
+            {gameStarted && !gameEnded && (
+              <div className="text-lg font-mono font-semibold text-foreground">
+                {formatTime(timer)}
+              </div>
+            )}
             <button
               onClick={onClose}
               className="text-muted-foreground hover:text-foreground text-2xl leading-none"
@@ -261,7 +292,21 @@ const GameModal = ({ gameId, onClose }: GameModalProps) => {
         </header>
 
         {/* Game Area */}
-        {!gameEnded ? (
+        {!gameStarted ? (
+          <main className="p-8 flex-grow overflow-y-auto flex flex-col items-center justify-center">
+            <div className="text-center space-y-4">
+              <h3 className="text-2xl font-bold text-foreground">Ready to Play?</h3>
+              <p className="text-muted-foreground">Duration: {Math.floor(gameData.duration / 60)} minute{Math.floor(gameData.duration / 60) !== 1 ? 's' : ''}</p>
+              <p className="text-muted-foreground">Questions: {gameId === 'quickCalc' ? 'Unlimited' : gameData.questions.length}</p>
+              <button
+                onClick={handleStart}
+                className="mt-6 bg-primary text-primary-foreground py-3 px-8 rounded-md font-medium hover:bg-primary/90 transition-colors text-lg"
+              >
+                Start Game
+              </button>
+            </div>
+          </main>
+        ) : !gameEnded ? (
           <main className="p-8 flex-grow overflow-y-auto">
             {currentQuestion && gameId === 'gridMaster' && (
               <GridMasterGame 

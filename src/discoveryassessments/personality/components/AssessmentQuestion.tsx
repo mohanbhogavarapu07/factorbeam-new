@@ -58,7 +58,7 @@ export function AssessmentQuestion({
     <div className="w-full max-w-5xl mx-auto h-full flex flex-col animate-in fade-in slide-in-from-bottom-4 duration-500">
       {/* Compact Progress Section */}
       <div className="space-y-2 mb-4">
-        <div className="flex justify-between items-center text-xs text-muted-foreground">
+        <div className="flex justify-between items-center text-xs text-foreground">
           <span className="font-medium">Question {questionNumber} of {totalQuestions}</span>
           <span className="bg-primary/10 text-primary px-2 py-1 rounded-full text-xs font-semibold">
             {Math.round(progress)}%
@@ -76,7 +76,7 @@ export function AssessmentQuestion({
       <Card className="flex-1 p-4 md:p-6 shadow-soft border-2 bg-gradient-card flex flex-col">
         <div className="text-center space-y-3 flex-shrink-0">
           {/* Question Number Badge */}
-          <div className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gradient-primary text-primary-foreground font-bold text-sm shadow-lg">
+          <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white font-bold text-base shadow-lg">
             {questionNumber}
           </div>
           
@@ -86,7 +86,7 @@ export function AssessmentQuestion({
           </h2>
           
           {/* Instructions */}
-          <p className="text-xs text-muted-foreground max-w-xl mx-auto">
+          <p className="text-xs md:text-sm text-foreground max-w-xl mx-auto">
             Rate how well this describes you based on your actual behavior.
           </p>
         </div>
@@ -99,11 +99,11 @@ export function AssessmentQuestion({
                 key={option.value}
                 onClick={() => onAnswer(option.value)}
                 className={cn(
-                  "group relative p-2 md:p-3 rounded-lg border-2 transition-all duration-300 transform",
-                  "hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2",
-                  "active:scale-95 flex flex-col items-center justify-center min-h-[80px] md:min-h-[100px]",
+                  "group relative p-2 md:p-3 rounded-lg border-2 transition-all duration-300",
+                  "focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2",
+                  "flex flex-col items-center justify-center min-h-[80px] md:min-h-[100px]",
                   selectedValue === option.value
-                    ? "border-primary bg-gradient-primary text-primary-foreground shadow-xl scale-105"
+                    ? "border-primary bg-primary text-white shadow-lg"
                     : "border-border bg-card hover:border-primary/50 hover:bg-primary/5"
                 )}
                 aria-label={`${option.label} - ${option.value} out of 5`}
@@ -112,20 +112,20 @@ export function AssessmentQuestion({
                   {/* Selection Indicator */}
                   <div className="flex items-center justify-center w-6 h-6 rounded-full border-2 transition-all duration-300"
                        style={{
-                         borderColor: selectedValue === option.value ? 'currentColor' : 'transparent',
-                         backgroundColor: selectedValue === option.value ? 'currentColor' : 'transparent'
+                         borderColor: selectedValue === option.value ? 'white' : 'transparent',
+                         backgroundColor: selectedValue === option.value ? 'white' : 'transparent'
                        }}>
                     {selectedValue === option.value ? (
-                      <CheckCircle className="w-3 h-3" />
+                      <CheckCircle className="w-3 h-3 text-primary" />
                     ) : (
-                      <Circle className="w-3 h-3 opacity-50" />
+                      <Circle className="w-3 h-3 text-foreground opacity-60" />
                     )}
                   </div>
                   
                   {/* Value Number */}
                   <div className={cn(
                     "text-2xl md:text-3xl font-bold transition-colors",
-                    selectedValue === option.value ? "text-primary-foreground" : "text-primary"
+                    selectedValue === option.value ? "text-white" : "text-primary"
                   )}>
                     {option.value}
                   </div>
@@ -133,7 +133,7 @@ export function AssessmentQuestion({
                   {/* Label */}
                   <div className={cn(
                     "text-xs font-semibold text-center transition-colors leading-tight",
-                    selectedValue === option.value ? "text-primary-foreground" : "text-muted-foreground"
+                    selectedValue === option.value ? "text-white" : "text-foreground"
                   )}>
                     {option.shortLabel}
                   </div>

@@ -52,12 +52,12 @@ const Quiz = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-background to-accent/5 py-8">
+    <div className="min-h-screen bg-gradient-to-br from-background via-background to-accent/5 py-4">
       <div className="container mx-auto px-4">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           {/* Header */}
-          <div className="mb-8">
-            <div className="flex items-center justify-between mb-4">
+          <div className="mb-4">
+            <div className="flex items-center justify-between mb-2">
               <Button
                 variant="ghost"
                 size="sm"
@@ -76,12 +76,12 @@ const Quiz = () => {
 
           {/* Question */}
           <div className="animate-fadeIn">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
               {question.prompt}
             </h2>
 
             {/* Options */}
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-2 gap-4">
               {/* Option A */}
               <Card
                 className={`cursor-pointer transition-all duration-300 overflow-hidden group hover:shadow-xl ${
@@ -89,24 +89,24 @@ const Quiz = () => {
                 }`}
                 onClick={() => handleAnswer('A')}
               >
-                <div className="aspect-square relative overflow-hidden bg-muted">
+                <div className="h-64 md:h-80 relative overflow-hidden bg-muted">
                   <img
                     src={question.optionA.imageUrl}
                     alt={question.optionA.altText}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-full object-cover brightness-110 group-hover:scale-105 transition-transform duration-300"
                   />
                   {selectedOption === 'A' && (
                     <div className="absolute inset-0 bg-accent/20 flex items-center justify-center">
-                      <div className="w-16 h-16 rounded-full bg-accent text-white flex items-center justify-center">
-                        <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <div className="w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center">
+                        <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                         </svg>
                       </div>
                     </div>
                   )}
                 </div>
-                <div className="p-6">
-                  <p className="text-center font-medium text-lg">
+                <div className="p-4">
+                  <p className="text-center font-medium text-base md:text-lg">
                     {question.optionA.description}
                   </p>
                 </div>
@@ -119,24 +119,24 @@ const Quiz = () => {
                 }`}
                 onClick={() => handleAnswer('B')}
               >
-                <div className="aspect-square relative overflow-hidden bg-muted">
+                <div className="h-64 md:h-80 relative overflow-hidden bg-muted">
                   <img
                     src={question.optionB.imageUrl}
                     alt={question.optionB.altText}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-full object-cover brightness-110 group-hover:scale-105 transition-transform duration-300"
                   />
                   {selectedOption === 'B' && (
                     <div className="absolute inset-0 bg-accent/20 flex items-center justify-center">
-                      <div className="w-16 h-16 rounded-full bg-accent text-white flex items-center justify-center">
-                        <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <div className="w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center">
+                        <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                         </svg>
                       </div>
                     </div>
                   )}
                 </div>
-                <div className="p-6">
-                  <p className="text-center font-medium text-lg">
+                <div className="p-4">
+                  <p className="text-center font-medium text-base md:text-lg">
                     {question.optionB.description}
                   </p>
                 </div>

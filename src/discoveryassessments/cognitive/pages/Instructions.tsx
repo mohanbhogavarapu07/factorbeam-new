@@ -78,8 +78,8 @@ const Instructions = () => {
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0">
-                <Laptop className="w-6 h-6 text-accent" />
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                <Laptop className="w-6 h-6 text-primary" />
               </div>
               <div>
                 <h3 className="font-semibold mb-1">Desktop Preferred</h3>
@@ -90,8 +90,8 @@ const Instructions = () => {
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-lg bg-success/10 flex items-center justify-center flex-shrink-0">
-                <Clock className="w-6 h-6 text-success" />
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                <Clock className="w-6 h-6 text-primary" />
               </div>
             <div>
               <h3 className="font-semibold mb-1">25-30 Minutes</h3>
@@ -102,8 +102,8 @@ const Instructions = () => {
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-lg bg-warning/10 flex items-center justify-center flex-shrink-0">
-                <Coffee className="w-6 h-6 text-warning" />
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                <Coffee className="w-6 h-6 text-primary" />
               </div>
               <div>
                 <h3 className="font-semibold mb-1">Stay Relaxed</h3>
@@ -119,7 +119,7 @@ const Instructions = () => {
         <div className="text-center animate-scale-in" style={{ animationDelay: '0.2s' }}>
           <Button
             size="lg"
-            className="text-lg px-8 py-6 bg-gradient-primary hover:opacity-90 transition-opacity shadow-medium"
+            className="text-lg px-8 py-6 bg-primary text-white hover:opacity-90 transition-opacity shadow-medium"
             onClick={handleStartAssessment}
           >
             I'm Ready — Start Game 1: The Decoder
