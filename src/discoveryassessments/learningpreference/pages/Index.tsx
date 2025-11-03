@@ -53,22 +53,6 @@ export default function Index() {
     }
   }, [responses, currentQuestion, screen]);
 
-  useEffect(() => {
-    // Keyboard shortcuts
-    const handleKeyPress = (e: KeyboardEvent) => {
-      if (screen !== 'assessment' || isPaused) return;
-      
-      if (e.key >= "1" && e.key <= "5") {
-        handleAnswer(parseInt(e.key));
-      } else if (e.key === "Escape") {
-        setIsPaused(!isPaused);
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyPress);
-    return () => window.removeEventListener("keydown", handleKeyPress);
-  }, [currentQuestion, responses, isPaused, screen, handleAnswer]);
-
   const handleStart = () => {
     setScreen('briefing');
   };
@@ -84,6 +68,26 @@ export default function Index() {
     setCurrentQuestion(0);
     setResponses([]);
   };
+
+  const getCurrentResponse = () => {
+    const current = assessmentItems[currentQuestion];
+    return responses.find(r => r.itemId === current.id)?.value || null;
+  };
+
+  const handleComplete = useCallback((finalResponses?: Response[]) => {
+    try {
+      const responsesToUse = finalResponses || responses;
+      const calculatedResults = calculateScores(responsesToUse);
+      setResults(calculatedResults);
+      setScreen('results');
+      localStorage.removeItem("assessment_progress");
+    } catch (error) {
+      console.error("Failed to complete assessment:", error);
+      // Show error to user
+      alert("There was an error processing your results. Please try again.");
+      setScreen('welcome');
+    }
+  }, [responses]);
 
   const handleAnswer = useCallback((value: number) => {
     const currentItem = assessmentItems[currentQuestion];
@@ -113,27 +117,21 @@ export default function Index() {
     });
   }, [currentQuestion, handleComplete]);
 
+  useEffect(() => {
+    // Keyboard shortcuts
+    const handleKeyPress = (e: KeyboardEvent) => {
+      if (screen !== 'assessment' || isPaused) return;
+      
+      if (e.key >= "1" && e.key <= "5") {
+        handleAnswer(parseInt(e.key));
+      } else if (e.key === "Escape") {
+        setIsPaused(!isPaused);
+      }
+    };
 
-  const getCurrentResponse = () => {
-    const current = assessmentItems[currentQuestion];
-    return responses.find(r => r.itemId === current.id)?.value || null;
-  };
-
-
-  const handleComplete = useCallback((finalResponses?: Response[]) => {
-    try {
-      const responsesToUse = finalResponses || responses;
-      const calculatedResults = calculateScores(responsesToUse);
-      setResults(calculatedResults);
-      setScreen('results');
-      localStorage.removeItem("assessment_progress");
-    } catch (error) {
-      console.error("Failed to complete assessment:", error);
-      // Show error to user
-      alert("There was an error processing your results. Please try again.");
-      setScreen('welcome');
-    }
-  }, [responses]);
+    window.addEventListener("keydown", handleKeyPress);
+    return () => window.removeEventListener("keydown", handleKeyPress);
+  }, [currentQuestion, responses, isPaused, screen, handleAnswer]);
 
 
   const handleReset = () => {
